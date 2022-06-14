@@ -1,0 +1,10 @@
+Pattern Duration Call ModelNum Dur_per_call
+aten::linear, 4946.772 49307 236 0.1003
+aten::conv2d, 3753.606 15212 111 0.2467
+aten::bmm, 347.411 12241 10 0.0283
+aten::matmul, 488.008 6200 121 0.0787
+aten::addmm, 117.112 192 4 0.6099
+aten::conv3d, 144.922 77 3 1.8821
+aten::conv1d, 24.712 18 1 1.3728
+aten::conv_transpose1d, 46.687 6 1 7.7811
+aten::conv_transpose2d, 23.966 4 3 5.9915
