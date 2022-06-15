@@ -70,24 +70,6 @@ do
                 echo $line' '$(printf "%.4f" $(echo "scale=4;$temp2/$temp1"|bc)) >> ${target_dir}/new_$file
             fi
         done < $target_dir/temp_nnc_summary_1.log
-    #     for boundary in "${boundary_ops[@]}"
-    #     do
-    #         if [[ $line == $boundary* ]]; then
-    #             match="0"
-    #             for b in "${boundary_ops[@]}"
-    #             do
-    #                 if [[ $line == $boundary*$b* ]]; then
-    #                     match="1"
-    #                     break
-    #                 fi
-    #             done
-    #             if [[ "$match" == "0" ]]; then
-    #                 dur=`echo $line | awk -F' ' '{printf $2}'`
-    #                 call=`echo $line | awk -F' ' '{printf $3}'`
-    #                 echo $line' '$(printf "%.4f" $(echo "scale=4;$dur/$call"|bc)) >> ${target_dir}/new_$file
-    #             fi
-    #         fi
-    #     done
     done < $target_dir/$file
 done
 
