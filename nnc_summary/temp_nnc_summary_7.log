@@ -1,113 +1,113 @@
-Pattern Duration Call ModelNum Dur_per_call
-aten::linear,aten::view,aten::permute,aten::contiguous,aten::view,aten::permute,aten::contiguous 624.750 5807 1 0.1075
-aten::linear,aten::add,aten::pow,aten::mean,aten::add,aten::rsqrt,aten::mul 151.745 1591 3 0.0953
-aten::linear,aten::dropout,aten::add,aten::pow,aten::mean,aten::add,aten::rsqrt 60.353 553 3 0.1091
-aten::linear,aten::log_softmax,aten::topk,aten::select,aten::select,aten::add,aten::ones 32.168 496 1 0.0648
-aten::linear,aten::add,aten::to,aten::pow,aten::mean,aten::add,aten::rsqrt 37.356 360 3 0.1037
-aten::linear,aten::view,aten::permute,aten::view,aten::permute,aten::view,aten::permute 31.556 330 19 0.0956
-aten::conv2d,aten::reshape,aten::reshape,aten::reshape,aten::reshape,aten::add,aten::rsqrt 364.082 304 6 1.1976
-aten::conv2d,aten::pixel_shuffle,aten::sigmoid,aten::view,aten::rsub,aten::rsub,aten::view 62.794 200 1 0.3139
-aten::linear,aten::select,aten::cross_entropy_loss,aten::add_,aten::softmax,aten::argmax,aten::select 27.564 186 1 0.1481
-aten::linear,aten::select,aten::cross_entropy_loss,aten::ones_like,autograd::engine::evaluate_function:NllLossBackward0,autograd::engine::evaluate_function:LogSoftmaxBackward0,autograd::engine::evaluate_function:AddmmBackward0 26.505 160 1 0.1656
-aten::linear,aten::dropout,aten::add,aten::to,aten::pow,aten::mean,aten::add 29.488 154 3 0.1914
-aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::mul_,aten::slice,aten::select 26.490 131 1 0.2022
-aten::linear,aten::sigmoid,aten::to,aten::detach_,aten::to,aten::to,aten::div 27.882 119 1 0.2343
-aten::matmul,aten::arange,aten::slice,aten::unsqueeze,aten::arange,aten::unsqueeze,aten::slice 13.679 96 3 0.1424
-aten::linear,aten::view,aten::permute,aten::contiguous,aten::permute,aten::contiguous,aten::view 9.154 88 1 0.1040
-aten::linear,aten::slice,aten::select,aten::slice,aten::argmax,aten::mul,aten::rsub 46.703 88 2 0.5307
-aten::matmul,aten::zeros,aten::slice,aten::slice,aten::slice,aten::slice,aten::add 10.119 86 2 0.1176
-aten::linear,aten::div_,aten::view,aten::transpose,aten::view,aten::transpose,aten::transpose 32.782 84 7 0.3902
-aten::linear,aten::sigmoid,aten::to,aten::detach_,aten::to,aten::div,aten::view 18.958 81 1 0.2340
-aten::conv2d,aten::batch_norm,aten::relu_,aten::cat,aten::view,aten::transpose,aten::contiguous 13.531 80 5 0.1691
-aten::matmul,aten::transpose,aten::rsub,aten::item,aten::narrow,aten::contiguous,aten::transpose 8.919 72 6 0.1238
-aten::linear,aten::div_,aten::item,aten::item,aten::view,aten::transpose,aten::view 17.847 72 6 0.2478
-aten::linear,aten::add,aten::layer_norm,aten::slice,aten::detach,aten::einsum,aten::einsum 57.402 72 10 0.7972
-aten::bmm,aten::eq,aten::is_nonzero,aten::item,aten::view,aten::slice,aten::slice 6.401 72 6 0.0889
-aten::bmm,aten::eq,aten::is_nonzero,aten::item,aten::view,aten::item,aten::view 4.899 72 6 0.0680
-aten::linear,aten::view,aten::view,aten::cross_entropy_loss,aten::mean,aten::detach,aten::detach 8.187 71 71 0.1153
-aten::addmm,aten::view,aten::split,aten::view,aten::permute,aten::view,aten::permute 27.621 48 4 0.5754
-aten::addmm,aten::view,aten::mul,aten::pow,aten::mul,aten::add,aten::mul 46.678 48 4 0.9724
-aten::linear,aten::permute,aten::contiguous,aten::view,aten::permute,aten::contiguous,aten::view 4.450 47 1 0.0946
-aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::slice,aten::detach,aten::einsum 32.137 38 10 0.8457
-aten::matmul,aten::eq,aten::view,aten::expand_as,aten::masked_fill_,aten::softmax,aten::dropout 6.224 37 15 0.1682
-aten::bmm,aten::view,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice 10.838 36 1 0.3010
-aten::conv2d,aten::gelu,aten::mul_,aten::reshape,aten::mul,aten::view,aten::batch_norm 14.688 35 1 0.4196
-aten::linear,aten::mul,aten::pow,aten::mul,aten::add,aten::mul,aten::tanh 81.345 26 2 3.1286
-aten::conv2d,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice 3.516 26 1 0.1352
-aten::linear,aten::dropout,aten::add,aten::mul,aten::add,aten::empty,aten::detach_ 1.583 25 6 0.0633
-aten::linear,aten::add,aten::mul,aten::add,aten::empty,aten::to,aten::detach_ 1.580 25 6 0.0632
-aten::matmul,aten::div,aten::slice,aten::slice,aten::slice,aten::slice,aten::to 1.807 24 2 0.0752
-aten::bmm,aten::view,aten::mul,aten::rsub,aten::mul,aten::add_,aten::softmax 15.801 24 1 0.6583
-aten::linear,aten::view,aten::transpose,aten::contiguous,aten::view,aten::transpose,aten::contiguous 6.652 18 1 0.3695
-aten::linear,aten::squeeze,aten::squeeze,aten::broadcast_tensors,aten::mse_loss,aten::mean,aten::detach 1.437 13 13 0.1105
-aten::linear,aten::view,aten::permute,aten::to,aten::detach_,aten::unsqueeze_,aten::cat 12.890 12 1 1.0741
-aten::linear,aten::dropout,aten::add,aten::mean,aten::std,aten::sub,aten::mul 7.315 12 1 0.6095
-aten::conv2d,aten::sigmoid,aten::mul,aten::mul,aten::mul_,aten::mul,aten::add 2.496 12 1 0.2080
-aten::bmm,aten::view,aten::unsqueeze_,aten::slice,aten::slice,aten::slice,aten::slice 1.042 12 1 0.0868
-aten::bmm,aten::view,aten::unsqueeze_,aten::slice,aten::slice,aten::select,aten::slice 5.054 12 1 0.4211
-aten::bmm,aten::view,aten::unsqueeze_,aten::slice,aten::slice,aten::select,aten::reshape 1.076 12 1 0.0896
-aten::bmm,aten::view,aten::unsqueeze_,aten::cat,aten::view,aten::mul,aten::transpose 8.421 12 1 0.7017
-aten::bmm,aten::view,aten::mul,aten::slice,aten::slice,aten::slice,aten::reshape 11.835 12 1 0.9862
-aten::bmm,aten::view,aten::mul,aten::slice,aten::slice,aten::select,aten::einsum 11.486 12 1 0.9571
-aten::bmm,aten::view,aten::add_,aten::slice,aten::slice,aten::slice,aten::slice 8.858 12 1 0.7381
-aten::linear,aten::dropout,aten::add,aten::dropout,aten::mean,aten::std,aten::sub 8.207 11 1 0.7460
-aten::linear,aten::dropout,aten::add,aten::mul,aten::add,aten::empty,aten::to 0.619 9 5 0.0687
-aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::slice,aten::select,aten::slice 5.703 9 9 0.6336
-aten::matmul,aten::div,aten::slice,aten::slice,aten::to,aten::where,aten::softmax 15.671 8 1 1.9588
-aten::matmul,aten::div,aten::slice,aten::slice,aten::to,aten::where,aten::add 14.869 8 1 1.8586
-aten::matmul,aten::div,aten::slice,aten::slice,aten::to,aten::to,aten::where 13.237 8 2 1.6546
-aten::linear,aten::split,aten::squeeze,aten::contiguous,aten::squeeze,aten::contiguous,aten::detach 0.965 8 8 0.1206
-aten::linear,aten::view,aten::permute,aten::view,aten::permute,aten::contiguous,aten::view 0.693 6 1 0.1155
-aten::linear,aten::select,aten::cross_entropy_loss,aten::add,aten::softmax,aten::argmax,aten::select 0.980 6 1 0.1633
-aten::linear,aten::embedding,aten::embedding,aten::add,aten::add,aten::mul,aten::add 1.015 6 6 0.1691
-aten::linear,aten::add,aten::layer_norm,aten::slice,aten::select,aten::slice,aten::dropout 1.103 6 6 0.1838
-aten::linear,aten::cat,aten::reshape,aten::to,aten::slice,aten::select,aten::slice 2.450 5 5 0.4900
-aten::conv2d,aten::batch_norm,aten::relu_,aten::max_pool2d,aten::cat,aten::batch_norm,aten::relu_ 6.037 5 5 1.2074
-aten::linear,aten::view,aten::permute,aten::contiguous,aten::permute,aten::contiguous,aten::permute 0.422 4 1 0.1055
-aten::linear,aten::tanh,aten::new_zeros,aten::new_zeros,aten::cumsum,aten::slice,aten::slice 0.577 4 1 0.1442
-aten::linear,aten::slice,aten::slice,aten::select,aten::slice,aten::slice,aten::select 0.343 4 1 0.0857
-aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::slice,aten::slice,aten::slice 5.629 4 4 1.4072
-aten::conv2d,aten::view,aten::transpose,aten::softmax,aten::reshape,aten::view,aten::reshape 0.496 4 1 0.1240
-aten::conv2d,aten::gelu,aten::mul_,aten::constant_pad_nd,aten::reshape,aten::mul,aten::view 1.663 4 1 0.4157
-aten::linear,aten::view,aten::eq,aten::view,aten::view,aten::empty,aten::detach_ 0.209 3 3 0.0696
-aten::linear,aten::view,aten::eq,aten::view,aten::index,aten::view,aten::index 0.321 3 3 0.1070
-aten::linear,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice,aten::view 51.004 3 3 17.0013
-aten::linear,aten::dropout,aten::add,aten::mul,aten::add,aten::to,aten::detach_ 0.217 3 2 0.0723
-aten::matmul,aten::zeros,aten::add,aten::add_,aten::to,aten::softmax,aten::type_as 8.232 2 2 4.1160
-aten::matmul,aten::eq,aten::view,aten::expand_as,aten::masked_fill,aten::softmax,aten::dropout 1.151 2 1 0.5755
-aten::linear,aten::view,aten::view,aten::cross_entropy_loss,aten::mean,aten::detach,aten::ones 4.506 2 2 2.2530
-aten::linear,aten::view,aten::eq,aten::view,aten::view,aten::empty,aten::to 0.186 2 2 0.0930
-aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::dropout,aten::permute,aten::slice 0.362 2 2 0.1810
-aten::linear,aten::add,aten::mul,aten::add,aten::empty,aten::detach_,aten::slice 0.139 2 2 0.0695
-aten::linear,aten::add,aten::layer_norm,aten::slice,aten::slice,aten::slice,aten::select 2.868 2 2 1.4340
-aten::conv2d,aten::view,aten::permute,aten::reshape,aten::cat,aten::arange,aten::add 0.430 2 2 0.2150
-aten::matmul,aten::zeros,aten::add,aten::add_,aten::softmax,aten::type_as,aten::dropout 0.202 1 1 0.2020
-aten::linear,aten::view,aten::eq,aten::view,aten::view,aten::detach_,aten::type_as 0.076 1 1 0.0760
-aten::linear,aten::slice,aten::slice,aten::slice,aten::view,aten::view,aten::cross_entropy_loss 39.625 1 1 39.6250
-aten::linear,aten::slice,aten::select,aten::norm,aten::clamp_min,aten::expand_as,aten::div 0.108 1 1 0.1080
-aten::linear,aten::relu,aten::select,aten::embedding_bag,aten::select,aten::embedding_bag,aten::select 0.956 1 1 0.9560
-aten::linear,aten::ne,aten::sum,aten::sub,aten::index,aten::view,aten::view 0.130 1 1 0.1300
-aten::linear,aten::dropout,aten::add,aten::mul,aten::add,aten::detach_,aten::slice 0.067 1 1 0.0670
-aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::permute,aten::slice,aten::select 0.211 1 1 0.2110
-aten::linear,aten::chunk,aten::tanh,aten::add,aten::mul,aten::add,aten::exp 0.125 1 1 0.1250
-aten::linear,aten::add,aten::mul,aten::add,aten::detach_,aten::slice,aten::select 0.070 1 1 0.0700
-aten::linear,aten::add,aten::layer_norm,aten::view,aten::embedding,aten::mul,aten::full 1.328 1 1 1.3280
-aten::linear,aten::add,aten::layer_norm,aten::mul_,aten::select,aten::unsqueeze,aten::ones 0.340 1 1 0.3400
-aten::linear,aten::add,aten::layer_norm,aten::dropout,aten::permute,aten::contiguous,aten::slice 0.399 1 1 0.3990
-aten::conv_transpose2d,aten::upsample_bilinear2d,aten::split_with_sizes,aten::slice,aten::select,aten::slice,aten::select 1.759 1 1 1.7590
-aten::conv2d,aten::view,aten::permute,aten::reshape,aten::cat,aten::empty,aten::fill_ 0.209 1 1 0.2090
-aten::conv2d,aten::sigmoid,aten::cat,aten::arange,aten::index,aten::slice,aten::unsqueeze 1.102 1 1 1.1020
-aten::conv2d,aten::relu_,aten::view,aten::norm,aten::clamp_min,aten::expand_as,aten::div 2.103 1 1 2.1030
-aten::conv2d,aten::leaky_relu,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice 0.883 1 1 0.8830
-aten::conv2d,aten::leaky_relu,aten::slice,aten::slice,aten::slice,aten::slice,aten::add 0.828 1 1 0.8280
-aten::conv2d,aten::gelu,aten::mul_,aten::mul,aten::reshape,aten::mul,aten::view 0.330 1 1 0.3300
-aten::conv2d,aten::flatten,aten::transpose,aten::expand,aten::cat,aten::add,aten::layer_norm 0.507 1 1 0.5070
-aten::conv2d,aten::empty,aten::fill_,aten::fill_,aten::empty,aten::empty,aten::empty 0.087 1 1 0.0870
-aten::conv2d,aten::empty,aten::fill_,aten::empty,aten::fill_,aten::empty,aten::fill_ 0.088 1 1 0.0880
-aten::conv2d,aten::empty,aten::fill_,aten::empty,aten::empty,aten::fill_,aten::empty 0.090 1 1 0.0900
-aten::conv2d,aten::empty,aten::fill_,aten::empty,aten::empty,aten::empty,aten::to 0.050 1 1 0.0500
-aten::conv2d,aten::empty,aten::fill_,aten::empty,aten::empty,aten::empty,aten::fill_ 0.571 1 1 0.5710
-aten::conv2d,aten::broadcast_tensors,aten::mse_loss,aten::l1_loss,aten::broadcast_tensors,aten::l1_loss,aten::add 2.386 1 1 2.3860
-aten::conv2d,aten::batch_norm,aten::relu_,aten::cat,aten::adaptive_avg_pool2d,aten::flatten,aten::dropout 0.224 1 1 0.2240
-aten::conv2d,aten::batch_norm,aten::relu_,aten::cat,aten::adaptive_avg_pool2d,aten::dropout,aten::flatten 0.305 1 1 0.3050
-aten::bmm,aten::empty,aten::to,aten::detach_,aten::empty,aten::to,aten::detach_ 0.135 1 1 0.1350
+Pattern Duration Time% Call ModelNum NormalizedTime
+aten::conv2d,aten::reshape,aten::reshape,aten::reshape,aten::reshape,aten::add,aten::rsqrt 364.082 142.01779162496052322240 304 6 23.66963193749342053707
+aten::conv2d,aten::batch_norm,aten::relu_,aten::cat,aten::view,aten::transpose,aten::contiguous 13.531 96.90380865597990123206 80 5 19.38076173119598166750
+aten::conv2d,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice 3.516 17.39991092195773703111 26 1 17.39991092195773703111
+aten::conv2d,aten::batch_norm,aten::relu_,aten::max_pool2d,aten::cat,aten::batch_norm,aten::relu_ 6.037 11.12892548892762789592 5 5 2.22578509778552557918
+aten::conv2d,aten::relu_,aten::view,aten::norm,aten::clamp_min,aten::expand_as,aten::div 2.103 4.53457532828772880151 1 1 4.53457532828772880151
+aten::conv2d,aten::batch_norm,aten::relu_,aten::cat,aten::adaptive_avg_pool2d,aten::flatten,aten::dropout 0.224 1.65741768405475409232 1 1 1.65741768405475409232
+aten::conv2d,aten::batch_norm,aten::relu_,aten::cat,aten::adaptive_avg_pool2d,aten::dropout,aten::flatten 0.305 1.17176994890314634112 1 1 1.17176994890314634112
+aten::linear,aten::cat,aten::reshape,aten::to,aten::slice,aten::select,aten::slice 2.450 1.09145151696119935281 5 5 0.21829030339223987056
+aten::conv2d,aten::view,aten::permute,aten::reshape,aten::cat,aten::arange,aten::add 0.430 1.06068983581056541787 2 2 0.53034491790528270894
+aten::conv_transpose2d,aten::upsample_bilinear2d,aten::split_with_sizes,aten::slice,aten::select,aten::slice,aten::select 1.759 0.36221513396194171541 1 1 0.36221513396194171541
+aten::conv2d,aten::sigmoid,aten::cat,aten::arange,aten::index,aten::slice,aten::unsqueeze 1.102 0.28811060100603408385 1 1 0.28811060100603408385
+aten::conv2d,aten::empty,aten::fill_,aten::empty,aten::empty,aten::empty,aten::to 0.050 0.13279507064697756991 1 1 0.13279507064697756991
+aten::conv2d,aten::empty,aten::fill_,aten::empty,aten::empty,aten::empty,aten::fill_ 0.571 0.11758092182619027388 1 1 0.11758092182619027388
+aten::conv2d,aten::view,aten::permute,aten::reshape,aten::cat,aten::empty,aten::fill_ 0.209 0.10609675618051678248 1 1 0.10609675618051678248
+aten::conv2d,aten::empty,aten::fill_,aten::fill_,aten::empty,aten::empty,aten::empty 0.087 0.04828236861091070309 1 1 0.04828236861091070309
+aten::conv2d,aten::empty,aten::fill_,aten::empty,aten::empty,aten::fill_,aten::empty 0.090 0.02373261256509987330 1 1 0.02373261256509987330
+aten::conv2d,aten::empty,aten::fill_,aten::empty,aten::fill_,aten::empty,aten::fill_ 0.088 0.02300701714022777150 1 1 0.02300701714022777150
+aten::linear,aten::view,aten::permute,aten::contiguous,aten::view,aten::permute,aten::contiguous 624.750 0.00000003776057279283 5807 1 0.00000003776057279283
+aten::linear,aten::add,aten::pow,aten::mean,aten::add,aten::rsqrt,aten::mul 151.745 0.00000000917121351637 1591 3 0.00000000305707117212
+aten::linear,aten::mul,aten::pow,aten::mul,aten::add,aten::mul,aten::tanh 81.345 0.00000000491658221592 26 2 0.00000000245829110796
+aten::conv2d,aten::pixel_shuffle,aten::sigmoid,aten::view,aten::rsub,aten::rsub,aten::view 62.794 0.00000000379533932676 200 1 0.00000000379533932676
+aten::linear,aten::dropout,aten::add,aten::pow,aten::mean,aten::add,aten::rsqrt 60.353 0.00000000364765662150 553 3 0.00000000121588554050
+aten::linear,aten::add,aten::layer_norm,aten::slice,aten::detach,aten::einsum,aten::einsum 57.402 0.00000000346927841829 72 10 0.00000000034692784183
+aten::linear,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice,aten::view 51.004 0.00000000308259347247 3 3 0.00000000102753115749
+aten::linear,aten::slice,aten::select,aten::slice,aten::argmax,aten::mul,aten::rsub 46.703 0.00000000282264832808 88 2 0.00000000141132416404
+aten::addmm,aten::view,aten::mul,aten::pow,aten::mul,aten::add,aten::mul 46.678 0.00000000282119285437 48 4 0.00000000070529821359
+aten::linear,aten::slice,aten::slice,aten::slice,aten::view,aten::view,aten::cross_entropy_loss 39.625 0.00000000239486653684 1 1 0.00000000239486653684
+aten::linear,aten::add,aten::to,aten::pow,aten::mean,aten::add,aten::rsqrt 37.356 0.00000000225773619747 360 3 0.00000000075257873249
+aten::linear,aten::div_,aten::view,aten::transpose,aten::view,aten::transpose,aten::transpose 32.782 0.00000000198132332476 84 7 0.00000000028304618925
+aten::linear,aten::log_softmax,aten::topk,aten::select,aten::select,aten::add,aten::ones 32.168 0.00000000194426907659 496 1 0.00000000194426907659
+aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::slice,aten::detach,aten::einsum 32.137 0.00000000194230496798 38 10 0.00000000019423049680
+aten::linear,aten::view,aten::permute,aten::view,aten::permute,aten::view,aten::permute 31.556 0.00000000190723031986 330 19 0.00000000010038054315
+aten::linear,aten::dropout,aten::add,aten::to,aten::pow,aten::mean,aten::add 29.488 0.00000000178225147474 154 3 0.00000000059408382491
+aten::linear,aten::sigmoid,aten::to,aten::detach_,aten::to,aten::to,aten::div 27.882 0.00000000168521914687 119 1 0.00000000168521914687
+aten::addmm,aten::view,aten::split,aten::view,aten::permute,aten::view,aten::permute 27.621 0.00000000166939866159 48 4 0.00000000041734966540
+aten::linear,aten::select,aten::cross_entropy_loss,aten::add_,aten::softmax,aten::argmax,aten::select 27.564 0.00000000166599871537 186 1 0.00000000166599871537
+aten::linear,aten::select,aten::cross_entropy_loss,aten::ones_like,autograd::engine::evaluate_function:NllLossBackward0,autograd::engine::evaluate_function:LogSoftmaxBackward0,autograd::engine::evaluate_function:AddmmBackward0 26.505 0.00000000160199158144 160 1 0.00000000160199158144
+aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::mul_,aten::slice,aten::select 26.490 0.00000000160108455107 131 1 0.00000000160108455107
+aten::linear,aten::sigmoid,aten::to,aten::detach_,aten::to,aten::div,aten::view 18.958 0.00000000114584264351 81 1 0.00000000114584264351
+aten::linear,aten::div_,aten::item,aten::item,aten::view,aten::transpose,aten::view 17.847 0.00000000107864166964 72 6 0.00000000017977361161
+aten::bmm,aten::view,aten::mul,aten::rsub,aten::mul,aten::add_,aten::softmax 15.801 0.00000000095503000127 24 1 0.00000000095503000127
+aten::matmul,aten::div,aten::slice,aten::slice,aten::to,aten::where,aten::softmax 15.671 0.00000000094717265060 8 1 0.00000000094717265060
+aten::matmul,aten::div,aten::slice,aten::slice,aten::to,aten::where,aten::add 14.869 0.00000000089865666969 8 1 0.00000000089865666969
+aten::conv2d,aten::gelu,aten::mul_,aten::reshape,aten::mul,aten::view,aten::batch_norm 14.688 0.00000000088775873618 35 1 0.00000000088775873618
+aten::matmul,aten::arange,aten::slice,aten::unsqueeze,aten::arange,aten::unsqueeze,aten::slice 13.679 0.00000000082674675265 96 3 0.00000000027558225088
+aten::matmul,aten::div,aten::slice,aten::slice,aten::to,aten::to,aten::where 13.237 0.00000000080003903259 8 2 0.00000000040001951629
+aten::linear,aten::view,aten::permute,aten::to,aten::detach_,aten::unsqueeze_,aten::cat 12.890 0.00000000077908592598 12 1 0.00000000077908592598
+aten::bmm,aten::view,aten::mul,aten::slice,aten::slice,aten::slice,aten::reshape 11.835 0.00000000071532055345 12 1 0.00000000071532055345
+aten::bmm,aten::view,aten::mul,aten::slice,aten::slice,aten::select,aten::einsum 11.486 0.00000000069422660557 12 1 0.00000000069422660557
+aten::bmm,aten::view,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice 10.838 0.00000000065506076538 36 1 0.00000000065506076538
+aten::matmul,aten::zeros,aten::slice,aten::slice,aten::slice,aten::slice,aten::add 10.119 0.00000000061157481800 86 2 0.00000000030578740900
+aten::linear,aten::view,aten::permute,aten::contiguous,aten::permute,aten::contiguous,aten::view 9.154 0.00000000055327776446 88 1 0.00000000055327776446
+aten::matmul,aten::transpose,aten::rsub,aten::item,aten::narrow,aten::contiguous,aten::transpose 8.919 0.00000000053904886230 72 6 0.00000000008984147705
+aten::bmm,aten::view,aten::add_,aten::slice,aten::slice,aten::slice,aten::slice 8.858 0.00000000053538736480 12 1 0.00000000053538736480
+aten::bmm,aten::view,aten::unsqueeze_,aten::cat,aten::view,aten::mul,aten::transpose 8.421 0.00000000050897459912 12 1 0.00000000050897459912
+aten::matmul,aten::zeros,aten::add,aten::add_,aten::to,aten::softmax,aten::type_as 8.232 0.00000000049755100606 2 2 0.00000000024877550303
+aten::linear,aten::dropout,aten::add,aten::dropout,aten::mean,aten::std,aten::sub 8.207 0.00000000049604025162 11 1 0.00000000049604025162
+aten::linear,aten::view,aten::view,aten::cross_entropy_loss,aten::mean,aten::detach,aten::detach 8.187 0.00000000049480819879 71 71 0.00000000000696912956
+aten::linear,aten::dropout,aten::add,aten::mean,aten::std,aten::sub,aten::mul 7.315 0.00000000044212677478 12 1 0.00000000044212677478
+aten::linear,aten::view,aten::transpose,aten::contiguous,aten::view,aten::transpose,aten::contiguous 6.652 0.00000000040205427738 18 1 0.00000000040205427738
+aten::bmm,aten::eq,aten::is_nonzero,aten::item,aten::view,aten::slice,aten::slice 6.401 0.00000000038686531783 72 6 0.00000000006447755297
+aten::matmul,aten::eq,aten::view,aten::expand_as,aten::masked_fill_,aten::softmax,aten::dropout 6.224 0.00000000037616786605 37 15 0.00000000002507785774
+aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::slice,aten::select,aten::slice 5.703 0.00000000034469221040 9 9 0.00000000003829913449
+aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::slice,aten::slice,aten::slice 5.629 0.00000000034020697440 4 4 0.00000000008505174360
+aten::bmm,aten::view,aten::unsqueeze_,aten::slice,aten::slice,aten::select,aten::slice 5.054 0.00000000030546937703 12 1 0.00000000030546937703
+aten::bmm,aten::eq,aten::is_nonzero,aten::item,aten::view,aten::item,aten::view 4.899 0.00000000029608704759 72 6 0.00000000004934784126
+aten::linear,aten::view,aten::view,aten::cross_entropy_loss,aten::mean,aten::detach,aten::ones 4.506 0.00000000027233482787 2 2 0.00000000013616741394
+aten::linear,aten::permute,aten::contiguous,aten::view,aten::permute,aten::contiguous,aten::view 4.450 0.00000000026896286343 47 1 0.00000000026896286343
+aten::linear,aten::add,aten::layer_norm,aten::slice,aten::slice,aten::slice,aten::select 2.868 0.00000000017333694152 2 2 0.00000000008666847076
+aten::conv2d,aten::sigmoid,aten::mul,aten::mul,aten::mul_,aten::mul,aten::add 2.496 0.00000000015086096170 12 1 0.00000000015086096170
+aten::conv2d,aten::broadcast_tensors,aten::mse_loss,aten::l1_loss,aten::broadcast_tensors,aten::l1_loss,aten::add 2.386 0.00000000014421249717 1 1 0.00000000014421249717
+aten::matmul,aten::div,aten::slice,aten::slice,aten::slice,aten::slice,aten::to 1.807 0.00000000010921200558 24 2 0.00000000005460600279
+aten::conv2d,aten::gelu,aten::mul_,aten::constant_pad_nd,aten::reshape,aten::mul,aten::view 1.663 0.00000000010051353338 4 1 0.00000000010051353338
+aten::linear,aten::dropout,aten::add,aten::mul,aten::add,aten::empty,aten::detach_ 1.583 0.00000000009567376466 25 6 0.00000000001594562744
+aten::linear,aten::add,aten::mul,aten::add,aten::empty,aten::to,aten::detach_ 1.580 0.00000000009549244997 25 6 0.00000000001591540833
+aten::linear,aten::squeeze,aten::squeeze,aten::broadcast_tensors,aten::mse_loss,aten::mean,aten::detach 1.437 0.00000000008684981007 13 13 0.00000000000668075462
+aten::linear,aten::add,aten::layer_norm,aten::view,aten::embedding,aten::mul,aten::full 1.328 0.00000000008026579681 1 1 0.00000000008026579681
+aten::matmul,aten::eq,aten::view,aten::expand_as,aten::masked_fill,aten::softmax,aten::dropout 1.151 0.00000000006956771906 2 1 0.00000000006956771906
+aten::linear,aten::add,aten::layer_norm,aten::slice,aten::select,aten::slice,aten::dropout 1.103 0.00000000006666344159 6 6 0.00000000001111057360
+aten::bmm,aten::view,aten::unsqueeze_,aten::slice,aten::slice,aten::select,aten::reshape 1.076 0.00000000006503463587 12 1 0.00000000006503463587
+aten::bmm,aten::view,aten::unsqueeze_,aten::slice,aten::slice,aten::slice,aten::slice 1.042 0.00000000006297963808 12 1 0.00000000006297963808
+aten::linear,aten::embedding,aten::embedding,aten::add,aten::add,aten::mul,aten::add 1.015 0.00000000006134483326 6 6 0.00000000001022413888
+aten::linear,aten::select,aten::cross_entropy_loss,aten::add,aten::softmax,aten::argmax,aten::select 0.980 0.00000000005923228635 6 1 0.00000000005923228635
+aten::linear,aten::split,aten::squeeze,aten::contiguous,aten::squeeze,aten::contiguous,aten::detach 0.965 0.00000000005832294221 8 8 0.00000000000729036778
+aten::linear,aten::relu,aten::select,aten::embedding_bag,aten::select,aten::embedding_bag,aten::select 0.956 0.00000000005778170384 1 1 0.00000000005778170384
+aten::conv2d,aten::leaky_relu,aten::slice,aten::slice,aten::slice,aten::slice,aten::slice 0.883 0.00000000005336950335 1 1 0.00000000005336950335
+aten::conv2d,aten::leaky_relu,aten::slice,aten::slice,aten::slice,aten::slice,aten::add 0.828 0.00000000005004524210 1 1 0.00000000005004524210
+aten::linear,aten::view,aten::permute,aten::view,aten::permute,aten::contiguous,aten::view 0.693 0.00000000004188567738 6 1 0.00000000004188567738
+aten::linear,aten::dropout,aten::add,aten::mul,aten::add,aten::empty,aten::to 0.619 0.00000000003741128270 9 5 0.00000000000748225654
+aten::linear,aten::tanh,aten::new_zeros,aten::new_zeros,aten::cumsum,aten::slice,aten::slice 0.577 0.00000000003487452187 4 1 0.00000000003487452187
+aten::conv2d,aten::flatten,aten::transpose,aten::expand,aten::cat,aten::add,aten::layer_norm 0.507 0.00000000003064363272 1 1 0.00000000003064363272
+aten::conv2d,aten::view,aten::transpose,aten::softmax,aten::reshape,aten::view,aten::reshape 0.496 0.00000000002997878077 4 1 0.00000000002997878077
+aten::linear,aten::view,aten::permute,aten::contiguous,aten::permute,aten::contiguous,aten::permute 0.422 0.00000000002550614121 4 1 0.00000000002550614121
+aten::linear,aten::add,aten::layer_norm,aten::dropout,aten::permute,aten::contiguous,aten::slice 0.399 0.00000000002411487579 1 1 0.00000000002411487579
+aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::dropout,aten::permute,aten::slice 0.362 0.00000000002187866381 2 2 0.00000000001093933191
+aten::linear,aten::slice,aten::slice,aten::select,aten::slice,aten::slice,aten::select 0.343 0.00000000002073130156 4 1 0.00000000002073130156
+aten::linear,aten::add,aten::layer_norm,aten::mul_,aten::select,aten::unsqueeze,aten::ones 0.340 0.00000000002054997159 1 1 0.00000000002054997159
+aten::conv2d,aten::gelu,aten::mul_,aten::mul,aten::reshape,aten::mul,aten::view 0.330 0.00000000001994555984 1 1 0.00000000001994555984
+aten::linear,aten::view,aten::eq,aten::view,aten::index,aten::view,aten::index 0.321 0.00000000001940069037 3 3 0.00000000000646689679
+aten::linear,aten::dropout,aten::add,aten::mul,aten::add,aten::to,aten::detach_ 0.217 0.00000000001311510210 3 2 0.00000000000655755105
+aten::linear,aten::dropout,aten::add,aten::layer_norm,aten::permute,aten::slice,aten::select 0.211 0.00000000001275248084 1 1 0.00000000001275248084
+aten::linear,aten::view,aten::eq,aten::view,aten::view,aten::empty,aten::detach_ 0.209 0.00000000001263160230 3 3 0.00000000000421053410
+aten::matmul,aten::zeros,aten::add,aten::add_,aten::softmax,aten::type_as,aten::dropout 0.202 0.00000000001220852959 1 1 0.00000000001220852959
+aten::linear,aten::view,aten::eq,aten::view,aten::view,aten::empty,aten::to 0.186 0.00000000001124152191 2 2 0.00000000000562076095
+aten::linear,aten::add,aten::mul,aten::add,aten::empty,aten::detach_,aten::slice 0.139 0.00000000000840091808 2 2 0.00000000000420045904
+aten::bmm,aten::empty,aten::to,aten::detach_,aten::empty,aten::to,aten::detach_ 0.135 0.00000000000815955023 1 1 0.00000000000815955023
+aten::linear,aten::ne,aten::sum,aten::sub,aten::index,aten::view,aten::view 0.130 0.00000000000785698010 1 1 0.00000000000785698010
+aten::linear,aten::chunk,aten::tanh,aten::add,aten::mul,aten::add,aten::exp 0.125 0.00000000000755513909 1 1 0.00000000000755513909
+aten::linear,aten::slice,aten::select,aten::norm,aten::clamp_min,aten::expand_as,aten::div 0.108 0.00000000000652763772 1 1 0.00000000000652763772
+aten::linear,aten::view,aten::eq,aten::view,aten::view,aten::detach_,aten::type_as 0.076 0.00000000000459330990 1 1 0.00000000000459330990
+aten::linear,aten::add,aten::mul,aten::add,aten::detach_,aten::slice,aten::select 0.070 0.00000000000423067809 1 1 0.00000000000423067809
+aten::linear,aten::dropout,aten::add,aten::mul,aten::add,aten::detach_,aten::slice 0.067 0.00000000000404936334 1 1 0.00000000000404936334

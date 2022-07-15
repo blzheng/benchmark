@@ -17,7 +17,8 @@ do
             continue
         else
             if [[ $line == "Pattern"* ]]; then
-                echo $line' Dur_per_call' > ${target_dir}/temp_$file
+                # echo $line' Normalized time' > ${target_dir}/temp_$file
+                echo $line > ${target_dir}/temp_$file
             fi
             for boundary in "${boundary_ops[@]}"
             do
@@ -31,9 +32,10 @@ do
                         fi
                     done
                     if [[ "$match" == "0" ]]; then
-                        dur=`echo $line | awk -F' ' '{printf $2}'`
-                        call=`echo $line | awk -F' ' '{printf $3}'`
-                        echo $line' '$(printf "%.4f" $(echo "scale=4;$dur/$call"|bc)) >> ${target_dir}/temp_$file
+                        # time=`echo $line | awk -F' ' '{printf $3}'`
+                        # modelnum=`echo $line | awk -F' ' '{printf $5}'`
+                        # echo $line' '$(printf "%.10f" $(echo "scale=10;$time/$modelnum"|bc)) >> ${target_dir}/temp_$file
+                        echo $line >> ${target_dir}/temp_$file
                     fi
                 fi
             done
@@ -65,9 +67,9 @@ do
         while read l
         do
             if [[ $l == $boundary* ]]; then
-                temp1=`echo $l | awk -F' ' '{printf $5}'`
-                temp2=`echo $line | awk -F' ' '{printf $5}'`
-                echo $line' '$(printf "%.4f" $(echo "scale=4;$temp2/$temp1"|bc)) >> ${target_dir}/new_$file
+                temp1=`echo $l | awk -F' ' '{printf $6}'`
+                temp2=`echo $line | awk -F' ' '{printf $6}'`
+                echo $line' '$(printf "%.16f" $(echo "scale=16;$temp2/$temp1"|bc)) >> ${target_dir}/new_$file
             fi
         done < $target_dir/temp_nnc_summary_1.log
     done < $target_dir/$file
