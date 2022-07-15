@@ -308,7 +308,6 @@ class M(torch.nn.Module):
         x150=x149.mean([2, 3])
         x151=self.dropout0(x150)
         x152=self.linear0(x151)
-        return [x152]
 
 m = M().eval()
 x = torch.randn(1, 3, 224, 224)

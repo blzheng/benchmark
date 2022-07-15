@@ -355,7 +355,6 @@ class M(torch.nn.Module):
         x208=torch.flatten(x207, 1)
         x209=self.dropout0(x208)
         x210=self.linear0(x209)
-        return [x210]
 
 m = M().eval()
 x = torch.randn(1, 3, 224, 224)

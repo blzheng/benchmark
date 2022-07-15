@@ -138,7 +138,6 @@ class M(torch.nn.Module):
         x64=self.relu25(x63)
         x65=self.adaptiveavgpool2d0(x64)
         x66=torch.flatten(x65, 1)
-        return [x66]
 
 m = M().eval()
 x = torch.randn(1, 3, 224, 224)

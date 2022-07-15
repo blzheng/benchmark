@@ -1124,7 +1124,6 @@ class M(torch.nn.Module):
         x597=torch.nn.functional.adaptive_avg_pool2d(x596, (1, 1))
         x598=torch.flatten(x597, 1)
         x599=self.linear0(x598)
-        return [x599]
 
 m = M().eval()
 x = torch.randn(1, 3, 224, 224)

@@ -1,0 +1,27 @@
+import torch
+from torch import tensor
+import torch.nn as nn
+from torch.nn import *
+import torchvision
+import torchvision.models as models
+from torchvision.ops.stochastic_depth import stochastic_depth
+import time
+import builtins
+import operator
+
+class M(torch.nn.Module):
+    def __init__(self):
+        super(M, self).__init__()
+
+    def forward(self, x288, x290, x291):
+        x296=x295.view(x288, -1, x290, x291)
+        return x296
+
+m = M().eval()
+x288 = 1
+x290 = 7
+x291 = 7
+start = time.time()
+output = m(x288, x290, x291)
+end = time.time()
+print(end-start)

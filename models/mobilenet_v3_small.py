@@ -313,7 +313,6 @@ class M(torch.nn.Module):
         x155=self.hardswish18(x154)
         x156=self.dropout0(x155)
         x157=self.linear1(x156)
-        return [x157]
 
 m = M().eval()
 x = torch.randn(1, 3, 224, 224)

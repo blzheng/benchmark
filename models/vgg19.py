@@ -106,7 +106,6 @@ class M(torch.nn.Module):
         x44=self.relu17(x43)
         x45=self.dropout1(x44)
         x46=self.linear2(x45)
-        return [x46]
 
 m = M().eval()
 x = torch.randn(1, 3, 224, 224)

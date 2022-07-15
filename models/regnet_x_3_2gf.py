@@ -517,7 +517,6 @@ class M(torch.nn.Module):
         x262=self.adaptiveavgpool2d0(x261)
         x263=x262.flatten(start_dim=1)
         x264=self.linear0(x263)
-        return [x264]
 
 m = M().eval()
 x = torch.randn(1, 3, 224, 224)
