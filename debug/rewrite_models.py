@@ -126,7 +126,15 @@ def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
 
 args = parser.parse_args()
 name = args.model
-model = torchvision.models.__dict__[name]()
+try:
+    model = torchvision.models.__dict__[name]()
+except KeyError as e:
+    print("This model is not a torchvision model, try geffnet...")
+    try:
+        model = geffnet.create_model(name.split("_geffnet")[0], pretrained=True)
+    except Exception as e2:
+        print("This model is not a geffnet model")
+        exit()
 inputs, module_dict, attr_dict, forward_list = parse_graph(model)
 module_dict, attr_dict, forward_list = generate_model_contents(module_dict, attr_dict, forward_list)
 forward_list = simplify_forward_list(forward_list)

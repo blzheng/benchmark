@@ -1,5 +1,6 @@
 import torch
 import torchvision
+import geffnet
 import os
 import argparse
 import sys
@@ -29,5 +30,13 @@ def auto_generate(modelname, model, pattern, inputstr):
 args = parser.parse_args()
 name = args.model
 pattern = args.pattern
-model = models.__dict__[name]()
+try:
+    model = torchvision.models.__dict__[name]()
+except KeyError as e:
+    print("This model is not a torchvision model, try geffnet...")
+    try:
+        model = geffnet.create_model(name.split("_geffnet")[0], pretrained=True)
+    except Exception as e2:
+        print("This model is not a geffnet model")
+        exit()
 auto_generate(name, model, pattern, "1_3_224_224")
