@@ -29,5 +29,5 @@ def auto_generate(modelname, model, pattern, inputstr):
 args = parser.parse_args()
 name = args.model
 pattern = args.pattern
-model = models.alexnet(pretrained = True)
+model = models.__dict__[name]()
 auto_generate(name, model, pattern, "1_3_224_224")
