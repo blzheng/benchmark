@@ -198,7 +198,7 @@ def get_inputs_outputs(forward_list):
             if item.strip() == "":
                 continue
             if "." in item:
-                continue
+                item = item.split(".")[0].strip()
             if "=" in item:
                 item = item.split("=")[-1].strip()
             if not item.startswith("x"):
@@ -259,11 +259,11 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
             if "torch.Size" in in_shape:
                 if in_shape.startswith("("):
                     instr += "("
-                    tuple_items = in_shape.replace("]), ", "]),  ").split(",  ")
+                    tuple_items = in_shape.replace("(", "", 1).replace("]), ", "]),  ").split(",  ")
                     for tuple_item in tuple_items:
                         tuple_item = tuple_item.strip()
                         if "torch.Size" in tuple_item:
-                            instr += "torch.randn("+tuple_item.strip() + ", "
+                            instr += "torch.randn("+tuple_item.strip() + "), "
                         elif tuple_item != "":
                             instr += tuple_item
                 else:
