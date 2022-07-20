@@ -7,6 +7,7 @@ import operator
 import geffnet
 import copy
 import glob
+import re
 
 def fetch_attr(target, module):
     target_atoms = target.split('.')
@@ -138,7 +139,7 @@ def is_target(target, op):
     real = op.split("(")[0].split("=")[-1].strip()
     if "." in real:
         real = real.split(".")[-1]
-    if real.startswith(target):
+    if re.match(target+'[0-9]*$', real):
         return True
     return False
 
