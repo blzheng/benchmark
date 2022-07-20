@@ -13,12 +13,13 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
 
-    def forward(self, ):
+    def forward(self, x138):
         x139=x138.contiguous()
         return x139
 
 m = M().eval()
+x138 = torch.randn(torch.Size([1, 176, 2, 14, 14]))
 start = time.time()
-output = m()
+output = m(x138)
 end = time.time()
 print(end-start)
