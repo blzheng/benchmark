@@ -1,4 +1,8 @@
 #!/bin/bash
+set -x
+modelname=$1
+patternstr=$2
+
 export BENCHMAKR_DIR="/home/bzheng/workspace/debug/benchmark/debug/"
 rm -rf ${BENCHMAKR_DIR}models/
 rm -rf ${BENCHMAKR_DIR}temp/
@@ -9,7 +13,7 @@ mkdir -p ${BENCHMAKR_DIR}temp/
 mkdir -p ${BENCHMAKR_DIR}shapes/
 mkdir -p ${BENCHMAKR_DIR}submodules/
 
-python rewrite_models.py --model "alexnet"
+python rewrite_models.py --model $modelname
 
 dir="${BENCHMAKR_DIR}models/"
 for item in `ls $dir`
@@ -27,7 +31,7 @@ do
     python $dir$item | tee ${result_dir}${name}_1_3_224_224
 done
 
-python auto_gen.py --model "alexnet" --pattern "('aten::conv2d', 'aten::relu', )"
+python auto_gen.py --model $modelname --pattern $patternstr
 dir="${BENCHMAKR_DIR}submodules/"
 len_dir=`ls $dir`
 for ld in ${len_dir}
