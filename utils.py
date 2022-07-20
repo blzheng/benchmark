@@ -171,10 +171,12 @@ def get_sub_module_attr_dict(forward_list, module_dict, attr_dict):
     sub_module_dict = {}
     sub_attr_dict = {}
     for op in forward_list:
-        if not "=self." in op:
+        if not "self." in op:
             continue
-        keys = op.split("=self.")
+        keys = op.split("self.")
         for k in keys:
+            if "=" in k:
+                continue
             if "(" in k:
                 k = k.split("(")[0]
                 sub_module_dict[k] = module_dict[k]
