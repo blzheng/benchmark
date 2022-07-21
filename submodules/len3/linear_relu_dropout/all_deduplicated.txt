@@ -1,0 +1,3 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_relu_dropout/vgg16_bn_1.py 8
+/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_relu_dropout/vgg19_0.py 8
+/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_relu_dropout/alexnet_0.py 1

@@ -1,0 +1,128 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_6.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_28.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_26.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_31.py 16
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_29.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_13.py 32
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_23.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_0.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_4.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_30.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_24.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_1.py 16
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_16.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_22.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_20.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_12.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_22.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_12.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_4.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_2.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_14.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_20.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_30.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_24.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_28.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_26.py

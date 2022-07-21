@@ -1,0 +1,2 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len5/mul_add_cat_conv2d_batchnorm/googlenet_0.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len5/mul_add_cat_conv2d_batchnorm/googlenet_1.py 2

@@ -1,0 +1,118 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b7_geffnet_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_5_2.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_small_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_0_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_geffnet_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_geffnet_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v2_2.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/fbnetc_100_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_geffnet_5.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/spnasnet_100_4.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_geffnet_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_0_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_geffnet_6.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_geffnet_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b6_geffnet_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b5_geffnet_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_large_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/fbnetc_100_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_large_3.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/spnasnet_100_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_0_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_3_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_0_4.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v2_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_geffnet_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v2_3.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/fbnetc_100_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_75_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_geffnet_1.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_geffnet_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v2_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_geffnet_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_geffnet_3.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_geffnet_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_large_2.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/spnasnet_100_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_0_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_75_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b6_geffnet_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_geffnet_1.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_geffnet_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_3_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_large_7.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v2_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_small_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_1.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_geffnet_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_small_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_geffnet_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_1.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_geffnet_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b6_geffnet_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/fbnetc_100_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b5_geffnet_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/spnasnet_100_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_3_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b5_geffnet_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_geffnet_0.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v2_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b7_geffnet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b7_geffnet_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_3_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_geffnet_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_small_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_5_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_geffnet_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_3_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b6_geffnet_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_geffnet_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b6_geffnet_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_75_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_large_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_geffnet_3.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_geffnet_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_large_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_geffnet_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_geffnet_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_1.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_geffnet_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_geffnet_2.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_0_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b0_geffnet_4.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b6_geffnet_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet1_3_4.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b5_geffnet_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_geffnet_3.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b7_geffnet_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b1_geffnet_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/fbnetc_100_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_small_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_5_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_geffnet_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b5_geffnet_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b7_geffnet_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_75_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_75_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_geffnet_5.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_geffnet_6.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b7_geffnet_4.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_75_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_geffnet_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b2_geffnet_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_5_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_5_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b5_geffnet_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mnasnet0_5_5.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_small_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/fbnetc_100_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/spnasnet_100_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_large_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b4_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/efficientnet_b3_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_batchnorm_add_conv2d/mobilenet_v3_large_4.py 1

@@ -1,0 +1,6 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len2/mul_add/inception_v3_google_2.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/mul_add/googlenet_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/mul_add/googlenet_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/mul_add/inception_v3_google_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/mul_add/googlenet_1.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/mul_add/inception_v3_google_1.py

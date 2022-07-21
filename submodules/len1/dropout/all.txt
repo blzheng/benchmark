@@ -1,0 +1,40 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg16_bn_1.py 17
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg13_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg19_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg19_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg16_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg11_bn_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg13_bn_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/alexnet_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg11_bn_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg11_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg13_bn_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg16_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg11_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg13_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg19_bn_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg16_bn_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg19_bn_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b2_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mobilenet_v3_large_0.py 10
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_v2_m_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mnasnet1_3_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b1_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mnasnet1_0_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b0_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mnasnet0_75_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mnasnet0_5_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_v2_l_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_v2_s_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/squeezenet1_0_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/squeezenet1_1_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/googlenet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/alexnet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b6_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b7_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/inception_v3_google_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mobilenet_v2_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mobilenet_v3_small_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b5_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b4_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b3_0.py 1

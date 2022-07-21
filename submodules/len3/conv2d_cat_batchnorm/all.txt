@@ -1,0 +1,300 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_8.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_43.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_66.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_49.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_48.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_84.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_7.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_7.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_46.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_10.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_10.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_23.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_23.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_30.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_30.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_30.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_33.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_33.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_33.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_52.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_64.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_9.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_44.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_17.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_0.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_20.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_20.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_5.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_37.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_47.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_12.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_12.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_40.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_40.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_83.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_27.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_27.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_15.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_43.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_43.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_4.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_4.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_13.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_13.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_87.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_10.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_54.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_28.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_28.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_34.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_34.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_40.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_69.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_18.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_43.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_62.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_14.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_14.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_13.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_46.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_46.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_54.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_77.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_15.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_15.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_8.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_8.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_60.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_50.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_67.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_73.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_41.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_28.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_53.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_50.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_53.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_81.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_69.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_3.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_20.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_75.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_63.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_78.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_45.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_45.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_59.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_65.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_76.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_36.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_36.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_36.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_77.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_89.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_64.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_57.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_76.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_16.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_16.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_42.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_42.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_22.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_22.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_47.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_51.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_70.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_19.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_29.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_29.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_51.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_37.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_37.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_37.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_52.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_11.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_11.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_40.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_44.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_52.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_19.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_19.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_61.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_39.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_39.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_31.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_31.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_72.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_33.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_6.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_6.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_82.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_47.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_47.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_55.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_9.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_9.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_71.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_86.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_55.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_18.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_18.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_17.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_17.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_49.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_38.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_38.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_38.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_68.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_41.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_41.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_2.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_42.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_31.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_51.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_32.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_32.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_57.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_21.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_21.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_44.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_44.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_66.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_39.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_39.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_48.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_25.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_57.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_26.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_26.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_65.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_72.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_36.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_45.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_25.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_25.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_62.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_24.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_24.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_67.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_48.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_69.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_75.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_68.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_35.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_35.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_21.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_23.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_7.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_45.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_56.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_1.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_34.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_68.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_12.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_79.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_32.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_59.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_55.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_62.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_88.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_46.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_56.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_22.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_65.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_93.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_53.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_16.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_50.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_60.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_90.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_42.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_66.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_91.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_54.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_53.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_26.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_73.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_58.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_67.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_71.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_59.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_29.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_11.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_70.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_61.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_80.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_58.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_56.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_49.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_63.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_60.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_71.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_74.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_63.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_51.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_52.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_73.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_50.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_72.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_27.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_58.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_24.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_48.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_70.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_64.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_35.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_38.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet121_41.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet169_74.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_61.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_85.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_49.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet161_14.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/conv2d_cat_batchnorm/densenet201_92.py 1

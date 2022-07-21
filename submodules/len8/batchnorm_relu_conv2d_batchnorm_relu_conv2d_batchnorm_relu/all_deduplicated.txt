@@ -1,0 +1,3 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_1.py 3
+/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_2.py 3
+/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_0.py 3

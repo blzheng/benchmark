@@ -1,0 +1,4 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_cat_batchnorm/densenet121_0.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_cat_batchnorm/densenet169_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_cat_batchnorm/densenet201_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_cat_batchnorm/densenet161_0.py 1

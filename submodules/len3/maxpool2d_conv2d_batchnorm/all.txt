@@ -1,0 +1,45 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/shufflenet_v2_x1_5_0.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/shufflenet_v2_x1_0_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/shufflenet_v2_x2_0_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/shufflenet_v2_x0_5_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg16_bn_1.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg11_bn_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg13_bn_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg19_bn_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg11_bn_3.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg13_bn_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg16_bn_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg19_bn_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/wide_resnet101_2_0.py 10
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/resnet152_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/resnet18_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/resnext50_32x4d_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/resnet50_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/resnet34_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/resnext101_32x8d_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/wide_resnet50_2_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/resnet101_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/resnext101_64x4d_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_12.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_11.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg16_bn_2.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg11_bn_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg19_bn_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg13_bn_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg13_bn_0.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg11_bn_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg19_bn_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/vgg16_bn_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_8.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_6.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/inception_v3_google_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_10.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_9.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/googlenet_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/maxpool2d_conv2d_batchnorm/inception_v3_google_1.py 1

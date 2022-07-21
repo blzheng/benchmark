@@ -1,0 +1,10 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/squeezenet1_0_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/googlenet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/googlenet_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/squeezenet1_1_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/googlenet_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/googlenet_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/squeezenet1_1_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/googlenet_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/squeezenet1_0_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_maxpool2d_conv2d/googlenet_1.py 1

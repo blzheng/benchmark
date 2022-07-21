@@ -1,0 +1,4 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len5/relu_conv2d_relu_conv2d_relu/vgg19_1.py 3
+/home/bzheng/workspace/debug/benchmark/submodules//len5/relu_conv2d_relu_conv2d_relu/vgg16_2.py 3
+/home/bzheng/workspace/debug/benchmark/submodules//len5/relu_conv2d_relu_conv2d_relu/vgg19_2.py 3
+/home/bzheng/workspace/debug/benchmark/submodules//len5/relu_conv2d_relu_conv2d_relu/alexnet_0.py 1
