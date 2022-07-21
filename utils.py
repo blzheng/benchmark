@@ -48,7 +48,7 @@ def parse_graph(m):
             print(node.op, node.target, node.args)
         elif node.op == 'get_attr':
             value = m.state_dict()[node.target]
-            attr_dict[node.target] = 'torch.rand('+str(value.shape)+')'
+            attr_dict[node.target] = 'torch.rand('+str(value.shape)+').to('+str(value.dtype)+')'
             forward_list.append(node.name+"=attr:"+node.target)
         else:
             print(node.op, node.target, node.args)
@@ -301,5 +301,5 @@ def simplify_forward_list(forward_list):
             new_forward_list.append(op)
     for k in replace_dict:
         for j in range(len(new_forward_list)):
-            new_forward_list[j] = new_forward_list[j].replace(k+",", replace_dict[k]+",")
+            new_forward_list[j] = new_forward_list[j].replace(k+",", replace_dict[k]+",").replace(k+")", replace_dict[k]+")")
     return new_forward_list
