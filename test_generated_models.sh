@@ -19,9 +19,22 @@ do
 done
 
 python auto_gen.py
-# dir="/home/bzheng/workspace/debug/benchmark/submodules/len2/conv2d_relu/"
-# for item in `ls $dir`
-# do
-#     echo $item
-#     python $dir$item
-# done
+dir="/home/bzheng/workspace/debug/benchmark/submodules/"
+for len in `ls $dir`
+do
+    for pattern in `ls $dir/$len`
+    do
+        for item in `ls $dir/$len/$pattern`
+        do
+            if [[ $item == *".py" ]]; then
+                echo $item
+                python $dir/$len/$pattern/$item
+            fi
+        done
+        if [ -f $dir/$len/$pattern/all.txt ];
+        then
+            continue
+        fi
+        python analyze_submodules.py --dir $dir/$len/$pattern
+    done
+done
