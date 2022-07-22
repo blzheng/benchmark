@@ -3,14 +3,15 @@ import argparse
 import sys
 sys.path.append("..")
 from utils import parse_graph, generate_model_contents, simplify_forward_list
-from models import get_model
+from models import get_model, get_inputs_dict
 
 parser = argparse.ArgumentParser(description='Rewrite models')
 parser.add_argument('--model', type=str, help='model name')
 
 # generate module
-def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
+def rewrite_model(filename, inputs_dict, module_dict, attr_dict, forward_list):
     modelname = filename.split("/")[-1].split(".py")[0]
+    inputs = inputs_dict.keys()
     with open(filename, "w") as f:
         f.write("import torch\n")
         f.write("from torch import tensor\n")
@@ -26,7 +27,7 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
         for key in module_dict.keys():
-            f.write("        self."+key+" = "+str(module_dict[key]).replace("=none", "='none'")+"\n")
+            f.write("        self."+key+" = "+str(module_dict[key])+"\n")
         for key in attr_dict.keys():
             f.write("        self."+key+" = "+str(attr_dict[key])+"\n")
         f.write("\n")
@@ -45,8 +46,8 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
         f.write("\n")
         f.write("m = M().eval()\n")
         # f.write("ref_m = "+pretrained_models_str[modelname]+".eval()\n")
-        for input in inputs:
-            f.write(input+" = torch.randn(1, 3, 224, 224)\n")
+        for k in inputs_dict:
+            f.write(k+" = " + inputs_dict[k] + "\n")
         # f.write("ref_output = ref_m("+inputstr+")\n")
         f.write("start = time.time()\n")
         f.write("output = m("+inputstr+")\n")
@@ -57,10 +58,12 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
 def get_print_str(modelname, op):
     printstr = ""
     opret = op.split("=")[0]
-    if not "shufflenet" in modelname:
+    if not "shufflenet" and not "+" in modelname:
         printstr += "        print('"+opret+": {}'.format("+opret+".shape))\n"
     else:
-        printstr += "        if isinstance("+opret+", torch.Tensor):\n"
+        printstr += "        if "+opret+" is None:\n"
+        printstr += "            print('"+opret+": {}'.format("+opret+"))\n"
+        printstr += "        elif isinstance("+opret+", torch.Tensor):\n"
         printstr += "            print('"+opret+": {}'.format("+opret+".shape))\n"
         printstr += "        elif isinstance("+opret+", tuple):\n"
         printstr += "            tuple_shapes = '('\n"
@@ -76,8 +79,9 @@ def get_print_str(modelname, op):
     return printstr
 
 # generate module with shapes
-def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
+def rewrite_model_temp(filename, inputs_dict, module_dict, attr_dict, forward_list):
     modelname = filename.split("/")[-1].split(".py")[0]
+    inputs = inputs_dict.keys()
     with open(filename, "w") as f:
         f.write("import torch\n")
         f.write("from torch import tensor\n")
@@ -93,7 +97,7 @@ def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
         for key in module_dict.keys():
-            f.write("        self."+key+" = "+str(module_dict[key]).replace("=none", "='none'")+"\n")
+            f.write("        self."+key+" = "+str(module_dict[key])+"\n")
         for key in attr_dict.keys():
             f.write("        self."+key+" = "+str(attr_dict[key])+"\n")
         f.write("\n")
@@ -113,8 +117,8 @@ def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
                 f.write(get_print_str(modelname, op))
         f.write("\n")
         f.write("m = M().eval()\n")
-        for input in inputs:
-            f.write(input+" = torch.randn(1, 3, 224, 224)\n")
+        for k in inputs_dict:
+            f.write(k + " = " + inputs_dict[k] + "\n")
         f.write("output = m("+inputstr+")\n")
 
 
@@ -124,5 +128,6 @@ model = get_model(name)
 inputs, module_dict, attr_dict, forward_list = parse_graph(model)
 module_dict, attr_dict, forward_list = generate_model_contents(module_dict, attr_dict, forward_list)
 forward_list = simplify_forward_list(forward_list)
-rewrite_model("models/"+name+".py", inputs, module_dict, attr_dict, forward_list)
-rewrite_model_temp("temp/"+name+".py", inputs, module_dict, attr_dict, forward_list)
+inputs_dict = get_inputs_dict(name, inputs)
+rewrite_model("models/"+name+".py", inputs_dict, module_dict, attr_dict, forward_list)
+rewrite_model_temp("temp/"+name+".py", inputs_dict, module_dict, attr_dict, forward_list)

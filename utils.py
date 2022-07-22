@@ -1,13 +1,36 @@
 import torch
 import torch.fx
 import torchvision.models as models
-from torch.fx.node import _format_arg
 import builtins
 import operator
 import geffnet
 import copy
 import glob
 import re
+import transformers
+
+def format_arg(arg, max_list_len=float('inf')) -> str:
+    if hasattr(arg, '_custom_fx_repr_fn'):
+        return arg._custom_fx_repr_fn()
+    elif isinstance(arg, list):
+        items = ', '.join(format_arg(a) for idx, a in enumerate(arg) if idx < max_list_len)
+        maybe_len = '' if len(arg) < max_list_len + 1 else f', ...[total_len={len(arg)}]'
+        return f'[{items}{maybe_len}]'
+    elif isinstance(arg, tuple):
+        items = ', '.join(format_arg(a) for idx, a in enumerate(arg) if idx < max_list_len)
+        maybe_len = '' if len(arg) < max_list_len + 1 else f', ...[total_len={len(arg)}]'
+        maybe_comma = ',' if len(arg) == 1 else ''
+        return f'({items}{maybe_comma}{maybe_len})'
+    elif isinstance(arg, dict):
+        items_str = ', '.join(f'{k}: {format_arg(v)}' for k, v in arg.items())
+        return f'{{{items_str}}}'
+    elif isinstance(arg, str):
+        return '\''+arg+'\''
+
+    if isinstance(arg, torch.fx.Node):
+        return '%' + str(arg)
+    else:
+        return str(arg)
 
 def fetch_attr(target, module):
     target_atoms = target.split('.')
@@ -19,7 +42,14 @@ def fetch_attr(target, module):
     return attr_itr
 
 def parse_graph(m):
-    g = torch.fx.Tracer().trace(m.eval())
+    if isinstance(m, transformers.models.bert.modeling_bert.BertForQuestionAnswering):
+        x = torch.ones((1, 384), dtype=torch.long)
+        input_dict = {'input_ids':x, 'attention_mask':x, 'token_type_ids':x, 'position_ids':None, 'head_mask':None, 'start_positions':None, \
+                      'inputs_embeds':None, 'end_positions': None, 'output_attentions': None, 'output_hidden_states': None, 'return_dict': None}
+        g = torch.fx.Tracer().trace(m.eval(), input_dict)
+    else:
+        g = torch.fx.Tracer().trace(m.eval())
+    fx_module = torch.fx.GraphModule(m, g)
     inputs=[]
     module_dict={}
     attr_dict={}
@@ -30,24 +60,24 @@ def parse_graph(m):
         if node.op == 'call_module':
             submodule = fetch_attr(node.target, m)
             module_dict[node.target] = submodule
-            opstr = node.name+"="+node.target+_format_arg(node.args)+_format_arg(node.kwargs)
+            opstr = node.name+"="+node.target+format_arg(node.args)+format_arg(node.kwargs)
             forward_list.append(opstr)
         elif node.op == 'call_function':
             func=node.op        
-            opstr = node.name+"="+node._pretty_print_target(node.target)+_format_arg(node.args)+_format_arg(node.kwargs)
+            opstr = node.name+"="+node._pretty_print_target(node.target)+format_arg(node.args)+format_arg(node.kwargs)
             forward_list.append(opstr)
         elif node.op == 'call_method':
-            opstr = node.name+"=method%"+str(node.args[0])+"."+node.target+_format_arg(node.args[1:])+_format_arg(node.kwargs)
+            opstr = node.name+"=method%"+str(node.args[0])+"."+node.target+format_arg(node.args[1:])+format_arg(node.kwargs)
             forward_list.append(opstr)
         elif node.op == 'output':
-            forward_list.append("return "+_format_arg(node.all_input_nodes))
+            forward_list.append("return "+format_arg(node.all_input_nodes))
             print(node)
         elif node.op == 'placeholder':
             forward_list.append(node.name+"=placeholder("+node.target+")")
             inputs.append(node.target)
             print(node.op, node.target, node.args)
         elif node.op == 'get_attr':
-            value = m.state_dict()[node.target]
+            value = getattr(fx_module, node.target)
             attr_dict[node.target] = 'torch.rand('+str(value.shape)+').to('+str(value.dtype)+')'
             forward_list.append(node.name+"=attr:"+node.target)
         else:
@@ -77,14 +107,8 @@ def generate_model_contents(module_dict, attr_dict, forward_list):
                         break
             else:
                 # special cases
-                if "builtins" in op and "shape" in new_forward_list[i]:
-                    new_forward_list[i] = new_forward_list[i].replace("shape", "'shape'")
-                if "bilinear" in forward_list[i]:
-                    new_forward_list[i] = new_forward_list[i].replace("bilinear", "'bilinear'")
-                elif "torchvision.ops.stochastic_depth.stochastic_depth" in new_forward_list[i]:
+                if "torchvision.ops.stochastic_depth.stochastic_depth" in new_forward_list[i]:
                     new_forward_list[i] = new_forward_list[i].replace("torchvision.ops.stochastic_depth.stochastic_depth", "stochastic_depth")
-                    if "row" in new_forward_list[i]:
-                        new_forward_list[i] = new_forward_list[i].replace("row", "'row'")
         elif "attr:" in forward_list[i]:
             name = forward_list[i].split("attr:")[-1]
             val_real = attr_dict[name]
@@ -233,7 +257,7 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
         for key in module_dict.keys():
-            f.write("        self."+key+" = "+str(module_dict[key]).replace("=none", "='none'")+"\n")
+            f.write("        self."+key+" = "+str(module_dict[key])+"\n")
         for key in attr_dict.keys():
             f.write("        self."+key+" = "+str(attr_dict[key])+"\n")
         f.write("\n")
