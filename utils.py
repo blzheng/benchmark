@@ -156,7 +156,7 @@ def get_shapes(modelname, shapestr):
             for line in contents:
                 var = line.split(": ")[0]
                 shape = line.split(": ")[1].strip()
-                shape=shape.replace("1" ,"batch_size",1)
+                #shape=shape.replace("1" ,"batch_size",1)
                 shapes_dict[var] = shape
     return shapes_dict
 
@@ -289,6 +289,7 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
         f.write("batch_size=BS\n")
         for input in inputs:
             in_shape = shapes_dict[input].strip()
+            in_shape = in_shape.replace('1','batch_size',1) #
             instr = ""
             if "torch.Size" in in_shape:
                 if in_shape.startswith("("):
