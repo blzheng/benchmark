@@ -77,7 +77,10 @@ def parse_graph(m):
             inputs.append(node.target)
             print(node.op, node.target, node.args)
         elif node.op == 'get_attr':
-            value = getattr(fx_module, node.target)
+            try:
+                value = getattr(fx_module, node.target)
+            except AttributeError as e:
+                value = m.state_dict()[node.target]
             attr_dict[node.target] = 'torch.rand('+str(value.shape)+').to('+str(value.dtype)+')'
             forward_list.append(node.name+"=attr:"+node.target)
         else:
@@ -156,7 +159,7 @@ def get_shapes(modelname, shapestr):
             for line in contents:
                 var = line.split(": ")[0]
                 shape = line.split(": ")[1].strip()
-                #shape=shape.replace("1" ,"batch_size",1)
+                #shape=shape.replace("1" ,"batch_size",1)#
                 shapes_dict[var] = shape
     return shapes_dict
 
@@ -289,13 +292,12 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
         f.write("batch_size=BS\n")
         for input in inputs:
             in_shape = shapes_dict[input].strip()
-            in_shape = in_shape.replace('1','batch_size',1) #
+            in_shape = in_shape.replace('1','batch_size',1)
             instr = ""
             if "torch.Size" in in_shape:
                 if in_shape.startswith("("):
                     instr += "("
                     tuple_items = in_shape.replace("(", "", 1).replace("]), ", "]),  ").split(",  ")
-                    #tuple_items = tuple_items.replace('1','batch_size',1) #
                     for tuple_item in tuple_items:
                         tuple_item = tuple_item.strip()
                         if "torch.Size" in tuple_item:
