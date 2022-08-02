@@ -77,7 +77,10 @@ def parse_graph(m):
             inputs.append(node.target)
             print(node.op, node.target, node.args)
         elif node.op == 'get_attr':
-            value = getattr(fx_module, node.target)
+            try:
+                value = getattr(fx_module, node.target)
+            except AttributeError as e:
+                value = m.state_dict()[node.target]
             attr_dict[node.target] = 'torch.rand('+str(value.shape)+').to('+str(value.dtype)+')'
             forward_list.append(node.name+"=attr:"+node.target)
         else:
