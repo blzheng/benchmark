@@ -2,15 +2,15 @@
 
 python rewrite_models.py
 
-dir="/home/bzheng/workspace/debug/benchmark/models/"
+dir="/home2/yudongsi/benchmark/models/"
 for item in `ls $dir`
 do
     echo $item
     python $dir$item
 done
 
-dir="/home/bzheng/workspace/debug/benchmark/temp/"
-result_dir="/home/bzheng/workspace/debug/benchmark/shapes/"
+dir="/home2/yudongsi/benchmark/temp/"
+result_dir="/home2/yudongsi/benchmark/shapes/"
 for item in `ls $dir`
 do
     echo $item
@@ -19,7 +19,7 @@ do
 done
 
 python auto_gen.py
-dir="/home/bzheng/workspace/debug/benchmark/submodules/"
+dir="/home2/yudongsi/benchmark/submodules/"
 for len in `ls $dir`
 do
     for pattern in `ls $dir/$len`
