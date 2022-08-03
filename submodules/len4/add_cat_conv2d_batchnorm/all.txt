@@ -1,4 +1,0 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len4/add_cat_conv2d_batchnorm/googlenet_0.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/add_cat_conv2d_batchnorm/inception_v3_google_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/add_cat_conv2d_batchnorm/googlenet_1.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/add_cat_conv2d_batchnorm/inception_v3_google_1.py

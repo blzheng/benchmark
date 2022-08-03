@@ -1,3 +1,0 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_relu/vgg16_bn_1.py 9
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_relu/vgg19_0.py 8
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_relu/alexnet_0.py 1

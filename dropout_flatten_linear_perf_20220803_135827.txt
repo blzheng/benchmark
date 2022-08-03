@@ -1,2 +1,0 @@
-dropout_flatten_linear
-0.0006704330444335938

@@ -1,8 +1,0 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len3/flatten_linear_relu/vgg19_0.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len3/flatten_linear_relu/vgg16_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len3/flatten_linear_relu/vgg13_bn_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len3/flatten_linear_relu/vgg11_bn_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len3/flatten_linear_relu/vgg11_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len3/flatten_linear_relu/vgg13_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len3/flatten_linear_relu/vgg19_bn_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len3/flatten_linear_relu/vgg16_bn_0.py

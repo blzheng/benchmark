@@ -1,4 +1,0 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len4/maxpool2d_conv2d_batchnorm_conv2d/shufflenet_v2_x1_5_0.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/maxpool2d_conv2d_batchnorm_conv2d/shufflenet_v2_x1_0_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/maxpool2d_conv2d_batchnorm_conv2d/shufflenet_v2_x2_0_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/maxpool2d_conv2d_batchnorm_conv2d/shufflenet_v2_x0_5_0.py

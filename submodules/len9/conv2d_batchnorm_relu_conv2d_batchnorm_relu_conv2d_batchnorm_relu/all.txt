@@ -1,9 +1,0 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_1.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_2.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_4.py
-/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_0.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_3.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len9/conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_1.py 1

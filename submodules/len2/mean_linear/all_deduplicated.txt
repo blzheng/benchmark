@@ -1,2 +1,0 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/mean_linear/shufflenet_v2_x1_5_0.py 3
-/home/bzheng/workspace/debug/benchmark/submodules//len2/mean_linear/shufflenet_v2_x2_0_0.py 1

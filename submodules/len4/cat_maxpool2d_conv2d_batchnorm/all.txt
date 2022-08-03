@@ -1,6 +1,0 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len4/cat_maxpool2d_conv2d_batchnorm/googlenet_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/cat_maxpool2d_conv2d_batchnorm/googlenet_3.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/cat_maxpool2d_conv2d_batchnorm/googlenet_2.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/cat_maxpool2d_conv2d_batchnorm/googlenet_5.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/cat_maxpool2d_conv2d_batchnorm/googlenet_4.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/cat_maxpool2d_conv2d_batchnorm/googlenet_1.py 1

@@ -1,4 +1,0 @@
-conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d
-0.052550315856933594
-0.10436105728149414
-0.16746091842651367

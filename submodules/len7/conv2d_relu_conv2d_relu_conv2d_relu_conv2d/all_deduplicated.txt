@@ -1,3 +1,0 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_relu_conv2d_relu_conv2d_relu_conv2d/vgg19_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_relu_conv2d_relu_conv2d_relu_conv2d/vgg19_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_relu_conv2d_relu_conv2d_relu_conv2d/vgg19_2.py 1

@@ -1,368 +1,3681 @@
-x0: torch.Size([1, 3, 224, 224])
-x1: torch.Size([1, 24, 112, 112])
-x2: torch.Size([1, 24, 112, 112])
-x3: torch.Size([1, 24, 112, 112])
-x4: torch.Size([1, 24, 56, 56])
-x5: torch.Size([1, 24, 28, 28])
-x6: torch.Size([1, 24, 28, 28])
-x7: torch.Size([1, 24, 28, 28])
-x8: torch.Size([1, 24, 28, 28])
-x9: torch.Size([1, 24, 28, 28])
-x10: torch.Size([1, 24, 56, 56])
-x11: torch.Size([1, 24, 56, 56])
-x12: torch.Size([1, 24, 56, 56])
-x13: torch.Size([1, 24, 28, 28])
-x14: torch.Size([1, 24, 28, 28])
-x15: torch.Size([1, 24, 28, 28])
-x16: torch.Size([1, 24, 28, 28])
-x17: torch.Size([1, 24, 28, 28])
-x18: torch.Size([1, 48, 28, 28])
-x19: (1, 48, 28, 28, )
-x20: 1
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
 x21: 48
 x22: 28
 x23: 28
 x24: 24
-x25: torch.Size([1, 2, 24, 28, 28])
-x26: torch.Size([1, 24, 2, 28, 28])
-x27: torch.Size([1, 24, 2, 28, 28])
-x28: torch.Size([1, 48, 28, 28])
-x29: (torch.Size([1, 24, 28, 28]), torch.Size([1, 24, 28, 28]), )
-x30: torch.Size([1, 24, 28, 28])
-x31: torch.Size([1, 24, 28, 28])
-x32: torch.Size([1, 24, 28, 28])
-x33: torch.Size([1, 24, 28, 28])
-x34: torch.Size([1, 24, 28, 28])
-x35: torch.Size([1, 24, 28, 28])
-x36: torch.Size([1, 24, 28, 28])
-x37: torch.Size([1, 24, 28, 28])
-x38: torch.Size([1, 24, 28, 28])
-x39: torch.Size([1, 24, 28, 28])
-x40: torch.Size([1, 48, 28, 28])
-x41: (1, 48, 28, 28, )
-x42: 1
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
 x43: 48
 x44: 28
 x45: 28
 x46: 24
-x47: torch.Size([1, 2, 24, 28, 28])
-x48: torch.Size([1, 24, 2, 28, 28])
-x49: torch.Size([1, 24, 2, 28, 28])
-x50: torch.Size([1, 48, 28, 28])
-x51: (torch.Size([1, 24, 28, 28]), torch.Size([1, 24, 28, 28]), )
-x52: torch.Size([1, 24, 28, 28])
-x53: torch.Size([1, 24, 28, 28])
-x54: torch.Size([1, 24, 28, 28])
-x55: torch.Size([1, 24, 28, 28])
-x56: torch.Size([1, 24, 28, 28])
-x57: torch.Size([1, 24, 28, 28])
-x58: torch.Size([1, 24, 28, 28])
-x59: torch.Size([1, 24, 28, 28])
-x60: torch.Size([1, 24, 28, 28])
-x61: torch.Size([1, 24, 28, 28])
-x62: torch.Size([1, 48, 28, 28])
-x63: (1, 48, 28, 28, )
-x64: 1
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
 x65: 48
 x66: 28
 x67: 28
 x68: 24
-x69: torch.Size([1, 2, 24, 28, 28])
-x70: torch.Size([1, 24, 2, 28, 28])
-x71: torch.Size([1, 24, 2, 28, 28])
-x72: torch.Size([1, 48, 28, 28])
-x73: (torch.Size([1, 24, 28, 28]), torch.Size([1, 24, 28, 28]), )
-x74: torch.Size([1, 24, 28, 28])
-x75: torch.Size([1, 24, 28, 28])
-x76: torch.Size([1, 24, 28, 28])
-x77: torch.Size([1, 24, 28, 28])
-x78: torch.Size([1, 24, 28, 28])
-x79: torch.Size([1, 24, 28, 28])
-x80: torch.Size([1, 24, 28, 28])
-x81: torch.Size([1, 24, 28, 28])
-x82: torch.Size([1, 24, 28, 28])
-x83: torch.Size([1, 24, 28, 28])
-x84: torch.Size([1, 48, 28, 28])
-x85: (1, 48, 28, 28, )
-x86: 1
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
 x87: 48
 x88: 28
 x89: 28
 x90: 24
-x91: torch.Size([1, 2, 24, 28, 28])
-x92: torch.Size([1, 24, 2, 28, 28])
-x93: torch.Size([1, 24, 2, 28, 28])
-x94: torch.Size([1, 48, 28, 28])
-x95: torch.Size([1, 48, 14, 14])
-x96: torch.Size([1, 48, 14, 14])
-x97: torch.Size([1, 48, 14, 14])
-x98: torch.Size([1, 48, 14, 14])
-x99: torch.Size([1, 48, 14, 14])
-x100: torch.Size([1, 48, 28, 28])
-x101: torch.Size([1, 48, 28, 28])
-x102: torch.Size([1, 48, 28, 28])
-x103: torch.Size([1, 48, 14, 14])
-x104: torch.Size([1, 48, 14, 14])
-x105: torch.Size([1, 48, 14, 14])
-x106: torch.Size([1, 48, 14, 14])
-x107: torch.Size([1, 48, 14, 14])
-x108: torch.Size([1, 96, 14, 14])
-x109: (1, 96, 14, 14, )
-x110: 1
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
 x111: 96
 x112: 14
 x113: 14
 x114: 48
-x115: torch.Size([1, 2, 48, 14, 14])
-x116: torch.Size([1, 48, 2, 14, 14])
-x117: torch.Size([1, 48, 2, 14, 14])
-x118: torch.Size([1, 96, 14, 14])
-x119: (torch.Size([1, 48, 14, 14]), torch.Size([1, 48, 14, 14]), )
-x120: torch.Size([1, 48, 14, 14])
-x121: torch.Size([1, 48, 14, 14])
-x122: torch.Size([1, 48, 14, 14])
-x123: torch.Size([1, 48, 14, 14])
-x124: torch.Size([1, 48, 14, 14])
-x125: torch.Size([1, 48, 14, 14])
-x126: torch.Size([1, 48, 14, 14])
-x127: torch.Size([1, 48, 14, 14])
-x128: torch.Size([1, 48, 14, 14])
-x129: torch.Size([1, 48, 14, 14])
-x130: torch.Size([1, 96, 14, 14])
-x131: (1, 96, 14, 14, )
-x132: 1
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
 x133: 96
 x134: 14
 x135: 14
 x136: 48
-x137: torch.Size([1, 2, 48, 14, 14])
-x138: torch.Size([1, 48, 2, 14, 14])
-x139: torch.Size([1, 48, 2, 14, 14])
-x140: torch.Size([1, 96, 14, 14])
-x141: (torch.Size([1, 48, 14, 14]), torch.Size([1, 48, 14, 14]), )
-x142: torch.Size([1, 48, 14, 14])
-x143: torch.Size([1, 48, 14, 14])
-x144: torch.Size([1, 48, 14, 14])
-x145: torch.Size([1, 48, 14, 14])
-x146: torch.Size([1, 48, 14, 14])
-x147: torch.Size([1, 48, 14, 14])
-x148: torch.Size([1, 48, 14, 14])
-x149: torch.Size([1, 48, 14, 14])
-x150: torch.Size([1, 48, 14, 14])
-x151: torch.Size([1, 48, 14, 14])
-x152: torch.Size([1, 96, 14, 14])
-x153: (1, 96, 14, 14, )
-x154: 1
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
 x155: 96
 x156: 14
 x157: 14
 x158: 48
-x159: torch.Size([1, 2, 48, 14, 14])
-x160: torch.Size([1, 48, 2, 14, 14])
-x161: torch.Size([1, 48, 2, 14, 14])
-x162: torch.Size([1, 96, 14, 14])
-x163: (torch.Size([1, 48, 14, 14]), torch.Size([1, 48, 14, 14]), )
-x164: torch.Size([1, 48, 14, 14])
-x165: torch.Size([1, 48, 14, 14])
-x166: torch.Size([1, 48, 14, 14])
-x167: torch.Size([1, 48, 14, 14])
-x168: torch.Size([1, 48, 14, 14])
-x169: torch.Size([1, 48, 14, 14])
-x170: torch.Size([1, 48, 14, 14])
-x171: torch.Size([1, 48, 14, 14])
-x172: torch.Size([1, 48, 14, 14])
-x173: torch.Size([1, 48, 14, 14])
-x174: torch.Size([1, 96, 14, 14])
-x175: (1, 96, 14, 14, )
-x176: 1
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
 x177: 96
 x178: 14
 x179: 14
 x180: 48
-x181: torch.Size([1, 2, 48, 14, 14])
-x182: torch.Size([1, 48, 2, 14, 14])
-x183: torch.Size([1, 48, 2, 14, 14])
-x184: torch.Size([1, 96, 14, 14])
-x185: (torch.Size([1, 48, 14, 14]), torch.Size([1, 48, 14, 14]), )
-x186: torch.Size([1, 48, 14, 14])
-x187: torch.Size([1, 48, 14, 14])
-x188: torch.Size([1, 48, 14, 14])
-x189: torch.Size([1, 48, 14, 14])
-x190: torch.Size([1, 48, 14, 14])
-x191: torch.Size([1, 48, 14, 14])
-x192: torch.Size([1, 48, 14, 14])
-x193: torch.Size([1, 48, 14, 14])
-x194: torch.Size([1, 48, 14, 14])
-x195: torch.Size([1, 48, 14, 14])
-x196: torch.Size([1, 96, 14, 14])
-x197: (1, 96, 14, 14, )
-x198: 1
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
 x199: 96
 x200: 14
 x201: 14
 x202: 48
-x203: torch.Size([1, 2, 48, 14, 14])
-x204: torch.Size([1, 48, 2, 14, 14])
-x205: torch.Size([1, 48, 2, 14, 14])
-x206: torch.Size([1, 96, 14, 14])
-x207: (torch.Size([1, 48, 14, 14]), torch.Size([1, 48, 14, 14]), )
-x208: torch.Size([1, 48, 14, 14])
-x209: torch.Size([1, 48, 14, 14])
-x210: torch.Size([1, 48, 14, 14])
-x211: torch.Size([1, 48, 14, 14])
-x212: torch.Size([1, 48, 14, 14])
-x213: torch.Size([1, 48, 14, 14])
-x214: torch.Size([1, 48, 14, 14])
-x215: torch.Size([1, 48, 14, 14])
-x216: torch.Size([1, 48, 14, 14])
-x217: torch.Size([1, 48, 14, 14])
-x218: torch.Size([1, 96, 14, 14])
-x219: (1, 96, 14, 14, )
-x220: 1
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
 x221: 96
 x222: 14
 x223: 14
 x224: 48
-x225: torch.Size([1, 2, 48, 14, 14])
-x226: torch.Size([1, 48, 2, 14, 14])
-x227: torch.Size([1, 48, 2, 14, 14])
-x228: torch.Size([1, 96, 14, 14])
-x229: (torch.Size([1, 48, 14, 14]), torch.Size([1, 48, 14, 14]), )
-x230: torch.Size([1, 48, 14, 14])
-x231: torch.Size([1, 48, 14, 14])
-x232: torch.Size([1, 48, 14, 14])
-x233: torch.Size([1, 48, 14, 14])
-x234: torch.Size([1, 48, 14, 14])
-x235: torch.Size([1, 48, 14, 14])
-x236: torch.Size([1, 48, 14, 14])
-x237: torch.Size([1, 48, 14, 14])
-x238: torch.Size([1, 48, 14, 14])
-x239: torch.Size([1, 48, 14, 14])
-x240: torch.Size([1, 96, 14, 14])
-x241: (1, 96, 14, 14, )
-x242: 1
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
 x243: 96
 x244: 14
 x245: 14
 x246: 48
-x247: torch.Size([1, 2, 48, 14, 14])
-x248: torch.Size([1, 48, 2, 14, 14])
-x249: torch.Size([1, 48, 2, 14, 14])
-x250: torch.Size([1, 96, 14, 14])
-x251: (torch.Size([1, 48, 14, 14]), torch.Size([1, 48, 14, 14]), )
-x252: torch.Size([1, 48, 14, 14])
-x253: torch.Size([1, 48, 14, 14])
-x254: torch.Size([1, 48, 14, 14])
-x255: torch.Size([1, 48, 14, 14])
-x256: torch.Size([1, 48, 14, 14])
-x257: torch.Size([1, 48, 14, 14])
-x258: torch.Size([1, 48, 14, 14])
-x259: torch.Size([1, 48, 14, 14])
-x260: torch.Size([1, 48, 14, 14])
-x261: torch.Size([1, 48, 14, 14])
-x262: torch.Size([1, 96, 14, 14])
-x263: (1, 96, 14, 14, )
-x264: 1
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
 x265: 96
 x266: 14
 x267: 14
 x268: 48
-x269: torch.Size([1, 2, 48, 14, 14])
-x270: torch.Size([1, 48, 2, 14, 14])
-x271: torch.Size([1, 48, 2, 14, 14])
-x272: torch.Size([1, 96, 14, 14])
-x273: torch.Size([1, 96, 7, 7])
-x274: torch.Size([1, 96, 7, 7])
-x275: torch.Size([1, 96, 7, 7])
-x276: torch.Size([1, 96, 7, 7])
-x277: torch.Size([1, 96, 7, 7])
-x278: torch.Size([1, 96, 14, 14])
-x279: torch.Size([1, 96, 14, 14])
-x280: torch.Size([1, 96, 14, 14])
-x281: torch.Size([1, 96, 7, 7])
-x282: torch.Size([1, 96, 7, 7])
-x283: torch.Size([1, 96, 7, 7])
-x284: torch.Size([1, 96, 7, 7])
-x285: torch.Size([1, 96, 7, 7])
-x286: torch.Size([1, 192, 7, 7])
-x287: (1, 192, 7, 7, )
-x288: 1
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
 x289: 192
 x290: 7
 x291: 7
 x292: 96
-x293: torch.Size([1, 2, 96, 7, 7])
-x294: torch.Size([1, 96, 2, 7, 7])
-x295: torch.Size([1, 96, 2, 7, 7])
-x296: torch.Size([1, 192, 7, 7])
-x297: (torch.Size([1, 96, 7, 7]), torch.Size([1, 96, 7, 7]), )
-x298: torch.Size([1, 96, 7, 7])
-x299: torch.Size([1, 96, 7, 7])
-x300: torch.Size([1, 96, 7, 7])
-x301: torch.Size([1, 96, 7, 7])
-x302: torch.Size([1, 96, 7, 7])
-x303: torch.Size([1, 96, 7, 7])
-x304: torch.Size([1, 96, 7, 7])
-x305: torch.Size([1, 96, 7, 7])
-x306: torch.Size([1, 96, 7, 7])
-x307: torch.Size([1, 96, 7, 7])
-x308: torch.Size([1, 192, 7, 7])
-x309: (1, 192, 7, 7, )
-x310: 1
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
 x311: 192
 x312: 7
 x313: 7
 x314: 96
-x315: torch.Size([1, 2, 96, 7, 7])
-x316: torch.Size([1, 96, 2, 7, 7])
-x317: torch.Size([1, 96, 2, 7, 7])
-x318: torch.Size([1, 192, 7, 7])
-x319: (torch.Size([1, 96, 7, 7]), torch.Size([1, 96, 7, 7]), )
-x320: torch.Size([1, 96, 7, 7])
-x321: torch.Size([1, 96, 7, 7])
-x322: torch.Size([1, 96, 7, 7])
-x323: torch.Size([1, 96, 7, 7])
-x324: torch.Size([1, 96, 7, 7])
-x325: torch.Size([1, 96, 7, 7])
-x326: torch.Size([1, 96, 7, 7])
-x327: torch.Size([1, 96, 7, 7])
-x328: torch.Size([1, 96, 7, 7])
-x329: torch.Size([1, 96, 7, 7])
-x330: torch.Size([1, 192, 7, 7])
-x331: (1, 192, 7, 7, )
-x332: 1
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
 x333: 192
 x334: 7
 x335: 7
 x336: 96
-x337: torch.Size([1, 2, 96, 7, 7])
-x338: torch.Size([1, 96, 2, 7, 7])
-x339: torch.Size([1, 96, 2, 7, 7])
-x340: torch.Size([1, 192, 7, 7])
-x341: (torch.Size([1, 96, 7, 7]), torch.Size([1, 96, 7, 7]), )
-x342: torch.Size([1, 96, 7, 7])
-x343: torch.Size([1, 96, 7, 7])
-x344: torch.Size([1, 96, 7, 7])
-x345: torch.Size([1, 96, 7, 7])
-x346: torch.Size([1, 96, 7, 7])
-x347: torch.Size([1, 96, 7, 7])
-x348: torch.Size([1, 96, 7, 7])
-x349: torch.Size([1, 96, 7, 7])
-x350: torch.Size([1, 96, 7, 7])
-x351: torch.Size([1, 96, 7, 7])
-x352: torch.Size([1, 192, 7, 7])
-x353: (1, 192, 7, 7, )
-x354: 1
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
 x355: 192
 x356: 7
 x357: 7
 x358: 96
-x359: torch.Size([1, 2, 96, 7, 7])
-x360: torch.Size([1, 96, 2, 7, 7])
-x361: torch.Size([1, 96, 2, 7, 7])
-x362: torch.Size([1, 192, 7, 7])
-x363: torch.Size([1, 1024, 7, 7])
-x364: torch.Size([1, 1024, 7, 7])
-x365: torch.Size([1, 1024, 7, 7])
-x366: torch.Size([1, 1024])
-x367: torch.Size([1, 1000])
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+x0: torch.Size([80, 3, 224, 224])
+x1: torch.Size([80, 24, 112, 112])
+x2: torch.Size([80, 24, 112, 112])
+x3: torch.Size([80, 24, 112, 112])
+x4: torch.Size([80, 24, 56, 56])
+x5: torch.Size([80, 24, 28, 28])
+x6: torch.Size([80, 24, 28, 28])
+x7: torch.Size([80, 24, 28, 28])
+x8: torch.Size([80, 24, 28, 28])
+x9: torch.Size([80, 24, 28, 28])
+x10: torch.Size([80, 24, 56, 56])
+x11: torch.Size([80, 24, 56, 56])
+x12: torch.Size([80, 24, 56, 56])
+x13: torch.Size([80, 24, 28, 28])
+x14: torch.Size([80, 24, 28, 28])
+x15: torch.Size([80, 24, 28, 28])
+x16: torch.Size([80, 24, 28, 28])
+x17: torch.Size([80, 24, 28, 28])
+x18: torch.Size([80, 48, 28, 28])
+x19: (80, 48, 28, 28, )
+x20: 80
+x21: 48
+x22: 28
+x23: 28
+x24: 24
+x25: torch.Size([80, 2, 24, 28, 28])
+x26: torch.Size([80, 24, 2, 28, 28])
+x27: torch.Size([80, 24, 2, 28, 28])
+x28: torch.Size([80, 48, 28, 28])
+x29: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x30: torch.Size([80, 24, 28, 28])
+x31: torch.Size([80, 24, 28, 28])
+x32: torch.Size([80, 24, 28, 28])
+x33: torch.Size([80, 24, 28, 28])
+x34: torch.Size([80, 24, 28, 28])
+x35: torch.Size([80, 24, 28, 28])
+x36: torch.Size([80, 24, 28, 28])
+x37: torch.Size([80, 24, 28, 28])
+x38: torch.Size([80, 24, 28, 28])
+x39: torch.Size([80, 24, 28, 28])
+x40: torch.Size([80, 48, 28, 28])
+x41: (80, 48, 28, 28, )
+x42: 80
+x43: 48
+x44: 28
+x45: 28
+x46: 24
+x47: torch.Size([80, 2, 24, 28, 28])
+x48: torch.Size([80, 24, 2, 28, 28])
+x49: torch.Size([80, 24, 2, 28, 28])
+x50: torch.Size([80, 48, 28, 28])
+x51: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x52: torch.Size([80, 24, 28, 28])
+x53: torch.Size([80, 24, 28, 28])
+x54: torch.Size([80, 24, 28, 28])
+x55: torch.Size([80, 24, 28, 28])
+x56: torch.Size([80, 24, 28, 28])
+x57: torch.Size([80, 24, 28, 28])
+x58: torch.Size([80, 24, 28, 28])
+x59: torch.Size([80, 24, 28, 28])
+x60: torch.Size([80, 24, 28, 28])
+x61: torch.Size([80, 24, 28, 28])
+x62: torch.Size([80, 48, 28, 28])
+x63: (80, 48, 28, 28, )
+x64: 80
+x65: 48
+x66: 28
+x67: 28
+x68: 24
+x69: torch.Size([80, 2, 24, 28, 28])
+x70: torch.Size([80, 24, 2, 28, 28])
+x71: torch.Size([80, 24, 2, 28, 28])
+x72: torch.Size([80, 48, 28, 28])
+x73: (torch.Size([80, 24, 28, 28]), torch.Size([80, 24, 28, 28]), )
+x74: torch.Size([80, 24, 28, 28])
+x75: torch.Size([80, 24, 28, 28])
+x76: torch.Size([80, 24, 28, 28])
+x77: torch.Size([80, 24, 28, 28])
+x78: torch.Size([80, 24, 28, 28])
+x79: torch.Size([80, 24, 28, 28])
+x80: torch.Size([80, 24, 28, 28])
+x81: torch.Size([80, 24, 28, 28])
+x82: torch.Size([80, 24, 28, 28])
+x83: torch.Size([80, 24, 28, 28])
+x84: torch.Size([80, 48, 28, 28])
+x85: (80, 48, 28, 28, )
+x86: 80
+x87: 48
+x88: 28
+x89: 28
+x90: 24
+x91: torch.Size([80, 2, 24, 28, 28])
+x92: torch.Size([80, 24, 2, 28, 28])
+x93: torch.Size([80, 24, 2, 28, 28])
+x94: torch.Size([80, 48, 28, 28])
+x95: torch.Size([80, 48, 14, 14])
+x96: torch.Size([80, 48, 14, 14])
+x97: torch.Size([80, 48, 14, 14])
+x98: torch.Size([80, 48, 14, 14])
+x99: torch.Size([80, 48, 14, 14])
+x100: torch.Size([80, 48, 28, 28])
+x101: torch.Size([80, 48, 28, 28])
+x102: torch.Size([80, 48, 28, 28])
+x103: torch.Size([80, 48, 14, 14])
+x104: torch.Size([80, 48, 14, 14])
+x105: torch.Size([80, 48, 14, 14])
+x106: torch.Size([80, 48, 14, 14])
+x107: torch.Size([80, 48, 14, 14])
+x108: torch.Size([80, 96, 14, 14])
+x109: (80, 96, 14, 14, )
+x110: 80
+x111: 96
+x112: 14
+x113: 14
+x114: 48
+x115: torch.Size([80, 2, 48, 14, 14])
+x116: torch.Size([80, 48, 2, 14, 14])
+x117: torch.Size([80, 48, 2, 14, 14])
+x118: torch.Size([80, 96, 14, 14])
+x119: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x120: torch.Size([80, 48, 14, 14])
+x121: torch.Size([80, 48, 14, 14])
+x122: torch.Size([80, 48, 14, 14])
+x123: torch.Size([80, 48, 14, 14])
+x124: torch.Size([80, 48, 14, 14])
+x125: torch.Size([80, 48, 14, 14])
+x126: torch.Size([80, 48, 14, 14])
+x127: torch.Size([80, 48, 14, 14])
+x128: torch.Size([80, 48, 14, 14])
+x129: torch.Size([80, 48, 14, 14])
+x130: torch.Size([80, 96, 14, 14])
+x131: (80, 96, 14, 14, )
+x132: 80
+x133: 96
+x134: 14
+x135: 14
+x136: 48
+x137: torch.Size([80, 2, 48, 14, 14])
+x138: torch.Size([80, 48, 2, 14, 14])
+x139: torch.Size([80, 48, 2, 14, 14])
+x140: torch.Size([80, 96, 14, 14])
+x141: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x142: torch.Size([80, 48, 14, 14])
+x143: torch.Size([80, 48, 14, 14])
+x144: torch.Size([80, 48, 14, 14])
+x145: torch.Size([80, 48, 14, 14])
+x146: torch.Size([80, 48, 14, 14])
+x147: torch.Size([80, 48, 14, 14])
+x148: torch.Size([80, 48, 14, 14])
+x149: torch.Size([80, 48, 14, 14])
+x150: torch.Size([80, 48, 14, 14])
+x151: torch.Size([80, 48, 14, 14])
+x152: torch.Size([80, 96, 14, 14])
+x153: (80, 96, 14, 14, )
+x154: 80
+x155: 96
+x156: 14
+x157: 14
+x158: 48
+x159: torch.Size([80, 2, 48, 14, 14])
+x160: torch.Size([80, 48, 2, 14, 14])
+x161: torch.Size([80, 48, 2, 14, 14])
+x162: torch.Size([80, 96, 14, 14])
+x163: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x164: torch.Size([80, 48, 14, 14])
+x165: torch.Size([80, 48, 14, 14])
+x166: torch.Size([80, 48, 14, 14])
+x167: torch.Size([80, 48, 14, 14])
+x168: torch.Size([80, 48, 14, 14])
+x169: torch.Size([80, 48, 14, 14])
+x170: torch.Size([80, 48, 14, 14])
+x171: torch.Size([80, 48, 14, 14])
+x172: torch.Size([80, 48, 14, 14])
+x173: torch.Size([80, 48, 14, 14])
+x174: torch.Size([80, 96, 14, 14])
+x175: (80, 96, 14, 14, )
+x176: 80
+x177: 96
+x178: 14
+x179: 14
+x180: 48
+x181: torch.Size([80, 2, 48, 14, 14])
+x182: torch.Size([80, 48, 2, 14, 14])
+x183: torch.Size([80, 48, 2, 14, 14])
+x184: torch.Size([80, 96, 14, 14])
+x185: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x186: torch.Size([80, 48, 14, 14])
+x187: torch.Size([80, 48, 14, 14])
+x188: torch.Size([80, 48, 14, 14])
+x189: torch.Size([80, 48, 14, 14])
+x190: torch.Size([80, 48, 14, 14])
+x191: torch.Size([80, 48, 14, 14])
+x192: torch.Size([80, 48, 14, 14])
+x193: torch.Size([80, 48, 14, 14])
+x194: torch.Size([80, 48, 14, 14])
+x195: torch.Size([80, 48, 14, 14])
+x196: torch.Size([80, 96, 14, 14])
+x197: (80, 96, 14, 14, )
+x198: 80
+x199: 96
+x200: 14
+x201: 14
+x202: 48
+x203: torch.Size([80, 2, 48, 14, 14])
+x204: torch.Size([80, 48, 2, 14, 14])
+x205: torch.Size([80, 48, 2, 14, 14])
+x206: torch.Size([80, 96, 14, 14])
+x207: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x208: torch.Size([80, 48, 14, 14])
+x209: torch.Size([80, 48, 14, 14])
+x210: torch.Size([80, 48, 14, 14])
+x211: torch.Size([80, 48, 14, 14])
+x212: torch.Size([80, 48, 14, 14])
+x213: torch.Size([80, 48, 14, 14])
+x214: torch.Size([80, 48, 14, 14])
+x215: torch.Size([80, 48, 14, 14])
+x216: torch.Size([80, 48, 14, 14])
+x217: torch.Size([80, 48, 14, 14])
+x218: torch.Size([80, 96, 14, 14])
+x219: (80, 96, 14, 14, )
+x220: 80
+x221: 96
+x222: 14
+x223: 14
+x224: 48
+x225: torch.Size([80, 2, 48, 14, 14])
+x226: torch.Size([80, 48, 2, 14, 14])
+x227: torch.Size([80, 48, 2, 14, 14])
+x228: torch.Size([80, 96, 14, 14])
+x229: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x230: torch.Size([80, 48, 14, 14])
+x231: torch.Size([80, 48, 14, 14])
+x232: torch.Size([80, 48, 14, 14])
+x233: torch.Size([80, 48, 14, 14])
+x234: torch.Size([80, 48, 14, 14])
+x235: torch.Size([80, 48, 14, 14])
+x236: torch.Size([80, 48, 14, 14])
+x237: torch.Size([80, 48, 14, 14])
+x238: torch.Size([80, 48, 14, 14])
+x239: torch.Size([80, 48, 14, 14])
+x240: torch.Size([80, 96, 14, 14])
+x241: (80, 96, 14, 14, )
+x242: 80
+x243: 96
+x244: 14
+x245: 14
+x246: 48
+x247: torch.Size([80, 2, 48, 14, 14])
+x248: torch.Size([80, 48, 2, 14, 14])
+x249: torch.Size([80, 48, 2, 14, 14])
+x250: torch.Size([80, 96, 14, 14])
+x251: (torch.Size([80, 48, 14, 14]), torch.Size([80, 48, 14, 14]), )
+x252: torch.Size([80, 48, 14, 14])
+x253: torch.Size([80, 48, 14, 14])
+x254: torch.Size([80, 48, 14, 14])
+x255: torch.Size([80, 48, 14, 14])
+x256: torch.Size([80, 48, 14, 14])
+x257: torch.Size([80, 48, 14, 14])
+x258: torch.Size([80, 48, 14, 14])
+x259: torch.Size([80, 48, 14, 14])
+x260: torch.Size([80, 48, 14, 14])
+x261: torch.Size([80, 48, 14, 14])
+x262: torch.Size([80, 96, 14, 14])
+x263: (80, 96, 14, 14, )
+x264: 80
+x265: 96
+x266: 14
+x267: 14
+x268: 48
+x269: torch.Size([80, 2, 48, 14, 14])
+x270: torch.Size([80, 48, 2, 14, 14])
+x271: torch.Size([80, 48, 2, 14, 14])
+x272: torch.Size([80, 96, 14, 14])
+x273: torch.Size([80, 96, 7, 7])
+x274: torch.Size([80, 96, 7, 7])
+x275: torch.Size([80, 96, 7, 7])
+x276: torch.Size([80, 96, 7, 7])
+x277: torch.Size([80, 96, 7, 7])
+x278: torch.Size([80, 96, 14, 14])
+x279: torch.Size([80, 96, 14, 14])
+x280: torch.Size([80, 96, 14, 14])
+x281: torch.Size([80, 96, 7, 7])
+x282: torch.Size([80, 96, 7, 7])
+x283: torch.Size([80, 96, 7, 7])
+x284: torch.Size([80, 96, 7, 7])
+x285: torch.Size([80, 96, 7, 7])
+x286: torch.Size([80, 192, 7, 7])
+x287: (80, 192, 7, 7, )
+x288: 80
+x289: 192
+x290: 7
+x291: 7
+x292: 96
+x293: torch.Size([80, 2, 96, 7, 7])
+x294: torch.Size([80, 96, 2, 7, 7])
+x295: torch.Size([80, 96, 2, 7, 7])
+x296: torch.Size([80, 192, 7, 7])
+x297: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x298: torch.Size([80, 96, 7, 7])
+x299: torch.Size([80, 96, 7, 7])
+x300: torch.Size([80, 96, 7, 7])
+x301: torch.Size([80, 96, 7, 7])
+x302: torch.Size([80, 96, 7, 7])
+x303: torch.Size([80, 96, 7, 7])
+x304: torch.Size([80, 96, 7, 7])
+x305: torch.Size([80, 96, 7, 7])
+x306: torch.Size([80, 96, 7, 7])
+x307: torch.Size([80, 96, 7, 7])
+x308: torch.Size([80, 192, 7, 7])
+x309: (80, 192, 7, 7, )
+x310: 80
+x311: 192
+x312: 7
+x313: 7
+x314: 96
+x315: torch.Size([80, 2, 96, 7, 7])
+x316: torch.Size([80, 96, 2, 7, 7])
+x317: torch.Size([80, 96, 2, 7, 7])
+x318: torch.Size([80, 192, 7, 7])
+x319: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x320: torch.Size([80, 96, 7, 7])
+x321: torch.Size([80, 96, 7, 7])
+x322: torch.Size([80, 96, 7, 7])
+x323: torch.Size([80, 96, 7, 7])
+x324: torch.Size([80, 96, 7, 7])
+x325: torch.Size([80, 96, 7, 7])
+x326: torch.Size([80, 96, 7, 7])
+x327: torch.Size([80, 96, 7, 7])
+x328: torch.Size([80, 96, 7, 7])
+x329: torch.Size([80, 96, 7, 7])
+x330: torch.Size([80, 192, 7, 7])
+x331: (80, 192, 7, 7, )
+x332: 80
+x333: 192
+x334: 7
+x335: 7
+x336: 96
+x337: torch.Size([80, 2, 96, 7, 7])
+x338: torch.Size([80, 96, 2, 7, 7])
+x339: torch.Size([80, 96, 2, 7, 7])
+x340: torch.Size([80, 192, 7, 7])
+x341: (torch.Size([80, 96, 7, 7]), torch.Size([80, 96, 7, 7]), )
+x342: torch.Size([80, 96, 7, 7])
+x343: torch.Size([80, 96, 7, 7])
+x344: torch.Size([80, 96, 7, 7])
+x345: torch.Size([80, 96, 7, 7])
+x346: torch.Size([80, 96, 7, 7])
+x347: torch.Size([80, 96, 7, 7])
+x348: torch.Size([80, 96, 7, 7])
+x349: torch.Size([80, 96, 7, 7])
+x350: torch.Size([80, 96, 7, 7])
+x351: torch.Size([80, 96, 7, 7])
+x352: torch.Size([80, 192, 7, 7])
+x353: (80, 192, 7, 7, )
+x354: 80
+x355: 192
+x356: 7
+x357: 7
+x358: 96
+x359: torch.Size([80, 2, 96, 7, 7])
+x360: torch.Size([80, 96, 2, 7, 7])
+x361: torch.Size([80, 96, 2, 7, 7])
+x362: torch.Size([80, 192, 7, 7])
+x363: torch.Size([80, 1024, 7, 7])
+x364: torch.Size([80, 1024, 7, 7])
+x365: torch.Size([80, 1024, 7, 7])
+x366: torch.Size([80, 1024])
+x367: torch.Size([80, 1000])
+shufflenet_v2_x0_5.py , 80 , 794.3419077785511
