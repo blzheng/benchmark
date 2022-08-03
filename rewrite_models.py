@@ -22,7 +22,9 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
         f.write("from torchvision.ops.stochastic_depth import stochastic_depth\n")
         f.write("import time\n")
         f.write("import builtins\n")
-        f.write("import operator\n\n")
+        f.write("import operator\n")
+        f.write("import sys\n")
+        f.write("import os\n\n")
         f.write("class M(torch.nn.Module):\n")
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
@@ -45,14 +47,23 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
             f.write(opstr.replace(",)\n", ")\n"))
         f.write("\n")
         f.write("m = M().eval()\n")
+        
+        f.write("CORES=os.popen(\"lscpu | grep Core | awk '{print $4}'\").readlines()\n")
+        f.write("SOCKETS=os.popen(\"lscpu | grep Socket | awk '{print $2}'\").readlines()\n")
+        f.write("BS=int(CORES[0])*int(SOCKETS[0])\n")
+        f.write("batch_size=BS\n")
+
         # f.write("ref_m = "+pretrained_models_str[modelname]+".eval()\n")
         for input in inputs:
-            f.write(input+" = torch.randn(1, 3, 224, 224)\n")
+            f.write(input+" = torch.randn(batch_size, 3, 224, 224)\n")
         # f.write("ref_output = ref_m("+inputstr+")\n")
-        f.write("start = time.time()\n")
-        f.write("output = m("+inputstr+")\n")
-        f.write("end = time.time()\n")
-        f.write("print(end-start)\n")
+        f.write("start_time=time.time()\n")
+        f.write("for i in range(10):\n")
+        f.write("    output = m("+inputstr+")\n")
+        f.write("total_iter_time = time.time() - start_time\n")
+        f.write("Throughput = batch_size * 10 / total_iter_time\n")
+        f.write("file_current = os.path.basename(__file__)\n")
+        f.write("print(file_current,',',BS,',',Throughput) \n")
         # f.write("print(ref_output[0].shape==output[0].shape)\n")
 
 def get_print_str(modelname, op):
@@ -89,7 +100,9 @@ def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
         f.write("from torchvision.ops.stochastic_depth import stochastic_depth\n")
         f.write("import time\n")
         f.write("import builtins\n")
-        f.write("import operator\n\n")
+        f.write("import operator\n")
+        f.write("import sys\n")
+        f.write("import os\n\n")
         f.write("class M(torch.nn.Module):\n")
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
@@ -114,9 +127,21 @@ def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
                 f.write(get_print_str(modelname, op))
         f.write("\n")
         f.write("m = M().eval()\n")
+        
+        f.write("CORES=os.popen(\"lscpu | grep Core | awk '{print $4}'\").readlines()\n")
+        f.write("SOCKETS=os.popen(\"lscpu | grep Socket | awk '{print $2}'\").readlines()\n")
+        f.write("BS=int(CORES[0])*int(SOCKETS[0])\n")
+        f.write("batch_size=BS\n")
+
         for input in inputs:
-            f.write(input+" = torch.randn(1, 3, 224, 224)\n")
-        f.write("output = m("+inputstr+")\n")
+            f.write(input+" = torch.randn(batch_size, 3, 224, 224)\n")
+        f.write("start_time=time.time()\n")
+        f.write("for i in range(10):\n")
+        f.write("    output = m("+inputstr+")\n")
+        f.write("total_iter_time = time.time() - start_time\n")
+        f.write("Throughput = batch_size * 10 / total_iter_time\n")
+        f.write("file_current = os.path.basename(__file__)\n")
+        f.write("print(file_current,',',BS,',',Throughput) \n")
 
 for name in pretrained_models.keys():
     model = pretrained_models[name]
