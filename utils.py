@@ -42,7 +42,10 @@ def fetch_attr(target, module):
     return attr_itr
 
 def parse_graph(m):
-    if isinstance(m, transformers.models.bert.modeling_bert.BertForQuestionAnswering):
+    if isinstance(m, transformers.models.bert.modeling_bert.BertForQuestionAnswering) \
+    or isinstance(m, transformers.models.albert.modeling_albert.AlbertForQuestionAnswering) \
+    or isinstance(m, transformers.models.roberta.modeling_roberta.RobertaForQuestionAnswering) \
+    or isinstance(m, transformers.models.electra.modeling_electra.ElectraForQuestionAnswering):
         x = torch.ones((1, 384), dtype=torch.long)
         input_dict = {'input_ids':x, 'attention_mask':x, 'token_type_ids':x, 'position_ids':None, 'head_mask':None, 'start_positions':None, \
                       'inputs_embeds':None, 'end_positions': None, 'output_attentions': None, 'output_hidden_states': None, 'return_dict': None}
