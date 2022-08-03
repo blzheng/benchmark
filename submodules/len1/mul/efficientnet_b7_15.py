@@ -8,19 +8,29 @@ from torchvision.ops.stochastic_depth import stochastic_depth
 import time
 import builtins
 import operator
+import sys
+import os
 
 class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
 
-    def forward(self, x236, x231):
-        x237=operator.mul(x236, x231)
-        return x237
+    def forward(self, x228, x223):
+        x229=operator.mul(x228, x223)
+        return x229
 
 m = M().eval()
-x236 = torch.randn(torch.Size([1, 480, 1, 1]))
-x231 = torch.randn(torch.Size([1, 480, 28, 28]))
-start = time.time()
-output = m(x236, x231)
-end = time.time()
-print(end-start)
+
+CORES=os.popen("lscpu | grep Core | awk '{print $4}'").readlines()
+SOCKETS=os.popen("lscpu | grep Socket | awk '{print $2}'").readlines()
+BS=int(CORES[0])*int(SOCKETS[0])
+batch_size=BS
+x228 = torch.randn(torch.Size([batch_size, 480, 28, 28]))
+x223 = torch.randn(torch.Size([batch_size, 80, 28, 28]))
+start_time=time.time()
+for i in range(10):
+    output = m(x228, x223)
+total_iter_time = time.time() - start_time
+Throughput = batch_size * 10 / total_iter_time
+file_current = os.path.basename(__file__)
+print(file_current,',',BS,',',Throughput) 

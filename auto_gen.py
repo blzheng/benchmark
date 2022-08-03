@@ -3,6 +3,9 @@ import torchvision.models as models
 from utils import *
 import os
 from pretrained_models import pretrained_models
+from concurrent.futures import ThreadPoolExecutor,wait,ALL_COMPLETED
+import threading
+import time
 
 def auto_generate(modelname, pattern, inputstr):
     oplists = parse_pattern(pattern)
@@ -29,12 +32,24 @@ def auto_generate(modelname, pattern, inputstr):
 # name = "alexnet"
 # pattern = "('aten::conv2d', 'aten::relu', )"
 # pattern = "('aten::conv2d', )"
+
+def thread_pool():
+    print('start generate action')
+    executor = ThreadPoolExecutor(max_workers=2)
+    task = [executor.submit(generate_action)]
+    wait(task, return_when=ALL_COMPLETED)
+    print('end generate action')
+
 pattern_file = "patterns.txt"
-with open(pattern_file, "r") as p_reader:
-    patterns = p_reader.readlines()
-    for pattern in patterns:
-        # oplists = parse_pattern(pattern)
-        for name in pretrained_models:
-            print("============================")
-            print(name, pattern)
-            auto_generate(name, pattern, "1_3_224_224")
+
+def generate_action():
+    with open(pattern_file, "r") as p_reader:
+        patterns = p_reader.readlines()
+        for pattern in patterns:
+            # oplists = parse_pattern(pattern)
+            for name in pretrained_models:
+                print("============================")
+                print(name, pattern)
+                auto_generate(name, pattern, "1_3_224_224")
+
+thread_pool()
