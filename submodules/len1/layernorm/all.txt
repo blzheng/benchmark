@@ -1,8 +1,12 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_3.py 6
+/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_3.py 10
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_4.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_30.py 27
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_9.py
@@ -31,7 +35,55 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_11.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_17.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_31.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_14.py 27
+/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_13.py 48
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_15.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_14.py 28
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_29.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_19.py
@@ -53,53 +105,63 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_11.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_18.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_10.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_22.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_10.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_26.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_24.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_32.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_28.py 36
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_25.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_32.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_31.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_29.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_15.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_1.py 6
+/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_12.py 25
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/qa+bert-base-cased_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_26.py 11
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_33.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_15.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_1.py 11
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_23.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_33.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_34.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_2.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_1.py
@@ -109,18 +171,10 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_33.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_34.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_base_35.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_35.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_33.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_34.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/swin_t_5.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_5.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_0.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_4.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_large_5.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_17.py 6
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_34.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_33.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_small_35.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/layernorm/convnext_tiny_15.py

@@ -7,6 +7,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/squeezenet1_0_0.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/densenet169_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_16gf_0.py 15
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/swin_t_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/resnet18_0.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/alexnet_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_v2_m_0.py 6

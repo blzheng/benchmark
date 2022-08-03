@@ -1,6 +1,7 @@
 import torchvision.models as models
 import geffnet
 import sys, os
+from transformers import AutoModelForQuestionAnswering
 
 pretrained_models = {
     'alexnet': models.alexnet(pretrained = True),
@@ -113,6 +114,12 @@ pretrained_models = {
     'efficientnet_b5_geffnet': geffnet.create_model('efficientnet_b5', pretrained=True),
     'efficientnet_b6_geffnet': geffnet.create_model('efficientnet_b6', pretrained=True),
     'efficientnet_b7_geffnet': geffnet.create_model('efficientnet_b7', pretrained=True),
+    'qa+bert-base-cased': AutoModelForQuestionAnswering.from_pretrained('bert-base-cased'), 
+    'qa+albert-base-v1': AutoModelForQuestionAnswering.from_pretrained('albert-base-v1'),
+    'qa+roberta-base': AutoModelForQuestionAnswering.from_pretrained('roberta-base'),
+    'qa+xlm-roberta-base': AutoModelForQuestionAnswering.from_pretrained('xlm-roberta-base'),
+    'qa+google_electra-base-generator': AutoModelForQuestionAnswering.from_pretrained('google/electra-base-generator'),
+    'qa+google_electra-base-discriminator': AutoModelForQuestionAnswering.from_pretrained('google/electra-base-discriminator'),
 }
 
 

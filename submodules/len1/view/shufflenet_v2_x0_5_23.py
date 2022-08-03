@@ -13,15 +13,16 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
 
-    def forward(self, x264, x266, x267):
+    def forward(self, x271, x264, x266, x267):
         x272=x271.view(x264, -1, x266, x267)
         return x272
 
 m = M().eval()
+x271 = torch.randn(torch.Size([1, 48, 2, 14, 14]))
 x264 = 1
 x266 = 14
 x267 = 14
 start = time.time()
-output = m(x264, x266, x267)
+output = m(x271, x264, x266, x267)
 end = time.time()
 print(end-start)

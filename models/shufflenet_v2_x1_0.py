@@ -535,7 +535,7 @@ class M(torch.nn.Module):
         x367=self.linear0(x366)
 
 m = M().eval()
-x = torch.randn(1, 3, 224, 224)
+x = torch.rand(1, 3, 224, 224)
 start = time.time()
 output = m(x)
 end = time.time()

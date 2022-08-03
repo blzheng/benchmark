@@ -13,15 +13,16 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
 
-    def forward(self, x42, x44, x45):
+    def forward(self, x49, x42, x44, x45):
         x50=x49.view(x42, -1, x44, x45)
         return x50
 
 m = M().eval()
+x49 = torch.randn(torch.Size([1, 88, 2, 28, 28]))
 x42 = 1
 x44 = 28
 x45 = 28
 start = time.time()
-output = m(x42, x44, x45)
+output = m(x49, x42, x44, x45)
 end = time.time()
 print(end-start)
