@@ -6,6 +6,7 @@ from pretrained_models import pretrained_models
 from concurrent.futures import ThreadPoolExecutor,wait,ALL_COMPLETED
 import threading
 import time
+import multiprocessing
 
 def auto_generate(modelname, pattern, inputstr):
     oplists = parse_pattern(pattern)
@@ -33,14 +34,9 @@ def auto_generate(modelname, pattern, inputstr):
 # pattern = "('aten::conv2d', 'aten::relu', )"
 # pattern = "('aten::conv2d', )"
 
-def thread_pool():
-    print('start generate action')
-    executor = ThreadPoolExecutor(max_workers=2)
-    task = [executor.submit(generate_action)]
-    wait(task, return_when=ALL_COMPLETED)
-    print('end generate action')
 
 pattern_file = "patterns.txt"
+pool = multiprocessing.Pool(processes = 80)
 
 def generate_action():
     with open(pattern_file, "r") as p_reader:
@@ -50,6 +46,8 @@ def generate_action():
             for name in pretrained_models:
                 print("============================")
                 print(name, pattern)
-                auto_generate(name, pattern, "1_3_224_224")
+                pool.apply_async(auto_generate,(name, pattern, "1_3_224_224"))
+        pool.close()
+        pool.join()
 
-thread_pool()
+generate_action()
