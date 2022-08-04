@@ -57,13 +57,19 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
         for input in inputs:
             f.write(input+" = torch.randn(batch_size, 3, 224, 224)\n")
         # f.write("ref_output = ref_m("+inputstr+")\n")
-        f.write("start_time=time.time()\n")
-        f.write("for i in range(10):\n")
-        f.write("    output = m("+inputstr+")\n")
-        f.write("total_iter_time = time.time() - start_time\n")
-        f.write("Throughput = batch_size * 10 / total_iter_time\n")
-        f.write("file_current = os.path.basename(__file__)\n")
-        f.write("print(file_current,',',BS,',',Throughput) \n")
+
+        f.write("def print_throughput(flag):\n")
+        f.write("    start_time=time.time()\n")
+        f.write("    for i in range(10):\n")
+        f.write("        output = m("+inputstr+")\n")
+        f.write("    total_iter_time = time.time() - start_time\n")
+        f.write("    Throughput = batch_size * 10 / total_iter_time\n")
+        f.write("    file_current = os.path.basename(__file__)\n")
+        f.write("    print(file_current,',',BS,',',Throughput) \n")
+
+        f.write("for flag in {False,True}:\n")
+        f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
+        f.write("    print_throughput(flag)\n")
         # f.write("print(ref_output[0].shape==output[0].shape)\n")
 
 def get_print_str(modelname, op):
@@ -135,13 +141,19 @@ def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
 
         for input in inputs:
             f.write(input+" = torch.randn(batch_size, 3, 224, 224)\n")
-        f.write("start_time=time.time()\n")
-        f.write("for i in range(10):\n")
-        f.write("    output = m("+inputstr+")\n")
-        f.write("total_iter_time = time.time() - start_time\n")
-        f.write("Throughput = batch_size * 10 / total_iter_time\n")
-        f.write("file_current = os.path.basename(__file__)\n")
-        f.write("print(file_current,',',BS,',',Throughput) \n")
+            
+        f.write("def print_throughput(flag):\n")
+        f.write("    start_time=time.time()\n")
+        f.write("    for i in range(10):\n")
+        f.write("        output = m("+inputstr+")\n")
+        f.write("    total_iter_time = time.time() - start_time\n")
+        f.write("    Throughput = batch_size * 10 / total_iter_time\n")
+        f.write("    file_current = os.path.basename(__file__)\n")
+        f.write("    print(file_current,',',BS,',',Throughput) \n")
+
+        f.write("for flag in {False,True}:\n")
+        f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
+        f.write("    print_throughput(flag)\n")
 
 for name in pretrained_models.keys():
     model = pretrained_models[name]
