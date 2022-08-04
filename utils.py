@@ -263,7 +263,7 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
         for key in module_dict.keys():
-            f.write("        self."+key+" = "+str(module_dict[key])+"\n")
+            f.write("        self."+key+" = "+str(module_dict[key]).replace("=none", "='none'")+"\n")
         for key in attr_dict.keys():
             f.write("        self."+key+" = "+str(attr_dict[key])+"\n")
         f.write("\n")
