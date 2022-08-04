@@ -65,7 +65,7 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
         f.write("    total_iter_time = time.time() - start_time\n")
         f.write("    Throughput = batch_size * 10 / total_iter_time\n")
         f.write("    file_current = os.path.basename(__file__)\n")
-        f.write("    print(file_current,',',BS,',',Throughput) \n")
+        f.write("    print(file_current,',',BS,',',flag,',',Throughput)\n")
 
         f.write("for flag in {False,True}:\n")
         f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
@@ -149,7 +149,7 @@ def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
         f.write("    total_iter_time = time.time() - start_time\n")
         f.write("    Throughput = batch_size * 10 / total_iter_time\n")
         f.write("    file_current = os.path.basename(__file__)\n")
-        f.write("    print(file_current,',',BS,',',Throughput) \n")
+        f.write("    print(file_current,',',BS,',',flag,',',Throughput)\n")
 
         f.write("for flag in {False,True}:\n")
         f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
