@@ -1,16 +1,20 @@
 #!/bin/bash
-
+cur_dir=`pwd`
+mkdir -p ${cur_dir}/models/
+mkdir -p ${cur_dir}/temp/
+mkdir -p ${cur_dir}/shapes/
+mkdir -p ${cur_dir}/submodules/
 python rewrite_models.py
 
-dir="/home/bzheng/workspace/debug/benchmark/models/"
+dir=${cur_dir}/models/
 for item in `ls $dir`
 do
     echo $item
     python $dir$item
 done
 
-dir="/home/bzheng/workspace/debug/benchmark/temp/"
-result_dir="/home/bzheng/workspace/debug/benchmark/shapes/"
+dir=${cur_dir}/temp/
+result_dir=${cur_dir}/shapes/
 for item in `ls $dir`
 do
     echo $item
@@ -19,7 +23,7 @@ do
 done
 
 python auto_gen.py
-dir="/home/bzheng/workspace/debug/benchmark/submodules/"
+dir=${cur_dir}/submodules/
 for len in `ls $dir`
 do
     for pattern in `ls $dir/$len`
@@ -31,10 +35,10 @@ do
                 python $dir/$len/$pattern/$item
             fi
         done
-        if [ -f $dir/$len/$pattern/all.txt ];
-        then
-            continue
-        fi
+        # if [ -f $dir/$len/$pattern/all.txt ];
+        # then
+        #     continue
+        # fi
         python analyze_submodules.py --dir $dir/$len/$pattern
     done
 done
