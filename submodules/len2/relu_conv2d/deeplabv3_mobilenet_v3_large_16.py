@@ -1,0 +1,28 @@
+import torch
+from torch import tensor
+import torch.nn as nn
+from torch.nn import *
+import torchvision
+import torchvision.models as models
+from torchvision.ops.stochastic_depth import stochastic_depth
+import time
+import builtins
+import operator
+
+class M(torch.nn.Module):
+    def __init__(self):
+        super(M, self).__init__()
+        self.relu25 = ReLU()
+        self.conv2d69 = Conv2d(256, 21, kernel_size=(1, 1), stride=(1, 1))
+
+    def forward(self, x209):
+        x210=self.relu25(x209)
+        x211=self.conv2d69(x210)
+        return x211
+
+m = M().eval()
+x209 = torch.randn(torch.Size([1, 256, 14, 14]))
+start = time.time()
+output = m(x209)
+end = time.time()
+print(end-start)

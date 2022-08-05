@@ -90,15 +90,24 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_8gf_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_8gf_12.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_8gf_7.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_3.py 9
+/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_3.py 13
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/deeplabv3_mobilenet_v3_large_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_small_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/deeplabv3_mobilenet_v3_large_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/lraspp_mobilenet_v3_large_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/lraspp_mobilenet_v3_large_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_6.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/lraspp_mobilenet_v3_large_0.py 5
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_3_2gf_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_3_2gf_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/deeplabv3_mobilenet_v3_large_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/vgg13_1.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/vgg19_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/vgg16_1.py
@@ -151,9 +160,9 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_1.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_1_6gf_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_400mf_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_0.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_3_2gf_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_3_2gf_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/deeplabv3_mobilenet_v3_large_3.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/lraspp_mobilenet_v3_large_3.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_32gf_3.py 5
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_32gf_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_32gf_2.py
@@ -168,7 +177,6 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_0_23.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_1_20.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_1_21.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_3.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_0_21.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_0_20.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_8gf_1.py 4
@@ -185,6 +193,12 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_0_3.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_0_7.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_0_4.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/lraspp_mobilenet_v3_large_6.py 6
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/deeplabv3_mobilenet_v3_large_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/deeplabv3_mobilenet_v3_large_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/lraspp_mobilenet_v3_large_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_6.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_16gf_14.py 11
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_16gf_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_16gf_11.py
@@ -196,6 +210,12 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_16gf_16.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_16gf_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_16gf_7.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/deeplabv3_mobilenet_v3_large_4.py 6
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/lraspp_mobilenet_v3_large_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/lraspp_mobilenet_v3_large_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/deeplabv3_mobilenet_v3_large_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_4.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_32gf_7.py 12
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_32gf_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_32gf_12.py
@@ -213,8 +233,6 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_3_2gf_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_3_2gf_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_3_2gf_6.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_7.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_6.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_1_7.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_small_1.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_1_14.py 4
@@ -274,8 +292,6 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/squeezenet1_0_1.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/alexnet_2.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_small_6.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_5.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/mobilenet_v3_large_4.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_8gf_16.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_3_2gf_20.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_relu/regnet_y_16gf_17.py 1

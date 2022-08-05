@@ -1,0 +1,37 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_5_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_0_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v2_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v2_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_large_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_3_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_0_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v2_3.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_75_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_3_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_0_5.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v2_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_75_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_3_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_3_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v2_4.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_75_4.py
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_0_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_3_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_5_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_3_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_0_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v2_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_75_1.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_0_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_3_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v2_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_small_0.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_75_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet1_0_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_5_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_75_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_5_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_75_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_5_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_5_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len8/relu_conv2d_batchnorm_relu_conv2d_batchnorm_conv2d_batchnorm/mnasnet0_5_5.py 1

@@ -13,12 +13,13 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
 
-    def forward(self, ):
+    def forward(self, x1):
         x2=x1.permute(0, 2, 3, 1)
         return x2
 
 m = M().eval()
+x1 = torch.randn(torch.Size([1, 128, 56, 56]))
 start = time.time()
-output = m()
+output = m(x1)
 end = time.time()
 print(end-start)

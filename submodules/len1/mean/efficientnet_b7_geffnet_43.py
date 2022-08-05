@@ -13,12 +13,13 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
 
-    def forward(self, ):
+    def forward(self, x640):
         x641=x640.mean((2, 3),keepdim=True)
         return x641
 
 m = M().eval()
+x640 = torch.randn(torch.Size([1, 2304, 7, 7]))
 start = time.time()
-output = m()
+output = m(x640)
 end = time.time()
 print(end-start)

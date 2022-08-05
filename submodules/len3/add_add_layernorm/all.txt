@@ -1,0 +1,4 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len3/add_add_layernorm/swin_t_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/add_add_layernorm/swin_s_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/add_add_layernorm/qa+bert-base-cased_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/add_add_layernorm/swin_b_0.py 1

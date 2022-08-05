@@ -13,12 +13,13 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
 
-    def forward(self, ):
+    def forward(self, x213):
         x214=x213.sigmoid()
         return x214
 
 m = M().eval()
+x213 = torch.randn(torch.Size([1, 768, 1, 1]))
 start = time.time()
-output = m()
+output = m(x213)
 end = time.time()
 print(end-start)

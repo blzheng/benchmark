@@ -12,6 +12,7 @@ import operator
 class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
+        self.layer_scale12 = torch.rand(torch.Size([512, 1, 1])).to(torch.float32)
 
     def forward(self, x158):
         x159=operator.mul(self.layer_scale12, x158)

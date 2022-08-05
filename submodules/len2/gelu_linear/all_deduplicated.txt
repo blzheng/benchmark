@@ -2,7 +2,9 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/convnext_base_30.py 27
 /home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/convnext_large_14.py 27
 /home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/convnext_small_28.py 36
+/home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/qa+albert-base-v1_6.py 60
 /home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/convnext_small_1.py 6
+/home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/qa+google_electra-base-generator_6.py 12
 /home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/convnext_base_2.py 3
 /home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/convnext_base_5.py 3
 /home/bzheng/workspace/debug/benchmark/submodules//len2/gelu_linear/convnext_base_33.py 3

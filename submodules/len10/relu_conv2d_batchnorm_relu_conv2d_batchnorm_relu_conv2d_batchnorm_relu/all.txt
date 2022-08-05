@@ -1,3 +1,12 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_2.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_4.py
+/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_7.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_8.py
+/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_1.py
 /home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_2.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len10/relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_1.py 1

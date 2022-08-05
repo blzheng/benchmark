@@ -1,13 +1,15 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_y_1_6gf_10.py 17
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_32gf_9.py 13
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_y_3_2gf_18.py 13
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/deeplabv3_resnet50_13.py 12
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_32gf_7.py 7
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/resnext50_32x4d_12.py 146
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_400mf_12.py 12
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_800mf_4.py 7
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_1_6gf_11.py 10
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_8gf_21.py 15
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/resnet101_4.py 42
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/resnet101_4.py 58
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/fcn_resnet101_20.py 58
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_16gf_9.py 23
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_y_128gf_17.py 17
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_y_8gf_3.py 8
@@ -15,7 +17,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_y_1_6gf_3.py 6
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_3_2gf_13.py 15
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_x_8gf_5.py 5
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/resnet101_1.py 26
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/resnet101_1.py 38
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_y_800mf_3.py 3
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_y_32gf_19.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_relu/regnet_y_400mf_14.py 6

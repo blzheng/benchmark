@@ -1,0 +1,7 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_hardsigmoid_mul_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_large_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_hardsigmoid_mul_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_large_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_hardsigmoid_mul_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_small_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_hardsigmoid_mul_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_small_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_hardsigmoid_mul_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_large_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_hardsigmoid_mul_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_small_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len7/conv2d_hardsigmoid_mul_conv2d_batchnorm_conv2d_batchnorm/mobilenet_v3_small_2.py 1

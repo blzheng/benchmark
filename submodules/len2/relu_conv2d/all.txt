@@ -1,16 +1,20 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_10.py 20
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_10.py 24
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_16.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_12.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_24.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/spnasnet_100_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_0_10.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_0_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/spnasnet_100_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_21.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/spnasnet_100_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_19.py
@@ -474,36 +478,164 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/inception_v3_google_24.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/inception_v3_google_25.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/inception_v3_google_30.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_98.py 12
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_98.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_41.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_95.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_92.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_47.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_95.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_44.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_41.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_44.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_92.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_47.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/squeezenet1_1_6.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/squeezenet1_0_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/squeezenet1_1_7.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_16.py 27
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_16.py 143
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_70.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_84.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_81.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_85.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_54.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_60.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_18.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_81.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_45.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_75.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_87.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_52.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_42.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_84.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_36.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_39.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_42.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_79.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_58.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_39.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_88.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_73.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_69.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_79.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_63.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_82.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_52.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_24.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_48.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_46.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_76.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_82.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_57.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_60.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_87.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_70.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_61.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_36.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_57.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_49.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_40.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_73.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_88.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_72.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_33.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_66.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_30.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_33.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_43.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_48.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_66.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_69.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_64.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_36.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_72.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_76.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_75.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_43.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_51.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_37.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_46.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_54.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_64.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_40.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_55.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_67.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_78.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_49.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_58.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_37.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_37.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_67.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_15.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_45.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_78.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_85.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_61.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_33.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_55.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_37.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_31.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_18.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_63.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_33.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_21.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_51.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_36.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_33.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_36.py 242
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_73.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_38.py
@@ -746,6 +878,122 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_48.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_74.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_65.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_13.py 116
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_36.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_36.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_36.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_28.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_75_20.py 21
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_46.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v2_18.py
@@ -948,7 +1196,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_84.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_84.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_84.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_7.py 43
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_7.py 47
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_7.py
@@ -957,6 +1205,9 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_9.py
@@ -974,6 +1225,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_11.py
@@ -1316,7 +1568,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_3_2gf_14.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_3_2gf_17.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_3_2gf_20.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_7.py 47
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_7.py 59
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_12.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_12.py
@@ -1325,9 +1577,15 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_5.py
@@ -1342,19 +1600,24 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_0.py
@@ -1363,6 +1626,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_5.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/shufflenet_v2_x1_5_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_187.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_139.py
@@ -1422,42 +1686,181 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_8gf_49.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_8gf_64.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_8gf_40.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_4.py 36
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_4.py 62
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_800mf_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_400mf_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_20.py 113
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_91.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_94.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_97.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_46.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_42.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_42.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_96.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_40.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_37.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_93.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_94.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_39.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_37.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_46.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_43.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_91.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_96.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_45.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_90.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_97.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_43.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_90.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_45.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_40.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_39.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_93.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_37.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_11.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_131.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_147.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_1_6gf_50.py 4
@@ -1498,8 +1901,66 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_23.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_23.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_21.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_21.py 60
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_59.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_89.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_68.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_44.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_56.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_86.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_77.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_50.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_38.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_83.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_74.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_47.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_44.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_74.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_71.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_89.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_38.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_65.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_53.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_38.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_80.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_41.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_56.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet50_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_62.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_41.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_80.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_38.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_71.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_83.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_77.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_50.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_65.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_62.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_68.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_86.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_59.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_47.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_53.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fcn_resnet101_32.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_3_8.py 15
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_3_2gf_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_3_2gf_6.py
@@ -1528,79 +1989,6 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v2_2.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_3_2gf_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fbnetc_100_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_9.py 73
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_37.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_37.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_29.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_32.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet50_2_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_37.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_125.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext50_32x4d_46.py 17
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/wide_resnet101_2_93.py
@@ -1635,9 +2023,13 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fbnetc_100_20.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fbnetc_100_21.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_113.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_8.py 3
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_8.py 7
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_small_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_10.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_8.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_3_9.py 6
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_75_12.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_75_10.py
@@ -1703,94 +2095,6 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_17.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fbnetc_100_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_14.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_30.py 88
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_28.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_34.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_28.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_36.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_28.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_34.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_25.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_32.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_32.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_32.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_31.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_36.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_36.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_34.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet101_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet50_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet152_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet34_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnet18_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_28.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_128gf_61.py 33
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_128gf_57.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_128gf_48.py
@@ -1882,6 +2186,13 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/vgg13_bn_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/vgg16_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/vgg19_bn_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_0.py 7
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fbnetc_100_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fbnetc_100_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_5_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_5_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_4.py 11
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_8.py
@@ -2170,11 +2481,14 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_32gf_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_32gf_21.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_32gf_15.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_75_7.py 25
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_75_7.py 31
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_0_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_3_2gf_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_1_6gf_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_small_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_75_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_0_5.py
@@ -2183,6 +2497,8 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/spnasnet_100_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_0_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_3_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_1_6gf_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_1_6gf_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_75_4.py
@@ -2193,6 +2509,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/spnasnet_100_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_0_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_0_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_4.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_149.py 1
@@ -2204,6 +2521,9 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/vgg13_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/vgg19_bn_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/vgg16_bn_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_11.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_11.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_94.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_94.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_70.py
@@ -2300,6 +2620,12 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_165.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_101.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_109.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_13.py 6
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_12.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/shufflenet_v2_x1_0_8.py 7
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/shufflenet_v2_x1_0_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/shufflenet_v2_x1_0_10.py
@@ -2319,11 +2645,6 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_400mf_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_75_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet1_0_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_0.py 5
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fbnetc_100_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/fbnetc_100_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_5_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mnasnet0_5_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_123.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_163.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_147.py
@@ -2338,6 +2659,10 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/squeezenet1_0_2.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_3_2gf_61.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/googlenet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_6.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_small_5.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_16gf_14.py 8
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_16gf_11.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_8gf_14.py
@@ -2478,10 +2803,13 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/shufflenet_v2_x1_0_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_3_2gf_70.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_64.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_13.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_12.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_128gf_8.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_128gf_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_1.py 5
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_800mf_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_1.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_100.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_100.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_74.py
@@ -2551,8 +2879,12 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_134.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_1_6gf_76.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/shufflenet_v2_x2_0_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_15.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_15.py 6
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_15.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/lraspp_mobilenet_v3_large_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_14.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_84.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet121_74.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_74.py
@@ -2625,19 +2957,19 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_32gf_11.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_32gf_14.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/shufflenet_v2_x0_5_12.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_mobilenet_v3_large_16.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_32x8d_9.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/resnext101_64x4d_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_7.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_31.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/shufflenet_v2_x2_0_4.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/googlenet_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet50_48.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/deeplabv3_resnet101_99.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_800mf_37.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_16gf_19.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_118.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_86.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_1.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_800mf_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_800mf_1.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_197.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_800mf_5.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_8gf_22.py 2
@@ -2703,8 +3035,6 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_179.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_16gf_1.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_8gf_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_6.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_small_5.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet161_108.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_153.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet169_137.py
@@ -2736,7 +3066,6 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_32gf_1.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_x_32gf_67.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/googlenet_11.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/mobilenet_v3_large_11.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/googlenet_6.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/regnet_y_800mf_41.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/relu_conv2d/densenet201_116.py 1

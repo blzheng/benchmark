@@ -12,7 +12,7 @@ import operator
 class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
-        self.layer_scale5 = torch.rand(torch.Size([192, 1, 1]))
+        self.layer_scale5 = torch.rand(torch.Size([192, 1, 1])).to(torch.float32)
 
     def forward(self, x74):
         x75=torch.permute(x74, [0, 3, 1, 2])

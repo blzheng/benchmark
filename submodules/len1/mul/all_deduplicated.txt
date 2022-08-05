@@ -22,17 +22,18 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b5_geffnet_7.py 9
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/convnext_small_28.py 36
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_v2_l_25.py 27
-/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b0_10.py 12
-/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b0_7.py 9
+/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b0_10.py 16
+/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b0_7.py 11
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b3_geffnet_5.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b5_geffnet_38.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/regnet_y_128gf_17.py 17
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/regnet_y_8gf_3.py 8
-/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b7_27.py 24
+/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b7_27.py 28
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/regnet_y_8gf_8.py 10
-/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/regnet_y_1_6gf_3.py 8
+/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/regnet_y_1_6gf_3.py 12
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_v2_l_34.py 39
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_v2_m_30.py 27
+/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/lraspp_mobilenet_v3_large_0.py 3
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b3_geffnet_22.py 6
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_v2_m_40.py 6
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b0_3.py 6
@@ -74,7 +75,6 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b6_geffnet_21.py 8
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b2_geffnet_9.py 4
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b2_15.py 3
-/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/mobilenet_v3_large_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b5_10.py 4
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_v2_s_4.py 5
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_v2_m_3.py 6
@@ -163,5 +163,6 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/mobilenet_v3_small_5.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b3_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/regnet_y_3_2gf_20.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/mul/lraspp_mobilenet_v3_large_8.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/efficientnet_b6_geffnet_31.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/mul/regnet_y_16gf_17.py 1

@@ -1,2 +1,12 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/squeezenet1_0_0.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/squeezenet1_1_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/fcn_resnet50_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/fcn_resnet101_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/deeplabv3_mobilenet_v3_large_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/fcn_resnet101_1.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/deeplabv3_resnet101_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/fcn_resnet50_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/deeplabv3_resnet50_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/deeplabv3_resnet101_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/deeplabv3_resnet50_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/dropout_conv2d/deeplabv3_mobilenet_v3_large_0.py 1

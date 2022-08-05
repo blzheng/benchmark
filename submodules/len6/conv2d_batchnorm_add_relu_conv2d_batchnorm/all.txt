@@ -1,11 +1,52 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_16.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_16.py 6
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_18.py
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_12.py 6
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_33.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_18.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_12.py 35
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_31.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_11.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_12.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_16.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_7.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_4.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_4.py 16
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_11.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_7.py
@@ -22,6 +63,52 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_7.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_21.py 46
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_27.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_11.py 65
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_14.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_17.py
@@ -87,31 +174,80 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_15.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_32.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_46.py
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_34.py 4
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_3.py 9
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_34.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_17.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_17.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_17.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_51.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_34.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_7.py 12
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_8.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_50.py 6
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_35.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_18.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_16.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_33.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_52.py
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_1.py 13
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_1.py 17
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_33.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_33.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_35.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_4.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet18_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_10.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_10.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_5.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet50_2_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/wide_resnet101_2_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_5.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_11.py 8
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_12.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_10.py
@@ -125,13 +261,6 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet18_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_14.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_10.py
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_0.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_3.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_3.py 6
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet18_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet18_4.py
@@ -140,16 +269,14 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_5.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_16.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet18_9.py
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet101_5.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet152_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet50_5.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet18_8.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_15.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_17.py
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_4.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext50_32x4d_8.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_2.py 6
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_32x8d_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnext101_64x4d_3.py
 /home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet34_9.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_batchnorm_add_relu_conv2d_batchnorm/resnet18_6.py

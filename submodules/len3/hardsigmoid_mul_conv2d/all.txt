@@ -1,9 +1,26 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/lraspp_mobilenet_v3_large_0.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/deeplabv3_mobilenet_v3_large_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/deeplabv3_mobilenet_v3_large_3.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/lraspp_mobilenet_v3_large_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/lraspp_mobilenet_v3_large_6.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/deeplabv3_mobilenet_v3_large_7.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/deeplabv3_mobilenet_v3_large_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/lraspp_mobilenet_v3_large_7.py
+/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/deeplabv3_mobilenet_v3_large_4.py 5
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/lraspp_mobilenet_v3_large_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/lraspp_mobilenet_v3_large_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/deeplabv3_mobilenet_v3_large_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_4.py
 /home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_small_8.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_small_7.py
-/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_2.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_2.py 6
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/deeplabv3_mobilenet_v3_large_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/deeplabv3_mobilenet_v3_large_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/lraspp_mobilenet_v3_large_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/lraspp_mobilenet_v3_large_2.py
 /home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_7.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_6.py
 /home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_small_1.py 1
@@ -14,4 +31,3 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_small_6.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_5.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_small_5.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len3/hardsigmoid_mul_conv2d/mobilenet_v3_large_4.py 1

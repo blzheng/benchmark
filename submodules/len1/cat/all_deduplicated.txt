@@ -78,7 +78,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_2.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_79.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/squeezenet1_1_3.py 2
-/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_t_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_t_0.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/googlenet_3.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_15.py 3
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/squeezenet1_0_4.py 1
@@ -178,7 +178,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_66.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_39.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_48.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_t_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_s_1.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_25.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_57.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet121_26.py 3
@@ -193,6 +193,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_24.py 3
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/squeezenet1_1_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_67.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_b_2.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_69.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_97.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_75.py 1
@@ -205,6 +206,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_56.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_1.py 3
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_34.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_b_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_68.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_12.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_t_2.py 1
@@ -212,6 +214,8 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/inception_v3_google_4.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_32.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_59.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_s_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/swin_b_1.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_74.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_55.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_62.py 1
@@ -244,6 +248,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_58.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_67.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_71.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/deeplabv3_resnet101_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_59.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_29.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_11.py 1
@@ -252,6 +257,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_61.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_80.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_58.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/deeplabv3_resnet50_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_56.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet121_49.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet201_63.py 1
@@ -264,6 +270,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_78.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/inception_v3_google_1.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_72.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/cat/deeplabv3_mobilenet_v3_large_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet161_27.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet121_59.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/cat/densenet169_58.py 1

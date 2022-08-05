@@ -1,9 +1,73 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_13.py 6
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_3.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_21.py 24
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_39.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_29.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_43.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_33.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_41.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_19.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_17.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_19.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_37.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_22.py 18
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_24.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_38.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_42.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_40.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_36.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_14.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_24.py 24
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_34.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_28.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_36.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_12.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_32.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_40.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_14.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_42.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_30.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_20.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_26.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_16.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_38.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_12.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/qa+bert-base-cased_12.py 25
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/qa+bert-base-cased_23.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/qa+bert-base-cased_17.py
@@ -47,8 +111,12 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg16_bn_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/vgg19_bn_1.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b2_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_21.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_7.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_5.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_21.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_45.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_47.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/qa+bert-base-cased_7.py 12
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/qa+bert-base-cased_22.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/qa+bert-base-cased_4.py
@@ -74,28 +142,66 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/squeezenet1_0_0.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/squeezenet1_1_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/googlenet_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_14.py 6
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_18.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_0.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_7.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_7.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_0.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_43.py 18
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_23.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_39.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_17.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_21.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_35.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_29.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_25.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_33.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_41.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_15.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_27.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_31.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_37.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/fcn_resnet50_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/fcn_resnet101_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/alexnet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_44.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_46.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/deeplabv3_mobilenet_v3_large_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_46.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_22.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_44.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_20.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b6_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b7_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_4.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_47.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_45.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/fcn_resnet101_1.py 6
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/deeplabv3_resnet101_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/deeplabv3_resnet101_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/fcn_resnet50_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/deeplabv3_resnet50_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/deeplabv3_resnet50_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_6.py 4
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_s_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_6.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_5.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_7.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/inception_v3_google_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_22.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_20.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_1.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_t_3.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_3.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_1.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mobilenet_v2_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_2.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/mobilenet_v3_small_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_6.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/swin_b_4.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b5_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/deeplabv3_mobilenet_v3_large_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b4_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/dropout/efficientnet_b3_0.py 1

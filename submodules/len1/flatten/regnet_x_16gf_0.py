@@ -13,12 +13,13 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
 
-    def forward(self, ):
+    def forward(self, x232):
         x233=x232.flatten(start_dim=1)
         return x233
 
 m = M().eval()
+x232 = torch.randn(torch.Size([1, 2048, 1, 1]))
 start = time.time()
-output = m()
+output = m(x232)
 end = time.time()
 print(end-start)

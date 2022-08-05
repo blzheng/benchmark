@@ -1,0 +1,17 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b2_0.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/mobilenet_v3_large_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/mobilenet_v3_large_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/mobilenet_v3_large_2.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/mobilenet_v3_small_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b2_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/mobilenet_v3_small_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b1_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b3_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/mobilenet_v3_large_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b0_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b0_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/mobilenet_v3_small_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b4_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b4_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/efficientnet_b3_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/mul_conv2d_batchnorm_add_conv2d_batchnorm/mobilenet_v3_small_2.py 1

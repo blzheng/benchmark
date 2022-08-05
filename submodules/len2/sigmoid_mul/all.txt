@@ -340,6 +340,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_b5_34.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_v2_m_34.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_v2_m_22.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/lraspp_mobilenet_v3_large_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_b3_geffnet_22.py 6
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_b3_geffnet_24.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_b3_geffnet_20.py

@@ -1,0 +1,12 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_7.py 12
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_9.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_8.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len3/softmax_dropout_matmul/qa+bert-base-cased_1.py

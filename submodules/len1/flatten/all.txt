@@ -1,16 +1,9 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b4_geffnet_0.py 10
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b6_geffnet_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b5_geffnet_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b2_geffnet_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b0_geffnet_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b7_geffnet_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/spnasnet_100_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b3_geffnet_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/fbnetc_100_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b1_geffnet_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b4_geffnet_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b2_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/densenet121_0.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/densenet121_0.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/googlenet_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/swin_b_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b6_geffnet_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/wide_resnet101_2_0.py 10
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/resnet152_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/resnext50_32x4d_0.py
@@ -29,43 +22,52 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/vgg13_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/vgg19_bn_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/vgg16_bn_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b5_geffnet_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/mobilenet_v3_large_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/squeezenet1_0_0.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/squeezenet1_1_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/densenet169_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_16gf_0.py 15
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_1_6gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_800mf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_800mf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_400mf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_400mf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_3_2gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_32gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_32gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_128gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_16gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_8gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_1_6gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_3_2gf_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_8gf_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/swin_t_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_16gf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/swin_t_0.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/swin_s_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/resnet18_0.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/resnet34_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/alexnet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_1_6gf_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_v2_m_0.py 6
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b1_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/mobilenet_v2_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b0_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_v2_l_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_v2_s_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b2_geffnet_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b6_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b7_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/densenet161_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b0_geffnet_0.py 3
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/spnasnet_100_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b1_geffnet_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b7_geffnet_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_800mf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_800mf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b3_geffnet_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/convnext_large_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_400mf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_400mf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/fbnetc_100_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/convnext_base_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_3_2gf_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/densenet201_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_32gf_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/mobilenet_v3_small_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_32gf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_128gf_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/convnext_tiny_0.py 2
 **/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/convnext_small_0.py
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_16gf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_8gf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_1_6gf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_x_3_2gf_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b4_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/efficientnet_b3_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len1/flatten/regnet_y_8gf_0.py 1

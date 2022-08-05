@@ -1,0 +1,4 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_dropout_add/qa+bert-base-cased_12.py 60
+/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_dropout_add/qa+bert-base-cased_23.py 48
+/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_dropout_add/qa+google_electra-base-generator_20.py 12
+/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_dropout_add/qa+google_electra-base-generator_15.py 12

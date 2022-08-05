@@ -1,5 +1,6 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/efficientnet_b4_geffnet_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/densenet121_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/qa+albert-base-v1_6.py 12
+/home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/densenet121_0.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/efficientnet_b6_geffnet_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/wide_resnet101_2_0.py 9
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/vgg19_0.py 8
@@ -7,6 +8,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/mobilenet_v3_large_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/densenet169_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/regnet_x_16gf_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/swin_t_0.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/resnet18_0.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/regnet_y_1_6gf_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/flatten_linear/efficientnet_b2_geffnet_0.py 1

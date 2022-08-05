@@ -12,7 +12,7 @@ import operator
 class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
-        self.gelu10 = GELU(approximate=none)
+        self.gelu10 = GELU(approximate='none')
         self.dropout20 = Dropout(p=0.0, inplace=False)
 
     def forward(self, x274):

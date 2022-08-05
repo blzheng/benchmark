@@ -1,7 +1,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len1/maxpool2d/shufflenet_v2_x1_5_0.py 4
 /home/bzheng/workspace/debug/benchmark/submodules//len1/maxpool2d/vgg16_bn_1.py 8
 /home/bzheng/workspace/debug/benchmark/submodules//len1/maxpool2d/vgg11_bn_3.py 8
-/home/bzheng/workspace/debug/benchmark/submodules//len1/maxpool2d/densenet121_0.py 13
+/home/bzheng/workspace/debug/benchmark/submodules//len1/maxpool2d/densenet121_0.py 17
 /home/bzheng/workspace/debug/benchmark/submodules//len1/maxpool2d/vgg16_2.py 8
 /home/bzheng/workspace/debug/benchmark/submodules//len1/maxpool2d/googlenet_12.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len1/maxpool2d/vgg19_0.py 8

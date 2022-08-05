@@ -1,1 +1,9 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/swin_s_3.py 4
+/home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/swin_s_21.py 24
+/home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/swin_b_22.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/inception_v3_google_2.py 6
+/home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/swin_b_18.py 18
+/home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/swin_t_0.py 4
+/home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/swin_t_11.py 4
+/home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/swin_b_3.py 2
+/home/bzheng/workspace/debug/benchmark/submodules//len1/unsqueeze/swin_b_0.py 2

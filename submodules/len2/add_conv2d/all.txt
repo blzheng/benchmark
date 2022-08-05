@@ -1,4 +1,4 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_14.py 42
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_14.py 46
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_geffnet_19.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_16.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_15.py
@@ -9,6 +9,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_s_16.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_s_14.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_s_19.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_geffnet_21.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_s_18.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_16.py
@@ -20,6 +21,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_23.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_19.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_s_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_s_20.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_22.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_geffnet_15.py
@@ -33,12 +35,14 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_m_12.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_13.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_13.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_21.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_m_16.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_m_11.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_m_14.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_20.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_geffnet_18.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_14.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b7_geffnet_30.py 36
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_l_25.py
@@ -118,7 +122,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_22.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_20.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_18.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_4.py 24
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_4.py 26
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_10.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_7.py
@@ -126,11 +130,13 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_10.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_10.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_11.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/fbnetc_100_11.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/fbnetc_100_10.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_5.py
@@ -233,17 +239,21 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet0_5_2.py 3
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet0_5_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_small_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet1_0_3.py 13
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet1_0_3.py 17
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/spnasnet_100_4.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_geffnet_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/spnasnet_100_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_3.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_1.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet1_0_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/spnasnet_100_2.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/convnext_large_14.py 26
@@ -440,6 +450,14 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_9.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v2_8.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v2_9.py
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_0.py 8
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b2_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b2_geffnet_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/fbnetc_100_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_l_16.py 9
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_l_20.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_l_19.py
@@ -449,12 +467,17 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_l_23.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_l_22.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_l_21.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_3.py 18
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_3.py 24
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_7.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet1_0_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_geffnet_3.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet1_0_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/spnasnet_100_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_6.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/spnasnet_100_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_6.py
@@ -466,6 +489,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_6.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_5.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_4.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b5_geffnet_31.py 8
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_m_47.py
@@ -475,12 +499,6 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_m_48.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_v2_m_49.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b5_30.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b2_0.py 6
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b2_geffnet_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/fbnetc_100_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_geffnet_4.py 8
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet1_3_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b4_4.py
@@ -701,9 +719,10 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet0_5_4.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet0_5_5.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_small_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b2_1.py 20
+/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b2_1.py 22
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b2_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/deeplabv3_mobilenet_v3_large_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/spnasnet_100_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b0_geffnet_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b2_geffnet_2.py
@@ -712,6 +731,7 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mnasnet0_75_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v3_large_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/fbnetc_100_2.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/lraspp_mobilenet_v3_large_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/mobilenet_v2_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_1.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/add_conv2d/efficientnet_b1_geffnet_2.py

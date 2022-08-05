@@ -26,14 +26,18 @@
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/vgg13_bn_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/vgg13_2.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/vgg11_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/wide_resnet101_2_0.py 10
+/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/wide_resnet101_2_0.py 14
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/resnet152_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/resnet18_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/fcn_resnet50_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/resnext50_32x4d_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/resnet50_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/resnet34_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/resnext101_32x8d_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/fcn_resnet101_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/wide_resnet50_2_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/deeplabv3_resnet101_0.py
+**/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/deeplabv3_resnet50_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/resnet101_0.py
 **/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/resnext101_64x4d_0.py
 /home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/googlenet_12.py 2

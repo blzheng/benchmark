@@ -2,7 +2,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/vgg16_bn_1.py 8
 /home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/vgg11_bn_3.py 8
 /home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/vgg16_2.py 8
-/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/wide_resnet101_2_0.py 10
+/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/wide_resnet101_2_0.py 14
 /home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/googlenet_12.py 2
 /home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/vgg19_0.py 8
 /home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_conv2d/squeezenet1_0_0.py 1

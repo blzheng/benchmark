@@ -1,0 +1,17 @@
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_large_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_large_3.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_8.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_7.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_large_2.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_large_1.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_large_7.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_large_6.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_1.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_3.py 2
+**/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_2.py
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_4.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_0.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_6.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_large_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_small_5.py 1
+/home/bzheng/workspace/debug/benchmark/submodules//len6/relu_conv2d_hardsigmoid_mul_conv2d_batchnorm/mobilenet_v3_large_4.py 1

@@ -28,6 +28,7 @@
 /home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/regnet_y_1_6gf_3.py 6
 /home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_v2_l_34.py 39
 /home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_v2_m_30.py 27
+/home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/lraspp_mobilenet_v3_large_0.py 1
 /home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_b3_geffnet_22.py 6
 /home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_v2_m_40.py 6
 /home/bzheng/workspace/debug/benchmark/submodules//len2/sigmoid_mul/efficientnet_b0_3.py 6
