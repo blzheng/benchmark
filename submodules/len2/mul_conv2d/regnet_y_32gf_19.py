@@ -1,0 +1,42 @@
+import torch
+from torch import tensor
+import torch.nn as nn
+from torch.nn import *
+import torchvision
+import torchvision.models as models
+from torchvision.ops.stochastic_depth import stochastic_depth
+import time
+import builtins
+import operator
+import sys
+import os
+
+class M(torch.nn.Module):
+    def __init__(self):
+        super(M, self).__init__()
+        self.conv2d104 = Conv2d(3712, 3712, kernel_size=(1, 1), stride=(1, 1), bias=False)
+
+    def forward(self, x326, x321):
+        x327=operator.mul(x326, x321)
+        x328=self.conv2d104(x327)
+        return x328
+
+m = M().eval()
+
+CORES=os.popen("lscpu | grep Core | awk '{print $4}'").readlines()
+SOCKETS=os.popen("lscpu | grep Socket | awk '{print $2}'").readlines()
+BS=int(CORES[0])*int(SOCKETS[0])
+batch_size=BS
+x326 = torch.randn(torch.Size([batch_size, 3712, 1, 1]))
+x321 = torch.randn(torch.Size([batch_size, 3712, 7, 7]))
+def print_throughput(flag):
+    start_time=time.time()
+    for i in range(10):
+        output = m(x326, x321)
+    total_iter_time = time.time() - start_time
+    Throughput = batch_size * 10 / total_iter_time
+    file_current = os.path.basename(__file__)
+    print(file_current,',',BS,',',flag,',',Throughput)
+for flag in {False,True}:
+    torch._C._jit_set_texpr_fuser_enabled(flag)
+    print_throughput(flag)

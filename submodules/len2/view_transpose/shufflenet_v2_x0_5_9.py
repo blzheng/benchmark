@@ -1,0 +1,44 @@
+import torch
+from torch import tensor
+import torch.nn as nn
+from torch.nn import *
+import torchvision
+import torchvision.models as models
+from torchvision.ops.stochastic_depth import stochastic_depth
+import time
+import builtins
+import operator
+import sys
+import os
+
+class M(torch.nn.Module):
+    def __init__(self):
+        super(M, self).__init__()
+
+    def forward(self, x218, x220, x224, x222, x223):
+        x225=x218.view(x220, 2, x224, x222, x223)
+        x226=torch.transpose(x225, 1, 2)
+        return x226
+
+m = M().eval()
+
+CORES=os.popen("lscpu | grep Core | awk '{print $4}'").readlines()
+SOCKETS=os.popen("lscpu | grep Socket | awk '{print $2}'").readlines()
+BS=int(CORES[0])*int(SOCKETS[0])
+batch_size=BS
+x218 = torch.randn(torch.Size([batch_size, 96, 14, 14]))
+x220 = batch_size
+x224 = 48
+x222 = batch_size4
+x223 = batch_size4
+def print_throughput(flag):
+    start_time=time.time()
+    for i in range(10):
+        output = m(x218, x220, x224, x222, x223)
+    total_iter_time = time.time() - start_time
+    Throughput = batch_size * 10 / total_iter_time
+    file_current = os.path.basename(__file__)
+    print(file_current,',',BS,',',flag,',',Throughput)
+for flag in {False,True}:
+    torch._C._jit_set_texpr_fuser_enabled(flag)
+    print_throughput(flag)

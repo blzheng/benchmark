@@ -1,0 +1,46 @@
+import torch
+from torch import tensor
+import torch.nn as nn
+from torch.nn import *
+import torchvision
+import torchvision.models as models
+from torchvision.ops.stochastic_depth import stochastic_depth
+import time
+import builtins
+import operator
+import sys
+import os
+
+class M(torch.nn.Module):
+    def __init__(self):
+        super(M, self).__init__()
+        self.conv2d97 = Conv2d(40, 960, kernel_size=(1, 1), stride=(1, 1))
+        self.sigmoid19 = Sigmoid()
+        self.conv2d98 = Conv2d(960, 160, kernel_size=(1, 1), stride=(1, 1), bias=False)
+
+    def forward(self, x300, x297):
+        x301=self.conv2d97(x300)
+        x302=self.sigmoid19(x301)
+        x303=operator.mul(x302, x297)
+        x304=self.conv2d98(x303)
+        return x304
+
+m = M().eval()
+
+CORES=os.popen("lscpu | grep Core | awk '{print $4}'").readlines()
+SOCKETS=os.popen("lscpu | grep Socket | awk '{print $2}'").readlines()
+BS=int(CORES[0])*int(SOCKETS[0])
+batch_size=BS
+x300 = torch.randn(torch.Size([batch_size, 40, 1, 1]))
+x297 = torch.randn(torch.Size([batch_size, 960, 14, 14]))
+def print_throughput(flag):
+    start_time=time.time()
+    for i in range(10):
+        output = m(x300, x297)
+    total_iter_time = time.time() - start_time
+    Throughput = batch_size * 10 / total_iter_time
+    file_current = os.path.basename(__file__)
+    print(file_current,',',BS,',',flag,',',Throughput)
+for flag in {False,True}:
+    torch._C._jit_set_texpr_fuser_enabled(flag)
+    print_throughput(flag)
