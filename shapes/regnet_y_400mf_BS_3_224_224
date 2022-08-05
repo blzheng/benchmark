@@ -2708,4 +2708,4 @@ x267: torch.Size([80, 440, 7, 7])
 x268: torch.Size([80, 440, 1, 1])
 x269: torch.Size([80, 440])
 x270: torch.Size([80, 1000])
-regnet_y_400mf.py , 80 , 444.9380888435273
+regnet_y_400mf.py , 80 , 358.2869419256741

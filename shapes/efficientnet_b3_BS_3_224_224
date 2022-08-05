@@ -4068,4 +4068,4 @@ x403: torch.Size([80, 1536, 1, 1])
 x404: torch.Size([80, 1536])
 x405: torch.Size([80, 1536])
 x406: torch.Size([80, 1000])
-efficientnet_b3.py , 80 , 123.14662024976488
+efficientnet_b3.py , 80 , 88.87644576984263

@@ -8198,4 +8198,4 @@ x816: torch.Size([80, 2560, 7, 7])
 x817: torch.Size([80, 2560, 1, 1])
 x818: torch.Size([80, 2560])
 x819: torch.Size([80, 1000])
-efficientnet_b7_geffnet.py , 80 , 31.7475509337311
+efficientnet_b7_geffnet.py , 80 , 20.442373879429915

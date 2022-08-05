@@ -5468,4 +5468,4 @@ x543: torch.Size([80, 1280, 1, 1])
 x544: torch.Size([80, 1280])
 x545: torch.Size([80, 1280])
 x546: torch.Size([80, 1000])
-efficientnet_v2_s.py , 80 , 91.16773348260224
+efficientnet_v2_s.py , 80 , 110.99946763681392

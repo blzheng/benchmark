@@ -5028,4 +5028,4 @@ x499: torch.Size([80, 1792, 1, 1])
 x500: torch.Size([80, 1792])
 x501: torch.Size([80, 1792])
 x502: torch.Size([80, 1000])
-efficientnet_b4.py , 80 , 103.65946503087378
+efficientnet_b4.py , 80 , 71.41010758177065

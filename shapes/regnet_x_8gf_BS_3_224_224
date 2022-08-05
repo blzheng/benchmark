@@ -2448,4 +2448,4 @@ x241: torch.Size([80, 1920, 7, 7])
 x242: torch.Size([80, 1920, 1, 1])
 x243: torch.Size([80, 1920])
 x244: torch.Size([80, 1000])
-regnet_x_8gf.py , 80 , 72.66382917424492
+regnet_x_8gf.py , 80 , 76.14293547365281

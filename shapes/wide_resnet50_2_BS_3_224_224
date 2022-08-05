@@ -1758,4 +1758,4 @@ x172: torch.Size([80, 2048, 7, 7])
 x173: torch.Size([80, 2048, 1, 1])
 x174: torch.Size([80, 2048])
 x175: torch.Size([80, 1000])
-wide_resnet50_2.py , 80 , 74.36323889067982
+wide_resnet50_2.py , 80 , 75.79272787693556

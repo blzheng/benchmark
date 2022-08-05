@@ -8648,4 +8648,4 @@ x861: torch.Size([80, 2560, 1, 1])
 x862: torch.Size([80, 2560])
 x863: torch.Size([80, 2560])
 x864: torch.Size([80, 1000])
-efficientnet_b7.py , 80 , 31.73992132131041
+efficientnet_b7.py , 80 , 22.37529928928098

@@ -3588,4 +3588,4 @@ x355: torch.Size([80, 1280, 1, 1])
 x356: torch.Size([80, 1280])
 x357: torch.Size([80, 1280])
 x358: torch.Size([80, 1000])
-efficientnet_b1.py , 80 , 125.69495634597023
+efficientnet_b1.py , 80 , 146.76011127801988

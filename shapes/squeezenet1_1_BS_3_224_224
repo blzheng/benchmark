@@ -668,4 +668,4 @@ x63: torch.Size([80, 1000, 13, 13])
 x64: torch.Size([80, 1000, 13, 13])
 x65: torch.Size([80, 1000, 1, 1])
 x66: torch.Size([80, 1000])
-squeezenet1_1.py , 80 , 659.8713548643892
+squeezenet1_1.py , 80 , 646.3342950339189

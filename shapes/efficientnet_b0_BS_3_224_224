@@ -2498,4 +2498,4 @@ x246: torch.Size([80, 1280, 1, 1])
 x247: torch.Size([80, 1280])
 x248: torch.Size([80, 1280])
 x249: torch.Size([80, 1000])
-efficientnet_b0.py , 80 , 175.71861252685704
+efficientnet_b0.py , 80 , 176.28408091815325

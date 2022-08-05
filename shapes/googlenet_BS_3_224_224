@@ -2108,4 +2108,4 @@ x207: torch.Size([80, 1024, 1, 1])
 x208: torch.Size([80, 1024])
 x209: torch.Size([80, 1024])
 x210: torch.Size([80, 1000])
-googlenet.py , 80 , 245.65401372728056
+googlenet.py , 80 , 250.9629158712143

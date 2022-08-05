@@ -3678,4 +3678,4 @@ x364: torch.Size([80, 2048, 7, 7])
 x365: torch.Size([80, 2048, 7, 7])
 x366: torch.Size([80, 2048])
 x367: torch.Size([80, 1000])
-shufflenet_v2_x2_0.py , 80 , 477.49892487991525
+shufflenet_v2_x2_0.py , 80 , 480.3755224378035

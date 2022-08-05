@@ -1578,4 +1578,4 @@ x154: torch.Size([80, 1024])
 x155: torch.Size([80, 1024])
 x156: torch.Size([80, 1024])
 x157: torch.Size([80, 1000])
-mobilenet_v3_small.py , 80 , 772.4274083200277
+mobilenet_v3_small.py , 80 , 738.8560759747594

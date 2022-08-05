@@ -10928,4 +10928,4 @@ x1089: torch.Size([80, 1280, 1, 1])
 x1090: torch.Size([80, 1280])
 x1091: torch.Size([80, 1280])
 x1092: torch.Size([80, 1000])
-efficientnet_v2_l.py , 80 , 30.192004061012508
+efficientnet_v2_l.py , 80 , 26.4366556490141

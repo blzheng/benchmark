@@ -3828,4 +3828,4 @@ x425: torch.Size([80, 1, 1, 768])
 x426: torch.Size([80, 768, 1, 1])
 x427: torch.Size([80, 768])
 x428: torch.Size([80, 1000])
-convnext_small.py , 80 , 104.60210608706653
+convnext_small.py , 80 , 83.38072609528172

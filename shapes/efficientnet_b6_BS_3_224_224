@@ -7078,4 +7078,4 @@ x704: torch.Size([80, 2304, 1, 1])
 x705: torch.Size([80, 2304])
 x706: torch.Size([80, 2304])
 x707: torch.Size([80, 1000])
-efficientnet_b6.py , 80 , 43.74780882414564
+efficientnet_b6.py , 80 , 39.25249674612877

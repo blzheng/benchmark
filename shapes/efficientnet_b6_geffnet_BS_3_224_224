@@ -6718,4 +6718,4 @@ x668: torch.Size([80, 2304, 7, 7])
 x669: torch.Size([80, 2304, 1, 1])
 x670: torch.Size([80, 2304])
 x671: torch.Size([80, 1000])
-efficientnet_b6_geffnet.py , 80 , 43.68200818736151
+efficientnet_b6_geffnet.py , 80 , 42.59399929946886

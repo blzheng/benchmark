@@ -5818,4 +5818,4 @@ x578: torch.Size([80, 2048, 7, 7])
 x579: torch.Size([80, 2048, 1, 1])
 x580: torch.Size([80, 2048])
 x581: torch.Size([80, 1000])
-efficientnet_b5_geffnet.py , 80 , 54.83523037625433
+efficientnet_b5_geffnet.py , 80 , 52.15044131552387

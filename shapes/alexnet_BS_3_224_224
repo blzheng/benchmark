@@ -228,4 +228,4 @@ x19: torch.Size([80, 4096])
 x20: torch.Size([80, 4096])
 x21: torch.Size([80, 4096])
 x22: torch.Size([80, 1000])
-alexnet.py , 80 , 1487.8463663431971
+alexnet.py , 80 , 1427.4824917191427
