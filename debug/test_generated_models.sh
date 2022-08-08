@@ -2,8 +2,8 @@
 set -x
 modelname=$1
 patternstr=$2
-
-export BENCHMAKR_DIR="/home/bzheng/workspace/debug/benchmark/debug/"
+cur_dir=`pwd`
+export BENCHMAKR_DIR=${cur_dir}/
 rm -rf ${BENCHMAKR_DIR}models/
 rm -rf ${BENCHMAKR_DIR}temp/
 rm -rf ${BENCHMAKR_DIR}shapes/
