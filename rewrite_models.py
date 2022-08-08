@@ -49,7 +49,10 @@ def rewrite_model(filename, inputs_dict, module_dict, attr_dict, forward_list):
             f.write(opstr.replace(",)\n", ")\n"))
         f.write("\n")
         f.write("m = M().eval()\n")
-        # f.write("ref_m = "+pretrained_models_str[modelname]+".eval()\n")
+        f.write("CORES=os.popen(\"lscpu | grep Core | awk '{print $4}'\").readlines()\n")
+        f.write("SOCKETS=os.popen(\"lscpu | grep Socket | awk '{print $2}'\").readlines()\n")
+        f.write("BS=int(CORES[0])*int(SOCKETS[0])\n")
+        f.write("batch_size=BS\n")
         for k in inputs_dict:
             f.write(k+" = " + inputs_dict[k] + "\n")
         f.write("def print_throughput(flag):\n")
