@@ -27,7 +27,7 @@ def rewrite_model(filename, inputs_dict, module_dict, attr_dict, forward_list):
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
         for key in module_dict.keys():
-            f.write("        self."+key+" = "+str(module_dict[key])+"\n")
+            f.write("        self."+key+" = "+str(module_dict[key]).replace("=none", "='none'")+"\n")
         for key in attr_dict.keys():
             f.write("        self."+key+" = "+str(attr_dict[key])+"\n")
         f.write("\n")
@@ -97,7 +97,7 @@ def rewrite_model_temp(filename, inputs_dict, module_dict, attr_dict, forward_li
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
         for key in module_dict.keys():
-            f.write("        self."+key+" = "+str(module_dict[key])+"\n")
+            f.write("        self."+key+" = "+str(module_dict[key]).replace("=none", "='none'")+"\n")
         for key in attr_dict.keys():
             f.write("        self."+key+" = "+str(attr_dict[key])+"\n")
         f.write("\n")

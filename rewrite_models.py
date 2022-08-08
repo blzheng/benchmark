@@ -7,11 +7,13 @@ import operator
 import geffnet
 import copy
 from pretrained_models import pretrained_models, pretrained_models_str
-from utils import parse_graph, generate_model_contents, simplify_forward_list
+from utils import *
+from models import *
 
 # generate module
-def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
+def rewrite_model(filename, inputs_dict, module_dict, attr_dict, forward_list):
     modelname = filename.split("/")[-1].split(".py")[0]
+    inputs = inputs_dict.keys()
     with open(filename, "w") as f:
         f.write("import torch\n")
         f.write("from torch import tensor\n")
@@ -47,17 +49,9 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
             f.write(opstr.replace(",)\n", ")\n"))
         f.write("\n")
         f.write("m = M().eval()\n")
-        
-        f.write("CORES=os.popen(\"lscpu | grep Core | awk '{print $4}'\").readlines()\n")
-        f.write("SOCKETS=os.popen(\"lscpu | grep Socket | awk '{print $2}'\").readlines()\n")
-        f.write("BS=int(CORES[0])*int(SOCKETS[0])\n")
-        f.write("batch_size=BS\n")
-
         # f.write("ref_m = "+pretrained_models_str[modelname]+".eval()\n")
-        for input in inputs:
-            f.write(input+" = torch.randn(batch_size, 3, 224, 224)\n")
-        # f.write("ref_output = ref_m("+inputstr+")\n")
-
+        for k in inputs_dict:
+            f.write(k+" = " + inputs_dict[k] + "\n")
         f.write("def print_throughput(flag):\n")
         f.write("    start_time=time.time()\n")
         f.write("    for i in range(10):\n")
@@ -70,15 +64,16 @@ def rewrite_model(filename, inputs, module_dict, attr_dict, forward_list):
         f.write("for flag in {False,True}:\n")
         f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
         f.write("    print_throughput(flag)\n")
-        # f.write("print(ref_output[0].shape==output[0].shape)\n")
 
 def get_print_str(modelname, op):
     printstr = ""
     opret = op.split("=")[0]
-    if not "shufflenet" in modelname:
+    if not "shufflenet" and not "+" in modelname:
         printstr += "        print('"+opret+": {}'.format("+opret+".shape))\n"
     else:
-        printstr += "        if isinstance("+opret+", torch.Tensor):\n"
+        printstr += "        if "+opret+" is None:\n"
+        printstr += "            print('"+opret+": {}'.format("+opret+"))\n"
+        printstr += "        elif isinstance("+opret+", torch.Tensor):\n"
         printstr += "            print('"+opret+": {}'.format("+opret+".shape))\n"
         printstr += "        elif isinstance("+opret+", tuple):\n"
         printstr += "            tuple_shapes = '('\n"
@@ -94,8 +89,9 @@ def get_print_str(modelname, op):
     return printstr
 
 # generate module with shapes
-def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
+def rewrite_model_temp(filename, inputs_dict, module_dict, attr_dict, forward_list):
     modelname = filename.split("/")[-1].split(".py")[0]
+    inputs = inputs_dict.keys()
     with open(filename, "w") as f:
         f.write("import torch\n")
         f.write("from torch import tensor\n")
@@ -133,15 +129,12 @@ def rewrite_model_temp(filename, inputs, module_dict, attr_dict, forward_list):
                 f.write(get_print_str(modelname, op))
         f.write("\n")
         f.write("m = M().eval()\n")
-        
         f.write("CORES=os.popen(\"lscpu | grep Core | awk '{print $4}'\").readlines()\n")
         f.write("SOCKETS=os.popen(\"lscpu | grep Socket | awk '{print $2}'\").readlines()\n")
         f.write("BS=int(CORES[0])*int(SOCKETS[0])\n")
         f.write("batch_size=BS\n")
-
-        for input in inputs:
-            f.write(input+" = torch.randn(batch_size, 3, 224, 224)\n")
-            
+        for k in inputs_dict:
+            f.write(k + " = " + inputs_dict[k] + "\n")
         f.write("def print_throughput(flag):\n")
         f.write("    start_time=time.time()\n")
         f.write("    for i in range(10):\n")
@@ -160,5 +153,6 @@ for name in pretrained_models.keys():
     inputs, module_dict, attr_dict, forward_list = parse_graph(model)
     module_dict, attr_dict, forward_list = generate_model_contents(module_dict, attr_dict, forward_list)
     forward_list = simplify_forward_list(forward_list)
-    rewrite_model("models/"+name+".py", inputs, module_dict, attr_dict, forward_list)
-    rewrite_model_temp("temp/"+name+".py", inputs, module_dict, attr_dict, forward_list)
+    inputs_dict = get_inputs_dict(name, inputs)
+    rewrite_model("models/"+name+".py", inputs_dict, module_dict, attr_dict, forward_list)
+    rewrite_model_temp("temp/"+name+".py", inputs_dict, module_dict, attr_dict, forward_list)
