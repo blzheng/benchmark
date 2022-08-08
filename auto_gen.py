@@ -31,5 +31,5 @@ for name in pretrained_models:
                     os.makedirs(dirpath)
                 #generate_file(dirpath+name+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i])
                 pool.apply_async(generate_file,(dirpath+name+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i]))
-        pool.close()
-        pool.join()
+pool.close()
+pool.join()
