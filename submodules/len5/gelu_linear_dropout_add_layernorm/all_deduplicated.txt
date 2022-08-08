@@ -1,2 +1,2 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len5/gelu_linear_dropout_add_layernorm/qa+google_electra-base-discriminator_1.py 48
-/home/bzheng/workspace/debug/benchmark/submodules//len5/gelu_linear_dropout_add_layernorm/qa+google_electra-base-generator_6.py 12
+/home/bzheng/benchmark/submodules//len5/gelu_linear_dropout_add_layernorm/qa+google_electra-base-discriminator_1.py 48
+/home/bzheng/benchmark/submodules//len5/gelu_linear_dropout_add_layernorm/qa+google_electra-base-generator_6.py 12

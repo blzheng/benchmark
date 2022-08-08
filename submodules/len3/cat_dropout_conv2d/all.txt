@@ -1,2 +1,2 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_dropout_conv2d/squeezenet1_0_0.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len3/cat_dropout_conv2d/squeezenet1_1_0.py
+/home/bzheng/benchmark/submodules//len3/cat_dropout_conv2d/squeezenet1_0_0.py 2
+**/home/bzheng/benchmark/submodules//len3/cat_dropout_conv2d/squeezenet1_1_0.py

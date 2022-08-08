@@ -1,45 +1,45 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_6.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/alexnet_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_8.py 7
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg11_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_1.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_2.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg11_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_0.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_7.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_6.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_2.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_7.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_7.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_4.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg11_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_5.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_4.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_3.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_3.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_3.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/alexnet_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_6.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_5.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_2.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_4.py 1
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_6.py 3
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_5.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/alexnet_1.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_8.py 7
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_4.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_7.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_6.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_9.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_10.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg11_2.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_1.py 3
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_1.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_1.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_2.py 4
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_2.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg11_0.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_2.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_0.py 3
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_0.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_0.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_7.py 3
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_5.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_6.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_0.py 1
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_2.py 2
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_1.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_7.py 2
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_7.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_4.py 4
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg13_3.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg11_1.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_5.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_4.py 3
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg19_3.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/vgg16_3.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_3.py 3
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_4.py
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_3.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/alexnet_0.py 1
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_1.py 1
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_6.py 2
+**/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_0_5.py
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_2.py 1
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_0.py 1
+/home/bzheng/benchmark/submodules//len4/conv2d_relu_conv2d_relu/squeezenet1_1_4.py 1

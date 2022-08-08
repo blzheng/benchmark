@@ -1,236 +1,464 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_3.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_3.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_6.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_21.py 24
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_12.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_28.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_26.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_31.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_29.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_25.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_13.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_11.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_44.py 36
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_29.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_33.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_42.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_46.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_36.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_41.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_28.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_34.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_37.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_32.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_40.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_25.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_38.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_45.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_22.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_23.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_0.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_4.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_23.py 12
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_47.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_39.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_31.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_35.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/qa+bert-base-cased_43.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_13.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_9.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_11.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_23.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_18.py 18
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_14.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_30.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_28.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_24.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_31.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_25.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_29.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_1.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_3.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_16.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_22.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_20.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_12.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_7.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_22.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_5_12.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_3.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_25.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_29.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_31.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_17.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_23.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_4.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_2.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_0.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_14.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_20.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_30.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_28.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x1_0_24.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_11.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_t_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_s_22.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_28.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_26.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_25.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_31.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x0_5_29.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_3.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_7.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/shufflenet_v2_x2_0_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_0.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/view/swin_b_1.py
+/home/bzheng/benchmark/submodules//len1/view/swin_s_3.py 4
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_2.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_2.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_3.py
+/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_28.py 180
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_18.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_33.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_25.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_44.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_25.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_24.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_45.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_44.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_12.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_6.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_17.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_32.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_1.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_8.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_14.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_28.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_25.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_42.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_12.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_4.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_17.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_28.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_26.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_29.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_26.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_5.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_12.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_45.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_22.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_22.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_33.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_10.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_27.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_6.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_10.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_38.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_30.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_34.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_37.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_44.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_2.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_34.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_10.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_20.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_36.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_14.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_45.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_4.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_21.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_1.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_1.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_38.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_17.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_8.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_22.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_2.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_18.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_40.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_16.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_14.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_5.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_16.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_5.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_36.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_18.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_30.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_42.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_5.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_24.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_11.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_16.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_15.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_8.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_40.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_33.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_9.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_29.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_32.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_42.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_34.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_34.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_10.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_13.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_26.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_32.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_41.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_30.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_17.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_2.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_0.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_35.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_20.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_46.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_5.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_12.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_30.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_20.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_33.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_40.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_16.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_25.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_36.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_9.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_36.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_41.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_10.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_46.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_3.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_30.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_21.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_29.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_1.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_32.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_0.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_41.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_9.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_22.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_24.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_6.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_4.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_2.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_42.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_20.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_41.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_13.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_8.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_9.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_19.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_23.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_29.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_9.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_16.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_28.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_4.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_0.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_4.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_31.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_28.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_7.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_34.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_13.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_18.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_37.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_26.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_37.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_6.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_37.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_46.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_14.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_17.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_12.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_24.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_26.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_33.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_14.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_13.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_32.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_21.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_44.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_6.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_8.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_46.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_0.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_13.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_40.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_20.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_29.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_21.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_38.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_18.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_25.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_38.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_24.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_1.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+albert-base-v1_0.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_2.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_45.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_21.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_22.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_6.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_0.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_4.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_2.py
+/home/bzheng/benchmark/submodules//len1/view/swin_s_21.py 24
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_7.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_11.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_6.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_4.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_5.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_5.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_10.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_17.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_8.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_4.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_13.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_16.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_14.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_19.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_9.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_9.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_15.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_20.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_18.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_7.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_6.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_8.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_12.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_28.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_30.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_24.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_26.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_31.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_27.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_29.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_25.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_13.py 8
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_19.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_17.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_15.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_21.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_9.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_23.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_11.py
+/home/bzheng/benchmark/submodules//len1/view/swin_b_22.py 2
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_23.py
+/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_31.py 12
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_35.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_15.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_3.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_7.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_19.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_47.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_27.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_11.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_23.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_43.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_39.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_0.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_2.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_6.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_4.py
+/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_33.py 36
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_20.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_34.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_42.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_16.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_44.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_6.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_12.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_18.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_14.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_9.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_46.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_38.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_32.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_13.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_28.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_21.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_4.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_30.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_1.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_10.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_36.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_41.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_8.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_22.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_45.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_0.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_25.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_26.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_37.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_40.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_2.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_24.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_5.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_17.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-generator_29.py
+/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_23.py 48
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_47.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_47.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_39.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_23.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_3.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_3.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_7.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_39.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_39.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_15.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_11.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_7.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_3.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_35.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_11.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_19.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_15.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_11.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_31.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_19.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_27.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_23.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_19.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_27.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_31.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_43.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_31.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_35.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_27.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_7.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_35.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_31.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_3.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_39.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_43.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_23.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_27.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_19.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+roberta-base_43.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_47.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_11.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_15.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_47.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+xlm-roberta-base_15.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_35.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+bert-base-cased_43.py
+**/home/bzheng/benchmark/submodules//len1/view/qa+google_electra-base-discriminator_7.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_13.py 8
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_19.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_23.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_17.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_15.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_11.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_21.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_9.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_11.py 8
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_17.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_9.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_15.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_21.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_19.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_13.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_23.py
+/home/bzheng/benchmark/submodules//len1/view/swin_b_18.py 18
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_7.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_11.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_16.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_17.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_12.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_13.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_5.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_20.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_19.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_21.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_8.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_6.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_9.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_10.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_4.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_15.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_14.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_30.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_26.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_28.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_24.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_31.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_25.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_27.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_29.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_1.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_5.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_7.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_3.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_16.py 8
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_14.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_8.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_18.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_20.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_12.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_10.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_22.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_20.py 8
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_8.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_18.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_10.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_14.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_16.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_22.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_12.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_7.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_5.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_3.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_1.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_22.py 8
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_16.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_20.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_18.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_10.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_14.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_8.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_5_12.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_3.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_5.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_7.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_1.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_25.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_29.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_27.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_31.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_17.py 8
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_9.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_15.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_19.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_11.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_13.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_21.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_23.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_4.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_0.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_6.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_2.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_2.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_4.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_6.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_0.py
+/home/bzheng/benchmark/submodules//len1/view/swin_t_0.py 4
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_0.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_1.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_1.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_14.py 8
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_18.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_8.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_10.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_22.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_16.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_12.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_20.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_30.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_26.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_28.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x1_0_24.py
+/home/bzheng/benchmark/submodules//len1/view/swin_t_11.py 4
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_23.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_t_10.py
+**/home/bzheng/benchmark/submodules//len1/view/swin_s_22.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_28.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_24.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_30.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_26.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_25.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_27.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_31.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x0_5_29.py
+/home/bzheng/benchmark/submodules//len1/view/swin_b_3.py 2
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_2.py
+/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_7.py 4
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_5.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_3.py
+**/home/bzheng/benchmark/submodules//len1/view/shufflenet_v2_x2_0_1.py
+/home/bzheng/benchmark/submodules//len1/view/swin_b_0.py 2
+**/home/bzheng/benchmark/submodules//len1/view/swin_b_1.py

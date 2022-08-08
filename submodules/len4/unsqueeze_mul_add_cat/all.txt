@@ -1,4 +1,4 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len4/unsqueeze_mul_add_cat/googlenet_0.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/unsqueeze_mul_add_cat/inception_v3_google_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len4/unsqueeze_mul_add_cat/googlenet_1.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len4/unsqueeze_mul_add_cat/inception_v3_google_1.py
+/home/bzheng/benchmark/submodules//len4/unsqueeze_mul_add_cat/googlenet_0.py 2
+**/home/bzheng/benchmark/submodules//len4/unsqueeze_mul_add_cat/inception_v3_google_0.py
+/home/bzheng/benchmark/submodules//len4/unsqueeze_mul_add_cat/googlenet_1.py 2
+**/home/bzheng/benchmark/submodules//len4/unsqueeze_mul_add_cat/inception_v3_google_1.py

@@ -1,0 +1,2 @@
+/home/bzheng/benchmark/submodules//len6/linear_add_layernorm_linear_gelu_linear/qa+google_electra-base-generator_0.py 1
+/home/bzheng/benchmark/submodules//len6/linear_add_layernorm_linear_gelu_linear/qa+albert-base-v1_0.py 1

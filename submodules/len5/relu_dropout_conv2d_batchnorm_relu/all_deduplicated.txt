@@ -1,0 +1,2 @@
+/home/bzheng/benchmark/submodules//len5/relu_dropout_conv2d_batchnorm_relu/deeplabv3_resnet101_0.py 2
+/home/bzheng/benchmark/submodules//len5/relu_dropout_conv2d_batchnorm_relu/deeplabv3_mobilenet_v3_large_0.py 1

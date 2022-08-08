@@ -1,126 +1,126 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_3.py 6
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_4.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_30.py 27
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_25.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_28.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_29.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_32.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_31.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_14.py 27
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_29.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_15.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_28.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_25.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_31.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_32.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_28.py 36
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_25.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_23.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_27.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_26.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_17.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_24.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_32.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_31.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_8.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_30.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_9.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_29.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_21.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_15.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_1.py 6
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_2.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_5.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_3.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_33.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_34.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_base_35.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_35.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_33.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_34.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_0.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_1.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_2.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_4.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_large_5.py
-/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_17.py 6
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_34.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_33.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_small_35.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len2/linear_permute/convnext_tiny_15.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_3.py 6
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_3.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_4.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_5.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_5.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_4.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_30.py 27
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_9.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_25.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_28.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_29.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_16.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_13.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_26.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_15.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_8.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_32.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_19.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_21.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_27.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_24.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_10.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_12.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_22.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_14.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_18.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_7.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_23.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_6.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_20.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_11.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_17.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_31.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_14.py 27
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_29.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_13.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_19.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_6.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_17.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_15.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_28.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_23.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_25.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_16.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_9.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_12.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_7.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_27.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_8.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_31.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_20.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_21.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_11.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_18.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_30.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_22.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_10.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_26.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_24.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_32.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_28.py 36
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_25.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_23.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_8.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_27.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_9.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_26.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_20.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_18.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_12.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_11.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_17.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_13.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_22.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_16.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_24.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_32.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_31.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_6.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_14.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_8.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_7.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_30.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_13.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_6.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_7.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_9.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_29.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_14.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_19.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_12.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_10.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_21.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_10.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_11.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_15.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_1.py 6
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_2.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_1.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_2.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_0.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_0.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_2.py 3
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_0.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_1.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_5.py 3
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_4.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_3.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_33.py 3
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_34.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_base_35.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_35.py 3
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_33.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_34.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_0.py 3
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_1.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_2.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_4.py 3
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_3.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_large_5.py
+/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_17.py 6
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_34.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_16.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_33.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_small_35.py
+**/home/bzheng/benchmark/submodules//len2/linear_permute/convnext_tiny_15.py

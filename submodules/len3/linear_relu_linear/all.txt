@@ -1,1 +1,1 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_relu_linear/alexnet_0.py 1
+/home/bzheng/benchmark/submodules//len3/linear_relu_linear/alexnet_0.py 1

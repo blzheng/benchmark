@@ -1,3 +1,3 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_add_layernorm/qa+albert-base-v1_6.py 12
-/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_add_layernorm/qa+google_electra-base-generator_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len3/linear_add_layernorm/qa+albert-base-v1_0.py 1
+/home/bzheng/benchmark/submodules//len3/linear_add_layernorm/qa+albert-base-v1_6.py 12
+/home/bzheng/benchmark/submodules//len3/linear_add_layernorm/qa+google_electra-base-generator_0.py 1
+/home/bzheng/benchmark/submodules//len3/linear_add_layernorm/qa+albert-base-v1_0.py 1

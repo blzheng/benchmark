@@ -1,1 +1,2 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/softmax_dropout/qa+bert-base-cased_7.py 12
+/home/bzheng/benchmark/submodules//len2/softmax_dropout/qa+albert-base-v1_6.py 60
+/home/bzheng/benchmark/submodules//len2/softmax_dropout/qa+google_electra-base-generator_6.py 12

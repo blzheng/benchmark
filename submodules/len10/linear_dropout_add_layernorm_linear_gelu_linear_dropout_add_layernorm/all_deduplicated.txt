@@ -1,0 +1,2 @@
+/home/bzheng/benchmark/submodules//len10/linear_dropout_add_layernorm_linear_gelu_linear_dropout_add_layernorm/qa+google_electra-base-discriminator_1.py 48
+/home/bzheng/benchmark/submodules//len10/linear_dropout_add_layernorm_linear_gelu_linear_dropout_add_layernorm/qa+google_electra-base-generator_6.py 12

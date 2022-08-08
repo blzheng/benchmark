@@ -1,8 +1,8 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_s_3.py 4
-/home/bzheng/workspace/debug/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_s_21.py 24
-/home/bzheng/workspace/debug/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_b_22.py 2
-/home/bzheng/workspace/debug/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_b_18.py 18
-/home/bzheng/workspace/debug/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_t_0.py 4
-/home/bzheng/workspace/debug/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_t_11.py 4
-/home/bzheng/workspace/debug/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_b_3.py 2
-/home/bzheng/workspace/debug/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_b_0.py 2
+/home/bzheng/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_s_3.py 4
+/home/bzheng/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_s_21.py 24
+/home/bzheng/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_b_22.py 2
+/home/bzheng/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_b_18.py 18
+/home/bzheng/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_t_0.py 4
+/home/bzheng/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_t_11.py 4
+/home/bzheng/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_b_3.py 2
+/home/bzheng/benchmark/submodules//len5/layernorm_linear_gelu_dropout_linear/swin_b_0.py 2

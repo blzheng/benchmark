@@ -1,4 +1,4 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len4/relu_conv2d_relu_conv2d/vgg19_1.py 3
-/home/bzheng/workspace/debug/benchmark/submodules//len4/relu_conv2d_relu_conv2d/vgg16_2.py 3
-/home/bzheng/workspace/debug/benchmark/submodules//len4/relu_conv2d_relu_conv2d/vgg19_2.py 3
-/home/bzheng/workspace/debug/benchmark/submodules//len4/relu_conv2d_relu_conv2d/alexnet_0.py 1
+/home/bzheng/benchmark/submodules//len4/relu_conv2d_relu_conv2d/vgg19_1.py 3
+/home/bzheng/benchmark/submodules//len4/relu_conv2d_relu_conv2d/vgg16_2.py 3
+/home/bzheng/benchmark/submodules//len4/relu_conv2d_relu_conv2d/vgg19_2.py 3
+/home/bzheng/benchmark/submodules//len4/relu_conv2d_relu_conv2d/alexnet_0.py 1

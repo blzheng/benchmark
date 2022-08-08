@@ -1,2 +1,2 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_add/lraspp_mobilenet_v3_large_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/conv2d_add/lraspp_mobilenet_v3_large_1.py 1
+/home/bzheng/benchmark/submodules//len2/conv2d_add/lraspp_mobilenet_v3_large_0.py 1
+/home/bzheng/benchmark/submodules//len2/conv2d_add/lraspp_mobilenet_v3_large_1.py 1

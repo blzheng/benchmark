@@ -1,0 +1,3 @@
+/home/bzheng/benchmark/submodules//len8/cat_conv2d_batchnorm_relu_dropout_conv2d_batchnorm_relu/deeplabv3_resnet101_0.py 1
+/home/bzheng/benchmark/submodules//len8/cat_conv2d_batchnorm_relu_dropout_conv2d_batchnorm_relu/deeplabv3_resnet50_0.py 1
+/home/bzheng/benchmark/submodules//len8/cat_conv2d_batchnorm_relu_dropout_conv2d_batchnorm_relu/deeplabv3_mobilenet_v3_large_0.py 1

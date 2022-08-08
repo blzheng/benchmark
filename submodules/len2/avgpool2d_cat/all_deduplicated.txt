@@ -1,8 +1,8 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/avgpool2d_cat/densenet121_0.py 3
-/home/bzheng/workspace/debug/benchmark/submodules//len2/avgpool2d_cat/densenet161_2.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/avgpool2d_cat/densenet161_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/avgpool2d_cat/densenet121_2.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/avgpool2d_cat/densenet201_1.py 3
-/home/bzheng/workspace/debug/benchmark/submodules//len2/avgpool2d_cat/densenet161_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/avgpool2d_cat/densenet169_2.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/avgpool2d_cat/densenet201_2.py 1
+/home/bzheng/benchmark/submodules//len2/avgpool2d_cat/densenet121_0.py 3
+/home/bzheng/benchmark/submodules//len2/avgpool2d_cat/densenet161_2.py 1
+/home/bzheng/benchmark/submodules//len2/avgpool2d_cat/densenet161_0.py 1
+/home/bzheng/benchmark/submodules//len2/avgpool2d_cat/densenet121_2.py 1
+/home/bzheng/benchmark/submodules//len2/avgpool2d_cat/densenet201_1.py 3
+/home/bzheng/benchmark/submodules//len2/avgpool2d_cat/densenet161_1.py 1
+/home/bzheng/benchmark/submodules//len2/avgpool2d_cat/densenet169_2.py 1
+/home/bzheng/benchmark/submodules//len2/avgpool2d_cat/densenet201_2.py 1

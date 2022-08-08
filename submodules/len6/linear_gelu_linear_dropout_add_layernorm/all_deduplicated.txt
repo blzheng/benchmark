@@ -1,1 +1,2 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len6/linear_gelu_linear_dropout_add_layernorm/qa+bert-base-cased_7.py 12
+/home/bzheng/benchmark/submodules//len6/linear_gelu_linear_dropout_add_layernorm/qa+google_electra-base-discriminator_1.py 48
+/home/bzheng/benchmark/submodules//len6/linear_gelu_linear_dropout_add_layernorm/qa+google_electra-base-generator_6.py 12

@@ -1,2 +1,4 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_view/qa+bert-base-cased_44.py 36
-/home/bzheng/workspace/debug/benchmark/submodules//len2/add_view/qa+bert-base-cased_23.py 12
+/home/bzheng/benchmark/submodules//len2/add_view/qa+google_electra-base-discriminator_28.py 180
+/home/bzheng/benchmark/submodules//len2/add_view/qa+google_electra-base-generator_31.py 12
+/home/bzheng/benchmark/submodules//len2/add_view/qa+google_electra-base-generator_33.py 36
+/home/bzheng/benchmark/submodules//len2/add_view/qa+bert-base-cased_23.py 48

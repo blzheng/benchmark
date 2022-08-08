@@ -1,2 +1,12 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len1/squeeze/qa+bert-base-cased_0.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len1/squeeze/qa+bert-base-cased_1.py
+/home/bzheng/benchmark/submodules//len1/squeeze/qa+google_electra-base-discriminator_1.py 12
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+xlm-roberta-base_1.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+roberta-base_1.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+roberta-base_0.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+albert-base-v1_1.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+bert-base-cased_0.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+google_electra-base-generator_1.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+google_electra-base-generator_0.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+xlm-roberta-base_0.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+google_electra-base-discriminator_0.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+bert-base-cased_1.py
+**/home/bzheng/benchmark/submodules//len1/squeeze/qa+albert-base-v1_0.py

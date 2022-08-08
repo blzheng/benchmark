@@ -1,2 +1,2 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len4/dropout_add_layernorm_linear/qa+bert-base-cased_12.py 112
-/home/bzheng/workspace/debug/benchmark/submodules//len4/dropout_add_layernorm_linear/qa+google_electra-base-generator_20.py 24
+/home/bzheng/benchmark/submodules//len4/dropout_add_layernorm_linear/qa+bert-base-cased_12.py 112
+/home/bzheng/benchmark/submodules//len4/dropout_add_layernorm_linear/qa+google_electra-base-generator_20.py 24

@@ -1,10 +1,170 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b2_0.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b1_0.py
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b2_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b1_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b3_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b0_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b0_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b4_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b4_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b3_0.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_10.py 16
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_9.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_16.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_11.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_12.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_14.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_24.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_18.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_20.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_13.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_21.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_17.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_19.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_22.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_15.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_23.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_18.py 12
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_15.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_10.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_12.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_19.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_11.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_14.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_9.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_17.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_13.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_8.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_16.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_17.py 16
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_25.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_22.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_23.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_24.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_12.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_10.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_21.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_13.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_16.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_15.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_19.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_18.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_11.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_20.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_14.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_3.py 6
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_5.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_5.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_4.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_3.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_4.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_8.py 9
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_10.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_15.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_9.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_14.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_11.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_13.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_12.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_7.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_3.py 5
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_7.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_5.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_4.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_6.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b2_0.py 2
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b1_0.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_3.py 2
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_2.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_19.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_14.py 5
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_11.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_12.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_13.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_15.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_7.py 7
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_11.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_9.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_5.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_10.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_6.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_8.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_3.py 4
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_6.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_4.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_5.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_1.py 2
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_1.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_14.py 10
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_9.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_11.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_12.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_8.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_15.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_13.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_10.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_16.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_7.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_7.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_3.py 4
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_4.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_5.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_6.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_9.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_2.py 2
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_2.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_6.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b2_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_26.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b1_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_4.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_8.py 6
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_6.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_4.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_5.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_3.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_7.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_0.py 2
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_0.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_2.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_8.py 11
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_12.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_17.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_9.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_18.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_10.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_16.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_11.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_13.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_14.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_15.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_13.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b3_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_0.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_2.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_2.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_25.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_26.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b0_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_0.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_9.py 5
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_8.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_7.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_6.py
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_5.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_4.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_12.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b0_0.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_2.py 2
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_3.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_2.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_0.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_1_6gf_8.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_128gf_0.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_400mf_10.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_0.py 2
+**/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_0.py
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_7.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_800mf_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_32gf_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_6.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b4_1.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_8gf_16.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b4_0.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/efficientnet_b3_0.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_3_2gf_20.py 1
+/home/bzheng/benchmark/submodules//len6/conv2d_sigmoid_mul_conv2d_batchnorm_add/regnet_y_16gf_17.py 1

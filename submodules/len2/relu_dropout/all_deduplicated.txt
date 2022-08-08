@@ -1,5 +1,5 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_dropout/vgg16_bn_1.py 17
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_dropout/fcn_resnet50_0.py 2
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_dropout/deeplabv3_mobilenet_v3_large_1.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_dropout/fcn_resnet101_1.py 6
-/home/bzheng/workspace/debug/benchmark/submodules//len2/relu_dropout/deeplabv3_mobilenet_v3_large_0.py 1
+/home/bzheng/benchmark/submodules//len2/relu_dropout/vgg16_bn_1.py 17
+/home/bzheng/benchmark/submodules//len2/relu_dropout/fcn_resnet50_0.py 2
+/home/bzheng/benchmark/submodules//len2/relu_dropout/deeplabv3_mobilenet_v3_large_1.py 1
+/home/bzheng/benchmark/submodules//len2/relu_dropout/fcn_resnet101_1.py 6
+/home/bzheng/benchmark/submodules//len2/relu_dropout/deeplabv3_mobilenet_v3_large_0.py 1

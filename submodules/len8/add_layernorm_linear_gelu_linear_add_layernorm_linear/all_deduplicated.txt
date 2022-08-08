@@ -1,0 +1,1 @@
+/home/bzheng/benchmark/submodules//len8/add_layernorm_linear_gelu_linear_add_layernorm_linear/qa+albert-base-v1_6.py 12

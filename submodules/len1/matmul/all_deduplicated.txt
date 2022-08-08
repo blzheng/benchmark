@@ -1,2 +1,4 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len1/matmul/qa+bert-base-cased_12.py 12
-/home/bzheng/workspace/debug/benchmark/submodules//len1/matmul/qa+bert-base-cased_23.py 12
+/home/bzheng/benchmark/submodules//len1/matmul/qa+albert-base-v1_18.py 60
+/home/bzheng/benchmark/submodules//len1/matmul/qa+bert-base-cased_23.py 60
+/home/bzheng/benchmark/submodules//len1/matmul/qa+google_electra-base-generator_20.py 12
+/home/bzheng/benchmark/submodules//len1/matmul/qa+google_electra-base-generator_15.py 12

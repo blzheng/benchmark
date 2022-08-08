@@ -13,10 +13,10 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
         self.embedding0 = Embedding(28996, 768, padding_idx=0)
-        self._tensor_constant570 = torch.rand(torch.Size([1, 384])).to(torch.int64)
+        self._tensor_constant00 = torch.rand(torch.Size([1, 384])).to(torch.int64)
 
     def forward(self, ):
-        x20=self.embedding0(self._tensor_constant570)
+        x20=self.embedding0(self._tensor_constant00)
         return x20
 
 m = M().eval()

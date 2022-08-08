@@ -1,1 +1,1 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len2/maxpool2d_add/resnet18_0.py 2
+/home/bzheng/benchmark/submodules//len2/maxpool2d_add/resnet18_0.py 2

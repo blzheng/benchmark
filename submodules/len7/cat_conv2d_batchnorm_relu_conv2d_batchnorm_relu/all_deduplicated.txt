@@ -1,2 +1,2 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len7/cat_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len7/cat_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_1.py 1
+/home/bzheng/benchmark/submodules//len7/cat_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_0.py 1
+/home/bzheng/benchmark/submodules//len7/cat_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_1.py 1

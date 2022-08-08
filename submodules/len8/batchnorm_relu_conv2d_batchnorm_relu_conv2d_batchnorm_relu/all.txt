@@ -1,34 +1,35 @@
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_15.py 8
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_12.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_13.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_10.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_11.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_16.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_14.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_9.py
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_2.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_3.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_4.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_1.py
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_5.py 4
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_7.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_6.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_8.py
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_17.py 6
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_22.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_20.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_18.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_19.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_21.py
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_1.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_2.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_3.py
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_2.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_5.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_4.py
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_0.py 1
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_23.py 2
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_24.py
-/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_0.py 3
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_0.py
-**/home/bzheng/workspace/debug/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_1.py
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_15.py 8
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_12.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_13.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_10.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_11.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_16.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_14.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_9.py
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_2.py 4
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_3.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_4.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_1.py
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_5.py 4
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_7.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_6.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_8.py
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_17.py 6
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_22.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_20.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_18.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_19.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_21.py
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_1.py 3
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_2.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_3.py
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_2.py 3
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_5.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_4.py
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_0.py 1
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_23.py 2
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/inception_v3_google_24.py
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/fbnetc_100_0.py 1
+/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_0.py 3
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg16_bn_0.py
+**/home/bzheng/benchmark/submodules//len8/batchnorm_relu_conv2d_batchnorm_relu_conv2d_batchnorm_relu/vgg19_bn_1.py
