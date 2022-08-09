@@ -8,6 +8,8 @@ from torchvision.ops.stochastic_depth import stochastic_depth
 import time
 import builtins
 import operator
+import sys
+import os
 
 class M(torch.nn.Module):
     def __init__(self):
@@ -695,6 +697,10 @@ class M(torch.nn.Module):
         x540=x539.contiguous()
 
 m = M().eval()
+CORES=os.popen("lscpu | grep Core | awk '{print $4}'").readlines()
+SOCKETS=os.popen("lscpu | grep Socket | awk '{print $2}'").readlines()
+BS=int(CORES[0])*int(SOCKETS[0])
+batch_size=BS
 input_ids_1 = torch.ones((1, 384), dtype=torch.long)
 attention_mask_1 = torch.ones((1, 384), dtype=torch.long)
 token_type_ids_1 = torch.ones((1, 384), dtype=torch.long)
@@ -706,7 +712,14 @@ end_positions_1 = None
 output_attentions_1 = None
 output_hidden_states_1 = None
 return_dict_1 = None
-start = time.time()
-output = m(input_ids_1, attention_mask_1, token_type_ids_1, position_ids_1, head_mask_1, inputs_embeds_1, start_positions_1, end_positions_1, output_attentions_1, output_hidden_states_1, return_dict_1)
-end = time.time()
-print(end-start)
+def print_throughput(flag):
+    start_time=time.time()
+    for i in range(10):
+        output = m(input_ids_1, attention_mask_1, token_type_ids_1, position_ids_1, head_mask_1, inputs_embeds_1, start_positions_1, end_positions_1, output_attentions_1, output_hidden_states_1, return_dict_1)
+    total_iter_time = time.time() - start_time
+    Throughput = batch_size * 10 / total_iter_time
+    file_current = os.path.basename(__file__)
+    print(file_current,',',BS,',',flag,',',Throughput)
+for flag in {False,True}:
+    torch._C._jit_set_texpr_fuser_enabled(flag)
+    print_throughput(flag)
