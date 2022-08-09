@@ -1,0 +1,30 @@
+import torch
+from torch import tensor
+import torch.nn as nn
+from torch.nn import *
+import torchvision
+import torchvision.models as models
+from torchvision.ops.stochastic_depth import stochastic_depth
+import time
+import builtins
+import operator
+import sys
+import os
+
+class M(torch.nn.Module):
+    def __init__(self):
+        super(M, self).__init__()
+        self.dropout14 = Dropout(p=0.0, inplace=False)
+        self.linear17 = Linear(in_features=2048, out_features=512, bias=True)
+
+    def forward(self, x212):
+        x213=self.dropout14(x212)
+        x214=self.linear17(x213)
+        return x214
+
+m = M().eval()
+
+CORES=os.popen("lscpu | grep Core | awk '{print $4}'").readlines()
+SOCKETS=os.popen("lscpu | grep Socket | awk '{print $2}'").readlines()
+BS=int(CORES[0])*int(SOCKETS[0])
+batch_size=BS

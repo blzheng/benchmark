@@ -15,7 +15,7 @@ class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
         self.linear44 = Linear(in_features=768, out_features=3072, bias=True)
-        self.gelu22 = GELU(approximate=none)
+        self.gelu22 = GELU(approximate='none')
 
     def forward(self, x264):
         x265=self.linear44(x264)

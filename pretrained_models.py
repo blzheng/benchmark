@@ -1,6 +1,7 @@
 import torchvision.models as models
 import geffnet
 import sys, os
+from transformers import AutoModelForQuestionAnswering
 
 pretrained_models = {
     'alexnet': models.alexnet(pretrained = True),
@@ -8,9 +9,9 @@ pretrained_models = {
     'convnext_small': models.convnext_small(pretrained = True),
     'convnext_base': models.convnext_base(pretrained = True),
     'convnext_large': models.convnext_large(pretrained = True),
-    # 'swin_t': models.swin_t(),
-    # 'swin_s': models.swin_s(),
-    # 'swin_b': models.swin_b(),
+    'swin_t': models.swin_t(),
+    'swin_s': models.swin_s(),
+    'swin_b': models.swin_b(),
     # 'vit_b_16': models.vit_b_16(pretrained = True),
     # 'vit_b_32': models.vit_b_32(pretrained = True),
     # 'vit_l_16': models.vit_l_16(pretrained = True),
@@ -79,12 +80,12 @@ pretrained_models = {
     'regnet_x_8gf': models.regnet_x_8gf(pretrained = True),
     'regnet_x_16gf': models.regnet_x_16gf(pretrained = True),
     'regnet_x_32gf': models.regnet_x_32gf(pretrained = True),
-    # 'fcn_resnet50': models.segmentation.fcn_resnet50(pretrained = True),
-    # 'fcn_resnet101': models.segmentation.fcn_resnet101(pretrained = True),
-    # 'deeplabv3_resnet50': models.segmentation.deeplabv3_resnet50(pretrained = True),
-    # 'deeplabv3_resnet101': models.segmentation.deeplabv3_resnet101(pretrained = True),
-    # 'deeplabv3_mobilenet_v3_large': models.segmentation.deeplabv3_mobilenet_v3_large(pretrained = True),
-    # 'lraspp_mobilenet_v3_large': models.segmentation.lraspp_mobilenet_v3_large(pretrained = True),
+    'fcn_resnet50': models.segmentation.fcn_resnet50(pretrained = True),
+    'fcn_resnet101': models.segmentation.fcn_resnet101(pretrained = True),
+    'deeplabv3_resnet50': models.segmentation.deeplabv3_resnet50(pretrained = True),
+    'deeplabv3_resnet101': models.segmentation.deeplabv3_resnet101(pretrained = True),
+    'deeplabv3_mobilenet_v3_large': models.segmentation.deeplabv3_mobilenet_v3_large(pretrained = True),
+    'lraspp_mobilenet_v3_large': models.segmentation.lraspp_mobilenet_v3_large(pretrained = True),
     # 'fasterrcnn_resnet50_fpn': models.detection.fasterrcnn_resnet50_fpn(pretrained=True),
     # 'fasterrcnn_resnet50_fpn_v2': models.detection.fasterrcnn_resnet50_fpn_v2(pretrained=True),
     # 'fasterrcnn_mobilenet_v3_large_fpn': models.detection.fasterrcnn_mobilenet_v3_large_fpn(pretrained=True),
@@ -113,6 +114,12 @@ pretrained_models = {
     'efficientnet_b5_geffnet': geffnet.create_model('efficientnet_b5', pretrained=True),
     'efficientnet_b6_geffnet': geffnet.create_model('efficientnet_b6', pretrained=True),
     'efficientnet_b7_geffnet': geffnet.create_model('efficientnet_b7', pretrained=True),
+    'qa+bert-base-cased': AutoModelForQuestionAnswering.from_pretrained('bert-base-cased'), 
+    'qa+albert-base-v1': AutoModelForQuestionAnswering.from_pretrained('albert-base-v1'),
+    'qa+roberta-base': AutoModelForQuestionAnswering.from_pretrained('roberta-base'),
+    'qa+xlm-roberta-base': AutoModelForQuestionAnswering.from_pretrained('xlm-roberta-base'),
+    'qa+google_electra-base-generator': AutoModelForQuestionAnswering.from_pretrained('google/electra-base-generator'),
+    'qa+google_electra-base-discriminator': AutoModelForQuestionAnswering.from_pretrained('google/electra-base-discriminator'),
 }
 
 

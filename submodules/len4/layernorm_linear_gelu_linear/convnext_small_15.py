@@ -16,7 +16,7 @@ class M(torch.nn.Module):
         super(M, self).__init__()
         self.layernorm15 = LayerNorm((384,), eps=1e-06, elementwise_affine=True)
         self.linear30 = Linear(in_features=384, out_features=1536, bias=True)
-        self.gelu15 = GELU(approximate=none)
+        self.gelu15 = GELU(approximate='none')
         self.linear31 = Linear(in_features=1536, out_features=384, bias=True)
 
     def forward(self, x186):

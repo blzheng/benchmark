@@ -14,7 +14,7 @@ import os
 class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
-        self.gelu10 = GELU(approximate=none)
+        self.gelu10 = GELU(approximate='none')
         self.linear21 = Linear(in_features=3072, out_features=768, bias=True)
 
     def forward(self, x133):

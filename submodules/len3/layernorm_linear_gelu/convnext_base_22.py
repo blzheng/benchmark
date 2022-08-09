@@ -16,7 +16,7 @@ class M(torch.nn.Module):
         super(M, self).__init__()
         self.layernorm22 = LayerNorm((512,), eps=1e-06, elementwise_affine=True)
         self.linear44 = Linear(in_features=512, out_features=2048, bias=True)
-        self.gelu22 = GELU(approximate=none)
+        self.gelu22 = GELU(approximate='none')
 
     def forward(self, x263):
         x264=self.layernorm22(x263)

@@ -14,7 +14,7 @@ import os
 class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
-        self.gelu6 = GELU(approximate=none)
+        self.gelu6 = GELU(approximate='none')
 
     def forward(self, x89):
         x90=self.gelu6(x89)
