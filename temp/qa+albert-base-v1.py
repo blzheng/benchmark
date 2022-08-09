@@ -14,160 +14,151 @@ import os
 class M(torch.nn.Module):
     def __init__(self):
         super(M, self).__init__()
-        self.conv2d0 = Conv2d(3, 24, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
-        self.batchnorm2d0 = BatchNorm2d(24, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu0 = ReLU(inplace=True)
-        self.maxpool2d0 = MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
-        self.conv2d1 = Conv2d(24, 24, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=24, bias=False)
-        self.batchnorm2d1 = BatchNorm2d(24, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d2 = Conv2d(24, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d2 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu1 = ReLU(inplace=True)
-        self.conv2d3 = Conv2d(24, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d3 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu2 = ReLU(inplace=True)
-        self.conv2d4 = Conv2d(88, 88, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=88, bias=False)
-        self.batchnorm2d4 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d5 = Conv2d(88, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d5 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu3 = ReLU(inplace=True)
-        self.conv2d6 = Conv2d(88, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d6 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu4 = ReLU(inplace=True)
-        self.conv2d7 = Conv2d(88, 88, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=88, bias=False)
-        self.batchnorm2d7 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d8 = Conv2d(88, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d8 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu5 = ReLU(inplace=True)
-        self.conv2d9 = Conv2d(88, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d9 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu6 = ReLU(inplace=True)
-        self.conv2d10 = Conv2d(88, 88, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=88, bias=False)
-        self.batchnorm2d10 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d11 = Conv2d(88, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d11 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu7 = ReLU(inplace=True)
-        self.conv2d12 = Conv2d(88, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d12 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu8 = ReLU(inplace=True)
-        self.conv2d13 = Conv2d(88, 88, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=88, bias=False)
-        self.batchnorm2d13 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d14 = Conv2d(88, 88, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d14 = BatchNorm2d(88, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu9 = ReLU(inplace=True)
-        self.conv2d15 = Conv2d(176, 176, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d15 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d16 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d16 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu10 = ReLU(inplace=True)
-        self.conv2d17 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d17 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu11 = ReLU(inplace=True)
-        self.conv2d18 = Conv2d(176, 176, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d18 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d19 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d19 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu12 = ReLU(inplace=True)
-        self.conv2d20 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d20 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu13 = ReLU(inplace=True)
-        self.conv2d21 = Conv2d(176, 176, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d21 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d22 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d22 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu14 = ReLU(inplace=True)
-        self.conv2d23 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d23 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu15 = ReLU(inplace=True)
-        self.conv2d24 = Conv2d(176, 176, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d24 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d25 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d25 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu16 = ReLU(inplace=True)
-        self.conv2d26 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d26 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu17 = ReLU(inplace=True)
-        self.conv2d27 = Conv2d(176, 176, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d27 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d28 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d28 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu18 = ReLU(inplace=True)
-        self.conv2d29 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d29 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu19 = ReLU(inplace=True)
-        self.conv2d30 = Conv2d(176, 176, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d30 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d31 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d31 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu20 = ReLU(inplace=True)
-        self.conv2d32 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d32 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu21 = ReLU(inplace=True)
-        self.conv2d33 = Conv2d(176, 176, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d33 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d34 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d34 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu22 = ReLU(inplace=True)
-        self.conv2d35 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d35 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu23 = ReLU(inplace=True)
-        self.conv2d36 = Conv2d(176, 176, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d36 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d37 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d37 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu24 = ReLU(inplace=True)
-        self.conv2d38 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d38 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu25 = ReLU(inplace=True)
-        self.conv2d39 = Conv2d(176, 176, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=176, bias=False)
-        self.batchnorm2d39 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d40 = Conv2d(176, 176, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d40 = BatchNorm2d(176, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu26 = ReLU(inplace=True)
-        self.conv2d41 = Conv2d(352, 352, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=352, bias=False)
-        self.batchnorm2d41 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d42 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d42 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu27 = ReLU(inplace=True)
-        self.conv2d43 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d43 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu28 = ReLU(inplace=True)
-        self.conv2d44 = Conv2d(352, 352, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), groups=352, bias=False)
-        self.batchnorm2d44 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d45 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d45 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu29 = ReLU(inplace=True)
-        self.conv2d46 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d46 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu30 = ReLU(inplace=True)
-        self.conv2d47 = Conv2d(352, 352, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=352, bias=False)
-        self.batchnorm2d47 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d48 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d48 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu31 = ReLU(inplace=True)
-        self.conv2d49 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d49 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu32 = ReLU(inplace=True)
-        self.conv2d50 = Conv2d(352, 352, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=352, bias=False)
-        self.batchnorm2d50 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d51 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d51 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu33 = ReLU(inplace=True)
-        self.conv2d52 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d52 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu34 = ReLU(inplace=True)
-        self.conv2d53 = Conv2d(352, 352, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), groups=352, bias=False)
-        self.batchnorm2d53 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.conv2d54 = Conv2d(352, 352, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d54 = BatchNorm2d(352, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu35 = ReLU(inplace=True)
-        self.conv2d55 = Conv2d(704, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
-        self.batchnorm2d55 = BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-        self.relu36 = ReLU(inplace=True)
-        self.linear0 = Linear(in_features=1024, out_features=1000, bias=True)
+        self.embedding0 = Embedding(30000, 128, padding_idx=0)
+        self.embedding1 = Embedding(2, 128)
+        self.embedding2 = Embedding(512, 128)
+        self.layernorm0 = LayerNorm((128,), eps=1e-12, elementwise_affine=True)
+        self.dropout0 = Dropout(p=0.1, inplace=False)
+        self.linear0 = Linear(in_features=128, out_features=768, bias=True)
+        self.linear1 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear2 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear3 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout1 = Dropout(p=0.1, inplace=False)
+        self.linear4 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout2 = Dropout(p=0.1, inplace=False)
+        self.layernorm1 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear5 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear6 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm2 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear7 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear8 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear9 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout3 = Dropout(p=0.1, inplace=False)
+        self.linear10 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout4 = Dropout(p=0.1, inplace=False)
+        self.layernorm3 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear11 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear12 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm4 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear13 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear14 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear15 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout5 = Dropout(p=0.1, inplace=False)
+        self.linear16 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout6 = Dropout(p=0.1, inplace=False)
+        self.layernorm5 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear17 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear18 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm6 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear19 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear20 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear21 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout7 = Dropout(p=0.1, inplace=False)
+        self.linear22 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout8 = Dropout(p=0.1, inplace=False)
+        self.layernorm7 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear23 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear24 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm8 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear25 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear26 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear27 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout9 = Dropout(p=0.1, inplace=False)
+        self.linear28 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout10 = Dropout(p=0.1, inplace=False)
+        self.layernorm9 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear29 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear30 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm10 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear31 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear32 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear33 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout11 = Dropout(p=0.1, inplace=False)
+        self.linear34 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout12 = Dropout(p=0.1, inplace=False)
+        self.layernorm11 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear35 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear36 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm12 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear37 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear38 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear39 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout13 = Dropout(p=0.1, inplace=False)
+        self.linear40 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout14 = Dropout(p=0.1, inplace=False)
+        self.layernorm13 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear41 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear42 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm14 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear43 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear44 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear45 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout15 = Dropout(p=0.1, inplace=False)
+        self.linear46 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout16 = Dropout(p=0.1, inplace=False)
+        self.layernorm15 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear47 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear48 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm16 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear49 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear50 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear51 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout17 = Dropout(p=0.1, inplace=False)
+        self.linear52 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout18 = Dropout(p=0.1, inplace=False)
+        self.layernorm17 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear53 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear54 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm18 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear55 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear56 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear57 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout19 = Dropout(p=0.1, inplace=False)
+        self.linear58 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout20 = Dropout(p=0.1, inplace=False)
+        self.layernorm19 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear59 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear60 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm20 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear61 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear62 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear63 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout21 = Dropout(p=0.1, inplace=False)
+        self.linear64 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout22 = Dropout(p=0.1, inplace=False)
+        self.layernorm21 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear65 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear66 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm22 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear67 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear68 = Linear(in_features=768, out_features=768, bias=True)
+        self.linear69 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout23 = Dropout(p=0.1, inplace=False)
+        self.linear70 = Linear(in_features=768, out_features=768, bias=True)
+        self.dropout24 = Dropout(p=0.1, inplace=False)
+        self.layernorm23 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear71 = Linear(in_features=768, out_features=3072, bias=True)
+        self.linear72 = Linear(in_features=3072, out_features=768, bias=True)
+        self.layernorm24 = LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        self.linear73 = Linear(in_features=768, out_features=2, bias=True)
+        self._tensor_constant00 = torch.rand(torch.Size([1, 384])).to(torch.int64)
+        self._tensor_constant01 = torch.rand(torch.Size([1, 384])).to(torch.int64)
+        self._tensor_constant10 = torch.rand(torch.Size([1, 384])).to(torch.int64)
+        self._tensor_constant20 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant21 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant22 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant23 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant24 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant25 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant26 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant27 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant28 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant29 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant210 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
+        self._tensor_constant211 = torch.rand(torch.Size([1, 1, 1, 384])).to(torch.float32)
 
-    def forward(self, x):
-        x0=x
+    def forward(self, input_ids_1, attention_mask_1, token_type_ids_1, position_ids_1, head_mask_1, inputs_embeds_1, start_positions_1, end_positions_1, output_attentions_1, output_hidden_states_1, return_dict_1):
+        x0=input_ids_1
         if x0 is None:
             print('x0: {}'.format(x0))
         elif isinstance(x0, torch.Tensor):
@@ -183,7 +174,7 @@ class M(torch.nn.Module):
             print('x0: {}'.format(tuple_shapes))
         else:
             print('x0: {}'.format(x0))
-        x1=self.conv2d0(x0)
+        x1=attention_mask_1
         if x1 is None:
             print('x1: {}'.format(x1))
         elif isinstance(x1, torch.Tensor):
@@ -199,7 +190,7 @@ class M(torch.nn.Module):
             print('x1: {}'.format(tuple_shapes))
         else:
             print('x1: {}'.format(x1))
-        x2=self.batchnorm2d0(x1)
+        x2=token_type_ids_1
         if x2 is None:
             print('x2: {}'.format(x2))
         elif isinstance(x2, torch.Tensor):
@@ -215,7 +206,7 @@ class M(torch.nn.Module):
             print('x2: {}'.format(tuple_shapes))
         else:
             print('x2: {}'.format(x2))
-        x3=self.relu0(x2)
+        x3=position_ids_1
         if x3 is None:
             print('x3: {}'.format(x3))
         elif isinstance(x3, torch.Tensor):
@@ -231,7 +222,7 @@ class M(torch.nn.Module):
             print('x3: {}'.format(tuple_shapes))
         else:
             print('x3: {}'.format(x3))
-        x4=self.maxpool2d0(x3)
+        x4=torch.fx._symbolic_trace._assert_is_none(x3, 'position_ids has been specialized to have value None but got another value')
         if x4 is None:
             print('x4: {}'.format(x4))
         elif isinstance(x4, torch.Tensor):
@@ -247,7 +238,7 @@ class M(torch.nn.Module):
             print('x4: {}'.format(tuple_shapes))
         else:
             print('x4: {}'.format(x4))
-        x5=self.conv2d1(x4)
+        x5=head_mask_1
         if x5 is None:
             print('x5: {}'.format(x5))
         elif isinstance(x5, torch.Tensor):
@@ -263,7 +254,7 @@ class M(torch.nn.Module):
             print('x5: {}'.format(tuple_shapes))
         else:
             print('x5: {}'.format(x5))
-        x6=self.batchnorm2d1(x5)
+        x6=torch.fx._symbolic_trace._assert_is_none(x5, 'head_mask has been specialized to have value None but got another value')
         if x6 is None:
             print('x6: {}'.format(x6))
         elif isinstance(x6, torch.Tensor):
@@ -279,7 +270,7 @@ class M(torch.nn.Module):
             print('x6: {}'.format(tuple_shapes))
         else:
             print('x6: {}'.format(x6))
-        x7=self.conv2d2(x6)
+        x7=inputs_embeds_1
         if x7 is None:
             print('x7: {}'.format(x7))
         elif isinstance(x7, torch.Tensor):
@@ -295,7 +286,7 @@ class M(torch.nn.Module):
             print('x7: {}'.format(tuple_shapes))
         else:
             print('x7: {}'.format(x7))
-        x8=self.batchnorm2d2(x7)
+        x8=torch.fx._symbolic_trace._assert_is_none(x7, 'inputs_embeds has been specialized to have value None but got another value')
         if x8 is None:
             print('x8: {}'.format(x8))
         elif isinstance(x8, torch.Tensor):
@@ -311,7 +302,7 @@ class M(torch.nn.Module):
             print('x8: {}'.format(tuple_shapes))
         else:
             print('x8: {}'.format(x8))
-        x9=self.relu1(x8)
+        x9=start_positions_1
         if x9 is None:
             print('x9: {}'.format(x9))
         elif isinstance(x9, torch.Tensor):
@@ -327,7 +318,7 @@ class M(torch.nn.Module):
             print('x9: {}'.format(tuple_shapes))
         else:
             print('x9: {}'.format(x9))
-        x10=self.conv2d3(x4)
+        x10=torch.fx._symbolic_trace._assert_is_none(x9, 'start_positions has been specialized to have value None but got another value')
         if x10 is None:
             print('x10: {}'.format(x10))
         elif isinstance(x10, torch.Tensor):
@@ -343,7 +334,7 @@ class M(torch.nn.Module):
             print('x10: {}'.format(tuple_shapes))
         else:
             print('x10: {}'.format(x10))
-        x11=self.batchnorm2d3(x10)
+        x11=end_positions_1
         if x11 is None:
             print('x11: {}'.format(x11))
         elif isinstance(x11, torch.Tensor):
@@ -359,7 +350,7 @@ class M(torch.nn.Module):
             print('x11: {}'.format(tuple_shapes))
         else:
             print('x11: {}'.format(x11))
-        x12=self.relu2(x11)
+        x12=torch.fx._symbolic_trace._assert_is_none(x11, 'end_positions has been specialized to have value None but got another value')
         if x12 is None:
             print('x12: {}'.format(x12))
         elif isinstance(x12, torch.Tensor):
@@ -375,7 +366,7 @@ class M(torch.nn.Module):
             print('x12: {}'.format(tuple_shapes))
         else:
             print('x12: {}'.format(x12))
-        x13=self.conv2d4(x12)
+        x13=output_attentions_1
         if x13 is None:
             print('x13: {}'.format(x13))
         elif isinstance(x13, torch.Tensor):
@@ -391,7 +382,7 @@ class M(torch.nn.Module):
             print('x13: {}'.format(tuple_shapes))
         else:
             print('x13: {}'.format(x13))
-        x14=self.batchnorm2d4(x13)
+        x14=torch.fx._symbolic_trace._assert_is_none(x13, 'output_attentions has been specialized to have value None but got another value')
         if x14 is None:
             print('x14: {}'.format(x14))
         elif isinstance(x14, torch.Tensor):
@@ -407,7 +398,7 @@ class M(torch.nn.Module):
             print('x14: {}'.format(tuple_shapes))
         else:
             print('x14: {}'.format(x14))
-        x15=self.conv2d5(x14)
+        x15=output_hidden_states_1
         if x15 is None:
             print('x15: {}'.format(x15))
         elif isinstance(x15, torch.Tensor):
@@ -423,7 +414,7 @@ class M(torch.nn.Module):
             print('x15: {}'.format(tuple_shapes))
         else:
             print('x15: {}'.format(x15))
-        x16=self.batchnorm2d5(x15)
+        x16=torch.fx._symbolic_trace._assert_is_none(x15, 'output_hidden_states has been specialized to have value None but got another value')
         if x16 is None:
             print('x16: {}'.format(x16))
         elif isinstance(x16, torch.Tensor):
@@ -439,7 +430,7 @@ class M(torch.nn.Module):
             print('x16: {}'.format(tuple_shapes))
         else:
             print('x16: {}'.format(x16))
-        x17=self.relu3(x16)
+        x17=return_dict_1
         if x17 is None:
             print('x17: {}'.format(x17))
         elif isinstance(x17, torch.Tensor):
@@ -455,7 +446,7 @@ class M(torch.nn.Module):
             print('x17: {}'.format(tuple_shapes))
         else:
             print('x17: {}'.format(x17))
-        x18=torch.cat((x9, x17),dim=1)
+        x18=torch.fx._symbolic_trace._assert_is_none(x17, 'return_dict has been specialized to have value None but got another value')
         if x18 is None:
             print('x18: {}'.format(x18))
         elif isinstance(x18, torch.Tensor):
@@ -471,23 +462,7 @@ class M(torch.nn.Module):
             print('x18: {}'.format(tuple_shapes))
         else:
             print('x18: {}'.format(x18))
-        x19=x18.size()
-        if x19 is None:
-            print('x19: {}'.format(x19))
-        elif isinstance(x19, torch.Tensor):
-            print('x19: {}'.format(x19.shape))
-        elif isinstance(x19, tuple):
-            tuple_shapes = '('
-            for item in x19:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x19: {}'.format(tuple_shapes))
-        else:
-            print('x19: {}'.format(x19))
-        x20=operator.getitem(x19, 0)
+        x20=self.embedding0(self._tensor_constant00)
         if x20 is None:
             print('x20: {}'.format(x20))
         elif isinstance(x20, torch.Tensor):
@@ -503,23 +478,7 @@ class M(torch.nn.Module):
             print('x20: {}'.format(tuple_shapes))
         else:
             print('x20: {}'.format(x20))
-        x21=operator.getitem(x19, 1)
-        if x21 is None:
-            print('x21: {}'.format(x21))
-        elif isinstance(x21, torch.Tensor):
-            print('x21: {}'.format(x21.shape))
-        elif isinstance(x21, tuple):
-            tuple_shapes = '('
-            for item in x21:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x21: {}'.format(tuple_shapes))
-        else:
-            print('x21: {}'.format(x21))
-        x22=operator.getitem(x19, 2)
+        x22=self.embedding1(self._tensor_constant00)
         if x22 is None:
             print('x22: {}'.format(x22))
         elif isinstance(x22, torch.Tensor):
@@ -535,7 +494,7 @@ class M(torch.nn.Module):
             print('x22: {}'.format(tuple_shapes))
         else:
             print('x22: {}'.format(x22))
-        x23=operator.getitem(x19, 3)
+        x23=operator.add(x20, x22)
         if x23 is None:
             print('x23: {}'.format(x23))
         elif isinstance(x23, torch.Tensor):
@@ -551,23 +510,7 @@ class M(torch.nn.Module):
             print('x23: {}'.format(tuple_shapes))
         else:
             print('x23: {}'.format(x23))
-        x24=operator.floordiv(x21, 2)
-        if x24 is None:
-            print('x24: {}'.format(x24))
-        elif isinstance(x24, torch.Tensor):
-            print('x24: {}'.format(x24.shape))
-        elif isinstance(x24, tuple):
-            tuple_shapes = '('
-            for item in x24:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x24: {}'.format(tuple_shapes))
-        else:
-            print('x24: {}'.format(x24))
-        x25=x18.view(x20, 2, x24, x22, x23)
+        x25=self.embedding2(self._tensor_constant10)
         if x25 is None:
             print('x25: {}'.format(x25))
         elif isinstance(x25, torch.Tensor):
@@ -583,7 +526,7 @@ class M(torch.nn.Module):
             print('x25: {}'.format(tuple_shapes))
         else:
             print('x25: {}'.format(x25))
-        x26=torch.transpose(x25, 1, 2)
+        x26=operator.add(x23, x25)
         if x26 is None:
             print('x26: {}'.format(x26))
         elif isinstance(x26, torch.Tensor):
@@ -599,7 +542,7 @@ class M(torch.nn.Module):
             print('x26: {}'.format(tuple_shapes))
         else:
             print('x26: {}'.format(x26))
-        x27=x26.contiguous()
+        x27=self.layernorm0(x26)
         if x27 is None:
             print('x27: {}'.format(x27))
         elif isinstance(x27, torch.Tensor):
@@ -615,7 +558,7 @@ class M(torch.nn.Module):
             print('x27: {}'.format(tuple_shapes))
         else:
             print('x27: {}'.format(x27))
-        x28=x27.view(x20, -1, x22, x23)
+        x28=self.dropout0(x27)
         if x28 is None:
             print('x28: {}'.format(x28))
         elif isinstance(x28, torch.Tensor):
@@ -631,7 +574,7 @@ class M(torch.nn.Module):
             print('x28: {}'.format(tuple_shapes))
         else:
             print('x28: {}'.format(x28))
-        x29=x28.chunk(2,dim=1)
+        x29=self.linear0(x28)
         if x29 is None:
             print('x29: {}'.format(x29))
         elif isinstance(x29, torch.Tensor):
@@ -647,7 +590,7 @@ class M(torch.nn.Module):
             print('x29: {}'.format(tuple_shapes))
         else:
             print('x29: {}'.format(x29))
-        x30=operator.getitem(x29, 0)
+        x30=self.linear1(x29)
         if x30 is None:
             print('x30: {}'.format(x30))
         elif isinstance(x30, torch.Tensor):
@@ -663,7 +606,7 @@ class M(torch.nn.Module):
             print('x30: {}'.format(tuple_shapes))
         else:
             print('x30: {}'.format(x30))
-        x31=operator.getitem(x29, 1)
+        x31=self.linear2(x29)
         if x31 is None:
             print('x31: {}'.format(x31))
         elif isinstance(x31, torch.Tensor):
@@ -679,7 +622,7 @@ class M(torch.nn.Module):
             print('x31: {}'.format(tuple_shapes))
         else:
             print('x31: {}'.format(x31))
-        x32=self.conv2d6(x31)
+        x32=self.linear3(x29)
         if x32 is None:
             print('x32: {}'.format(x32))
         elif isinstance(x32, torch.Tensor):
@@ -695,7 +638,7 @@ class M(torch.nn.Module):
             print('x32: {}'.format(tuple_shapes))
         else:
             print('x32: {}'.format(x32))
-        x33=self.batchnorm2d6(x32)
+        x33=x30.size()
         if x33 is None:
             print('x33: {}'.format(x33))
         elif isinstance(x33, torch.Tensor):
@@ -711,7 +654,7 @@ class M(torch.nn.Module):
             print('x33: {}'.format(tuple_shapes))
         else:
             print('x33: {}'.format(x33))
-        x34=self.relu4(x33)
+        x34=operator.getitem(x33, slice(None, -1, None))
         if x34 is None:
             print('x34: {}'.format(x34))
         elif isinstance(x34, torch.Tensor):
@@ -727,7 +670,7 @@ class M(torch.nn.Module):
             print('x34: {}'.format(tuple_shapes))
         else:
             print('x34: {}'.format(x34))
-        x35=self.conv2d7(x34)
+        x35=operator.add(x34, (12, 64))
         if x35 is None:
             print('x35: {}'.format(x35))
         elif isinstance(x35, torch.Tensor):
@@ -743,7 +686,7 @@ class M(torch.nn.Module):
             print('x35: {}'.format(tuple_shapes))
         else:
             print('x35: {}'.format(x35))
-        x36=self.batchnorm2d7(x35)
+        x36=x30.view(x35)
         if x36 is None:
             print('x36: {}'.format(x36))
         elif isinstance(x36, torch.Tensor):
@@ -759,7 +702,7 @@ class M(torch.nn.Module):
             print('x36: {}'.format(tuple_shapes))
         else:
             print('x36: {}'.format(x36))
-        x37=self.conv2d8(x36)
+        x37=x36.permute(0, 2, 1, 3)
         if x37 is None:
             print('x37: {}'.format(x37))
         elif isinstance(x37, torch.Tensor):
@@ -775,7 +718,7 @@ class M(torch.nn.Module):
             print('x37: {}'.format(tuple_shapes))
         else:
             print('x37: {}'.format(x37))
-        x38=self.batchnorm2d8(x37)
+        x38=x31.size()
         if x38 is None:
             print('x38: {}'.format(x38))
         elif isinstance(x38, torch.Tensor):
@@ -791,7 +734,7 @@ class M(torch.nn.Module):
             print('x38: {}'.format(tuple_shapes))
         else:
             print('x38: {}'.format(x38))
-        x39=self.relu5(x38)
+        x39=operator.getitem(x38, slice(None, -1, None))
         if x39 is None:
             print('x39: {}'.format(x39))
         elif isinstance(x39, torch.Tensor):
@@ -807,7 +750,7 @@ class M(torch.nn.Module):
             print('x39: {}'.format(tuple_shapes))
         else:
             print('x39: {}'.format(x39))
-        x40=torch.cat((x30, x39),dim=1)
+        x40=operator.add(x39, (12, 64))
         if x40 is None:
             print('x40: {}'.format(x40))
         elif isinstance(x40, torch.Tensor):
@@ -823,7 +766,7 @@ class M(torch.nn.Module):
             print('x40: {}'.format(tuple_shapes))
         else:
             print('x40: {}'.format(x40))
-        x41=x40.size()
+        x41=x31.view(x40)
         if x41 is None:
             print('x41: {}'.format(x41))
         elif isinstance(x41, torch.Tensor):
@@ -839,7 +782,7 @@ class M(torch.nn.Module):
             print('x41: {}'.format(tuple_shapes))
         else:
             print('x41: {}'.format(x41))
-        x42=operator.getitem(x41, 0)
+        x42=x41.permute(0, 2, 1, 3)
         if x42 is None:
             print('x42: {}'.format(x42))
         elif isinstance(x42, torch.Tensor):
@@ -855,7 +798,7 @@ class M(torch.nn.Module):
             print('x42: {}'.format(tuple_shapes))
         else:
             print('x42: {}'.format(x42))
-        x43=operator.getitem(x41, 1)
+        x43=x32.size()
         if x43 is None:
             print('x43: {}'.format(x43))
         elif isinstance(x43, torch.Tensor):
@@ -871,7 +814,7 @@ class M(torch.nn.Module):
             print('x43: {}'.format(tuple_shapes))
         else:
             print('x43: {}'.format(x43))
-        x44=operator.getitem(x41, 2)
+        x44=operator.getitem(x43, slice(None, -1, None))
         if x44 is None:
             print('x44: {}'.format(x44))
         elif isinstance(x44, torch.Tensor):
@@ -887,7 +830,7 @@ class M(torch.nn.Module):
             print('x44: {}'.format(tuple_shapes))
         else:
             print('x44: {}'.format(x44))
-        x45=operator.getitem(x41, 3)
+        x45=operator.add(x44, (12, 64))
         if x45 is None:
             print('x45: {}'.format(x45))
         elif isinstance(x45, torch.Tensor):
@@ -903,7 +846,7 @@ class M(torch.nn.Module):
             print('x45: {}'.format(tuple_shapes))
         else:
             print('x45: {}'.format(x45))
-        x46=operator.floordiv(x43, 2)
+        x46=x32.view(x45)
         if x46 is None:
             print('x46: {}'.format(x46))
         elif isinstance(x46, torch.Tensor):
@@ -919,7 +862,7 @@ class M(torch.nn.Module):
             print('x46: {}'.format(tuple_shapes))
         else:
             print('x46: {}'.format(x46))
-        x47=x40.view(x42, 2, x46, x44, x45)
+        x47=x46.permute(0, 2, 1, 3)
         if x47 is None:
             print('x47: {}'.format(x47))
         elif isinstance(x47, torch.Tensor):
@@ -935,7 +878,7 @@ class M(torch.nn.Module):
             print('x47: {}'.format(tuple_shapes))
         else:
             print('x47: {}'.format(x47))
-        x48=torch.transpose(x47, 1, 2)
+        x48=x42.transpose(-1, -2)
         if x48 is None:
             print('x48: {}'.format(x48))
         elif isinstance(x48, torch.Tensor):
@@ -951,7 +894,7 @@ class M(torch.nn.Module):
             print('x48: {}'.format(tuple_shapes))
         else:
             print('x48: {}'.format(x48))
-        x49=x48.contiguous()
+        x49=torch.matmul(x37, x48)
         if x49 is None:
             print('x49: {}'.format(x49))
         elif isinstance(x49, torch.Tensor):
@@ -967,7 +910,7 @@ class M(torch.nn.Module):
             print('x49: {}'.format(tuple_shapes))
         else:
             print('x49: {}'.format(x49))
-        x50=x49.view(x42, -1, x44, x45)
+        x50=operator.truediv(x49, 8.0)
         if x50 is None:
             print('x50: {}'.format(x50))
         elif isinstance(x50, torch.Tensor):
@@ -983,23 +926,7 @@ class M(torch.nn.Module):
             print('x50: {}'.format(tuple_shapes))
         else:
             print('x50: {}'.format(x50))
-        x51=x50.chunk(2,dim=1)
-        if x51 is None:
-            print('x51: {}'.format(x51))
-        elif isinstance(x51, torch.Tensor):
-            print('x51: {}'.format(x51.shape))
-        elif isinstance(x51, tuple):
-            tuple_shapes = '('
-            for item in x51:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x51: {}'.format(tuple_shapes))
-        else:
-            print('x51: {}'.format(x51))
-        x52=operator.getitem(x51, 0)
+        x52=operator.add(x50, self._tensor_constant20)
         if x52 is None:
             print('x52: {}'.format(x52))
         elif isinstance(x52, torch.Tensor):
@@ -1015,7 +942,7 @@ class M(torch.nn.Module):
             print('x52: {}'.format(tuple_shapes))
         else:
             print('x52: {}'.format(x52))
-        x53=operator.getitem(x51, 1)
+        x53=torch.nn.functional.softmax(x52,dim=-1, _stacklevel=3, dtype=None)
         if x53 is None:
             print('x53: {}'.format(x53))
         elif isinstance(x53, torch.Tensor):
@@ -1031,7 +958,7 @@ class M(torch.nn.Module):
             print('x53: {}'.format(tuple_shapes))
         else:
             print('x53: {}'.format(x53))
-        x54=self.conv2d9(x53)
+        x54=self.dropout1(x53)
         if x54 is None:
             print('x54: {}'.format(x54))
         elif isinstance(x54, torch.Tensor):
@@ -1047,7 +974,7 @@ class M(torch.nn.Module):
             print('x54: {}'.format(tuple_shapes))
         else:
             print('x54: {}'.format(x54))
-        x55=self.batchnorm2d9(x54)
+        x55=torch.matmul(x54, x47)
         if x55 is None:
             print('x55: {}'.format(x55))
         elif isinstance(x55, torch.Tensor):
@@ -1063,7 +990,7 @@ class M(torch.nn.Module):
             print('x55: {}'.format(tuple_shapes))
         else:
             print('x55: {}'.format(x55))
-        x56=self.relu6(x55)
+        x56=x55.transpose(2, 1)
         if x56 is None:
             print('x56: {}'.format(x56))
         elif isinstance(x56, torch.Tensor):
@@ -1079,7 +1006,7 @@ class M(torch.nn.Module):
             print('x56: {}'.format(tuple_shapes))
         else:
             print('x56: {}'.format(x56))
-        x57=self.conv2d10(x56)
+        x57=x56.flatten(2)
         if x57 is None:
             print('x57: {}'.format(x57))
         elif isinstance(x57, torch.Tensor):
@@ -1095,7 +1022,7 @@ class M(torch.nn.Module):
             print('x57: {}'.format(tuple_shapes))
         else:
             print('x57: {}'.format(x57))
-        x58=self.batchnorm2d10(x57)
+        x58=self.linear4(x57)
         if x58 is None:
             print('x58: {}'.format(x58))
         elif isinstance(x58, torch.Tensor):
@@ -1111,7 +1038,7 @@ class M(torch.nn.Module):
             print('x58: {}'.format(tuple_shapes))
         else:
             print('x58: {}'.format(x58))
-        x59=self.conv2d11(x58)
+        x59=self.dropout2(x58)
         if x59 is None:
             print('x59: {}'.format(x59))
         elif isinstance(x59, torch.Tensor):
@@ -1127,7 +1054,7 @@ class M(torch.nn.Module):
             print('x59: {}'.format(tuple_shapes))
         else:
             print('x59: {}'.format(x59))
-        x60=self.batchnorm2d11(x59)
+        x60=operator.add(x29, x59)
         if x60 is None:
             print('x60: {}'.format(x60))
         elif isinstance(x60, torch.Tensor):
@@ -1143,7 +1070,7 @@ class M(torch.nn.Module):
             print('x60: {}'.format(tuple_shapes))
         else:
             print('x60: {}'.format(x60))
-        x61=self.relu7(x60)
+        x61=self.layernorm1(x60)
         if x61 is None:
             print('x61: {}'.format(x61))
         elif isinstance(x61, torch.Tensor):
@@ -1159,7 +1086,7 @@ class M(torch.nn.Module):
             print('x61: {}'.format(tuple_shapes))
         else:
             print('x61: {}'.format(x61))
-        x62=torch.cat((x52, x61),dim=1)
+        x62=self.linear5(x61)
         if x62 is None:
             print('x62: {}'.format(x62))
         elif isinstance(x62, torch.Tensor):
@@ -1175,7 +1102,7 @@ class M(torch.nn.Module):
             print('x62: {}'.format(tuple_shapes))
         else:
             print('x62: {}'.format(x62))
-        x63=x62.size()
+        x63=torch._C._nn.gelu(x62)
         if x63 is None:
             print('x63: {}'.format(x63))
         elif isinstance(x63, torch.Tensor):
@@ -1191,7 +1118,7 @@ class M(torch.nn.Module):
             print('x63: {}'.format(tuple_shapes))
         else:
             print('x63: {}'.format(x63))
-        x64=operator.getitem(x63, 0)
+        x64=self.linear6(x63)
         if x64 is None:
             print('x64: {}'.format(x64))
         elif isinstance(x64, torch.Tensor):
@@ -1207,7 +1134,7 @@ class M(torch.nn.Module):
             print('x64: {}'.format(tuple_shapes))
         else:
             print('x64: {}'.format(x64))
-        x65=operator.getitem(x63, 1)
+        x65=operator.add(x64, x61)
         if x65 is None:
             print('x65: {}'.format(x65))
         elif isinstance(x65, torch.Tensor):
@@ -1223,7 +1150,7 @@ class M(torch.nn.Module):
             print('x65: {}'.format(tuple_shapes))
         else:
             print('x65: {}'.format(x65))
-        x66=operator.getitem(x63, 2)
+        x66=self.layernorm2(x65)
         if x66 is None:
             print('x66: {}'.format(x66))
         elif isinstance(x66, torch.Tensor):
@@ -1239,7 +1166,7 @@ class M(torch.nn.Module):
             print('x66: {}'.format(tuple_shapes))
         else:
             print('x66: {}'.format(x66))
-        x67=operator.getitem(x63, 3)
+        x67=self.linear1(x66)
         if x67 is None:
             print('x67: {}'.format(x67))
         elif isinstance(x67, torch.Tensor):
@@ -1255,7 +1182,7 @@ class M(torch.nn.Module):
             print('x67: {}'.format(tuple_shapes))
         else:
             print('x67: {}'.format(x67))
-        x68=operator.floordiv(x65, 2)
+        x68=self.linear2(x66)
         if x68 is None:
             print('x68: {}'.format(x68))
         elif isinstance(x68, torch.Tensor):
@@ -1271,7 +1198,7 @@ class M(torch.nn.Module):
             print('x68: {}'.format(tuple_shapes))
         else:
             print('x68: {}'.format(x68))
-        x69=x62.view(x64, 2, x68, x66, x67)
+        x69=self.linear3(x66)
         if x69 is None:
             print('x69: {}'.format(x69))
         elif isinstance(x69, torch.Tensor):
@@ -1287,7 +1214,7 @@ class M(torch.nn.Module):
             print('x69: {}'.format(tuple_shapes))
         else:
             print('x69: {}'.format(x69))
-        x70=torch.transpose(x69, 1, 2)
+        x70=x67.size()
         if x70 is None:
             print('x70: {}'.format(x70))
         elif isinstance(x70, torch.Tensor):
@@ -1303,7 +1230,7 @@ class M(torch.nn.Module):
             print('x70: {}'.format(tuple_shapes))
         else:
             print('x70: {}'.format(x70))
-        x71=x70.contiguous()
+        x71=operator.getitem(x70, slice(None, -1, None))
         if x71 is None:
             print('x71: {}'.format(x71))
         elif isinstance(x71, torch.Tensor):
@@ -1319,7 +1246,7 @@ class M(torch.nn.Module):
             print('x71: {}'.format(tuple_shapes))
         else:
             print('x71: {}'.format(x71))
-        x72=x71.view(x64, -1, x66, x67)
+        x72=operator.add(x71, (12, 64))
         if x72 is None:
             print('x72: {}'.format(x72))
         elif isinstance(x72, torch.Tensor):
@@ -1335,7 +1262,7 @@ class M(torch.nn.Module):
             print('x72: {}'.format(tuple_shapes))
         else:
             print('x72: {}'.format(x72))
-        x73=x72.chunk(2,dim=1)
+        x73=x67.view(x72)
         if x73 is None:
             print('x73: {}'.format(x73))
         elif isinstance(x73, torch.Tensor):
@@ -1351,7 +1278,7 @@ class M(torch.nn.Module):
             print('x73: {}'.format(tuple_shapes))
         else:
             print('x73: {}'.format(x73))
-        x74=operator.getitem(x73, 0)
+        x74=x73.permute(0, 2, 1, 3)
         if x74 is None:
             print('x74: {}'.format(x74))
         elif isinstance(x74, torch.Tensor):
@@ -1367,7 +1294,7 @@ class M(torch.nn.Module):
             print('x74: {}'.format(tuple_shapes))
         else:
             print('x74: {}'.format(x74))
-        x75=operator.getitem(x73, 1)
+        x75=x68.size()
         if x75 is None:
             print('x75: {}'.format(x75))
         elif isinstance(x75, torch.Tensor):
@@ -1383,7 +1310,7 @@ class M(torch.nn.Module):
             print('x75: {}'.format(tuple_shapes))
         else:
             print('x75: {}'.format(x75))
-        x76=self.conv2d12(x75)
+        x76=operator.getitem(x75, slice(None, -1, None))
         if x76 is None:
             print('x76: {}'.format(x76))
         elif isinstance(x76, torch.Tensor):
@@ -1399,7 +1326,7 @@ class M(torch.nn.Module):
             print('x76: {}'.format(tuple_shapes))
         else:
             print('x76: {}'.format(x76))
-        x77=self.batchnorm2d12(x76)
+        x77=operator.add(x76, (12, 64))
         if x77 is None:
             print('x77: {}'.format(x77))
         elif isinstance(x77, torch.Tensor):
@@ -1415,7 +1342,7 @@ class M(torch.nn.Module):
             print('x77: {}'.format(tuple_shapes))
         else:
             print('x77: {}'.format(x77))
-        x78=self.relu8(x77)
+        x78=x68.view(x77)
         if x78 is None:
             print('x78: {}'.format(x78))
         elif isinstance(x78, torch.Tensor):
@@ -1431,7 +1358,7 @@ class M(torch.nn.Module):
             print('x78: {}'.format(tuple_shapes))
         else:
             print('x78: {}'.format(x78))
-        x79=self.conv2d13(x78)
+        x79=x78.permute(0, 2, 1, 3)
         if x79 is None:
             print('x79: {}'.format(x79))
         elif isinstance(x79, torch.Tensor):
@@ -1447,7 +1374,7 @@ class M(torch.nn.Module):
             print('x79: {}'.format(tuple_shapes))
         else:
             print('x79: {}'.format(x79))
-        x80=self.batchnorm2d13(x79)
+        x80=x69.size()
         if x80 is None:
             print('x80: {}'.format(x80))
         elif isinstance(x80, torch.Tensor):
@@ -1463,7 +1390,7 @@ class M(torch.nn.Module):
             print('x80: {}'.format(tuple_shapes))
         else:
             print('x80: {}'.format(x80))
-        x81=self.conv2d14(x80)
+        x81=operator.getitem(x80, slice(None, -1, None))
         if x81 is None:
             print('x81: {}'.format(x81))
         elif isinstance(x81, torch.Tensor):
@@ -1479,7 +1406,7 @@ class M(torch.nn.Module):
             print('x81: {}'.format(tuple_shapes))
         else:
             print('x81: {}'.format(x81))
-        x82=self.batchnorm2d14(x81)
+        x82=operator.add(x81, (12, 64))
         if x82 is None:
             print('x82: {}'.format(x82))
         elif isinstance(x82, torch.Tensor):
@@ -1495,7 +1422,7 @@ class M(torch.nn.Module):
             print('x82: {}'.format(tuple_shapes))
         else:
             print('x82: {}'.format(x82))
-        x83=self.relu9(x82)
+        x83=x69.view(x82)
         if x83 is None:
             print('x83: {}'.format(x83))
         elif isinstance(x83, torch.Tensor):
@@ -1511,7 +1438,7 @@ class M(torch.nn.Module):
             print('x83: {}'.format(tuple_shapes))
         else:
             print('x83: {}'.format(x83))
-        x84=torch.cat((x74, x83),dim=1)
+        x84=x83.permute(0, 2, 1, 3)
         if x84 is None:
             print('x84: {}'.format(x84))
         elif isinstance(x84, torch.Tensor):
@@ -1527,7 +1454,7 @@ class M(torch.nn.Module):
             print('x84: {}'.format(tuple_shapes))
         else:
             print('x84: {}'.format(x84))
-        x85=x84.size()
+        x85=x79.transpose(-1, -2)
         if x85 is None:
             print('x85: {}'.format(x85))
         elif isinstance(x85, torch.Tensor):
@@ -1543,7 +1470,7 @@ class M(torch.nn.Module):
             print('x85: {}'.format(tuple_shapes))
         else:
             print('x85: {}'.format(x85))
-        x86=operator.getitem(x85, 0)
+        x86=torch.matmul(x74, x85)
         if x86 is None:
             print('x86: {}'.format(x86))
         elif isinstance(x86, torch.Tensor):
@@ -1559,7 +1486,7 @@ class M(torch.nn.Module):
             print('x86: {}'.format(tuple_shapes))
         else:
             print('x86: {}'.format(x86))
-        x87=operator.getitem(x85, 1)
+        x87=operator.truediv(x86, 8.0)
         if x87 is None:
             print('x87: {}'.format(x87))
         elif isinstance(x87, torch.Tensor):
@@ -1575,23 +1502,7 @@ class M(torch.nn.Module):
             print('x87: {}'.format(tuple_shapes))
         else:
             print('x87: {}'.format(x87))
-        x88=operator.getitem(x85, 2)
-        if x88 is None:
-            print('x88: {}'.format(x88))
-        elif isinstance(x88, torch.Tensor):
-            print('x88: {}'.format(x88.shape))
-        elif isinstance(x88, tuple):
-            tuple_shapes = '('
-            for item in x88:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x88: {}'.format(tuple_shapes))
-        else:
-            print('x88: {}'.format(x88))
-        x89=operator.getitem(x85, 3)
+        x89=operator.add(x87, self._tensor_constant20)
         if x89 is None:
             print('x89: {}'.format(x89))
         elif isinstance(x89, torch.Tensor):
@@ -1607,7 +1518,7 @@ class M(torch.nn.Module):
             print('x89: {}'.format(tuple_shapes))
         else:
             print('x89: {}'.format(x89))
-        x90=operator.floordiv(x87, 2)
+        x90=torch.nn.functional.softmax(x89,dim=-1, _stacklevel=3, dtype=None)
         if x90 is None:
             print('x90: {}'.format(x90))
         elif isinstance(x90, torch.Tensor):
@@ -1623,7 +1534,7 @@ class M(torch.nn.Module):
             print('x90: {}'.format(tuple_shapes))
         else:
             print('x90: {}'.format(x90))
-        x91=x84.view(x86, 2, x90, x88, x89)
+        x91=self.dropout1(x90)
         if x91 is None:
             print('x91: {}'.format(x91))
         elif isinstance(x91, torch.Tensor):
@@ -1639,7 +1550,7 @@ class M(torch.nn.Module):
             print('x91: {}'.format(tuple_shapes))
         else:
             print('x91: {}'.format(x91))
-        x92=torch.transpose(x91, 1, 2)
+        x92=torch.matmul(x91, x84)
         if x92 is None:
             print('x92: {}'.format(x92))
         elif isinstance(x92, torch.Tensor):
@@ -1655,7 +1566,7 @@ class M(torch.nn.Module):
             print('x92: {}'.format(tuple_shapes))
         else:
             print('x92: {}'.format(x92))
-        x93=x92.contiguous()
+        x93=x92.transpose(2, 1)
         if x93 is None:
             print('x93: {}'.format(x93))
         elif isinstance(x93, torch.Tensor):
@@ -1671,7 +1582,7 @@ class M(torch.nn.Module):
             print('x93: {}'.format(tuple_shapes))
         else:
             print('x93: {}'.format(x93))
-        x94=x93.view(x86, -1, x88, x89)
+        x94=x93.flatten(2)
         if x94 is None:
             print('x94: {}'.format(x94))
         elif isinstance(x94, torch.Tensor):
@@ -1687,7 +1598,7 @@ class M(torch.nn.Module):
             print('x94: {}'.format(tuple_shapes))
         else:
             print('x94: {}'.format(x94))
-        x95=self.conv2d15(x94)
+        x95=self.linear4(x94)
         if x95 is None:
             print('x95: {}'.format(x95))
         elif isinstance(x95, torch.Tensor):
@@ -1703,7 +1614,7 @@ class M(torch.nn.Module):
             print('x95: {}'.format(tuple_shapes))
         else:
             print('x95: {}'.format(x95))
-        x96=self.batchnorm2d15(x95)
+        x96=self.dropout2(x95)
         if x96 is None:
             print('x96: {}'.format(x96))
         elif isinstance(x96, torch.Tensor):
@@ -1719,7 +1630,7 @@ class M(torch.nn.Module):
             print('x96: {}'.format(tuple_shapes))
         else:
             print('x96: {}'.format(x96))
-        x97=self.conv2d16(x96)
+        x97=operator.add(x66, x96)
         if x97 is None:
             print('x97: {}'.format(x97))
         elif isinstance(x97, torch.Tensor):
@@ -1735,7 +1646,7 @@ class M(torch.nn.Module):
             print('x97: {}'.format(tuple_shapes))
         else:
             print('x97: {}'.format(x97))
-        x98=self.batchnorm2d16(x97)
+        x98=self.layernorm1(x97)
         if x98 is None:
             print('x98: {}'.format(x98))
         elif isinstance(x98, torch.Tensor):
@@ -1751,7 +1662,7 @@ class M(torch.nn.Module):
             print('x98: {}'.format(tuple_shapes))
         else:
             print('x98: {}'.format(x98))
-        x99=self.relu10(x98)
+        x99=self.linear5(x98)
         if x99 is None:
             print('x99: {}'.format(x99))
         elif isinstance(x99, torch.Tensor):
@@ -1767,7 +1678,7 @@ class M(torch.nn.Module):
             print('x99: {}'.format(tuple_shapes))
         else:
             print('x99: {}'.format(x99))
-        x100=self.conv2d17(x94)
+        x100=torch._C._nn.gelu(x99)
         if x100 is None:
             print('x100: {}'.format(x100))
         elif isinstance(x100, torch.Tensor):
@@ -1783,7 +1694,7 @@ class M(torch.nn.Module):
             print('x100: {}'.format(tuple_shapes))
         else:
             print('x100: {}'.format(x100))
-        x101=self.batchnorm2d17(x100)
+        x101=self.linear6(x100)
         if x101 is None:
             print('x101: {}'.format(x101))
         elif isinstance(x101, torch.Tensor):
@@ -1799,7 +1710,7 @@ class M(torch.nn.Module):
             print('x101: {}'.format(tuple_shapes))
         else:
             print('x101: {}'.format(x101))
-        x102=self.relu11(x101)
+        x102=operator.add(x101, x98)
         if x102 is None:
             print('x102: {}'.format(x102))
         elif isinstance(x102, torch.Tensor):
@@ -1815,7 +1726,7 @@ class M(torch.nn.Module):
             print('x102: {}'.format(tuple_shapes))
         else:
             print('x102: {}'.format(x102))
-        x103=self.conv2d18(x102)
+        x103=self.layernorm2(x102)
         if x103 is None:
             print('x103: {}'.format(x103))
         elif isinstance(x103, torch.Tensor):
@@ -1831,7 +1742,7 @@ class M(torch.nn.Module):
             print('x103: {}'.format(tuple_shapes))
         else:
             print('x103: {}'.format(x103))
-        x104=self.batchnorm2d18(x103)
+        x104=self.linear1(x103)
         if x104 is None:
             print('x104: {}'.format(x104))
         elif isinstance(x104, torch.Tensor):
@@ -1847,7 +1758,7 @@ class M(torch.nn.Module):
             print('x104: {}'.format(tuple_shapes))
         else:
             print('x104: {}'.format(x104))
-        x105=self.conv2d19(x104)
+        x105=self.linear2(x103)
         if x105 is None:
             print('x105: {}'.format(x105))
         elif isinstance(x105, torch.Tensor):
@@ -1863,7 +1774,7 @@ class M(torch.nn.Module):
             print('x105: {}'.format(tuple_shapes))
         else:
             print('x105: {}'.format(x105))
-        x106=self.batchnorm2d19(x105)
+        x106=self.linear3(x103)
         if x106 is None:
             print('x106: {}'.format(x106))
         elif isinstance(x106, torch.Tensor):
@@ -1879,7 +1790,7 @@ class M(torch.nn.Module):
             print('x106: {}'.format(tuple_shapes))
         else:
             print('x106: {}'.format(x106))
-        x107=self.relu12(x106)
+        x107=x104.size()
         if x107 is None:
             print('x107: {}'.format(x107))
         elif isinstance(x107, torch.Tensor):
@@ -1895,7 +1806,7 @@ class M(torch.nn.Module):
             print('x107: {}'.format(tuple_shapes))
         else:
             print('x107: {}'.format(x107))
-        x108=torch.cat((x99, x107),dim=1)
+        x108=operator.getitem(x107, slice(None, -1, None))
         if x108 is None:
             print('x108: {}'.format(x108))
         elif isinstance(x108, torch.Tensor):
@@ -1911,7 +1822,7 @@ class M(torch.nn.Module):
             print('x108: {}'.format(tuple_shapes))
         else:
             print('x108: {}'.format(x108))
-        x109=x108.size()
+        x109=operator.add(x108, (12, 64))
         if x109 is None:
             print('x109: {}'.format(x109))
         elif isinstance(x109, torch.Tensor):
@@ -1927,7 +1838,7 @@ class M(torch.nn.Module):
             print('x109: {}'.format(tuple_shapes))
         else:
             print('x109: {}'.format(x109))
-        x110=operator.getitem(x109, 0)
+        x110=x104.view(x109)
         if x110 is None:
             print('x110: {}'.format(x110))
         elif isinstance(x110, torch.Tensor):
@@ -1943,7 +1854,7 @@ class M(torch.nn.Module):
             print('x110: {}'.format(tuple_shapes))
         else:
             print('x110: {}'.format(x110))
-        x111=operator.getitem(x109, 1)
+        x111=x110.permute(0, 2, 1, 3)
         if x111 is None:
             print('x111: {}'.format(x111))
         elif isinstance(x111, torch.Tensor):
@@ -1959,7 +1870,7 @@ class M(torch.nn.Module):
             print('x111: {}'.format(tuple_shapes))
         else:
             print('x111: {}'.format(x111))
-        x112=operator.getitem(x109, 2)
+        x112=x105.size()
         if x112 is None:
             print('x112: {}'.format(x112))
         elif isinstance(x112, torch.Tensor):
@@ -1975,7 +1886,7 @@ class M(torch.nn.Module):
             print('x112: {}'.format(tuple_shapes))
         else:
             print('x112: {}'.format(x112))
-        x113=operator.getitem(x109, 3)
+        x113=operator.getitem(x112, slice(None, -1, None))
         if x113 is None:
             print('x113: {}'.format(x113))
         elif isinstance(x113, torch.Tensor):
@@ -1991,7 +1902,7 @@ class M(torch.nn.Module):
             print('x113: {}'.format(tuple_shapes))
         else:
             print('x113: {}'.format(x113))
-        x114=operator.floordiv(x111, 2)
+        x114=operator.add(x113, (12, 64))
         if x114 is None:
             print('x114: {}'.format(x114))
         elif isinstance(x114, torch.Tensor):
@@ -2007,7 +1918,7 @@ class M(torch.nn.Module):
             print('x114: {}'.format(tuple_shapes))
         else:
             print('x114: {}'.format(x114))
-        x115=x108.view(x110, 2, x114, x112, x113)
+        x115=x105.view(x114)
         if x115 is None:
             print('x115: {}'.format(x115))
         elif isinstance(x115, torch.Tensor):
@@ -2023,7 +1934,7 @@ class M(torch.nn.Module):
             print('x115: {}'.format(tuple_shapes))
         else:
             print('x115: {}'.format(x115))
-        x116=torch.transpose(x115, 1, 2)
+        x116=x115.permute(0, 2, 1, 3)
         if x116 is None:
             print('x116: {}'.format(x116))
         elif isinstance(x116, torch.Tensor):
@@ -2039,7 +1950,7 @@ class M(torch.nn.Module):
             print('x116: {}'.format(tuple_shapes))
         else:
             print('x116: {}'.format(x116))
-        x117=x116.contiguous()
+        x117=x106.size()
         if x117 is None:
             print('x117: {}'.format(x117))
         elif isinstance(x117, torch.Tensor):
@@ -2055,7 +1966,7 @@ class M(torch.nn.Module):
             print('x117: {}'.format(tuple_shapes))
         else:
             print('x117: {}'.format(x117))
-        x118=x117.view(x110, -1, x112, x113)
+        x118=operator.getitem(x117, slice(None, -1, None))
         if x118 is None:
             print('x118: {}'.format(x118))
         elif isinstance(x118, torch.Tensor):
@@ -2071,7 +1982,7 @@ class M(torch.nn.Module):
             print('x118: {}'.format(tuple_shapes))
         else:
             print('x118: {}'.format(x118))
-        x119=x118.chunk(2,dim=1)
+        x119=operator.add(x118, (12, 64))
         if x119 is None:
             print('x119: {}'.format(x119))
         elif isinstance(x119, torch.Tensor):
@@ -2087,7 +1998,7 @@ class M(torch.nn.Module):
             print('x119: {}'.format(tuple_shapes))
         else:
             print('x119: {}'.format(x119))
-        x120=operator.getitem(x119, 0)
+        x120=x106.view(x119)
         if x120 is None:
             print('x120: {}'.format(x120))
         elif isinstance(x120, torch.Tensor):
@@ -2103,7 +2014,7 @@ class M(torch.nn.Module):
             print('x120: {}'.format(tuple_shapes))
         else:
             print('x120: {}'.format(x120))
-        x121=operator.getitem(x119, 1)
+        x121=x120.permute(0, 2, 1, 3)
         if x121 is None:
             print('x121: {}'.format(x121))
         elif isinstance(x121, torch.Tensor):
@@ -2119,7 +2030,7 @@ class M(torch.nn.Module):
             print('x121: {}'.format(tuple_shapes))
         else:
             print('x121: {}'.format(x121))
-        x122=self.conv2d20(x121)
+        x122=x116.transpose(-1, -2)
         if x122 is None:
             print('x122: {}'.format(x122))
         elif isinstance(x122, torch.Tensor):
@@ -2135,7 +2046,7 @@ class M(torch.nn.Module):
             print('x122: {}'.format(tuple_shapes))
         else:
             print('x122: {}'.format(x122))
-        x123=self.batchnorm2d20(x122)
+        x123=torch.matmul(x111, x122)
         if x123 is None:
             print('x123: {}'.format(x123))
         elif isinstance(x123, torch.Tensor):
@@ -2151,7 +2062,7 @@ class M(torch.nn.Module):
             print('x123: {}'.format(tuple_shapes))
         else:
             print('x123: {}'.format(x123))
-        x124=self.relu13(x123)
+        x124=operator.truediv(x123, 8.0)
         if x124 is None:
             print('x124: {}'.format(x124))
         elif isinstance(x124, torch.Tensor):
@@ -2167,23 +2078,7 @@ class M(torch.nn.Module):
             print('x124: {}'.format(tuple_shapes))
         else:
             print('x124: {}'.format(x124))
-        x125=self.conv2d21(x124)
-        if x125 is None:
-            print('x125: {}'.format(x125))
-        elif isinstance(x125, torch.Tensor):
-            print('x125: {}'.format(x125.shape))
-        elif isinstance(x125, tuple):
-            tuple_shapes = '('
-            for item in x125:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x125: {}'.format(tuple_shapes))
-        else:
-            print('x125: {}'.format(x125))
-        x126=self.batchnorm2d21(x125)
+        x126=operator.add(x124, self._tensor_constant20)
         if x126 is None:
             print('x126: {}'.format(x126))
         elif isinstance(x126, torch.Tensor):
@@ -2199,7 +2094,7 @@ class M(torch.nn.Module):
             print('x126: {}'.format(tuple_shapes))
         else:
             print('x126: {}'.format(x126))
-        x127=self.conv2d22(x126)
+        x127=torch.nn.functional.softmax(x126,dim=-1, _stacklevel=3, dtype=None)
         if x127 is None:
             print('x127: {}'.format(x127))
         elif isinstance(x127, torch.Tensor):
@@ -2215,7 +2110,7 @@ class M(torch.nn.Module):
             print('x127: {}'.format(tuple_shapes))
         else:
             print('x127: {}'.format(x127))
-        x128=self.batchnorm2d22(x127)
+        x128=self.dropout1(x127)
         if x128 is None:
             print('x128: {}'.format(x128))
         elif isinstance(x128, torch.Tensor):
@@ -2231,7 +2126,7 @@ class M(torch.nn.Module):
             print('x128: {}'.format(tuple_shapes))
         else:
             print('x128: {}'.format(x128))
-        x129=self.relu14(x128)
+        x129=torch.matmul(x128, x121)
         if x129 is None:
             print('x129: {}'.format(x129))
         elif isinstance(x129, torch.Tensor):
@@ -2247,7 +2142,7 @@ class M(torch.nn.Module):
             print('x129: {}'.format(tuple_shapes))
         else:
             print('x129: {}'.format(x129))
-        x130=torch.cat((x120, x129),dim=1)
+        x130=x129.transpose(2, 1)
         if x130 is None:
             print('x130: {}'.format(x130))
         elif isinstance(x130, torch.Tensor):
@@ -2263,7 +2158,7 @@ class M(torch.nn.Module):
             print('x130: {}'.format(tuple_shapes))
         else:
             print('x130: {}'.format(x130))
-        x131=x130.size()
+        x131=x130.flatten(2)
         if x131 is None:
             print('x131: {}'.format(x131))
         elif isinstance(x131, torch.Tensor):
@@ -2279,7 +2174,7 @@ class M(torch.nn.Module):
             print('x131: {}'.format(tuple_shapes))
         else:
             print('x131: {}'.format(x131))
-        x132=operator.getitem(x131, 0)
+        x132=self.linear4(x131)
         if x132 is None:
             print('x132: {}'.format(x132))
         elif isinstance(x132, torch.Tensor):
@@ -2295,7 +2190,7 @@ class M(torch.nn.Module):
             print('x132: {}'.format(tuple_shapes))
         else:
             print('x132: {}'.format(x132))
-        x133=operator.getitem(x131, 1)
+        x133=self.dropout2(x132)
         if x133 is None:
             print('x133: {}'.format(x133))
         elif isinstance(x133, torch.Tensor):
@@ -2311,7 +2206,7 @@ class M(torch.nn.Module):
             print('x133: {}'.format(tuple_shapes))
         else:
             print('x133: {}'.format(x133))
-        x134=operator.getitem(x131, 2)
+        x134=operator.add(x103, x133)
         if x134 is None:
             print('x134: {}'.format(x134))
         elif isinstance(x134, torch.Tensor):
@@ -2327,7 +2222,7 @@ class M(torch.nn.Module):
             print('x134: {}'.format(tuple_shapes))
         else:
             print('x134: {}'.format(x134))
-        x135=operator.getitem(x131, 3)
+        x135=self.layernorm1(x134)
         if x135 is None:
             print('x135: {}'.format(x135))
         elif isinstance(x135, torch.Tensor):
@@ -2343,7 +2238,7 @@ class M(torch.nn.Module):
             print('x135: {}'.format(tuple_shapes))
         else:
             print('x135: {}'.format(x135))
-        x136=operator.floordiv(x133, 2)
+        x136=self.linear5(x135)
         if x136 is None:
             print('x136: {}'.format(x136))
         elif isinstance(x136, torch.Tensor):
@@ -2359,7 +2254,7 @@ class M(torch.nn.Module):
             print('x136: {}'.format(tuple_shapes))
         else:
             print('x136: {}'.format(x136))
-        x137=x130.view(x132, 2, x136, x134, x135)
+        x137=torch._C._nn.gelu(x136)
         if x137 is None:
             print('x137: {}'.format(x137))
         elif isinstance(x137, torch.Tensor):
@@ -2375,7 +2270,7 @@ class M(torch.nn.Module):
             print('x137: {}'.format(tuple_shapes))
         else:
             print('x137: {}'.format(x137))
-        x138=torch.transpose(x137, 1, 2)
+        x138=self.linear6(x137)
         if x138 is None:
             print('x138: {}'.format(x138))
         elif isinstance(x138, torch.Tensor):
@@ -2391,7 +2286,7 @@ class M(torch.nn.Module):
             print('x138: {}'.format(tuple_shapes))
         else:
             print('x138: {}'.format(x138))
-        x139=x138.contiguous()
+        x139=operator.add(x138, x135)
         if x139 is None:
             print('x139: {}'.format(x139))
         elif isinstance(x139, torch.Tensor):
@@ -2407,7 +2302,7 @@ class M(torch.nn.Module):
             print('x139: {}'.format(tuple_shapes))
         else:
             print('x139: {}'.format(x139))
-        x140=x139.view(x132, -1, x134, x135)
+        x140=self.layernorm2(x139)
         if x140 is None:
             print('x140: {}'.format(x140))
         elif isinstance(x140, torch.Tensor):
@@ -2423,7 +2318,7 @@ class M(torch.nn.Module):
             print('x140: {}'.format(tuple_shapes))
         else:
             print('x140: {}'.format(x140))
-        x141=x140.chunk(2,dim=1)
+        x141=self.linear1(x140)
         if x141 is None:
             print('x141: {}'.format(x141))
         elif isinstance(x141, torch.Tensor):
@@ -2439,7 +2334,7 @@ class M(torch.nn.Module):
             print('x141: {}'.format(tuple_shapes))
         else:
             print('x141: {}'.format(x141))
-        x142=operator.getitem(x141, 0)
+        x142=self.linear2(x140)
         if x142 is None:
             print('x142: {}'.format(x142))
         elif isinstance(x142, torch.Tensor):
@@ -2455,7 +2350,7 @@ class M(torch.nn.Module):
             print('x142: {}'.format(tuple_shapes))
         else:
             print('x142: {}'.format(x142))
-        x143=operator.getitem(x141, 1)
+        x143=self.linear3(x140)
         if x143 is None:
             print('x143: {}'.format(x143))
         elif isinstance(x143, torch.Tensor):
@@ -2471,7 +2366,7 @@ class M(torch.nn.Module):
             print('x143: {}'.format(tuple_shapes))
         else:
             print('x143: {}'.format(x143))
-        x144=self.conv2d23(x143)
+        x144=x141.size()
         if x144 is None:
             print('x144: {}'.format(x144))
         elif isinstance(x144, torch.Tensor):
@@ -2487,7 +2382,7 @@ class M(torch.nn.Module):
             print('x144: {}'.format(tuple_shapes))
         else:
             print('x144: {}'.format(x144))
-        x145=self.batchnorm2d23(x144)
+        x145=operator.getitem(x144, slice(None, -1, None))
         if x145 is None:
             print('x145: {}'.format(x145))
         elif isinstance(x145, torch.Tensor):
@@ -2503,7 +2398,7 @@ class M(torch.nn.Module):
             print('x145: {}'.format(tuple_shapes))
         else:
             print('x145: {}'.format(x145))
-        x146=self.relu15(x145)
+        x146=operator.add(x145, (12, 64))
         if x146 is None:
             print('x146: {}'.format(x146))
         elif isinstance(x146, torch.Tensor):
@@ -2519,7 +2414,7 @@ class M(torch.nn.Module):
             print('x146: {}'.format(tuple_shapes))
         else:
             print('x146: {}'.format(x146))
-        x147=self.conv2d24(x146)
+        x147=x141.view(x146)
         if x147 is None:
             print('x147: {}'.format(x147))
         elif isinstance(x147, torch.Tensor):
@@ -2535,7 +2430,7 @@ class M(torch.nn.Module):
             print('x147: {}'.format(tuple_shapes))
         else:
             print('x147: {}'.format(x147))
-        x148=self.batchnorm2d24(x147)
+        x148=x147.permute(0, 2, 1, 3)
         if x148 is None:
             print('x148: {}'.format(x148))
         elif isinstance(x148, torch.Tensor):
@@ -2551,7 +2446,7 @@ class M(torch.nn.Module):
             print('x148: {}'.format(tuple_shapes))
         else:
             print('x148: {}'.format(x148))
-        x149=self.conv2d25(x148)
+        x149=x142.size()
         if x149 is None:
             print('x149: {}'.format(x149))
         elif isinstance(x149, torch.Tensor):
@@ -2567,7 +2462,7 @@ class M(torch.nn.Module):
             print('x149: {}'.format(tuple_shapes))
         else:
             print('x149: {}'.format(x149))
-        x150=self.batchnorm2d25(x149)
+        x150=operator.getitem(x149, slice(None, -1, None))
         if x150 is None:
             print('x150: {}'.format(x150))
         elif isinstance(x150, torch.Tensor):
@@ -2583,7 +2478,7 @@ class M(torch.nn.Module):
             print('x150: {}'.format(tuple_shapes))
         else:
             print('x150: {}'.format(x150))
-        x151=self.relu16(x150)
+        x151=operator.add(x150, (12, 64))
         if x151 is None:
             print('x151: {}'.format(x151))
         elif isinstance(x151, torch.Tensor):
@@ -2599,7 +2494,7 @@ class M(torch.nn.Module):
             print('x151: {}'.format(tuple_shapes))
         else:
             print('x151: {}'.format(x151))
-        x152=torch.cat((x142, x151),dim=1)
+        x152=x142.view(x151)
         if x152 is None:
             print('x152: {}'.format(x152))
         elif isinstance(x152, torch.Tensor):
@@ -2615,7 +2510,7 @@ class M(torch.nn.Module):
             print('x152: {}'.format(tuple_shapes))
         else:
             print('x152: {}'.format(x152))
-        x153=x152.size()
+        x153=x152.permute(0, 2, 1, 3)
         if x153 is None:
             print('x153: {}'.format(x153))
         elif isinstance(x153, torch.Tensor):
@@ -2631,7 +2526,7 @@ class M(torch.nn.Module):
             print('x153: {}'.format(tuple_shapes))
         else:
             print('x153: {}'.format(x153))
-        x154=operator.getitem(x153, 0)
+        x154=x143.size()
         if x154 is None:
             print('x154: {}'.format(x154))
         elif isinstance(x154, torch.Tensor):
@@ -2647,7 +2542,7 @@ class M(torch.nn.Module):
             print('x154: {}'.format(tuple_shapes))
         else:
             print('x154: {}'.format(x154))
-        x155=operator.getitem(x153, 1)
+        x155=operator.getitem(x154, slice(None, -1, None))
         if x155 is None:
             print('x155: {}'.format(x155))
         elif isinstance(x155, torch.Tensor):
@@ -2663,7 +2558,7 @@ class M(torch.nn.Module):
             print('x155: {}'.format(tuple_shapes))
         else:
             print('x155: {}'.format(x155))
-        x156=operator.getitem(x153, 2)
+        x156=operator.add(x155, (12, 64))
         if x156 is None:
             print('x156: {}'.format(x156))
         elif isinstance(x156, torch.Tensor):
@@ -2679,7 +2574,7 @@ class M(torch.nn.Module):
             print('x156: {}'.format(tuple_shapes))
         else:
             print('x156: {}'.format(x156))
-        x157=operator.getitem(x153, 3)
+        x157=x143.view(x156)
         if x157 is None:
             print('x157: {}'.format(x157))
         elif isinstance(x157, torch.Tensor):
@@ -2695,7 +2590,7 @@ class M(torch.nn.Module):
             print('x157: {}'.format(tuple_shapes))
         else:
             print('x157: {}'.format(x157))
-        x158=operator.floordiv(x155, 2)
+        x158=x157.permute(0, 2, 1, 3)
         if x158 is None:
             print('x158: {}'.format(x158))
         elif isinstance(x158, torch.Tensor):
@@ -2711,7 +2606,7 @@ class M(torch.nn.Module):
             print('x158: {}'.format(tuple_shapes))
         else:
             print('x158: {}'.format(x158))
-        x159=x152.view(x154, 2, x158, x156, x157)
+        x159=x153.transpose(-1, -2)
         if x159 is None:
             print('x159: {}'.format(x159))
         elif isinstance(x159, torch.Tensor):
@@ -2727,7 +2622,7 @@ class M(torch.nn.Module):
             print('x159: {}'.format(tuple_shapes))
         else:
             print('x159: {}'.format(x159))
-        x160=torch.transpose(x159, 1, 2)
+        x160=torch.matmul(x148, x159)
         if x160 is None:
             print('x160: {}'.format(x160))
         elif isinstance(x160, torch.Tensor):
@@ -2743,7 +2638,7 @@ class M(torch.nn.Module):
             print('x160: {}'.format(tuple_shapes))
         else:
             print('x160: {}'.format(x160))
-        x161=x160.contiguous()
+        x161=operator.truediv(x160, 8.0)
         if x161 is None:
             print('x161: {}'.format(x161))
         elif isinstance(x161, torch.Tensor):
@@ -2759,23 +2654,7 @@ class M(torch.nn.Module):
             print('x161: {}'.format(tuple_shapes))
         else:
             print('x161: {}'.format(x161))
-        x162=x161.view(x154, -1, x156, x157)
-        if x162 is None:
-            print('x162: {}'.format(x162))
-        elif isinstance(x162, torch.Tensor):
-            print('x162: {}'.format(x162.shape))
-        elif isinstance(x162, tuple):
-            tuple_shapes = '('
-            for item in x162:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x162: {}'.format(tuple_shapes))
-        else:
-            print('x162: {}'.format(x162))
-        x163=x162.chunk(2,dim=1)
+        x163=operator.add(x161, self._tensor_constant20)
         if x163 is None:
             print('x163: {}'.format(x163))
         elif isinstance(x163, torch.Tensor):
@@ -2791,7 +2670,7 @@ class M(torch.nn.Module):
             print('x163: {}'.format(tuple_shapes))
         else:
             print('x163: {}'.format(x163))
-        x164=operator.getitem(x163, 0)
+        x164=torch.nn.functional.softmax(x163,dim=-1, _stacklevel=3, dtype=None)
         if x164 is None:
             print('x164: {}'.format(x164))
         elif isinstance(x164, torch.Tensor):
@@ -2807,7 +2686,7 @@ class M(torch.nn.Module):
             print('x164: {}'.format(tuple_shapes))
         else:
             print('x164: {}'.format(x164))
-        x165=operator.getitem(x163, 1)
+        x165=self.dropout1(x164)
         if x165 is None:
             print('x165: {}'.format(x165))
         elif isinstance(x165, torch.Tensor):
@@ -2823,7 +2702,7 @@ class M(torch.nn.Module):
             print('x165: {}'.format(tuple_shapes))
         else:
             print('x165: {}'.format(x165))
-        x166=self.conv2d26(x165)
+        x166=torch.matmul(x165, x158)
         if x166 is None:
             print('x166: {}'.format(x166))
         elif isinstance(x166, torch.Tensor):
@@ -2839,7 +2718,7 @@ class M(torch.nn.Module):
             print('x166: {}'.format(tuple_shapes))
         else:
             print('x166: {}'.format(x166))
-        x167=self.batchnorm2d26(x166)
+        x167=x166.transpose(2, 1)
         if x167 is None:
             print('x167: {}'.format(x167))
         elif isinstance(x167, torch.Tensor):
@@ -2855,7 +2734,7 @@ class M(torch.nn.Module):
             print('x167: {}'.format(tuple_shapes))
         else:
             print('x167: {}'.format(x167))
-        x168=self.relu17(x167)
+        x168=x167.flatten(2)
         if x168 is None:
             print('x168: {}'.format(x168))
         elif isinstance(x168, torch.Tensor):
@@ -2871,7 +2750,7 @@ class M(torch.nn.Module):
             print('x168: {}'.format(tuple_shapes))
         else:
             print('x168: {}'.format(x168))
-        x169=self.conv2d27(x168)
+        x169=self.linear4(x168)
         if x169 is None:
             print('x169: {}'.format(x169))
         elif isinstance(x169, torch.Tensor):
@@ -2887,7 +2766,7 @@ class M(torch.nn.Module):
             print('x169: {}'.format(tuple_shapes))
         else:
             print('x169: {}'.format(x169))
-        x170=self.batchnorm2d27(x169)
+        x170=self.dropout2(x169)
         if x170 is None:
             print('x170: {}'.format(x170))
         elif isinstance(x170, torch.Tensor):
@@ -2903,7 +2782,7 @@ class M(torch.nn.Module):
             print('x170: {}'.format(tuple_shapes))
         else:
             print('x170: {}'.format(x170))
-        x171=self.conv2d28(x170)
+        x171=operator.add(x140, x170)
         if x171 is None:
             print('x171: {}'.format(x171))
         elif isinstance(x171, torch.Tensor):
@@ -2919,7 +2798,7 @@ class M(torch.nn.Module):
             print('x171: {}'.format(tuple_shapes))
         else:
             print('x171: {}'.format(x171))
-        x172=self.batchnorm2d28(x171)
+        x172=self.layernorm1(x171)
         if x172 is None:
             print('x172: {}'.format(x172))
         elif isinstance(x172, torch.Tensor):
@@ -2935,7 +2814,7 @@ class M(torch.nn.Module):
             print('x172: {}'.format(tuple_shapes))
         else:
             print('x172: {}'.format(x172))
-        x173=self.relu18(x172)
+        x173=self.linear5(x172)
         if x173 is None:
             print('x173: {}'.format(x173))
         elif isinstance(x173, torch.Tensor):
@@ -2951,7 +2830,7 @@ class M(torch.nn.Module):
             print('x173: {}'.format(tuple_shapes))
         else:
             print('x173: {}'.format(x173))
-        x174=torch.cat((x164, x173),dim=1)
+        x174=torch._C._nn.gelu(x173)
         if x174 is None:
             print('x174: {}'.format(x174))
         elif isinstance(x174, torch.Tensor):
@@ -2967,7 +2846,7 @@ class M(torch.nn.Module):
             print('x174: {}'.format(tuple_shapes))
         else:
             print('x174: {}'.format(x174))
-        x175=x174.size()
+        x175=self.linear6(x174)
         if x175 is None:
             print('x175: {}'.format(x175))
         elif isinstance(x175, torch.Tensor):
@@ -2983,7 +2862,7 @@ class M(torch.nn.Module):
             print('x175: {}'.format(tuple_shapes))
         else:
             print('x175: {}'.format(x175))
-        x176=operator.getitem(x175, 0)
+        x176=operator.add(x175, x172)
         if x176 is None:
             print('x176: {}'.format(x176))
         elif isinstance(x176, torch.Tensor):
@@ -2999,7 +2878,7 @@ class M(torch.nn.Module):
             print('x176: {}'.format(tuple_shapes))
         else:
             print('x176: {}'.format(x176))
-        x177=operator.getitem(x175, 1)
+        x177=self.layernorm2(x176)
         if x177 is None:
             print('x177: {}'.format(x177))
         elif isinstance(x177, torch.Tensor):
@@ -3015,7 +2894,7 @@ class M(torch.nn.Module):
             print('x177: {}'.format(tuple_shapes))
         else:
             print('x177: {}'.format(x177))
-        x178=operator.getitem(x175, 2)
+        x178=self.linear1(x177)
         if x178 is None:
             print('x178: {}'.format(x178))
         elif isinstance(x178, torch.Tensor):
@@ -3031,7 +2910,7 @@ class M(torch.nn.Module):
             print('x178: {}'.format(tuple_shapes))
         else:
             print('x178: {}'.format(x178))
-        x179=operator.getitem(x175, 3)
+        x179=self.linear2(x177)
         if x179 is None:
             print('x179: {}'.format(x179))
         elif isinstance(x179, torch.Tensor):
@@ -3047,7 +2926,7 @@ class M(torch.nn.Module):
             print('x179: {}'.format(tuple_shapes))
         else:
             print('x179: {}'.format(x179))
-        x180=operator.floordiv(x177, 2)
+        x180=self.linear3(x177)
         if x180 is None:
             print('x180: {}'.format(x180))
         elif isinstance(x180, torch.Tensor):
@@ -3063,7 +2942,7 @@ class M(torch.nn.Module):
             print('x180: {}'.format(tuple_shapes))
         else:
             print('x180: {}'.format(x180))
-        x181=x174.view(x176, 2, x180, x178, x179)
+        x181=x178.size()
         if x181 is None:
             print('x181: {}'.format(x181))
         elif isinstance(x181, torch.Tensor):
@@ -3079,7 +2958,7 @@ class M(torch.nn.Module):
             print('x181: {}'.format(tuple_shapes))
         else:
             print('x181: {}'.format(x181))
-        x182=torch.transpose(x181, 1, 2)
+        x182=operator.getitem(x181, slice(None, -1, None))
         if x182 is None:
             print('x182: {}'.format(x182))
         elif isinstance(x182, torch.Tensor):
@@ -3095,7 +2974,7 @@ class M(torch.nn.Module):
             print('x182: {}'.format(tuple_shapes))
         else:
             print('x182: {}'.format(x182))
-        x183=x182.contiguous()
+        x183=operator.add(x182, (12, 64))
         if x183 is None:
             print('x183: {}'.format(x183))
         elif isinstance(x183, torch.Tensor):
@@ -3111,7 +2990,7 @@ class M(torch.nn.Module):
             print('x183: {}'.format(tuple_shapes))
         else:
             print('x183: {}'.format(x183))
-        x184=x183.view(x176, -1, x178, x179)
+        x184=x178.view(x183)
         if x184 is None:
             print('x184: {}'.format(x184))
         elif isinstance(x184, torch.Tensor):
@@ -3127,7 +3006,7 @@ class M(torch.nn.Module):
             print('x184: {}'.format(tuple_shapes))
         else:
             print('x184: {}'.format(x184))
-        x185=x184.chunk(2,dim=1)
+        x185=x184.permute(0, 2, 1, 3)
         if x185 is None:
             print('x185: {}'.format(x185))
         elif isinstance(x185, torch.Tensor):
@@ -3143,7 +3022,7 @@ class M(torch.nn.Module):
             print('x185: {}'.format(tuple_shapes))
         else:
             print('x185: {}'.format(x185))
-        x186=operator.getitem(x185, 0)
+        x186=x179.size()
         if x186 is None:
             print('x186: {}'.format(x186))
         elif isinstance(x186, torch.Tensor):
@@ -3159,7 +3038,7 @@ class M(torch.nn.Module):
             print('x186: {}'.format(tuple_shapes))
         else:
             print('x186: {}'.format(x186))
-        x187=operator.getitem(x185, 1)
+        x187=operator.getitem(x186, slice(None, -1, None))
         if x187 is None:
             print('x187: {}'.format(x187))
         elif isinstance(x187, torch.Tensor):
@@ -3175,7 +3054,7 @@ class M(torch.nn.Module):
             print('x187: {}'.format(tuple_shapes))
         else:
             print('x187: {}'.format(x187))
-        x188=self.conv2d29(x187)
+        x188=operator.add(x187, (12, 64))
         if x188 is None:
             print('x188: {}'.format(x188))
         elif isinstance(x188, torch.Tensor):
@@ -3191,7 +3070,7 @@ class M(torch.nn.Module):
             print('x188: {}'.format(tuple_shapes))
         else:
             print('x188: {}'.format(x188))
-        x189=self.batchnorm2d29(x188)
+        x189=x179.view(x188)
         if x189 is None:
             print('x189: {}'.format(x189))
         elif isinstance(x189, torch.Tensor):
@@ -3207,7 +3086,7 @@ class M(torch.nn.Module):
             print('x189: {}'.format(tuple_shapes))
         else:
             print('x189: {}'.format(x189))
-        x190=self.relu19(x189)
+        x190=x189.permute(0, 2, 1, 3)
         if x190 is None:
             print('x190: {}'.format(x190))
         elif isinstance(x190, torch.Tensor):
@@ -3223,7 +3102,7 @@ class M(torch.nn.Module):
             print('x190: {}'.format(tuple_shapes))
         else:
             print('x190: {}'.format(x190))
-        x191=self.conv2d30(x190)
+        x191=x180.size()
         if x191 is None:
             print('x191: {}'.format(x191))
         elif isinstance(x191, torch.Tensor):
@@ -3239,7 +3118,7 @@ class M(torch.nn.Module):
             print('x191: {}'.format(tuple_shapes))
         else:
             print('x191: {}'.format(x191))
-        x192=self.batchnorm2d30(x191)
+        x192=operator.getitem(x191, slice(None, -1, None))
         if x192 is None:
             print('x192: {}'.format(x192))
         elif isinstance(x192, torch.Tensor):
@@ -3255,7 +3134,7 @@ class M(torch.nn.Module):
             print('x192: {}'.format(tuple_shapes))
         else:
             print('x192: {}'.format(x192))
-        x193=self.conv2d31(x192)
+        x193=operator.add(x192, (12, 64))
         if x193 is None:
             print('x193: {}'.format(x193))
         elif isinstance(x193, torch.Tensor):
@@ -3271,7 +3150,7 @@ class M(torch.nn.Module):
             print('x193: {}'.format(tuple_shapes))
         else:
             print('x193: {}'.format(x193))
-        x194=self.batchnorm2d31(x193)
+        x194=x180.view(x193)
         if x194 is None:
             print('x194: {}'.format(x194))
         elif isinstance(x194, torch.Tensor):
@@ -3287,7 +3166,7 @@ class M(torch.nn.Module):
             print('x194: {}'.format(tuple_shapes))
         else:
             print('x194: {}'.format(x194))
-        x195=self.relu20(x194)
+        x195=x194.permute(0, 2, 1, 3)
         if x195 is None:
             print('x195: {}'.format(x195))
         elif isinstance(x195, torch.Tensor):
@@ -3303,7 +3182,7 @@ class M(torch.nn.Module):
             print('x195: {}'.format(tuple_shapes))
         else:
             print('x195: {}'.format(x195))
-        x196=torch.cat((x186, x195),dim=1)
+        x196=x190.transpose(-1, -2)
         if x196 is None:
             print('x196: {}'.format(x196))
         elif isinstance(x196, torch.Tensor):
@@ -3319,7 +3198,7 @@ class M(torch.nn.Module):
             print('x196: {}'.format(tuple_shapes))
         else:
             print('x196: {}'.format(x196))
-        x197=x196.size()
+        x197=torch.matmul(x185, x196)
         if x197 is None:
             print('x197: {}'.format(x197))
         elif isinstance(x197, torch.Tensor):
@@ -3335,7 +3214,7 @@ class M(torch.nn.Module):
             print('x197: {}'.format(tuple_shapes))
         else:
             print('x197: {}'.format(x197))
-        x198=operator.getitem(x197, 0)
+        x198=operator.truediv(x197, 8.0)
         if x198 is None:
             print('x198: {}'.format(x198))
         elif isinstance(x198, torch.Tensor):
@@ -3351,23 +3230,7 @@ class M(torch.nn.Module):
             print('x198: {}'.format(tuple_shapes))
         else:
             print('x198: {}'.format(x198))
-        x199=operator.getitem(x197, 1)
-        if x199 is None:
-            print('x199: {}'.format(x199))
-        elif isinstance(x199, torch.Tensor):
-            print('x199: {}'.format(x199.shape))
-        elif isinstance(x199, tuple):
-            tuple_shapes = '('
-            for item in x199:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x199: {}'.format(tuple_shapes))
-        else:
-            print('x199: {}'.format(x199))
-        x200=operator.getitem(x197, 2)
+        x200=operator.add(x198, self._tensor_constant20)
         if x200 is None:
             print('x200: {}'.format(x200))
         elif isinstance(x200, torch.Tensor):
@@ -3383,7 +3246,7 @@ class M(torch.nn.Module):
             print('x200: {}'.format(tuple_shapes))
         else:
             print('x200: {}'.format(x200))
-        x201=operator.getitem(x197, 3)
+        x201=torch.nn.functional.softmax(x200,dim=-1, _stacklevel=3, dtype=None)
         if x201 is None:
             print('x201: {}'.format(x201))
         elif isinstance(x201, torch.Tensor):
@@ -3399,7 +3262,7 @@ class M(torch.nn.Module):
             print('x201: {}'.format(tuple_shapes))
         else:
             print('x201: {}'.format(x201))
-        x202=operator.floordiv(x199, 2)
+        x202=self.dropout1(x201)
         if x202 is None:
             print('x202: {}'.format(x202))
         elif isinstance(x202, torch.Tensor):
@@ -3415,7 +3278,7 @@ class M(torch.nn.Module):
             print('x202: {}'.format(tuple_shapes))
         else:
             print('x202: {}'.format(x202))
-        x203=x196.view(x198, 2, x202, x200, x201)
+        x203=torch.matmul(x202, x195)
         if x203 is None:
             print('x203: {}'.format(x203))
         elif isinstance(x203, torch.Tensor):
@@ -3431,7 +3294,7 @@ class M(torch.nn.Module):
             print('x203: {}'.format(tuple_shapes))
         else:
             print('x203: {}'.format(x203))
-        x204=torch.transpose(x203, 1, 2)
+        x204=x203.transpose(2, 1)
         if x204 is None:
             print('x204: {}'.format(x204))
         elif isinstance(x204, torch.Tensor):
@@ -3447,7 +3310,7 @@ class M(torch.nn.Module):
             print('x204: {}'.format(tuple_shapes))
         else:
             print('x204: {}'.format(x204))
-        x205=x204.contiguous()
+        x205=x204.flatten(2)
         if x205 is None:
             print('x205: {}'.format(x205))
         elif isinstance(x205, torch.Tensor):
@@ -3463,7 +3326,7 @@ class M(torch.nn.Module):
             print('x205: {}'.format(tuple_shapes))
         else:
             print('x205: {}'.format(x205))
-        x206=x205.view(x198, -1, x200, x201)
+        x206=self.linear4(x205)
         if x206 is None:
             print('x206: {}'.format(x206))
         elif isinstance(x206, torch.Tensor):
@@ -3479,7 +3342,7 @@ class M(torch.nn.Module):
             print('x206: {}'.format(tuple_shapes))
         else:
             print('x206: {}'.format(x206))
-        x207=x206.chunk(2,dim=1)
+        x207=self.dropout2(x206)
         if x207 is None:
             print('x207: {}'.format(x207))
         elif isinstance(x207, torch.Tensor):
@@ -3495,7 +3358,7 @@ class M(torch.nn.Module):
             print('x207: {}'.format(tuple_shapes))
         else:
             print('x207: {}'.format(x207))
-        x208=operator.getitem(x207, 0)
+        x208=operator.add(x177, x207)
         if x208 is None:
             print('x208: {}'.format(x208))
         elif isinstance(x208, torch.Tensor):
@@ -3511,7 +3374,7 @@ class M(torch.nn.Module):
             print('x208: {}'.format(tuple_shapes))
         else:
             print('x208: {}'.format(x208))
-        x209=operator.getitem(x207, 1)
+        x209=self.layernorm1(x208)
         if x209 is None:
             print('x209: {}'.format(x209))
         elif isinstance(x209, torch.Tensor):
@@ -3527,7 +3390,7 @@ class M(torch.nn.Module):
             print('x209: {}'.format(tuple_shapes))
         else:
             print('x209: {}'.format(x209))
-        x210=self.conv2d32(x209)
+        x210=self.linear5(x209)
         if x210 is None:
             print('x210: {}'.format(x210))
         elif isinstance(x210, torch.Tensor):
@@ -3543,7 +3406,7 @@ class M(torch.nn.Module):
             print('x210: {}'.format(tuple_shapes))
         else:
             print('x210: {}'.format(x210))
-        x211=self.batchnorm2d32(x210)
+        x211=torch._C._nn.gelu(x210)
         if x211 is None:
             print('x211: {}'.format(x211))
         elif isinstance(x211, torch.Tensor):
@@ -3559,7 +3422,7 @@ class M(torch.nn.Module):
             print('x211: {}'.format(tuple_shapes))
         else:
             print('x211: {}'.format(x211))
-        x212=self.relu21(x211)
+        x212=self.linear6(x211)
         if x212 is None:
             print('x212: {}'.format(x212))
         elif isinstance(x212, torch.Tensor):
@@ -3575,7 +3438,7 @@ class M(torch.nn.Module):
             print('x212: {}'.format(tuple_shapes))
         else:
             print('x212: {}'.format(x212))
-        x213=self.conv2d33(x212)
+        x213=operator.add(x212, x209)
         if x213 is None:
             print('x213: {}'.format(x213))
         elif isinstance(x213, torch.Tensor):
@@ -3591,7 +3454,7 @@ class M(torch.nn.Module):
             print('x213: {}'.format(tuple_shapes))
         else:
             print('x213: {}'.format(x213))
-        x214=self.batchnorm2d33(x213)
+        x214=self.layernorm2(x213)
         if x214 is None:
             print('x214: {}'.format(x214))
         elif isinstance(x214, torch.Tensor):
@@ -3607,7 +3470,7 @@ class M(torch.nn.Module):
             print('x214: {}'.format(tuple_shapes))
         else:
             print('x214: {}'.format(x214))
-        x215=self.conv2d34(x214)
+        x215=self.linear1(x214)
         if x215 is None:
             print('x215: {}'.format(x215))
         elif isinstance(x215, torch.Tensor):
@@ -3623,7 +3486,7 @@ class M(torch.nn.Module):
             print('x215: {}'.format(tuple_shapes))
         else:
             print('x215: {}'.format(x215))
-        x216=self.batchnorm2d34(x215)
+        x216=self.linear2(x214)
         if x216 is None:
             print('x216: {}'.format(x216))
         elif isinstance(x216, torch.Tensor):
@@ -3639,7 +3502,7 @@ class M(torch.nn.Module):
             print('x216: {}'.format(tuple_shapes))
         else:
             print('x216: {}'.format(x216))
-        x217=self.relu22(x216)
+        x217=self.linear3(x214)
         if x217 is None:
             print('x217: {}'.format(x217))
         elif isinstance(x217, torch.Tensor):
@@ -3655,7 +3518,7 @@ class M(torch.nn.Module):
             print('x217: {}'.format(tuple_shapes))
         else:
             print('x217: {}'.format(x217))
-        x218=torch.cat((x208, x217),dim=1)
+        x218=x215.size()
         if x218 is None:
             print('x218: {}'.format(x218))
         elif isinstance(x218, torch.Tensor):
@@ -3671,7 +3534,7 @@ class M(torch.nn.Module):
             print('x218: {}'.format(tuple_shapes))
         else:
             print('x218: {}'.format(x218))
-        x219=x218.size()
+        x219=operator.getitem(x218, slice(None, -1, None))
         if x219 is None:
             print('x219: {}'.format(x219))
         elif isinstance(x219, torch.Tensor):
@@ -3687,7 +3550,7 @@ class M(torch.nn.Module):
             print('x219: {}'.format(tuple_shapes))
         else:
             print('x219: {}'.format(x219))
-        x220=operator.getitem(x219, 0)
+        x220=operator.add(x219, (12, 64))
         if x220 is None:
             print('x220: {}'.format(x220))
         elif isinstance(x220, torch.Tensor):
@@ -3703,7 +3566,7 @@ class M(torch.nn.Module):
             print('x220: {}'.format(tuple_shapes))
         else:
             print('x220: {}'.format(x220))
-        x221=operator.getitem(x219, 1)
+        x221=x215.view(x220)
         if x221 is None:
             print('x221: {}'.format(x221))
         elif isinstance(x221, torch.Tensor):
@@ -3719,7 +3582,7 @@ class M(torch.nn.Module):
             print('x221: {}'.format(tuple_shapes))
         else:
             print('x221: {}'.format(x221))
-        x222=operator.getitem(x219, 2)
+        x222=x221.permute(0, 2, 1, 3)
         if x222 is None:
             print('x222: {}'.format(x222))
         elif isinstance(x222, torch.Tensor):
@@ -3735,7 +3598,7 @@ class M(torch.nn.Module):
             print('x222: {}'.format(tuple_shapes))
         else:
             print('x222: {}'.format(x222))
-        x223=operator.getitem(x219, 3)
+        x223=x216.size()
         if x223 is None:
             print('x223: {}'.format(x223))
         elif isinstance(x223, torch.Tensor):
@@ -3751,7 +3614,7 @@ class M(torch.nn.Module):
             print('x223: {}'.format(tuple_shapes))
         else:
             print('x223: {}'.format(x223))
-        x224=operator.floordiv(x221, 2)
+        x224=operator.getitem(x223, slice(None, -1, None))
         if x224 is None:
             print('x224: {}'.format(x224))
         elif isinstance(x224, torch.Tensor):
@@ -3767,7 +3630,7 @@ class M(torch.nn.Module):
             print('x224: {}'.format(tuple_shapes))
         else:
             print('x224: {}'.format(x224))
-        x225=x218.view(x220, 2, x224, x222, x223)
+        x225=operator.add(x224, (12, 64))
         if x225 is None:
             print('x225: {}'.format(x225))
         elif isinstance(x225, torch.Tensor):
@@ -3783,7 +3646,7 @@ class M(torch.nn.Module):
             print('x225: {}'.format(tuple_shapes))
         else:
             print('x225: {}'.format(x225))
-        x226=torch.transpose(x225, 1, 2)
+        x226=x216.view(x225)
         if x226 is None:
             print('x226: {}'.format(x226))
         elif isinstance(x226, torch.Tensor):
@@ -3799,7 +3662,7 @@ class M(torch.nn.Module):
             print('x226: {}'.format(tuple_shapes))
         else:
             print('x226: {}'.format(x226))
-        x227=x226.contiguous()
+        x227=x226.permute(0, 2, 1, 3)
         if x227 is None:
             print('x227: {}'.format(x227))
         elif isinstance(x227, torch.Tensor):
@@ -3815,7 +3678,7 @@ class M(torch.nn.Module):
             print('x227: {}'.format(tuple_shapes))
         else:
             print('x227: {}'.format(x227))
-        x228=x227.view(x220, -1, x222, x223)
+        x228=x217.size()
         if x228 is None:
             print('x228: {}'.format(x228))
         elif isinstance(x228, torch.Tensor):
@@ -3831,7 +3694,7 @@ class M(torch.nn.Module):
             print('x228: {}'.format(tuple_shapes))
         else:
             print('x228: {}'.format(x228))
-        x229=x228.chunk(2,dim=1)
+        x229=operator.getitem(x228, slice(None, -1, None))
         if x229 is None:
             print('x229: {}'.format(x229))
         elif isinstance(x229, torch.Tensor):
@@ -3847,7 +3710,7 @@ class M(torch.nn.Module):
             print('x229: {}'.format(tuple_shapes))
         else:
             print('x229: {}'.format(x229))
-        x230=operator.getitem(x229, 0)
+        x230=operator.add(x229, (12, 64))
         if x230 is None:
             print('x230: {}'.format(x230))
         elif isinstance(x230, torch.Tensor):
@@ -3863,7 +3726,7 @@ class M(torch.nn.Module):
             print('x230: {}'.format(tuple_shapes))
         else:
             print('x230: {}'.format(x230))
-        x231=operator.getitem(x229, 1)
+        x231=x217.view(x230)
         if x231 is None:
             print('x231: {}'.format(x231))
         elif isinstance(x231, torch.Tensor):
@@ -3879,7 +3742,7 @@ class M(torch.nn.Module):
             print('x231: {}'.format(tuple_shapes))
         else:
             print('x231: {}'.format(x231))
-        x232=self.conv2d35(x231)
+        x232=x231.permute(0, 2, 1, 3)
         if x232 is None:
             print('x232: {}'.format(x232))
         elif isinstance(x232, torch.Tensor):
@@ -3895,7 +3758,7 @@ class M(torch.nn.Module):
             print('x232: {}'.format(tuple_shapes))
         else:
             print('x232: {}'.format(x232))
-        x233=self.batchnorm2d35(x232)
+        x233=x227.transpose(-1, -2)
         if x233 is None:
             print('x233: {}'.format(x233))
         elif isinstance(x233, torch.Tensor):
@@ -3911,7 +3774,7 @@ class M(torch.nn.Module):
             print('x233: {}'.format(tuple_shapes))
         else:
             print('x233: {}'.format(x233))
-        x234=self.relu23(x233)
+        x234=torch.matmul(x222, x233)
         if x234 is None:
             print('x234: {}'.format(x234))
         elif isinstance(x234, torch.Tensor):
@@ -3927,7 +3790,7 @@ class M(torch.nn.Module):
             print('x234: {}'.format(tuple_shapes))
         else:
             print('x234: {}'.format(x234))
-        x235=self.conv2d36(x234)
+        x235=operator.truediv(x234, 8.0)
         if x235 is None:
             print('x235: {}'.format(x235))
         elif isinstance(x235, torch.Tensor):
@@ -3943,23 +3806,7 @@ class M(torch.nn.Module):
             print('x235: {}'.format(tuple_shapes))
         else:
             print('x235: {}'.format(x235))
-        x236=self.batchnorm2d36(x235)
-        if x236 is None:
-            print('x236: {}'.format(x236))
-        elif isinstance(x236, torch.Tensor):
-            print('x236: {}'.format(x236.shape))
-        elif isinstance(x236, tuple):
-            tuple_shapes = '('
-            for item in x236:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x236: {}'.format(tuple_shapes))
-        else:
-            print('x236: {}'.format(x236))
-        x237=self.conv2d37(x236)
+        x237=operator.add(x235, self._tensor_constant20)
         if x237 is None:
             print('x237: {}'.format(x237))
         elif isinstance(x237, torch.Tensor):
@@ -3975,7 +3822,7 @@ class M(torch.nn.Module):
             print('x237: {}'.format(tuple_shapes))
         else:
             print('x237: {}'.format(x237))
-        x238=self.batchnorm2d37(x237)
+        x238=torch.nn.functional.softmax(x237,dim=-1, _stacklevel=3, dtype=None)
         if x238 is None:
             print('x238: {}'.format(x238))
         elif isinstance(x238, torch.Tensor):
@@ -3991,7 +3838,7 @@ class M(torch.nn.Module):
             print('x238: {}'.format(tuple_shapes))
         else:
             print('x238: {}'.format(x238))
-        x239=self.relu24(x238)
+        x239=self.dropout1(x238)
         if x239 is None:
             print('x239: {}'.format(x239))
         elif isinstance(x239, torch.Tensor):
@@ -4007,7 +3854,7 @@ class M(torch.nn.Module):
             print('x239: {}'.format(tuple_shapes))
         else:
             print('x239: {}'.format(x239))
-        x240=torch.cat((x230, x239),dim=1)
+        x240=torch.matmul(x239, x232)
         if x240 is None:
             print('x240: {}'.format(x240))
         elif isinstance(x240, torch.Tensor):
@@ -4023,7 +3870,7 @@ class M(torch.nn.Module):
             print('x240: {}'.format(tuple_shapes))
         else:
             print('x240: {}'.format(x240))
-        x241=x240.size()
+        x241=x240.transpose(2, 1)
         if x241 is None:
             print('x241: {}'.format(x241))
         elif isinstance(x241, torch.Tensor):
@@ -4039,7 +3886,7 @@ class M(torch.nn.Module):
             print('x241: {}'.format(tuple_shapes))
         else:
             print('x241: {}'.format(x241))
-        x242=operator.getitem(x241, 0)
+        x242=x241.flatten(2)
         if x242 is None:
             print('x242: {}'.format(x242))
         elif isinstance(x242, torch.Tensor):
@@ -4055,7 +3902,7 @@ class M(torch.nn.Module):
             print('x242: {}'.format(tuple_shapes))
         else:
             print('x242: {}'.format(x242))
-        x243=operator.getitem(x241, 1)
+        x243=self.linear4(x242)
         if x243 is None:
             print('x243: {}'.format(x243))
         elif isinstance(x243, torch.Tensor):
@@ -4071,7 +3918,7 @@ class M(torch.nn.Module):
             print('x243: {}'.format(tuple_shapes))
         else:
             print('x243: {}'.format(x243))
-        x244=operator.getitem(x241, 2)
+        x244=self.dropout2(x243)
         if x244 is None:
             print('x244: {}'.format(x244))
         elif isinstance(x244, torch.Tensor):
@@ -4087,7 +3934,7 @@ class M(torch.nn.Module):
             print('x244: {}'.format(tuple_shapes))
         else:
             print('x244: {}'.format(x244))
-        x245=operator.getitem(x241, 3)
+        x245=operator.add(x214, x244)
         if x245 is None:
             print('x245: {}'.format(x245))
         elif isinstance(x245, torch.Tensor):
@@ -4103,7 +3950,7 @@ class M(torch.nn.Module):
             print('x245: {}'.format(tuple_shapes))
         else:
             print('x245: {}'.format(x245))
-        x246=operator.floordiv(x243, 2)
+        x246=self.layernorm1(x245)
         if x246 is None:
             print('x246: {}'.format(x246))
         elif isinstance(x246, torch.Tensor):
@@ -4119,7 +3966,7 @@ class M(torch.nn.Module):
             print('x246: {}'.format(tuple_shapes))
         else:
             print('x246: {}'.format(x246))
-        x247=x240.view(x242, 2, x246, x244, x245)
+        x247=self.linear5(x246)
         if x247 is None:
             print('x247: {}'.format(x247))
         elif isinstance(x247, torch.Tensor):
@@ -4135,7 +3982,7 @@ class M(torch.nn.Module):
             print('x247: {}'.format(tuple_shapes))
         else:
             print('x247: {}'.format(x247))
-        x248=torch.transpose(x247, 1, 2)
+        x248=torch._C._nn.gelu(x247)
         if x248 is None:
             print('x248: {}'.format(x248))
         elif isinstance(x248, torch.Tensor):
@@ -4151,7 +3998,7 @@ class M(torch.nn.Module):
             print('x248: {}'.format(tuple_shapes))
         else:
             print('x248: {}'.format(x248))
-        x249=x248.contiguous()
+        x249=self.linear6(x248)
         if x249 is None:
             print('x249: {}'.format(x249))
         elif isinstance(x249, torch.Tensor):
@@ -4167,7 +4014,7 @@ class M(torch.nn.Module):
             print('x249: {}'.format(tuple_shapes))
         else:
             print('x249: {}'.format(x249))
-        x250=x249.view(x242, -1, x244, x245)
+        x250=operator.add(x249, x246)
         if x250 is None:
             print('x250: {}'.format(x250))
         elif isinstance(x250, torch.Tensor):
@@ -4183,7 +4030,7 @@ class M(torch.nn.Module):
             print('x250: {}'.format(tuple_shapes))
         else:
             print('x250: {}'.format(x250))
-        x251=x250.chunk(2,dim=1)
+        x251=self.layernorm2(x250)
         if x251 is None:
             print('x251: {}'.format(x251))
         elif isinstance(x251, torch.Tensor):
@@ -4199,7 +4046,7 @@ class M(torch.nn.Module):
             print('x251: {}'.format(tuple_shapes))
         else:
             print('x251: {}'.format(x251))
-        x252=operator.getitem(x251, 0)
+        x252=self.linear1(x251)
         if x252 is None:
             print('x252: {}'.format(x252))
         elif isinstance(x252, torch.Tensor):
@@ -4215,7 +4062,7 @@ class M(torch.nn.Module):
             print('x252: {}'.format(tuple_shapes))
         else:
             print('x252: {}'.format(x252))
-        x253=operator.getitem(x251, 1)
+        x253=self.linear2(x251)
         if x253 is None:
             print('x253: {}'.format(x253))
         elif isinstance(x253, torch.Tensor):
@@ -4231,7 +4078,7 @@ class M(torch.nn.Module):
             print('x253: {}'.format(tuple_shapes))
         else:
             print('x253: {}'.format(x253))
-        x254=self.conv2d38(x253)
+        x254=self.linear3(x251)
         if x254 is None:
             print('x254: {}'.format(x254))
         elif isinstance(x254, torch.Tensor):
@@ -4247,7 +4094,7 @@ class M(torch.nn.Module):
             print('x254: {}'.format(tuple_shapes))
         else:
             print('x254: {}'.format(x254))
-        x255=self.batchnorm2d38(x254)
+        x255=x252.size()
         if x255 is None:
             print('x255: {}'.format(x255))
         elif isinstance(x255, torch.Tensor):
@@ -4263,7 +4110,7 @@ class M(torch.nn.Module):
             print('x255: {}'.format(tuple_shapes))
         else:
             print('x255: {}'.format(x255))
-        x256=self.relu25(x255)
+        x256=operator.getitem(x255, slice(None, -1, None))
         if x256 is None:
             print('x256: {}'.format(x256))
         elif isinstance(x256, torch.Tensor):
@@ -4279,7 +4126,7 @@ class M(torch.nn.Module):
             print('x256: {}'.format(tuple_shapes))
         else:
             print('x256: {}'.format(x256))
-        x257=self.conv2d39(x256)
+        x257=operator.add(x256, (12, 64))
         if x257 is None:
             print('x257: {}'.format(x257))
         elif isinstance(x257, torch.Tensor):
@@ -4295,7 +4142,7 @@ class M(torch.nn.Module):
             print('x257: {}'.format(tuple_shapes))
         else:
             print('x257: {}'.format(x257))
-        x258=self.batchnorm2d39(x257)
+        x258=x252.view(x257)
         if x258 is None:
             print('x258: {}'.format(x258))
         elif isinstance(x258, torch.Tensor):
@@ -4311,7 +4158,7 @@ class M(torch.nn.Module):
             print('x258: {}'.format(tuple_shapes))
         else:
             print('x258: {}'.format(x258))
-        x259=self.conv2d40(x258)
+        x259=x258.permute(0, 2, 1, 3)
         if x259 is None:
             print('x259: {}'.format(x259))
         elif isinstance(x259, torch.Tensor):
@@ -4327,7 +4174,7 @@ class M(torch.nn.Module):
             print('x259: {}'.format(tuple_shapes))
         else:
             print('x259: {}'.format(x259))
-        x260=self.batchnorm2d40(x259)
+        x260=x253.size()
         if x260 is None:
             print('x260: {}'.format(x260))
         elif isinstance(x260, torch.Tensor):
@@ -4343,7 +4190,7 @@ class M(torch.nn.Module):
             print('x260: {}'.format(tuple_shapes))
         else:
             print('x260: {}'.format(x260))
-        x261=self.relu26(x260)
+        x261=operator.getitem(x260, slice(None, -1, None))
         if x261 is None:
             print('x261: {}'.format(x261))
         elif isinstance(x261, torch.Tensor):
@@ -4359,7 +4206,7 @@ class M(torch.nn.Module):
             print('x261: {}'.format(tuple_shapes))
         else:
             print('x261: {}'.format(x261))
-        x262=torch.cat((x252, x261),dim=1)
+        x262=operator.add(x261, (12, 64))
         if x262 is None:
             print('x262: {}'.format(x262))
         elif isinstance(x262, torch.Tensor):
@@ -4375,7 +4222,7 @@ class M(torch.nn.Module):
             print('x262: {}'.format(tuple_shapes))
         else:
             print('x262: {}'.format(x262))
-        x263=x262.size()
+        x263=x253.view(x262)
         if x263 is None:
             print('x263: {}'.format(x263))
         elif isinstance(x263, torch.Tensor):
@@ -4391,7 +4238,7 @@ class M(torch.nn.Module):
             print('x263: {}'.format(tuple_shapes))
         else:
             print('x263: {}'.format(x263))
-        x264=operator.getitem(x263, 0)
+        x264=x263.permute(0, 2, 1, 3)
         if x264 is None:
             print('x264: {}'.format(x264))
         elif isinstance(x264, torch.Tensor):
@@ -4407,7 +4254,7 @@ class M(torch.nn.Module):
             print('x264: {}'.format(tuple_shapes))
         else:
             print('x264: {}'.format(x264))
-        x265=operator.getitem(x263, 1)
+        x265=x254.size()
         if x265 is None:
             print('x265: {}'.format(x265))
         elif isinstance(x265, torch.Tensor):
@@ -4423,7 +4270,7 @@ class M(torch.nn.Module):
             print('x265: {}'.format(tuple_shapes))
         else:
             print('x265: {}'.format(x265))
-        x266=operator.getitem(x263, 2)
+        x266=operator.getitem(x265, slice(None, -1, None))
         if x266 is None:
             print('x266: {}'.format(x266))
         elif isinstance(x266, torch.Tensor):
@@ -4439,7 +4286,7 @@ class M(torch.nn.Module):
             print('x266: {}'.format(tuple_shapes))
         else:
             print('x266: {}'.format(x266))
-        x267=operator.getitem(x263, 3)
+        x267=operator.add(x266, (12, 64))
         if x267 is None:
             print('x267: {}'.format(x267))
         elif isinstance(x267, torch.Tensor):
@@ -4455,7 +4302,7 @@ class M(torch.nn.Module):
             print('x267: {}'.format(tuple_shapes))
         else:
             print('x267: {}'.format(x267))
-        x268=operator.floordiv(x265, 2)
+        x268=x254.view(x267)
         if x268 is None:
             print('x268: {}'.format(x268))
         elif isinstance(x268, torch.Tensor):
@@ -4471,7 +4318,7 @@ class M(torch.nn.Module):
             print('x268: {}'.format(tuple_shapes))
         else:
             print('x268: {}'.format(x268))
-        x269=x262.view(x264, 2, x268, x266, x267)
+        x269=x268.permute(0, 2, 1, 3)
         if x269 is None:
             print('x269: {}'.format(x269))
         elif isinstance(x269, torch.Tensor):
@@ -4487,7 +4334,7 @@ class M(torch.nn.Module):
             print('x269: {}'.format(tuple_shapes))
         else:
             print('x269: {}'.format(x269))
-        x270=torch.transpose(x269, 1, 2)
+        x270=x264.transpose(-1, -2)
         if x270 is None:
             print('x270: {}'.format(x270))
         elif isinstance(x270, torch.Tensor):
@@ -4503,7 +4350,7 @@ class M(torch.nn.Module):
             print('x270: {}'.format(tuple_shapes))
         else:
             print('x270: {}'.format(x270))
-        x271=x270.contiguous()
+        x271=torch.matmul(x259, x270)
         if x271 is None:
             print('x271: {}'.format(x271))
         elif isinstance(x271, torch.Tensor):
@@ -4519,7 +4366,7 @@ class M(torch.nn.Module):
             print('x271: {}'.format(tuple_shapes))
         else:
             print('x271: {}'.format(x271))
-        x272=x271.view(x264, -1, x266, x267)
+        x272=operator.truediv(x271, 8.0)
         if x272 is None:
             print('x272: {}'.format(x272))
         elif isinstance(x272, torch.Tensor):
@@ -4535,23 +4382,7 @@ class M(torch.nn.Module):
             print('x272: {}'.format(tuple_shapes))
         else:
             print('x272: {}'.format(x272))
-        x273=self.conv2d41(x272)
-        if x273 is None:
-            print('x273: {}'.format(x273))
-        elif isinstance(x273, torch.Tensor):
-            print('x273: {}'.format(x273.shape))
-        elif isinstance(x273, tuple):
-            tuple_shapes = '('
-            for item in x273:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x273: {}'.format(tuple_shapes))
-        else:
-            print('x273: {}'.format(x273))
-        x274=self.batchnorm2d41(x273)
+        x274=operator.add(x272, self._tensor_constant20)
         if x274 is None:
             print('x274: {}'.format(x274))
         elif isinstance(x274, torch.Tensor):
@@ -4567,7 +4398,7 @@ class M(torch.nn.Module):
             print('x274: {}'.format(tuple_shapes))
         else:
             print('x274: {}'.format(x274))
-        x275=self.conv2d42(x274)
+        x275=torch.nn.functional.softmax(x274,dim=-1, _stacklevel=3, dtype=None)
         if x275 is None:
             print('x275: {}'.format(x275))
         elif isinstance(x275, torch.Tensor):
@@ -4583,7 +4414,7 @@ class M(torch.nn.Module):
             print('x275: {}'.format(tuple_shapes))
         else:
             print('x275: {}'.format(x275))
-        x276=self.batchnorm2d42(x275)
+        x276=self.dropout1(x275)
         if x276 is None:
             print('x276: {}'.format(x276))
         elif isinstance(x276, torch.Tensor):
@@ -4599,7 +4430,7 @@ class M(torch.nn.Module):
             print('x276: {}'.format(tuple_shapes))
         else:
             print('x276: {}'.format(x276))
-        x277=self.relu27(x276)
+        x277=torch.matmul(x276, x269)
         if x277 is None:
             print('x277: {}'.format(x277))
         elif isinstance(x277, torch.Tensor):
@@ -4615,7 +4446,7 @@ class M(torch.nn.Module):
             print('x277: {}'.format(tuple_shapes))
         else:
             print('x277: {}'.format(x277))
-        x278=self.conv2d43(x272)
+        x278=x277.transpose(2, 1)
         if x278 is None:
             print('x278: {}'.format(x278))
         elif isinstance(x278, torch.Tensor):
@@ -4631,7 +4462,7 @@ class M(torch.nn.Module):
             print('x278: {}'.format(tuple_shapes))
         else:
             print('x278: {}'.format(x278))
-        x279=self.batchnorm2d43(x278)
+        x279=x278.flatten(2)
         if x279 is None:
             print('x279: {}'.format(x279))
         elif isinstance(x279, torch.Tensor):
@@ -4647,7 +4478,7 @@ class M(torch.nn.Module):
             print('x279: {}'.format(tuple_shapes))
         else:
             print('x279: {}'.format(x279))
-        x280=self.relu28(x279)
+        x280=self.linear4(x279)
         if x280 is None:
             print('x280: {}'.format(x280))
         elif isinstance(x280, torch.Tensor):
@@ -4663,7 +4494,7 @@ class M(torch.nn.Module):
             print('x280: {}'.format(tuple_shapes))
         else:
             print('x280: {}'.format(x280))
-        x281=self.conv2d44(x280)
+        x281=self.dropout2(x280)
         if x281 is None:
             print('x281: {}'.format(x281))
         elif isinstance(x281, torch.Tensor):
@@ -4679,7 +4510,7 @@ class M(torch.nn.Module):
             print('x281: {}'.format(tuple_shapes))
         else:
             print('x281: {}'.format(x281))
-        x282=self.batchnorm2d44(x281)
+        x282=operator.add(x251, x281)
         if x282 is None:
             print('x282: {}'.format(x282))
         elif isinstance(x282, torch.Tensor):
@@ -4695,7 +4526,7 @@ class M(torch.nn.Module):
             print('x282: {}'.format(tuple_shapes))
         else:
             print('x282: {}'.format(x282))
-        x283=self.conv2d45(x282)
+        x283=self.layernorm1(x282)
         if x283 is None:
             print('x283: {}'.format(x283))
         elif isinstance(x283, torch.Tensor):
@@ -4711,7 +4542,7 @@ class M(torch.nn.Module):
             print('x283: {}'.format(tuple_shapes))
         else:
             print('x283: {}'.format(x283))
-        x284=self.batchnorm2d45(x283)
+        x284=self.linear5(x283)
         if x284 is None:
             print('x284: {}'.format(x284))
         elif isinstance(x284, torch.Tensor):
@@ -4727,7 +4558,7 @@ class M(torch.nn.Module):
             print('x284: {}'.format(tuple_shapes))
         else:
             print('x284: {}'.format(x284))
-        x285=self.relu29(x284)
+        x285=torch._C._nn.gelu(x284)
         if x285 is None:
             print('x285: {}'.format(x285))
         elif isinstance(x285, torch.Tensor):
@@ -4743,7 +4574,7 @@ class M(torch.nn.Module):
             print('x285: {}'.format(tuple_shapes))
         else:
             print('x285: {}'.format(x285))
-        x286=torch.cat((x277, x285),dim=1)
+        x286=self.linear6(x285)
         if x286 is None:
             print('x286: {}'.format(x286))
         elif isinstance(x286, torch.Tensor):
@@ -4759,7 +4590,7 @@ class M(torch.nn.Module):
             print('x286: {}'.format(tuple_shapes))
         else:
             print('x286: {}'.format(x286))
-        x287=x286.size()
+        x287=operator.add(x286, x283)
         if x287 is None:
             print('x287: {}'.format(x287))
         elif isinstance(x287, torch.Tensor):
@@ -4775,7 +4606,7 @@ class M(torch.nn.Module):
             print('x287: {}'.format(tuple_shapes))
         else:
             print('x287: {}'.format(x287))
-        x288=operator.getitem(x287, 0)
+        x288=self.layernorm2(x287)
         if x288 is None:
             print('x288: {}'.format(x288))
         elif isinstance(x288, torch.Tensor):
@@ -4791,7 +4622,7 @@ class M(torch.nn.Module):
             print('x288: {}'.format(tuple_shapes))
         else:
             print('x288: {}'.format(x288))
-        x289=operator.getitem(x287, 1)
+        x289=self.linear1(x288)
         if x289 is None:
             print('x289: {}'.format(x289))
         elif isinstance(x289, torch.Tensor):
@@ -4807,7 +4638,7 @@ class M(torch.nn.Module):
             print('x289: {}'.format(tuple_shapes))
         else:
             print('x289: {}'.format(x289))
-        x290=operator.getitem(x287, 2)
+        x290=self.linear2(x288)
         if x290 is None:
             print('x290: {}'.format(x290))
         elif isinstance(x290, torch.Tensor):
@@ -4823,7 +4654,7 @@ class M(torch.nn.Module):
             print('x290: {}'.format(tuple_shapes))
         else:
             print('x290: {}'.format(x290))
-        x291=operator.getitem(x287, 3)
+        x291=self.linear3(x288)
         if x291 is None:
             print('x291: {}'.format(x291))
         elif isinstance(x291, torch.Tensor):
@@ -4839,7 +4670,7 @@ class M(torch.nn.Module):
             print('x291: {}'.format(tuple_shapes))
         else:
             print('x291: {}'.format(x291))
-        x292=operator.floordiv(x289, 2)
+        x292=x289.size()
         if x292 is None:
             print('x292: {}'.format(x292))
         elif isinstance(x292, torch.Tensor):
@@ -4855,7 +4686,7 @@ class M(torch.nn.Module):
             print('x292: {}'.format(tuple_shapes))
         else:
             print('x292: {}'.format(x292))
-        x293=x286.view(x288, 2, x292, x290, x291)
+        x293=operator.getitem(x292, slice(None, -1, None))
         if x293 is None:
             print('x293: {}'.format(x293))
         elif isinstance(x293, torch.Tensor):
@@ -4871,7 +4702,7 @@ class M(torch.nn.Module):
             print('x293: {}'.format(tuple_shapes))
         else:
             print('x293: {}'.format(x293))
-        x294=torch.transpose(x293, 1, 2)
+        x294=operator.add(x293, (12, 64))
         if x294 is None:
             print('x294: {}'.format(x294))
         elif isinstance(x294, torch.Tensor):
@@ -4887,7 +4718,7 @@ class M(torch.nn.Module):
             print('x294: {}'.format(tuple_shapes))
         else:
             print('x294: {}'.format(x294))
-        x295=x294.contiguous()
+        x295=x289.view(x294)
         if x295 is None:
             print('x295: {}'.format(x295))
         elif isinstance(x295, torch.Tensor):
@@ -4903,7 +4734,7 @@ class M(torch.nn.Module):
             print('x295: {}'.format(tuple_shapes))
         else:
             print('x295: {}'.format(x295))
-        x296=x295.view(x288, -1, x290, x291)
+        x296=x295.permute(0, 2, 1, 3)
         if x296 is None:
             print('x296: {}'.format(x296))
         elif isinstance(x296, torch.Tensor):
@@ -4919,7 +4750,7 @@ class M(torch.nn.Module):
             print('x296: {}'.format(tuple_shapes))
         else:
             print('x296: {}'.format(x296))
-        x297=x296.chunk(2,dim=1)
+        x297=x290.size()
         if x297 is None:
             print('x297: {}'.format(x297))
         elif isinstance(x297, torch.Tensor):
@@ -4935,7 +4766,7 @@ class M(torch.nn.Module):
             print('x297: {}'.format(tuple_shapes))
         else:
             print('x297: {}'.format(x297))
-        x298=operator.getitem(x297, 0)
+        x298=operator.getitem(x297, slice(None, -1, None))
         if x298 is None:
             print('x298: {}'.format(x298))
         elif isinstance(x298, torch.Tensor):
@@ -4951,7 +4782,7 @@ class M(torch.nn.Module):
             print('x298: {}'.format(tuple_shapes))
         else:
             print('x298: {}'.format(x298))
-        x299=operator.getitem(x297, 1)
+        x299=operator.add(x298, (12, 64))
         if x299 is None:
             print('x299: {}'.format(x299))
         elif isinstance(x299, torch.Tensor):
@@ -4967,7 +4798,7 @@ class M(torch.nn.Module):
             print('x299: {}'.format(tuple_shapes))
         else:
             print('x299: {}'.format(x299))
-        x300=self.conv2d46(x299)
+        x300=x290.view(x299)
         if x300 is None:
             print('x300: {}'.format(x300))
         elif isinstance(x300, torch.Tensor):
@@ -4983,7 +4814,7 @@ class M(torch.nn.Module):
             print('x300: {}'.format(tuple_shapes))
         else:
             print('x300: {}'.format(x300))
-        x301=self.batchnorm2d46(x300)
+        x301=x300.permute(0, 2, 1, 3)
         if x301 is None:
             print('x301: {}'.format(x301))
         elif isinstance(x301, torch.Tensor):
@@ -4999,7 +4830,7 @@ class M(torch.nn.Module):
             print('x301: {}'.format(tuple_shapes))
         else:
             print('x301: {}'.format(x301))
-        x302=self.relu30(x301)
+        x302=x291.size()
         if x302 is None:
             print('x302: {}'.format(x302))
         elif isinstance(x302, torch.Tensor):
@@ -5015,7 +4846,7 @@ class M(torch.nn.Module):
             print('x302: {}'.format(tuple_shapes))
         else:
             print('x302: {}'.format(x302))
-        x303=self.conv2d47(x302)
+        x303=operator.getitem(x302, slice(None, -1, None))
         if x303 is None:
             print('x303: {}'.format(x303))
         elif isinstance(x303, torch.Tensor):
@@ -5031,7 +4862,7 @@ class M(torch.nn.Module):
             print('x303: {}'.format(tuple_shapes))
         else:
             print('x303: {}'.format(x303))
-        x304=self.batchnorm2d47(x303)
+        x304=operator.add(x303, (12, 64))
         if x304 is None:
             print('x304: {}'.format(x304))
         elif isinstance(x304, torch.Tensor):
@@ -5047,7 +4878,7 @@ class M(torch.nn.Module):
             print('x304: {}'.format(tuple_shapes))
         else:
             print('x304: {}'.format(x304))
-        x305=self.conv2d48(x304)
+        x305=x291.view(x304)
         if x305 is None:
             print('x305: {}'.format(x305))
         elif isinstance(x305, torch.Tensor):
@@ -5063,7 +4894,7 @@ class M(torch.nn.Module):
             print('x305: {}'.format(tuple_shapes))
         else:
             print('x305: {}'.format(x305))
-        x306=self.batchnorm2d48(x305)
+        x306=x305.permute(0, 2, 1, 3)
         if x306 is None:
             print('x306: {}'.format(x306))
         elif isinstance(x306, torch.Tensor):
@@ -5079,7 +4910,7 @@ class M(torch.nn.Module):
             print('x306: {}'.format(tuple_shapes))
         else:
             print('x306: {}'.format(x306))
-        x307=self.relu31(x306)
+        x307=x301.transpose(-1, -2)
         if x307 is None:
             print('x307: {}'.format(x307))
         elif isinstance(x307, torch.Tensor):
@@ -5095,7 +4926,7 @@ class M(torch.nn.Module):
             print('x307: {}'.format(tuple_shapes))
         else:
             print('x307: {}'.format(x307))
-        x308=torch.cat((x298, x307),dim=1)
+        x308=torch.matmul(x296, x307)
         if x308 is None:
             print('x308: {}'.format(x308))
         elif isinstance(x308, torch.Tensor):
@@ -5111,7 +4942,7 @@ class M(torch.nn.Module):
             print('x308: {}'.format(tuple_shapes))
         else:
             print('x308: {}'.format(x308))
-        x309=x308.size()
+        x309=operator.truediv(x308, 8.0)
         if x309 is None:
             print('x309: {}'.format(x309))
         elif isinstance(x309, torch.Tensor):
@@ -5127,23 +4958,7 @@ class M(torch.nn.Module):
             print('x309: {}'.format(tuple_shapes))
         else:
             print('x309: {}'.format(x309))
-        x310=operator.getitem(x309, 0)
-        if x310 is None:
-            print('x310: {}'.format(x310))
-        elif isinstance(x310, torch.Tensor):
-            print('x310: {}'.format(x310.shape))
-        elif isinstance(x310, tuple):
-            tuple_shapes = '('
-            for item in x310:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x310: {}'.format(tuple_shapes))
-        else:
-            print('x310: {}'.format(x310))
-        x311=operator.getitem(x309, 1)
+        x311=operator.add(x309, self._tensor_constant20)
         if x311 is None:
             print('x311: {}'.format(x311))
         elif isinstance(x311, torch.Tensor):
@@ -5159,7 +4974,7 @@ class M(torch.nn.Module):
             print('x311: {}'.format(tuple_shapes))
         else:
             print('x311: {}'.format(x311))
-        x312=operator.getitem(x309, 2)
+        x312=torch.nn.functional.softmax(x311,dim=-1, _stacklevel=3, dtype=None)
         if x312 is None:
             print('x312: {}'.format(x312))
         elif isinstance(x312, torch.Tensor):
@@ -5175,7 +4990,7 @@ class M(torch.nn.Module):
             print('x312: {}'.format(tuple_shapes))
         else:
             print('x312: {}'.format(x312))
-        x313=operator.getitem(x309, 3)
+        x313=self.dropout1(x312)
         if x313 is None:
             print('x313: {}'.format(x313))
         elif isinstance(x313, torch.Tensor):
@@ -5191,7 +5006,7 @@ class M(torch.nn.Module):
             print('x313: {}'.format(tuple_shapes))
         else:
             print('x313: {}'.format(x313))
-        x314=operator.floordiv(x311, 2)
+        x314=torch.matmul(x313, x306)
         if x314 is None:
             print('x314: {}'.format(x314))
         elif isinstance(x314, torch.Tensor):
@@ -5207,7 +5022,7 @@ class M(torch.nn.Module):
             print('x314: {}'.format(tuple_shapes))
         else:
             print('x314: {}'.format(x314))
-        x315=x308.view(x310, 2, x314, x312, x313)
+        x315=x314.transpose(2, 1)
         if x315 is None:
             print('x315: {}'.format(x315))
         elif isinstance(x315, torch.Tensor):
@@ -5223,7 +5038,7 @@ class M(torch.nn.Module):
             print('x315: {}'.format(tuple_shapes))
         else:
             print('x315: {}'.format(x315))
-        x316=torch.transpose(x315, 1, 2)
+        x316=x315.flatten(2)
         if x316 is None:
             print('x316: {}'.format(x316))
         elif isinstance(x316, torch.Tensor):
@@ -5239,7 +5054,7 @@ class M(torch.nn.Module):
             print('x316: {}'.format(tuple_shapes))
         else:
             print('x316: {}'.format(x316))
-        x317=x316.contiguous()
+        x317=self.linear4(x316)
         if x317 is None:
             print('x317: {}'.format(x317))
         elif isinstance(x317, torch.Tensor):
@@ -5255,7 +5070,7 @@ class M(torch.nn.Module):
             print('x317: {}'.format(tuple_shapes))
         else:
             print('x317: {}'.format(x317))
-        x318=x317.view(x310, -1, x312, x313)
+        x318=self.dropout2(x317)
         if x318 is None:
             print('x318: {}'.format(x318))
         elif isinstance(x318, torch.Tensor):
@@ -5271,7 +5086,7 @@ class M(torch.nn.Module):
             print('x318: {}'.format(tuple_shapes))
         else:
             print('x318: {}'.format(x318))
-        x319=x318.chunk(2,dim=1)
+        x319=operator.add(x288, x318)
         if x319 is None:
             print('x319: {}'.format(x319))
         elif isinstance(x319, torch.Tensor):
@@ -5287,7 +5102,7 @@ class M(torch.nn.Module):
             print('x319: {}'.format(tuple_shapes))
         else:
             print('x319: {}'.format(x319))
-        x320=operator.getitem(x319, 0)
+        x320=self.layernorm1(x319)
         if x320 is None:
             print('x320: {}'.format(x320))
         elif isinstance(x320, torch.Tensor):
@@ -5303,7 +5118,7 @@ class M(torch.nn.Module):
             print('x320: {}'.format(tuple_shapes))
         else:
             print('x320: {}'.format(x320))
-        x321=operator.getitem(x319, 1)
+        x321=self.linear5(x320)
         if x321 is None:
             print('x321: {}'.format(x321))
         elif isinstance(x321, torch.Tensor):
@@ -5319,7 +5134,7 @@ class M(torch.nn.Module):
             print('x321: {}'.format(tuple_shapes))
         else:
             print('x321: {}'.format(x321))
-        x322=self.conv2d49(x321)
+        x322=torch._C._nn.gelu(x321)
         if x322 is None:
             print('x322: {}'.format(x322))
         elif isinstance(x322, torch.Tensor):
@@ -5335,7 +5150,7 @@ class M(torch.nn.Module):
             print('x322: {}'.format(tuple_shapes))
         else:
             print('x322: {}'.format(x322))
-        x323=self.batchnorm2d49(x322)
+        x323=self.linear6(x322)
         if x323 is None:
             print('x323: {}'.format(x323))
         elif isinstance(x323, torch.Tensor):
@@ -5351,7 +5166,7 @@ class M(torch.nn.Module):
             print('x323: {}'.format(tuple_shapes))
         else:
             print('x323: {}'.format(x323))
-        x324=self.relu32(x323)
+        x324=operator.add(x323, x320)
         if x324 is None:
             print('x324: {}'.format(x324))
         elif isinstance(x324, torch.Tensor):
@@ -5367,7 +5182,7 @@ class M(torch.nn.Module):
             print('x324: {}'.format(tuple_shapes))
         else:
             print('x324: {}'.format(x324))
-        x325=self.conv2d50(x324)
+        x325=self.layernorm2(x324)
         if x325 is None:
             print('x325: {}'.format(x325))
         elif isinstance(x325, torch.Tensor):
@@ -5383,7 +5198,7 @@ class M(torch.nn.Module):
             print('x325: {}'.format(tuple_shapes))
         else:
             print('x325: {}'.format(x325))
-        x326=self.batchnorm2d50(x325)
+        x326=self.linear1(x325)
         if x326 is None:
             print('x326: {}'.format(x326))
         elif isinstance(x326, torch.Tensor):
@@ -5399,7 +5214,7 @@ class M(torch.nn.Module):
             print('x326: {}'.format(tuple_shapes))
         else:
             print('x326: {}'.format(x326))
-        x327=self.conv2d51(x326)
+        x327=self.linear2(x325)
         if x327 is None:
             print('x327: {}'.format(x327))
         elif isinstance(x327, torch.Tensor):
@@ -5415,7 +5230,7 @@ class M(torch.nn.Module):
             print('x327: {}'.format(tuple_shapes))
         else:
             print('x327: {}'.format(x327))
-        x328=self.batchnorm2d51(x327)
+        x328=self.linear3(x325)
         if x328 is None:
             print('x328: {}'.format(x328))
         elif isinstance(x328, torch.Tensor):
@@ -5431,7 +5246,7 @@ class M(torch.nn.Module):
             print('x328: {}'.format(tuple_shapes))
         else:
             print('x328: {}'.format(x328))
-        x329=self.relu33(x328)
+        x329=x326.size()
         if x329 is None:
             print('x329: {}'.format(x329))
         elif isinstance(x329, torch.Tensor):
@@ -5447,7 +5262,7 @@ class M(torch.nn.Module):
             print('x329: {}'.format(tuple_shapes))
         else:
             print('x329: {}'.format(x329))
-        x330=torch.cat((x320, x329),dim=1)
+        x330=operator.getitem(x329, slice(None, -1, None))
         if x330 is None:
             print('x330: {}'.format(x330))
         elif isinstance(x330, torch.Tensor):
@@ -5463,7 +5278,7 @@ class M(torch.nn.Module):
             print('x330: {}'.format(tuple_shapes))
         else:
             print('x330: {}'.format(x330))
-        x331=x330.size()
+        x331=operator.add(x330, (12, 64))
         if x331 is None:
             print('x331: {}'.format(x331))
         elif isinstance(x331, torch.Tensor):
@@ -5479,7 +5294,7 @@ class M(torch.nn.Module):
             print('x331: {}'.format(tuple_shapes))
         else:
             print('x331: {}'.format(x331))
-        x332=operator.getitem(x331, 0)
+        x332=x326.view(x331)
         if x332 is None:
             print('x332: {}'.format(x332))
         elif isinstance(x332, torch.Tensor):
@@ -5495,7 +5310,7 @@ class M(torch.nn.Module):
             print('x332: {}'.format(tuple_shapes))
         else:
             print('x332: {}'.format(x332))
-        x333=operator.getitem(x331, 1)
+        x333=x332.permute(0, 2, 1, 3)
         if x333 is None:
             print('x333: {}'.format(x333))
         elif isinstance(x333, torch.Tensor):
@@ -5511,7 +5326,7 @@ class M(torch.nn.Module):
             print('x333: {}'.format(tuple_shapes))
         else:
             print('x333: {}'.format(x333))
-        x334=operator.getitem(x331, 2)
+        x334=x327.size()
         if x334 is None:
             print('x334: {}'.format(x334))
         elif isinstance(x334, torch.Tensor):
@@ -5527,7 +5342,7 @@ class M(torch.nn.Module):
             print('x334: {}'.format(tuple_shapes))
         else:
             print('x334: {}'.format(x334))
-        x335=operator.getitem(x331, 3)
+        x335=operator.getitem(x334, slice(None, -1, None))
         if x335 is None:
             print('x335: {}'.format(x335))
         elif isinstance(x335, torch.Tensor):
@@ -5543,7 +5358,7 @@ class M(torch.nn.Module):
             print('x335: {}'.format(tuple_shapes))
         else:
             print('x335: {}'.format(x335))
-        x336=operator.floordiv(x333, 2)
+        x336=operator.add(x335, (12, 64))
         if x336 is None:
             print('x336: {}'.format(x336))
         elif isinstance(x336, torch.Tensor):
@@ -5559,7 +5374,7 @@ class M(torch.nn.Module):
             print('x336: {}'.format(tuple_shapes))
         else:
             print('x336: {}'.format(x336))
-        x337=x330.view(x332, 2, x336, x334, x335)
+        x337=x327.view(x336)
         if x337 is None:
             print('x337: {}'.format(x337))
         elif isinstance(x337, torch.Tensor):
@@ -5575,7 +5390,7 @@ class M(torch.nn.Module):
             print('x337: {}'.format(tuple_shapes))
         else:
             print('x337: {}'.format(x337))
-        x338=torch.transpose(x337, 1, 2)
+        x338=x337.permute(0, 2, 1, 3)
         if x338 is None:
             print('x338: {}'.format(x338))
         elif isinstance(x338, torch.Tensor):
@@ -5591,7 +5406,7 @@ class M(torch.nn.Module):
             print('x338: {}'.format(tuple_shapes))
         else:
             print('x338: {}'.format(x338))
-        x339=x338.contiguous()
+        x339=x328.size()
         if x339 is None:
             print('x339: {}'.format(x339))
         elif isinstance(x339, torch.Tensor):
@@ -5607,7 +5422,7 @@ class M(torch.nn.Module):
             print('x339: {}'.format(tuple_shapes))
         else:
             print('x339: {}'.format(x339))
-        x340=x339.view(x332, -1, x334, x335)
+        x340=operator.getitem(x339, slice(None, -1, None))
         if x340 is None:
             print('x340: {}'.format(x340))
         elif isinstance(x340, torch.Tensor):
@@ -5623,7 +5438,7 @@ class M(torch.nn.Module):
             print('x340: {}'.format(tuple_shapes))
         else:
             print('x340: {}'.format(x340))
-        x341=x340.chunk(2,dim=1)
+        x341=operator.add(x340, (12, 64))
         if x341 is None:
             print('x341: {}'.format(x341))
         elif isinstance(x341, torch.Tensor):
@@ -5639,7 +5454,7 @@ class M(torch.nn.Module):
             print('x341: {}'.format(tuple_shapes))
         else:
             print('x341: {}'.format(x341))
-        x342=operator.getitem(x341, 0)
+        x342=x328.view(x341)
         if x342 is None:
             print('x342: {}'.format(x342))
         elif isinstance(x342, torch.Tensor):
@@ -5655,7 +5470,7 @@ class M(torch.nn.Module):
             print('x342: {}'.format(tuple_shapes))
         else:
             print('x342: {}'.format(x342))
-        x343=operator.getitem(x341, 1)
+        x343=x342.permute(0, 2, 1, 3)
         if x343 is None:
             print('x343: {}'.format(x343))
         elif isinstance(x343, torch.Tensor):
@@ -5671,7 +5486,7 @@ class M(torch.nn.Module):
             print('x343: {}'.format(tuple_shapes))
         else:
             print('x343: {}'.format(x343))
-        x344=self.conv2d52(x343)
+        x344=x338.transpose(-1, -2)
         if x344 is None:
             print('x344: {}'.format(x344))
         elif isinstance(x344, torch.Tensor):
@@ -5687,7 +5502,7 @@ class M(torch.nn.Module):
             print('x344: {}'.format(tuple_shapes))
         else:
             print('x344: {}'.format(x344))
-        x345=self.batchnorm2d52(x344)
+        x345=torch.matmul(x333, x344)
         if x345 is None:
             print('x345: {}'.format(x345))
         elif isinstance(x345, torch.Tensor):
@@ -5703,7 +5518,7 @@ class M(torch.nn.Module):
             print('x345: {}'.format(tuple_shapes))
         else:
             print('x345: {}'.format(x345))
-        x346=self.relu34(x345)
+        x346=operator.truediv(x345, 8.0)
         if x346 is None:
             print('x346: {}'.format(x346))
         elif isinstance(x346, torch.Tensor):
@@ -5719,23 +5534,7 @@ class M(torch.nn.Module):
             print('x346: {}'.format(tuple_shapes))
         else:
             print('x346: {}'.format(x346))
-        x347=self.conv2d53(x346)
-        if x347 is None:
-            print('x347: {}'.format(x347))
-        elif isinstance(x347, torch.Tensor):
-            print('x347: {}'.format(x347.shape))
-        elif isinstance(x347, tuple):
-            tuple_shapes = '('
-            for item in x347:
-               if isinstance(item, torch.Tensor):
-                   tuple_shapes += str(item.shape) + ', '
-               else:
-                   tuple_shapes += str(item) + ', '
-            tuple_shapes += ')'
-            print('x347: {}'.format(tuple_shapes))
-        else:
-            print('x347: {}'.format(x347))
-        x348=self.batchnorm2d53(x347)
+        x348=operator.add(x346, self._tensor_constant20)
         if x348 is None:
             print('x348: {}'.format(x348))
         elif isinstance(x348, torch.Tensor):
@@ -5751,7 +5550,7 @@ class M(torch.nn.Module):
             print('x348: {}'.format(tuple_shapes))
         else:
             print('x348: {}'.format(x348))
-        x349=self.conv2d54(x348)
+        x349=torch.nn.functional.softmax(x348,dim=-1, _stacklevel=3, dtype=None)
         if x349 is None:
             print('x349: {}'.format(x349))
         elif isinstance(x349, torch.Tensor):
@@ -5767,7 +5566,7 @@ class M(torch.nn.Module):
             print('x349: {}'.format(tuple_shapes))
         else:
             print('x349: {}'.format(x349))
-        x350=self.batchnorm2d54(x349)
+        x350=self.dropout1(x349)
         if x350 is None:
             print('x350: {}'.format(x350))
         elif isinstance(x350, torch.Tensor):
@@ -5783,7 +5582,7 @@ class M(torch.nn.Module):
             print('x350: {}'.format(tuple_shapes))
         else:
             print('x350: {}'.format(x350))
-        x351=self.relu35(x350)
+        x351=torch.matmul(x350, x343)
         if x351 is None:
             print('x351: {}'.format(x351))
         elif isinstance(x351, torch.Tensor):
@@ -5799,7 +5598,7 @@ class M(torch.nn.Module):
             print('x351: {}'.format(tuple_shapes))
         else:
             print('x351: {}'.format(x351))
-        x352=torch.cat((x342, x351),dim=1)
+        x352=x351.transpose(2, 1)
         if x352 is None:
             print('x352: {}'.format(x352))
         elif isinstance(x352, torch.Tensor):
@@ -5815,7 +5614,7 @@ class M(torch.nn.Module):
             print('x352: {}'.format(tuple_shapes))
         else:
             print('x352: {}'.format(x352))
-        x353=x352.size()
+        x353=x352.flatten(2)
         if x353 is None:
             print('x353: {}'.format(x353))
         elif isinstance(x353, torch.Tensor):
@@ -5831,7 +5630,7 @@ class M(torch.nn.Module):
             print('x353: {}'.format(tuple_shapes))
         else:
             print('x353: {}'.format(x353))
-        x354=operator.getitem(x353, 0)
+        x354=self.linear4(x353)
         if x354 is None:
             print('x354: {}'.format(x354))
         elif isinstance(x354, torch.Tensor):
@@ -5847,7 +5646,7 @@ class M(torch.nn.Module):
             print('x354: {}'.format(tuple_shapes))
         else:
             print('x354: {}'.format(x354))
-        x355=operator.getitem(x353, 1)
+        x355=self.dropout2(x354)
         if x355 is None:
             print('x355: {}'.format(x355))
         elif isinstance(x355, torch.Tensor):
@@ -5863,7 +5662,7 @@ class M(torch.nn.Module):
             print('x355: {}'.format(tuple_shapes))
         else:
             print('x355: {}'.format(x355))
-        x356=operator.getitem(x353, 2)
+        x356=operator.add(x325, x355)
         if x356 is None:
             print('x356: {}'.format(x356))
         elif isinstance(x356, torch.Tensor):
@@ -5879,7 +5678,7 @@ class M(torch.nn.Module):
             print('x356: {}'.format(tuple_shapes))
         else:
             print('x356: {}'.format(x356))
-        x357=operator.getitem(x353, 3)
+        x357=self.layernorm1(x356)
         if x357 is None:
             print('x357: {}'.format(x357))
         elif isinstance(x357, torch.Tensor):
@@ -5895,7 +5694,7 @@ class M(torch.nn.Module):
             print('x357: {}'.format(tuple_shapes))
         else:
             print('x357: {}'.format(x357))
-        x358=operator.floordiv(x355, 2)
+        x358=self.linear5(x357)
         if x358 is None:
             print('x358: {}'.format(x358))
         elif isinstance(x358, torch.Tensor):
@@ -5911,7 +5710,7 @@ class M(torch.nn.Module):
             print('x358: {}'.format(tuple_shapes))
         else:
             print('x358: {}'.format(x358))
-        x359=x352.view(x354, 2, x358, x356, x357)
+        x359=torch._C._nn.gelu(x358)
         if x359 is None:
             print('x359: {}'.format(x359))
         elif isinstance(x359, torch.Tensor):
@@ -5927,7 +5726,7 @@ class M(torch.nn.Module):
             print('x359: {}'.format(tuple_shapes))
         else:
             print('x359: {}'.format(x359))
-        x360=torch.transpose(x359, 1, 2)
+        x360=self.linear6(x359)
         if x360 is None:
             print('x360: {}'.format(x360))
         elif isinstance(x360, torch.Tensor):
@@ -5943,7 +5742,7 @@ class M(torch.nn.Module):
             print('x360: {}'.format(tuple_shapes))
         else:
             print('x360: {}'.format(x360))
-        x361=x360.contiguous()
+        x361=operator.add(x360, x357)
         if x361 is None:
             print('x361: {}'.format(x361))
         elif isinstance(x361, torch.Tensor):
@@ -5959,7 +5758,7 @@ class M(torch.nn.Module):
             print('x361: {}'.format(tuple_shapes))
         else:
             print('x361: {}'.format(x361))
-        x362=x361.view(x354, -1, x356, x357)
+        x362=self.layernorm2(x361)
         if x362 is None:
             print('x362: {}'.format(x362))
         elif isinstance(x362, torch.Tensor):
@@ -5975,7 +5774,7 @@ class M(torch.nn.Module):
             print('x362: {}'.format(tuple_shapes))
         else:
             print('x362: {}'.format(x362))
-        x363=self.conv2d55(x362)
+        x363=self.linear1(x362)
         if x363 is None:
             print('x363: {}'.format(x363))
         elif isinstance(x363, torch.Tensor):
@@ -5991,7 +5790,7 @@ class M(torch.nn.Module):
             print('x363: {}'.format(tuple_shapes))
         else:
             print('x363: {}'.format(x363))
-        x364=self.batchnorm2d55(x363)
+        x364=self.linear2(x362)
         if x364 is None:
             print('x364: {}'.format(x364))
         elif isinstance(x364, torch.Tensor):
@@ -6007,7 +5806,7 @@ class M(torch.nn.Module):
             print('x364: {}'.format(tuple_shapes))
         else:
             print('x364: {}'.format(x364))
-        x365=self.relu36(x364)
+        x365=self.linear3(x362)
         if x365 is None:
             print('x365: {}'.format(x365))
         elif isinstance(x365, torch.Tensor):
@@ -6023,7 +5822,7 @@ class M(torch.nn.Module):
             print('x365: {}'.format(tuple_shapes))
         else:
             print('x365: {}'.format(x365))
-        x366=x365.mean([2, 3])
+        x366=x363.size()
         if x366 is None:
             print('x366: {}'.format(x366))
         elif isinstance(x366, torch.Tensor):
@@ -6039,7 +5838,7 @@ class M(torch.nn.Module):
             print('x366: {}'.format(tuple_shapes))
         else:
             print('x366: {}'.format(x366))
-        x367=self.linear0(x366)
+        x367=operator.getitem(x366, slice(None, -1, None))
         if x367 is None:
             print('x367: {}'.format(x367))
         elif isinstance(x367, torch.Tensor):
@@ -6055,17 +5854,1803 @@ class M(torch.nn.Module):
             print('x367: {}'.format(tuple_shapes))
         else:
             print('x367: {}'.format(x367))
+        x368=operator.add(x367, (12, 64))
+        if x368 is None:
+            print('x368: {}'.format(x368))
+        elif isinstance(x368, torch.Tensor):
+            print('x368: {}'.format(x368.shape))
+        elif isinstance(x368, tuple):
+            tuple_shapes = '('
+            for item in x368:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x368: {}'.format(tuple_shapes))
+        else:
+            print('x368: {}'.format(x368))
+        x369=x363.view(x368)
+        if x369 is None:
+            print('x369: {}'.format(x369))
+        elif isinstance(x369, torch.Tensor):
+            print('x369: {}'.format(x369.shape))
+        elif isinstance(x369, tuple):
+            tuple_shapes = '('
+            for item in x369:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x369: {}'.format(tuple_shapes))
+        else:
+            print('x369: {}'.format(x369))
+        x370=x369.permute(0, 2, 1, 3)
+        if x370 is None:
+            print('x370: {}'.format(x370))
+        elif isinstance(x370, torch.Tensor):
+            print('x370: {}'.format(x370.shape))
+        elif isinstance(x370, tuple):
+            tuple_shapes = '('
+            for item in x370:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x370: {}'.format(tuple_shapes))
+        else:
+            print('x370: {}'.format(x370))
+        x371=x364.size()
+        if x371 is None:
+            print('x371: {}'.format(x371))
+        elif isinstance(x371, torch.Tensor):
+            print('x371: {}'.format(x371.shape))
+        elif isinstance(x371, tuple):
+            tuple_shapes = '('
+            for item in x371:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x371: {}'.format(tuple_shapes))
+        else:
+            print('x371: {}'.format(x371))
+        x372=operator.getitem(x371, slice(None, -1, None))
+        if x372 is None:
+            print('x372: {}'.format(x372))
+        elif isinstance(x372, torch.Tensor):
+            print('x372: {}'.format(x372.shape))
+        elif isinstance(x372, tuple):
+            tuple_shapes = '('
+            for item in x372:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x372: {}'.format(tuple_shapes))
+        else:
+            print('x372: {}'.format(x372))
+        x373=operator.add(x372, (12, 64))
+        if x373 is None:
+            print('x373: {}'.format(x373))
+        elif isinstance(x373, torch.Tensor):
+            print('x373: {}'.format(x373.shape))
+        elif isinstance(x373, tuple):
+            tuple_shapes = '('
+            for item in x373:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x373: {}'.format(tuple_shapes))
+        else:
+            print('x373: {}'.format(x373))
+        x374=x364.view(x373)
+        if x374 is None:
+            print('x374: {}'.format(x374))
+        elif isinstance(x374, torch.Tensor):
+            print('x374: {}'.format(x374.shape))
+        elif isinstance(x374, tuple):
+            tuple_shapes = '('
+            for item in x374:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x374: {}'.format(tuple_shapes))
+        else:
+            print('x374: {}'.format(x374))
+        x375=x374.permute(0, 2, 1, 3)
+        if x375 is None:
+            print('x375: {}'.format(x375))
+        elif isinstance(x375, torch.Tensor):
+            print('x375: {}'.format(x375.shape))
+        elif isinstance(x375, tuple):
+            tuple_shapes = '('
+            for item in x375:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x375: {}'.format(tuple_shapes))
+        else:
+            print('x375: {}'.format(x375))
+        x376=x365.size()
+        if x376 is None:
+            print('x376: {}'.format(x376))
+        elif isinstance(x376, torch.Tensor):
+            print('x376: {}'.format(x376.shape))
+        elif isinstance(x376, tuple):
+            tuple_shapes = '('
+            for item in x376:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x376: {}'.format(tuple_shapes))
+        else:
+            print('x376: {}'.format(x376))
+        x377=operator.getitem(x376, slice(None, -1, None))
+        if x377 is None:
+            print('x377: {}'.format(x377))
+        elif isinstance(x377, torch.Tensor):
+            print('x377: {}'.format(x377.shape))
+        elif isinstance(x377, tuple):
+            tuple_shapes = '('
+            for item in x377:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x377: {}'.format(tuple_shapes))
+        else:
+            print('x377: {}'.format(x377))
+        x378=operator.add(x377, (12, 64))
+        if x378 is None:
+            print('x378: {}'.format(x378))
+        elif isinstance(x378, torch.Tensor):
+            print('x378: {}'.format(x378.shape))
+        elif isinstance(x378, tuple):
+            tuple_shapes = '('
+            for item in x378:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x378: {}'.format(tuple_shapes))
+        else:
+            print('x378: {}'.format(x378))
+        x379=x365.view(x378)
+        if x379 is None:
+            print('x379: {}'.format(x379))
+        elif isinstance(x379, torch.Tensor):
+            print('x379: {}'.format(x379.shape))
+        elif isinstance(x379, tuple):
+            tuple_shapes = '('
+            for item in x379:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x379: {}'.format(tuple_shapes))
+        else:
+            print('x379: {}'.format(x379))
+        x380=x379.permute(0, 2, 1, 3)
+        if x380 is None:
+            print('x380: {}'.format(x380))
+        elif isinstance(x380, torch.Tensor):
+            print('x380: {}'.format(x380.shape))
+        elif isinstance(x380, tuple):
+            tuple_shapes = '('
+            for item in x380:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x380: {}'.format(tuple_shapes))
+        else:
+            print('x380: {}'.format(x380))
+        x381=x375.transpose(-1, -2)
+        if x381 is None:
+            print('x381: {}'.format(x381))
+        elif isinstance(x381, torch.Tensor):
+            print('x381: {}'.format(x381.shape))
+        elif isinstance(x381, tuple):
+            tuple_shapes = '('
+            for item in x381:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x381: {}'.format(tuple_shapes))
+        else:
+            print('x381: {}'.format(x381))
+        x382=torch.matmul(x370, x381)
+        if x382 is None:
+            print('x382: {}'.format(x382))
+        elif isinstance(x382, torch.Tensor):
+            print('x382: {}'.format(x382.shape))
+        elif isinstance(x382, tuple):
+            tuple_shapes = '('
+            for item in x382:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x382: {}'.format(tuple_shapes))
+        else:
+            print('x382: {}'.format(x382))
+        x383=operator.truediv(x382, 8.0)
+        if x383 is None:
+            print('x383: {}'.format(x383))
+        elif isinstance(x383, torch.Tensor):
+            print('x383: {}'.format(x383.shape))
+        elif isinstance(x383, tuple):
+            tuple_shapes = '('
+            for item in x383:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x383: {}'.format(tuple_shapes))
+        else:
+            print('x383: {}'.format(x383))
+        x385=operator.add(x383, self._tensor_constant20)
+        if x385 is None:
+            print('x385: {}'.format(x385))
+        elif isinstance(x385, torch.Tensor):
+            print('x385: {}'.format(x385.shape))
+        elif isinstance(x385, tuple):
+            tuple_shapes = '('
+            for item in x385:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x385: {}'.format(tuple_shapes))
+        else:
+            print('x385: {}'.format(x385))
+        x386=torch.nn.functional.softmax(x385,dim=-1, _stacklevel=3, dtype=None)
+        if x386 is None:
+            print('x386: {}'.format(x386))
+        elif isinstance(x386, torch.Tensor):
+            print('x386: {}'.format(x386.shape))
+        elif isinstance(x386, tuple):
+            tuple_shapes = '('
+            for item in x386:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x386: {}'.format(tuple_shapes))
+        else:
+            print('x386: {}'.format(x386))
+        x387=self.dropout1(x386)
+        if x387 is None:
+            print('x387: {}'.format(x387))
+        elif isinstance(x387, torch.Tensor):
+            print('x387: {}'.format(x387.shape))
+        elif isinstance(x387, tuple):
+            tuple_shapes = '('
+            for item in x387:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x387: {}'.format(tuple_shapes))
+        else:
+            print('x387: {}'.format(x387))
+        x388=torch.matmul(x387, x380)
+        if x388 is None:
+            print('x388: {}'.format(x388))
+        elif isinstance(x388, torch.Tensor):
+            print('x388: {}'.format(x388.shape))
+        elif isinstance(x388, tuple):
+            tuple_shapes = '('
+            for item in x388:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x388: {}'.format(tuple_shapes))
+        else:
+            print('x388: {}'.format(x388))
+        x389=x388.transpose(2, 1)
+        if x389 is None:
+            print('x389: {}'.format(x389))
+        elif isinstance(x389, torch.Tensor):
+            print('x389: {}'.format(x389.shape))
+        elif isinstance(x389, tuple):
+            tuple_shapes = '('
+            for item in x389:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x389: {}'.format(tuple_shapes))
+        else:
+            print('x389: {}'.format(x389))
+        x390=x389.flatten(2)
+        if x390 is None:
+            print('x390: {}'.format(x390))
+        elif isinstance(x390, torch.Tensor):
+            print('x390: {}'.format(x390.shape))
+        elif isinstance(x390, tuple):
+            tuple_shapes = '('
+            for item in x390:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x390: {}'.format(tuple_shapes))
+        else:
+            print('x390: {}'.format(x390))
+        x391=self.linear4(x390)
+        if x391 is None:
+            print('x391: {}'.format(x391))
+        elif isinstance(x391, torch.Tensor):
+            print('x391: {}'.format(x391.shape))
+        elif isinstance(x391, tuple):
+            tuple_shapes = '('
+            for item in x391:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x391: {}'.format(tuple_shapes))
+        else:
+            print('x391: {}'.format(x391))
+        x392=self.dropout2(x391)
+        if x392 is None:
+            print('x392: {}'.format(x392))
+        elif isinstance(x392, torch.Tensor):
+            print('x392: {}'.format(x392.shape))
+        elif isinstance(x392, tuple):
+            tuple_shapes = '('
+            for item in x392:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x392: {}'.format(tuple_shapes))
+        else:
+            print('x392: {}'.format(x392))
+        x393=operator.add(x362, x392)
+        if x393 is None:
+            print('x393: {}'.format(x393))
+        elif isinstance(x393, torch.Tensor):
+            print('x393: {}'.format(x393.shape))
+        elif isinstance(x393, tuple):
+            tuple_shapes = '('
+            for item in x393:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x393: {}'.format(tuple_shapes))
+        else:
+            print('x393: {}'.format(x393))
+        x394=self.layernorm1(x393)
+        if x394 is None:
+            print('x394: {}'.format(x394))
+        elif isinstance(x394, torch.Tensor):
+            print('x394: {}'.format(x394.shape))
+        elif isinstance(x394, tuple):
+            tuple_shapes = '('
+            for item in x394:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x394: {}'.format(tuple_shapes))
+        else:
+            print('x394: {}'.format(x394))
+        x395=self.linear5(x394)
+        if x395 is None:
+            print('x395: {}'.format(x395))
+        elif isinstance(x395, torch.Tensor):
+            print('x395: {}'.format(x395.shape))
+        elif isinstance(x395, tuple):
+            tuple_shapes = '('
+            for item in x395:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x395: {}'.format(tuple_shapes))
+        else:
+            print('x395: {}'.format(x395))
+        x396=torch._C._nn.gelu(x395)
+        if x396 is None:
+            print('x396: {}'.format(x396))
+        elif isinstance(x396, torch.Tensor):
+            print('x396: {}'.format(x396.shape))
+        elif isinstance(x396, tuple):
+            tuple_shapes = '('
+            for item in x396:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x396: {}'.format(tuple_shapes))
+        else:
+            print('x396: {}'.format(x396))
+        x397=self.linear6(x396)
+        if x397 is None:
+            print('x397: {}'.format(x397))
+        elif isinstance(x397, torch.Tensor):
+            print('x397: {}'.format(x397.shape))
+        elif isinstance(x397, tuple):
+            tuple_shapes = '('
+            for item in x397:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x397: {}'.format(tuple_shapes))
+        else:
+            print('x397: {}'.format(x397))
+        x398=operator.add(x397, x394)
+        if x398 is None:
+            print('x398: {}'.format(x398))
+        elif isinstance(x398, torch.Tensor):
+            print('x398: {}'.format(x398.shape))
+        elif isinstance(x398, tuple):
+            tuple_shapes = '('
+            for item in x398:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x398: {}'.format(tuple_shapes))
+        else:
+            print('x398: {}'.format(x398))
+        x399=self.layernorm2(x398)
+        if x399 is None:
+            print('x399: {}'.format(x399))
+        elif isinstance(x399, torch.Tensor):
+            print('x399: {}'.format(x399.shape))
+        elif isinstance(x399, tuple):
+            tuple_shapes = '('
+            for item in x399:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x399: {}'.format(tuple_shapes))
+        else:
+            print('x399: {}'.format(x399))
+        x400=self.linear1(x399)
+        if x400 is None:
+            print('x400: {}'.format(x400))
+        elif isinstance(x400, torch.Tensor):
+            print('x400: {}'.format(x400.shape))
+        elif isinstance(x400, tuple):
+            tuple_shapes = '('
+            for item in x400:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x400: {}'.format(tuple_shapes))
+        else:
+            print('x400: {}'.format(x400))
+        x401=self.linear2(x399)
+        if x401 is None:
+            print('x401: {}'.format(x401))
+        elif isinstance(x401, torch.Tensor):
+            print('x401: {}'.format(x401.shape))
+        elif isinstance(x401, tuple):
+            tuple_shapes = '('
+            for item in x401:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x401: {}'.format(tuple_shapes))
+        else:
+            print('x401: {}'.format(x401))
+        x402=self.linear3(x399)
+        if x402 is None:
+            print('x402: {}'.format(x402))
+        elif isinstance(x402, torch.Tensor):
+            print('x402: {}'.format(x402.shape))
+        elif isinstance(x402, tuple):
+            tuple_shapes = '('
+            for item in x402:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x402: {}'.format(tuple_shapes))
+        else:
+            print('x402: {}'.format(x402))
+        x403=x400.size()
+        if x403 is None:
+            print('x403: {}'.format(x403))
+        elif isinstance(x403, torch.Tensor):
+            print('x403: {}'.format(x403.shape))
+        elif isinstance(x403, tuple):
+            tuple_shapes = '('
+            for item in x403:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x403: {}'.format(tuple_shapes))
+        else:
+            print('x403: {}'.format(x403))
+        x404=operator.getitem(x403, slice(None, -1, None))
+        if x404 is None:
+            print('x404: {}'.format(x404))
+        elif isinstance(x404, torch.Tensor):
+            print('x404: {}'.format(x404.shape))
+        elif isinstance(x404, tuple):
+            tuple_shapes = '('
+            for item in x404:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x404: {}'.format(tuple_shapes))
+        else:
+            print('x404: {}'.format(x404))
+        x405=operator.add(x404, (12, 64))
+        if x405 is None:
+            print('x405: {}'.format(x405))
+        elif isinstance(x405, torch.Tensor):
+            print('x405: {}'.format(x405.shape))
+        elif isinstance(x405, tuple):
+            tuple_shapes = '('
+            for item in x405:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x405: {}'.format(tuple_shapes))
+        else:
+            print('x405: {}'.format(x405))
+        x406=x400.view(x405)
+        if x406 is None:
+            print('x406: {}'.format(x406))
+        elif isinstance(x406, torch.Tensor):
+            print('x406: {}'.format(x406.shape))
+        elif isinstance(x406, tuple):
+            tuple_shapes = '('
+            for item in x406:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x406: {}'.format(tuple_shapes))
+        else:
+            print('x406: {}'.format(x406))
+        x407=x406.permute(0, 2, 1, 3)
+        if x407 is None:
+            print('x407: {}'.format(x407))
+        elif isinstance(x407, torch.Tensor):
+            print('x407: {}'.format(x407.shape))
+        elif isinstance(x407, tuple):
+            tuple_shapes = '('
+            for item in x407:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x407: {}'.format(tuple_shapes))
+        else:
+            print('x407: {}'.format(x407))
+        x408=x401.size()
+        if x408 is None:
+            print('x408: {}'.format(x408))
+        elif isinstance(x408, torch.Tensor):
+            print('x408: {}'.format(x408.shape))
+        elif isinstance(x408, tuple):
+            tuple_shapes = '('
+            for item in x408:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x408: {}'.format(tuple_shapes))
+        else:
+            print('x408: {}'.format(x408))
+        x409=operator.getitem(x408, slice(None, -1, None))
+        if x409 is None:
+            print('x409: {}'.format(x409))
+        elif isinstance(x409, torch.Tensor):
+            print('x409: {}'.format(x409.shape))
+        elif isinstance(x409, tuple):
+            tuple_shapes = '('
+            for item in x409:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x409: {}'.format(tuple_shapes))
+        else:
+            print('x409: {}'.format(x409))
+        x410=operator.add(x409, (12, 64))
+        if x410 is None:
+            print('x410: {}'.format(x410))
+        elif isinstance(x410, torch.Tensor):
+            print('x410: {}'.format(x410.shape))
+        elif isinstance(x410, tuple):
+            tuple_shapes = '('
+            for item in x410:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x410: {}'.format(tuple_shapes))
+        else:
+            print('x410: {}'.format(x410))
+        x411=x401.view(x410)
+        if x411 is None:
+            print('x411: {}'.format(x411))
+        elif isinstance(x411, torch.Tensor):
+            print('x411: {}'.format(x411.shape))
+        elif isinstance(x411, tuple):
+            tuple_shapes = '('
+            for item in x411:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x411: {}'.format(tuple_shapes))
+        else:
+            print('x411: {}'.format(x411))
+        x412=x411.permute(0, 2, 1, 3)
+        if x412 is None:
+            print('x412: {}'.format(x412))
+        elif isinstance(x412, torch.Tensor):
+            print('x412: {}'.format(x412.shape))
+        elif isinstance(x412, tuple):
+            tuple_shapes = '('
+            for item in x412:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x412: {}'.format(tuple_shapes))
+        else:
+            print('x412: {}'.format(x412))
+        x413=x402.size()
+        if x413 is None:
+            print('x413: {}'.format(x413))
+        elif isinstance(x413, torch.Tensor):
+            print('x413: {}'.format(x413.shape))
+        elif isinstance(x413, tuple):
+            tuple_shapes = '('
+            for item in x413:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x413: {}'.format(tuple_shapes))
+        else:
+            print('x413: {}'.format(x413))
+        x414=operator.getitem(x413, slice(None, -1, None))
+        if x414 is None:
+            print('x414: {}'.format(x414))
+        elif isinstance(x414, torch.Tensor):
+            print('x414: {}'.format(x414.shape))
+        elif isinstance(x414, tuple):
+            tuple_shapes = '('
+            for item in x414:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x414: {}'.format(tuple_shapes))
+        else:
+            print('x414: {}'.format(x414))
+        x415=operator.add(x414, (12, 64))
+        if x415 is None:
+            print('x415: {}'.format(x415))
+        elif isinstance(x415, torch.Tensor):
+            print('x415: {}'.format(x415.shape))
+        elif isinstance(x415, tuple):
+            tuple_shapes = '('
+            for item in x415:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x415: {}'.format(tuple_shapes))
+        else:
+            print('x415: {}'.format(x415))
+        x416=x402.view(x415)
+        if x416 is None:
+            print('x416: {}'.format(x416))
+        elif isinstance(x416, torch.Tensor):
+            print('x416: {}'.format(x416.shape))
+        elif isinstance(x416, tuple):
+            tuple_shapes = '('
+            for item in x416:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x416: {}'.format(tuple_shapes))
+        else:
+            print('x416: {}'.format(x416))
+        x417=x416.permute(0, 2, 1, 3)
+        if x417 is None:
+            print('x417: {}'.format(x417))
+        elif isinstance(x417, torch.Tensor):
+            print('x417: {}'.format(x417.shape))
+        elif isinstance(x417, tuple):
+            tuple_shapes = '('
+            for item in x417:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x417: {}'.format(tuple_shapes))
+        else:
+            print('x417: {}'.format(x417))
+        x418=x412.transpose(-1, -2)
+        if x418 is None:
+            print('x418: {}'.format(x418))
+        elif isinstance(x418, torch.Tensor):
+            print('x418: {}'.format(x418.shape))
+        elif isinstance(x418, tuple):
+            tuple_shapes = '('
+            for item in x418:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x418: {}'.format(tuple_shapes))
+        else:
+            print('x418: {}'.format(x418))
+        x419=torch.matmul(x407, x418)
+        if x419 is None:
+            print('x419: {}'.format(x419))
+        elif isinstance(x419, torch.Tensor):
+            print('x419: {}'.format(x419.shape))
+        elif isinstance(x419, tuple):
+            tuple_shapes = '('
+            for item in x419:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x419: {}'.format(tuple_shapes))
+        else:
+            print('x419: {}'.format(x419))
+        x420=operator.truediv(x419, 8.0)
+        if x420 is None:
+            print('x420: {}'.format(x420))
+        elif isinstance(x420, torch.Tensor):
+            print('x420: {}'.format(x420.shape))
+        elif isinstance(x420, tuple):
+            tuple_shapes = '('
+            for item in x420:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x420: {}'.format(tuple_shapes))
+        else:
+            print('x420: {}'.format(x420))
+        x422=operator.add(x420, self._tensor_constant20)
+        if x422 is None:
+            print('x422: {}'.format(x422))
+        elif isinstance(x422, torch.Tensor):
+            print('x422: {}'.format(x422.shape))
+        elif isinstance(x422, tuple):
+            tuple_shapes = '('
+            for item in x422:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x422: {}'.format(tuple_shapes))
+        else:
+            print('x422: {}'.format(x422))
+        x423=torch.nn.functional.softmax(x422,dim=-1, _stacklevel=3, dtype=None)
+        if x423 is None:
+            print('x423: {}'.format(x423))
+        elif isinstance(x423, torch.Tensor):
+            print('x423: {}'.format(x423.shape))
+        elif isinstance(x423, tuple):
+            tuple_shapes = '('
+            for item in x423:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x423: {}'.format(tuple_shapes))
+        else:
+            print('x423: {}'.format(x423))
+        x424=self.dropout1(x423)
+        if x424 is None:
+            print('x424: {}'.format(x424))
+        elif isinstance(x424, torch.Tensor):
+            print('x424: {}'.format(x424.shape))
+        elif isinstance(x424, tuple):
+            tuple_shapes = '('
+            for item in x424:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x424: {}'.format(tuple_shapes))
+        else:
+            print('x424: {}'.format(x424))
+        x425=torch.matmul(x424, x417)
+        if x425 is None:
+            print('x425: {}'.format(x425))
+        elif isinstance(x425, torch.Tensor):
+            print('x425: {}'.format(x425.shape))
+        elif isinstance(x425, tuple):
+            tuple_shapes = '('
+            for item in x425:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x425: {}'.format(tuple_shapes))
+        else:
+            print('x425: {}'.format(x425))
+        x426=x425.transpose(2, 1)
+        if x426 is None:
+            print('x426: {}'.format(x426))
+        elif isinstance(x426, torch.Tensor):
+            print('x426: {}'.format(x426.shape))
+        elif isinstance(x426, tuple):
+            tuple_shapes = '('
+            for item in x426:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x426: {}'.format(tuple_shapes))
+        else:
+            print('x426: {}'.format(x426))
+        x427=x426.flatten(2)
+        if x427 is None:
+            print('x427: {}'.format(x427))
+        elif isinstance(x427, torch.Tensor):
+            print('x427: {}'.format(x427.shape))
+        elif isinstance(x427, tuple):
+            tuple_shapes = '('
+            for item in x427:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x427: {}'.format(tuple_shapes))
+        else:
+            print('x427: {}'.format(x427))
+        x428=self.linear4(x427)
+        if x428 is None:
+            print('x428: {}'.format(x428))
+        elif isinstance(x428, torch.Tensor):
+            print('x428: {}'.format(x428.shape))
+        elif isinstance(x428, tuple):
+            tuple_shapes = '('
+            for item in x428:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x428: {}'.format(tuple_shapes))
+        else:
+            print('x428: {}'.format(x428))
+        x429=self.dropout2(x428)
+        if x429 is None:
+            print('x429: {}'.format(x429))
+        elif isinstance(x429, torch.Tensor):
+            print('x429: {}'.format(x429.shape))
+        elif isinstance(x429, tuple):
+            tuple_shapes = '('
+            for item in x429:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x429: {}'.format(tuple_shapes))
+        else:
+            print('x429: {}'.format(x429))
+        x430=operator.add(x399, x429)
+        if x430 is None:
+            print('x430: {}'.format(x430))
+        elif isinstance(x430, torch.Tensor):
+            print('x430: {}'.format(x430.shape))
+        elif isinstance(x430, tuple):
+            tuple_shapes = '('
+            for item in x430:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x430: {}'.format(tuple_shapes))
+        else:
+            print('x430: {}'.format(x430))
+        x431=self.layernorm1(x430)
+        if x431 is None:
+            print('x431: {}'.format(x431))
+        elif isinstance(x431, torch.Tensor):
+            print('x431: {}'.format(x431.shape))
+        elif isinstance(x431, tuple):
+            tuple_shapes = '('
+            for item in x431:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x431: {}'.format(tuple_shapes))
+        else:
+            print('x431: {}'.format(x431))
+        x432=self.linear5(x431)
+        if x432 is None:
+            print('x432: {}'.format(x432))
+        elif isinstance(x432, torch.Tensor):
+            print('x432: {}'.format(x432.shape))
+        elif isinstance(x432, tuple):
+            tuple_shapes = '('
+            for item in x432:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x432: {}'.format(tuple_shapes))
+        else:
+            print('x432: {}'.format(x432))
+        x433=torch._C._nn.gelu(x432)
+        if x433 is None:
+            print('x433: {}'.format(x433))
+        elif isinstance(x433, torch.Tensor):
+            print('x433: {}'.format(x433.shape))
+        elif isinstance(x433, tuple):
+            tuple_shapes = '('
+            for item in x433:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x433: {}'.format(tuple_shapes))
+        else:
+            print('x433: {}'.format(x433))
+        x434=self.linear6(x433)
+        if x434 is None:
+            print('x434: {}'.format(x434))
+        elif isinstance(x434, torch.Tensor):
+            print('x434: {}'.format(x434.shape))
+        elif isinstance(x434, tuple):
+            tuple_shapes = '('
+            for item in x434:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x434: {}'.format(tuple_shapes))
+        else:
+            print('x434: {}'.format(x434))
+        x435=operator.add(x434, x431)
+        if x435 is None:
+            print('x435: {}'.format(x435))
+        elif isinstance(x435, torch.Tensor):
+            print('x435: {}'.format(x435.shape))
+        elif isinstance(x435, tuple):
+            tuple_shapes = '('
+            for item in x435:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x435: {}'.format(tuple_shapes))
+        else:
+            print('x435: {}'.format(x435))
+        x436=self.layernorm2(x435)
+        if x436 is None:
+            print('x436: {}'.format(x436))
+        elif isinstance(x436, torch.Tensor):
+            print('x436: {}'.format(x436.shape))
+        elif isinstance(x436, tuple):
+            tuple_shapes = '('
+            for item in x436:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x436: {}'.format(tuple_shapes))
+        else:
+            print('x436: {}'.format(x436))
+        x437=self.linear1(x436)
+        if x437 is None:
+            print('x437: {}'.format(x437))
+        elif isinstance(x437, torch.Tensor):
+            print('x437: {}'.format(x437.shape))
+        elif isinstance(x437, tuple):
+            tuple_shapes = '('
+            for item in x437:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x437: {}'.format(tuple_shapes))
+        else:
+            print('x437: {}'.format(x437))
+        x438=self.linear2(x436)
+        if x438 is None:
+            print('x438: {}'.format(x438))
+        elif isinstance(x438, torch.Tensor):
+            print('x438: {}'.format(x438.shape))
+        elif isinstance(x438, tuple):
+            tuple_shapes = '('
+            for item in x438:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x438: {}'.format(tuple_shapes))
+        else:
+            print('x438: {}'.format(x438))
+        x439=self.linear3(x436)
+        if x439 is None:
+            print('x439: {}'.format(x439))
+        elif isinstance(x439, torch.Tensor):
+            print('x439: {}'.format(x439.shape))
+        elif isinstance(x439, tuple):
+            tuple_shapes = '('
+            for item in x439:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x439: {}'.format(tuple_shapes))
+        else:
+            print('x439: {}'.format(x439))
+        x440=x437.size()
+        if x440 is None:
+            print('x440: {}'.format(x440))
+        elif isinstance(x440, torch.Tensor):
+            print('x440: {}'.format(x440.shape))
+        elif isinstance(x440, tuple):
+            tuple_shapes = '('
+            for item in x440:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x440: {}'.format(tuple_shapes))
+        else:
+            print('x440: {}'.format(x440))
+        x441=operator.getitem(x440, slice(None, -1, None))
+        if x441 is None:
+            print('x441: {}'.format(x441))
+        elif isinstance(x441, torch.Tensor):
+            print('x441: {}'.format(x441.shape))
+        elif isinstance(x441, tuple):
+            tuple_shapes = '('
+            for item in x441:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x441: {}'.format(tuple_shapes))
+        else:
+            print('x441: {}'.format(x441))
+        x442=operator.add(x441, (12, 64))
+        if x442 is None:
+            print('x442: {}'.format(x442))
+        elif isinstance(x442, torch.Tensor):
+            print('x442: {}'.format(x442.shape))
+        elif isinstance(x442, tuple):
+            tuple_shapes = '('
+            for item in x442:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x442: {}'.format(tuple_shapes))
+        else:
+            print('x442: {}'.format(x442))
+        x443=x437.view(x442)
+        if x443 is None:
+            print('x443: {}'.format(x443))
+        elif isinstance(x443, torch.Tensor):
+            print('x443: {}'.format(x443.shape))
+        elif isinstance(x443, tuple):
+            tuple_shapes = '('
+            for item in x443:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x443: {}'.format(tuple_shapes))
+        else:
+            print('x443: {}'.format(x443))
+        x444=x443.permute(0, 2, 1, 3)
+        if x444 is None:
+            print('x444: {}'.format(x444))
+        elif isinstance(x444, torch.Tensor):
+            print('x444: {}'.format(x444.shape))
+        elif isinstance(x444, tuple):
+            tuple_shapes = '('
+            for item in x444:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x444: {}'.format(tuple_shapes))
+        else:
+            print('x444: {}'.format(x444))
+        x445=x438.size()
+        if x445 is None:
+            print('x445: {}'.format(x445))
+        elif isinstance(x445, torch.Tensor):
+            print('x445: {}'.format(x445.shape))
+        elif isinstance(x445, tuple):
+            tuple_shapes = '('
+            for item in x445:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x445: {}'.format(tuple_shapes))
+        else:
+            print('x445: {}'.format(x445))
+        x446=operator.getitem(x445, slice(None, -1, None))
+        if x446 is None:
+            print('x446: {}'.format(x446))
+        elif isinstance(x446, torch.Tensor):
+            print('x446: {}'.format(x446.shape))
+        elif isinstance(x446, tuple):
+            tuple_shapes = '('
+            for item in x446:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x446: {}'.format(tuple_shapes))
+        else:
+            print('x446: {}'.format(x446))
+        x447=operator.add(x446, (12, 64))
+        if x447 is None:
+            print('x447: {}'.format(x447))
+        elif isinstance(x447, torch.Tensor):
+            print('x447: {}'.format(x447.shape))
+        elif isinstance(x447, tuple):
+            tuple_shapes = '('
+            for item in x447:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x447: {}'.format(tuple_shapes))
+        else:
+            print('x447: {}'.format(x447))
+        x448=x438.view(x447)
+        if x448 is None:
+            print('x448: {}'.format(x448))
+        elif isinstance(x448, torch.Tensor):
+            print('x448: {}'.format(x448.shape))
+        elif isinstance(x448, tuple):
+            tuple_shapes = '('
+            for item in x448:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x448: {}'.format(tuple_shapes))
+        else:
+            print('x448: {}'.format(x448))
+        x449=x448.permute(0, 2, 1, 3)
+        if x449 is None:
+            print('x449: {}'.format(x449))
+        elif isinstance(x449, torch.Tensor):
+            print('x449: {}'.format(x449.shape))
+        elif isinstance(x449, tuple):
+            tuple_shapes = '('
+            for item in x449:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x449: {}'.format(tuple_shapes))
+        else:
+            print('x449: {}'.format(x449))
+        x450=x439.size()
+        if x450 is None:
+            print('x450: {}'.format(x450))
+        elif isinstance(x450, torch.Tensor):
+            print('x450: {}'.format(x450.shape))
+        elif isinstance(x450, tuple):
+            tuple_shapes = '('
+            for item in x450:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x450: {}'.format(tuple_shapes))
+        else:
+            print('x450: {}'.format(x450))
+        x451=operator.getitem(x450, slice(None, -1, None))
+        if x451 is None:
+            print('x451: {}'.format(x451))
+        elif isinstance(x451, torch.Tensor):
+            print('x451: {}'.format(x451.shape))
+        elif isinstance(x451, tuple):
+            tuple_shapes = '('
+            for item in x451:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x451: {}'.format(tuple_shapes))
+        else:
+            print('x451: {}'.format(x451))
+        x452=operator.add(x451, (12, 64))
+        if x452 is None:
+            print('x452: {}'.format(x452))
+        elif isinstance(x452, torch.Tensor):
+            print('x452: {}'.format(x452.shape))
+        elif isinstance(x452, tuple):
+            tuple_shapes = '('
+            for item in x452:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x452: {}'.format(tuple_shapes))
+        else:
+            print('x452: {}'.format(x452))
+        x453=x439.view(x452)
+        if x453 is None:
+            print('x453: {}'.format(x453))
+        elif isinstance(x453, torch.Tensor):
+            print('x453: {}'.format(x453.shape))
+        elif isinstance(x453, tuple):
+            tuple_shapes = '('
+            for item in x453:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x453: {}'.format(tuple_shapes))
+        else:
+            print('x453: {}'.format(x453))
+        x454=x453.permute(0, 2, 1, 3)
+        if x454 is None:
+            print('x454: {}'.format(x454))
+        elif isinstance(x454, torch.Tensor):
+            print('x454: {}'.format(x454.shape))
+        elif isinstance(x454, tuple):
+            tuple_shapes = '('
+            for item in x454:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x454: {}'.format(tuple_shapes))
+        else:
+            print('x454: {}'.format(x454))
+        x455=x449.transpose(-1, -2)
+        if x455 is None:
+            print('x455: {}'.format(x455))
+        elif isinstance(x455, torch.Tensor):
+            print('x455: {}'.format(x455.shape))
+        elif isinstance(x455, tuple):
+            tuple_shapes = '('
+            for item in x455:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x455: {}'.format(tuple_shapes))
+        else:
+            print('x455: {}'.format(x455))
+        x456=torch.matmul(x444, x455)
+        if x456 is None:
+            print('x456: {}'.format(x456))
+        elif isinstance(x456, torch.Tensor):
+            print('x456: {}'.format(x456.shape))
+        elif isinstance(x456, tuple):
+            tuple_shapes = '('
+            for item in x456:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x456: {}'.format(tuple_shapes))
+        else:
+            print('x456: {}'.format(x456))
+        x457=operator.truediv(x456, 8.0)
+        if x457 is None:
+            print('x457: {}'.format(x457))
+        elif isinstance(x457, torch.Tensor):
+            print('x457: {}'.format(x457.shape))
+        elif isinstance(x457, tuple):
+            tuple_shapes = '('
+            for item in x457:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x457: {}'.format(tuple_shapes))
+        else:
+            print('x457: {}'.format(x457))
+        x459=operator.add(x457, self._tensor_constant20)
+        if x459 is None:
+            print('x459: {}'.format(x459))
+        elif isinstance(x459, torch.Tensor):
+            print('x459: {}'.format(x459.shape))
+        elif isinstance(x459, tuple):
+            tuple_shapes = '('
+            for item in x459:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x459: {}'.format(tuple_shapes))
+        else:
+            print('x459: {}'.format(x459))
+        x460=torch.nn.functional.softmax(x459,dim=-1, _stacklevel=3, dtype=None)
+        if x460 is None:
+            print('x460: {}'.format(x460))
+        elif isinstance(x460, torch.Tensor):
+            print('x460: {}'.format(x460.shape))
+        elif isinstance(x460, tuple):
+            tuple_shapes = '('
+            for item in x460:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x460: {}'.format(tuple_shapes))
+        else:
+            print('x460: {}'.format(x460))
+        x461=self.dropout1(x460)
+        if x461 is None:
+            print('x461: {}'.format(x461))
+        elif isinstance(x461, torch.Tensor):
+            print('x461: {}'.format(x461.shape))
+        elif isinstance(x461, tuple):
+            tuple_shapes = '('
+            for item in x461:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x461: {}'.format(tuple_shapes))
+        else:
+            print('x461: {}'.format(x461))
+        x462=torch.matmul(x461, x454)
+        if x462 is None:
+            print('x462: {}'.format(x462))
+        elif isinstance(x462, torch.Tensor):
+            print('x462: {}'.format(x462.shape))
+        elif isinstance(x462, tuple):
+            tuple_shapes = '('
+            for item in x462:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x462: {}'.format(tuple_shapes))
+        else:
+            print('x462: {}'.format(x462))
+        x463=x462.transpose(2, 1)
+        if x463 is None:
+            print('x463: {}'.format(x463))
+        elif isinstance(x463, torch.Tensor):
+            print('x463: {}'.format(x463.shape))
+        elif isinstance(x463, tuple):
+            tuple_shapes = '('
+            for item in x463:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x463: {}'.format(tuple_shapes))
+        else:
+            print('x463: {}'.format(x463))
+        x464=x463.flatten(2)
+        if x464 is None:
+            print('x464: {}'.format(x464))
+        elif isinstance(x464, torch.Tensor):
+            print('x464: {}'.format(x464.shape))
+        elif isinstance(x464, tuple):
+            tuple_shapes = '('
+            for item in x464:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x464: {}'.format(tuple_shapes))
+        else:
+            print('x464: {}'.format(x464))
+        x465=self.linear4(x464)
+        if x465 is None:
+            print('x465: {}'.format(x465))
+        elif isinstance(x465, torch.Tensor):
+            print('x465: {}'.format(x465.shape))
+        elif isinstance(x465, tuple):
+            tuple_shapes = '('
+            for item in x465:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x465: {}'.format(tuple_shapes))
+        else:
+            print('x465: {}'.format(x465))
+        x466=self.dropout2(x465)
+        if x466 is None:
+            print('x466: {}'.format(x466))
+        elif isinstance(x466, torch.Tensor):
+            print('x466: {}'.format(x466.shape))
+        elif isinstance(x466, tuple):
+            tuple_shapes = '('
+            for item in x466:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x466: {}'.format(tuple_shapes))
+        else:
+            print('x466: {}'.format(x466))
+        x467=operator.add(x436, x466)
+        if x467 is None:
+            print('x467: {}'.format(x467))
+        elif isinstance(x467, torch.Tensor):
+            print('x467: {}'.format(x467.shape))
+        elif isinstance(x467, tuple):
+            tuple_shapes = '('
+            for item in x467:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x467: {}'.format(tuple_shapes))
+        else:
+            print('x467: {}'.format(x467))
+        x468=self.layernorm1(x467)
+        if x468 is None:
+            print('x468: {}'.format(x468))
+        elif isinstance(x468, torch.Tensor):
+            print('x468: {}'.format(x468.shape))
+        elif isinstance(x468, tuple):
+            tuple_shapes = '('
+            for item in x468:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x468: {}'.format(tuple_shapes))
+        else:
+            print('x468: {}'.format(x468))
+        x469=self.linear5(x468)
+        if x469 is None:
+            print('x469: {}'.format(x469))
+        elif isinstance(x469, torch.Tensor):
+            print('x469: {}'.format(x469.shape))
+        elif isinstance(x469, tuple):
+            tuple_shapes = '('
+            for item in x469:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x469: {}'.format(tuple_shapes))
+        else:
+            print('x469: {}'.format(x469))
+        x470=torch._C._nn.gelu(x469)
+        if x470 is None:
+            print('x470: {}'.format(x470))
+        elif isinstance(x470, torch.Tensor):
+            print('x470: {}'.format(x470.shape))
+        elif isinstance(x470, tuple):
+            tuple_shapes = '('
+            for item in x470:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x470: {}'.format(tuple_shapes))
+        else:
+            print('x470: {}'.format(x470))
+        x471=self.linear6(x470)
+        if x471 is None:
+            print('x471: {}'.format(x471))
+        elif isinstance(x471, torch.Tensor):
+            print('x471: {}'.format(x471.shape))
+        elif isinstance(x471, tuple):
+            tuple_shapes = '('
+            for item in x471:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x471: {}'.format(tuple_shapes))
+        else:
+            print('x471: {}'.format(x471))
+        x472=operator.add(x471, x468)
+        if x472 is None:
+            print('x472: {}'.format(x472))
+        elif isinstance(x472, torch.Tensor):
+            print('x472: {}'.format(x472.shape))
+        elif isinstance(x472, tuple):
+            tuple_shapes = '('
+            for item in x472:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x472: {}'.format(tuple_shapes))
+        else:
+            print('x472: {}'.format(x472))
+        x473=self.layernorm2(x472)
+        if x473 is None:
+            print('x473: {}'.format(x473))
+        elif isinstance(x473, torch.Tensor):
+            print('x473: {}'.format(x473.shape))
+        elif isinstance(x473, tuple):
+            tuple_shapes = '('
+            for item in x473:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x473: {}'.format(tuple_shapes))
+        else:
+            print('x473: {}'.format(x473))
+        x474=self.linear73(x473)
+        if x474 is None:
+            print('x474: {}'.format(x474))
+        elif isinstance(x474, torch.Tensor):
+            print('x474: {}'.format(x474.shape))
+        elif isinstance(x474, tuple):
+            tuple_shapes = '('
+            for item in x474:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x474: {}'.format(tuple_shapes))
+        else:
+            print('x474: {}'.format(x474))
+        x475=x474.split(1,dim=-1)
+        if x475 is None:
+            print('x475: {}'.format(x475))
+        elif isinstance(x475, torch.Tensor):
+            print('x475: {}'.format(x475.shape))
+        elif isinstance(x475, tuple):
+            tuple_shapes = '('
+            for item in x475:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x475: {}'.format(tuple_shapes))
+        else:
+            print('x475: {}'.format(x475))
+        x476=operator.getitem(x475, 0)
+        if x476 is None:
+            print('x476: {}'.format(x476))
+        elif isinstance(x476, torch.Tensor):
+            print('x476: {}'.format(x476.shape))
+        elif isinstance(x476, tuple):
+            tuple_shapes = '('
+            for item in x476:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x476: {}'.format(tuple_shapes))
+        else:
+            print('x476: {}'.format(x476))
+        x477=operator.getitem(x475, 1)
+        if x477 is None:
+            print('x477: {}'.format(x477))
+        elif isinstance(x477, torch.Tensor):
+            print('x477: {}'.format(x477.shape))
+        elif isinstance(x477, tuple):
+            tuple_shapes = '('
+            for item in x477:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x477: {}'.format(tuple_shapes))
+        else:
+            print('x477: {}'.format(x477))
+        x478=x476.squeeze(-1)
+        if x478 is None:
+            print('x478: {}'.format(x478))
+        elif isinstance(x478, torch.Tensor):
+            print('x478: {}'.format(x478.shape))
+        elif isinstance(x478, tuple):
+            tuple_shapes = '('
+            for item in x478:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x478: {}'.format(tuple_shapes))
+        else:
+            print('x478: {}'.format(x478))
+        x479=x478.contiguous()
+        if x479 is None:
+            print('x479: {}'.format(x479))
+        elif isinstance(x479, torch.Tensor):
+            print('x479: {}'.format(x479.shape))
+        elif isinstance(x479, tuple):
+            tuple_shapes = '('
+            for item in x479:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x479: {}'.format(tuple_shapes))
+        else:
+            print('x479: {}'.format(x479))
+        x480=x477.squeeze(-1)
+        if x480 is None:
+            print('x480: {}'.format(x480))
+        elif isinstance(x480, torch.Tensor):
+            print('x480: {}'.format(x480.shape))
+        elif isinstance(x480, tuple):
+            tuple_shapes = '('
+            for item in x480:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x480: {}'.format(tuple_shapes))
+        else:
+            print('x480: {}'.format(x480))
+        x481=x480.contiguous()
+        if x481 is None:
+            print('x481: {}'.format(x481))
+        elif isinstance(x481, torch.Tensor):
+            print('x481: {}'.format(x481.shape))
+        elif isinstance(x481, tuple):
+            tuple_shapes = '('
+            for item in x481:
+               if isinstance(item, torch.Tensor):
+                   tuple_shapes += str(item.shape) + ', '
+               else:
+                   tuple_shapes += str(item) + ', '
+            tuple_shapes += ')'
+            print('x481: {}'.format(tuple_shapes))
+        else:
+            print('x481: {}'.format(x481))
 
 m = M().eval()
 CORES=os.popen("lscpu | grep Core | awk '{print $4}'").readlines()
 SOCKETS=os.popen("lscpu | grep Socket | awk '{print $2}'").readlines()
 BS=int(CORES[0])*int(SOCKETS[0])
 batch_size=BS
-x = torch.rand(1, 3, 224, 224)
+input_ids_1 = torch.ones((1, 384), dtype=torch.long)
+attention_mask_1 = torch.ones((1, 384), dtype=torch.long)
+token_type_ids_1 = torch.ones((1, 384), dtype=torch.long)
+position_ids_1 = None
+head_mask_1 = None
+inputs_embeds_1 = None
+start_positions_1 = None
+end_positions_1 = None
+output_attentions_1 = None
+output_hidden_states_1 = None
+return_dict_1 = None
 def print_throughput(flag):
     start_time=time.time()
     for i in range(10):
-        output = m(x)
+        output = m(input_ids_1, attention_mask_1, token_type_ids_1, position_ids_1, head_mask_1, inputs_embeds_1, start_positions_1, end_positions_1, output_attentions_1, output_hidden_states_1, return_dict_1)
     total_iter_time = time.time() - start_time
     Throughput = batch_size * 10 / total_iter_time
     file_current = os.path.basename(__file__)
