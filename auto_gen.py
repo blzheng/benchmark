@@ -4,8 +4,12 @@ from utils import *
 import os
 from pretrained_models import pretrained_models
 
+import time
+import multiprocessing
+
 pattern_file = "patterns.txt"
 start = False
+pool = multiprocessing.Pool(processes = 80)
 for name in pretrained_models:
     model = pretrained_models[name]
     inputs, module_dict, attr_dict, forward_list = parse_graph(model)
@@ -25,5 +29,7 @@ for name in pretrained_models:
                 dirpath = os.getcwd() + "/submodules/len"+str(len(oplists))+"/"+get_oplists_str(oplists)+"/"
                 if not os.path.exists(dirpath):
                     os.makedirs(dirpath)
-                generate_file(dirpath+name+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i])
-
+                #generate_file(dirpath+name+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i])
+                pool.apply_async(generate_file,(dirpath+name+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i]))
+pool.close()
+pool.join()

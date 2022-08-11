@@ -58,6 +58,6 @@ def get_inputs_dict(name, inputs):
                 inputs_dict[inputs[i]] = "torch.ones((1, 384), dtype=torch.long)"
             for i in range(3, len(inputs)):
                 inputs_dict[inputs[i]] = "None"
-    elif name in vision_models or name in geffnet_models or name in segmentation_models:
+    elif name in vision_models or name in geffnet_models:
         inputs_dict[inputs[0]] = "torch.rand(1, 3, 224, 224)"
     return inputs_dict
