@@ -172,6 +172,8 @@ def is_target(target, op):
         real = real.split(".")[-1]
     if re.match(target+'[0-9]*$', real):
         return True
+    if re.match(target+'[23]d[0-9]*$', real):
+        return True
     return False
 
 # find pattern
