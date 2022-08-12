@@ -2,7 +2,7 @@
 CORES=`lscpu | grep Core | awk '{print $4}'`
 SOCKETS=`lscpu | grep Socket | awk '{print $2}'`
 TOTAL_CORES=`expr $CORES \* $SOCKETS - 1`
-benchmark_dir="/home/pnp/yudongsi/benchmark"
+benchmark_dir=`pwd`
 
 rm -rf ${benchmark_dir}/submodules/
 mkdir -p ${benchmark_dir}/submodules/
