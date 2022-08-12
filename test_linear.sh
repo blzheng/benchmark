@@ -61,6 +61,7 @@ do
 				python -m intel_extension_for_pytorch.cpu.launch --enable_jemalloc --node_id 0 $line | tee -a ${pat}_40cores_unprepacked_mkl.log
 				python -m intel_extension_for_pytorch.cpu.launch --enable_jemalloc --node_id 0 --ncore_per_instance 4 --ninstances 10 $line | tee -a ${pat}_4cores_unprepacked_mkl.log
 				sed -i '/ipex.optimize/i ipex._enable_dnnl()' $line
+				sed -i 's/auto_kernel_selection=False/auto_kernel_selection=True/g' $line
 				python -m intel_extension_for_pytorch.cpu.launch --enable_jemalloc --node_id 0 $line | tee -a ${pat}_40cores_onednn.log
 				python -m intel_extension_for_pytorch.cpu.launch --enable_jemalloc --node_id 0 --ncore_per_instance 4 --ninstances 10 $line | tee -a ${pat}_4cores_onednn.log
 				sed -i '2d' $line
