@@ -162,7 +162,6 @@ def get_shapes(modelname, shapestr):
             for line in contents:
                 var = line.split(": ")[0]
                 shape = line.split(": ")[1].strip()
-                #shape=shape.replace("1" ,"batch_size",1)#
                 shapes_dict[var] = shape
     return shapes_dict
 
@@ -261,9 +260,7 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
         f.write("from torchvision.ops.stochastic_depth import stochastic_depth\n")
         f.write("import time\n")
         f.write("import builtins\n")
-        f.write("import operator\n")
-        f.write("import sys\n")
-        f.write("import os\n\n")
+        f.write("import operator\n\n")
         f.write("class M(torch.nn.Module):\n")
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
@@ -290,14 +287,9 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
                 retstr = retstr + ", " + o
         f.write(retstr + "\n")
         f.write("\n")
-        f.write("m = M().eval()\n\n")
-        f.write("CORES=os.popen(\"lscpu | grep Core | awk '{print $4}'\").readlines()\n")
-        f.write("SOCKETS=os.popen(\"lscpu | grep Socket | awk '{print $2}'\").readlines()\n")
-        f.write("BS=int(CORES[0])*int(SOCKETS[0])\n")
-        f.write("batch_size=BS\n")
+        f.write("m = M().eval()\n")
         for input in inputs:
             in_shape = shapes_dict[input].strip()
-            in_shape = in_shape.replace('1','batch_size',1)
             instr = ""
             if "torch.Size" in in_shape:
                 if in_shape.startswith("("):
@@ -314,19 +306,10 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
             else:
                 instr += in_shape
             f.write(input+" = "+instr+"\n")
-        
-        f.write("def print_throughput(flag):\n")
-        f.write("    start_time=time.time()\n")
-        f.write("    for i in range(10):\n")
-        f.write("        output = m("+inputstr+")\n")
-        f.write("    total_iter_time = time.time() - start_time\n")
-        f.write("    Throughput = batch_size * 10 / total_iter_time\n")
-        f.write("    file_current = os.path.basename(__file__)\n")
-        f.write("    print(file_current,',',BS,',',flag,',',Throughput)\n")
-
-        f.write("for flag in {False,True}:\n")
-        f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
-        f.write("    print_throughput(flag)\n")
+        f.write("start = time.time()\n")
+        f.write("output = m("+inputstr+")\n")
+        f.write("end = time.time()\n")
+        f.write("print(end-start)\n")
 
 def get_oplists_str(oplists):
     ret=""
