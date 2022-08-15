@@ -171,8 +171,6 @@ def is_target(target, op):
         real = real.split(".")[-1]
     if re.match(target+'[0-9]*$', real):
         return True
-    if re.match(target+'[23]d[0-9]*$', real):
-        return True
     return False
 
 # find pattern
@@ -249,7 +247,7 @@ def get_inputs_outputs(forward_list):
     return inputs, outputs
 
 # generate file
-def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict, forward_list):
+def generate_file(nnc_bm_flag,batch_size, filename, inputs, outputs, shapes_dict, module_dict, attr_dict, forward_list):
     with open(filename, "w") as f:
         f.write("import torch\n")
         f.write("from torch import tensor\n")
@@ -260,7 +258,9 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
         f.write("from torchvision.ops.stochastic_depth import stochastic_depth\n")
         f.write("import time\n")
         f.write("import builtins\n")
-        f.write("import operator\n\n")
+        f.write("import operator\n")
+        f.write("import sys\n")
+        f.write("import os\n\n")
         f.write("class M(torch.nn.Module):\n")
         f.write("    def __init__(self):\n")
         f.write("        super(M, self).__init__()\n")
@@ -287,9 +287,10 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
                 retstr = retstr + ", " + o
         f.write(retstr + "\n")
         f.write("\n")
-        f.write("m = M().eval()\n")
+        f.write("m = M().eval()\n\n")
         for input in inputs:
             in_shape = shapes_dict[input].strip()
+            in_shape = in_shape.replace('1',batch_size,1) #
             instr = ""
             if "torch.Size" in in_shape:
                 if in_shape.startswith("("):
@@ -306,10 +307,23 @@ def generate_file(filename, inputs, outputs, shapes_dict, module_dict, attr_dict
             else:
                 instr += in_shape
             f.write(input+" = "+instr+"\n")
-        f.write("start = time.time()\n")
-        f.write("output = m("+inputstr+")\n")
-        f.write("end = time.time()\n")
-        f.write("print(end-start)\n")
+        if nnc_bm_flag==True:
+            f.write("def print_throughput(flag):\n")
+            f.write("    start_time=time.time()\n")
+            f.write("    for i in range(10):\n")
+            f.write("        output = m("+inputstr+")\n")
+            f.write("    total_iter_time = time.time() - start_time\n")
+            f.write("    Throughput = "+batch_size+"* 10 / total_iter_time\n")
+            f.write("    file_current = os.path.basename(__file__)\n")
+            f.write("    print(file_current,',',"+batch_size+",',',flag,',',Throughput)\n")
+            f.write("for flag in {False,True}:\n")
+            f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
+            f.write("    print_throughput(flag)\n")
+        else:
+            f.write("start = time.time()\n")
+            f.write("output = m("+inputstr+")\n")
+            f.write("end = time.time()\n")
+            f.write("print(end-start)\n")
 
 def get_oplists_str(oplists):
     ret=""

@@ -5,7 +5,8 @@ TOTAL_CORES=`expr $CORES \* $SOCKETS - 1`
 benchmark_dir=`pwd`
 
 rm -rf ${benchmark_dir}/submodules/
-mkdir -p ${benchmark_dir}/submodules/
+mkdir -p ${benchmark_dir}/submodules/ 
+
 
 python rewrite_models.py
 
@@ -25,7 +26,12 @@ do
     python $dir$item | tee ${result_dir}${name}_BS_3_224_224
 done
 
-python auto_gen.py
+
+for batch_size in {1, $(expr ${TOTAL_CORES} / 2), ${TOTAL_CORES}, $(expr ${TOTAL_CORES} \* 2), $(expr ${TOTAL_CORES} \* 4)}
+do
+    python auto_gen.py ${batch_size}
+done
+
 dir="${benchmark_dir}/submodules/"
 for len in `ls $dir`
 do

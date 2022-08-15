@@ -1,3 +1,4 @@
+import imp
 import torch
 import torchvision.models as models
 from utils import *
@@ -6,9 +7,11 @@ from pretrained_models import pretrained_models
 
 import time
 import multiprocessing
+import sys
 
 pattern_file = "patterns.txt"
 start = False
+nnc_bm_flag=True
 pool = multiprocessing.Pool(processes = 80)
 for name in pretrained_models:
     model = pretrained_models[name]
@@ -30,6 +33,6 @@ for name in pretrained_models:
                 if not os.path.exists(dirpath):
                     os.makedirs(dirpath)
                 #generate_file(dirpath+name+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i])
-                pool.apply_async(generate_file,(dirpath+name+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i]))
+                pool.apply_async(generate_file,(nnc_bm_flag,sys.argv[1],dirpath+name+"_"+sys.argv[1]+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i]))
 pool.close()
 pool.join()
