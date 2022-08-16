@@ -102,6 +102,8 @@ def generate_model_contents(module_dict, attr_dict, forward_list):
             if not "torch" in op and not "operator" in op and not "builtins" in op and not "method" in op:
                 op_real = str(module_dict[op])
                 op_name = op_real.split("(")[0].split(".")[-1].lower()
+                if "inplace=True" in op_real.replace(" ", ""):
+                    op_name = op_name+"_"
                 idx = 0
                 while True:
                     if op_name+str(idx) in new_module_dict:
