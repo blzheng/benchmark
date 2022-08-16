@@ -23,7 +23,7 @@ def auto_generate(modelname, model, pattern, inputstr):
         dirpath = os.getcwd() + "/submodules/len"+str(len(oplists))+"/"+get_oplists_str(oplists)+"/"
         if not os.path.exists(dirpath):
             os.makedirs(dirpath)
-        generate_file(dirpath+modelname+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i])
+        generate_file(False, "1",dirpath+modelname+"_1_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i])
 
 
 args = parser.parse_args()
