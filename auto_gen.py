@@ -12,6 +12,8 @@ import sys
 pattern_file = "patterns.txt"
 start = False
 nnc_bm_flag=True
+huggingface_model=False
+seq_len_list=[16, 32, 64, 128, 256, 384, 512]
 pool = multiprocessing.Pool(processes = 80)
 for name in pretrained_models:
     model = pretrained_models[name]
@@ -33,6 +35,11 @@ for name in pretrained_models:
                 if not os.path.exists(dirpath):
                     os.makedirs(dirpath)
                 #generate_file(dirpath+name+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i])
-                pool.apply_async(generate_file,(nnc_bm_flag,sys.argv[1],dirpath+name+"_"+sys.argv[1]+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i]))
+                if "+" in name:
+                    huggingface_model=True
+                    for seq_len in seq_len_list:
+                        pool.apply_async(generate_file,(huggingface_model,nnc_bm_flag,seq_len,sys.argv[1],dirpath+name+"_"+str(seq_len)+"_"+sys.argv[1]+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i]))
+                else:
+                    pool.apply_async(generate_file,(huggingface_model,nnc_bm_flag,seq_len_list[0],sys.argv[1],dirpath+name+"_"+sys.argv[1]+"_"+str(i)+".py", inputs, outputs, shapes_dict, sub_module_dict, sub_attr_dict, pattern_list[i]))
 pool.close()
 pool.join()

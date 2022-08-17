@@ -249,7 +249,7 @@ def get_inputs_outputs(forward_list):
     return inputs, outputs
 
 # generate file
-def generate_file(nnc_bm_flag,batch_size, filename, inputs, outputs, shapes_dict, module_dict, attr_dict, forward_list):
+def generate_file(huggingface_model,nnc_bm_flag,seq_len,batch_size, filename, inputs, outputs, shapes_dict, module_dict, attr_dict, forward_list):
     with open(filename, "w") as f:
         f.write("import torch\n")
         f.write("from torch import tensor\n")
@@ -293,6 +293,10 @@ def generate_file(nnc_bm_flag,batch_size, filename, inputs, outputs, shapes_dict
         for input in inputs:
             in_shape = shapes_dict[input].strip()
             in_shape = in_shape.replace('1',batch_size,1) #
+            if huggingface_model:
+                in_shape_list=list(in_shape)
+                in_shape_list.insert(in_shape.find(str(batch_size)),str(seq_len)+', ')
+                in_shape=''.join(in_shape_list)
             instr = ""
             if "torch.Size" in in_shape:
                 if in_shape.startswith("("):
