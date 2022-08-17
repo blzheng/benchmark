@@ -27,7 +27,7 @@ do
 done
 
 
-for batch_size in {1, $(expr ${TOTAL_CORES} / 2), ${TOTAL_CORES}, $(expr ${TOTAL_CORES} \* 2), $(expr ${TOTAL_CORES} \* 4)}
+for batch_size in 1 $(expr ${TOTAL_CORES} / 2) ${TOTAL_CORES} $(expr ${TOTAL_CORES} \* 2) $(expr ${TOTAL_CORES} \* 4)
 do
     python auto_gen.py ${batch_size}
 done
