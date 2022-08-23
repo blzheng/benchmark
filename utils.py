@@ -314,17 +314,18 @@ def generate_file(huggingface_model,nnc_bm_flag,seq_len,batch_size, filename, in
                 instr += in_shape
             f.write(input+" = "+instr+"\n")
         if nnc_bm_flag==True:
-            f.write("def print_throughput(flag):\n")
+            f.write("def print_perf(flag):\n")
             f.write("    start_time=time.time()\n")
             f.write("    for i in range(10):\n")
             f.write("        output = m("+inputstr+")\n")
             f.write("    total_iter_time = time.time() - start_time\n")
             f.write("    Throughput = "+batch_size+"* 10 / total_iter_time\n")
+            f.write("    Latency = total_iter_time / "+batch_size+"* 10\n")
             f.write("    file_current = os.path.basename(__file__)\n")
-            f.write("    print(file_current,',',"+batch_size+",',',flag,',',Throughput)\n")
+            f.write("    print(file_current,',',"+batch_size+",',',flag,',',Throughput,',',Latency)\n")
             f.write("for flag in {False,True}:\n")
             f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
-            f.write("    print_throughput(flag)\n")
+            f.write("    print_perf(flag)\n")
         else:
             f.write("start = time.time()\n")
             f.write("output = m("+inputstr+")\n")
