@@ -1,0 +1,307 @@
+diff --git a/src/transformers/models/distilbert/modeling_distilbert.py b/src/transformers/models/distilbert/modeling_distilbert.py
+index 1282788a5..85eaff699 100755
+--- a/src/transformers/models/distilbert/modeling_distilbert.py
++++ b/src/transformers/models/distilbert/modeling_distilbert.py
+@@ -139,6 +139,13 @@ class Embeddings(nn.Module):
+         return embeddings
+ 
+ 
++class ViewForFx(nn.Module):
++    def __init__(self):
++        super(ViewForFx, self).__init__()
++        self._is_leaf_module = True
++    def forward(self, x, y):
++        return x.view(y)
++
+ class MultiHeadSelfAttention(nn.Module):
+     def __init__(self, config: PretrainedConfig):
+         super().__init__()
+@@ -155,6 +162,7 @@ class MultiHeadSelfAttention(nn.Module):
+         self.out_lin = nn.Linear(in_features=config.dim, out_features=config.dim)
+ 
+         self.pruned_heads: Set[int] = set()
++        self.viewforfx = ViewForFx()
+ 
+     def prune_heads(self, heads: List[int]):
+         attention_head_size = self.dim // self.n_heads
+@@ -214,9 +222,9 @@ class MultiHeadSelfAttention(nn.Module):
+ 
+         q = q / math.sqrt(dim_per_head)  # (bs, n_heads, q_length, dim_per_head)
+         scores = torch.matmul(q, k.transpose(2, 3))  # (bs, n_heads, q_length, k_length)
+-        mask = (mask == 0).view(mask_reshp).expand_as(scores)  # (bs, n_heads, q_length, k_length)
++        mask = self.viewforfx(mask == 0, mask_reshp).expand_as(scores)  # (bs, n_heads, q_length, k_length)
+         scores = scores.masked_fill(
+-            mask, torch.tensor(torch.finfo(scores.dtype).min)
++            mask, torch.tensor(torch.finfo(torch.float32).min)
+         )  # (bs, n_heads, q_length, k_length)
+ 
+         weights = nn.functional.softmax(scores, dim=-1)  # (bs, n_heads, q_length, k_length)
+@@ -703,6 +711,7 @@ class DistilBertForSequenceClassification(DistilBertPreTrainedModel):
+ 
+         # Initialize weights and apply final processing
+         self.post_init()
++        self.relu = nn.ReLU()
+ 
+     def get_position_embeddings(self) -> nn.Embedding:
+         """
+@@ -762,7 +771,7 @@ class DistilBertForSequenceClassification(DistilBertPreTrainedModel):
+         hidden_state = distilbert_output[0]  # (bs, seq_len, dim)
+         pooled_output = hidden_state[:, 0]  # (bs, dim)
+         pooled_output = self.pre_classifier(pooled_output)  # (bs, dim)
+-        pooled_output = nn.ReLU()(pooled_output)  # (bs, dim)
++        pooled_output = self.relu(pooled_output)  # (bs, dim)
+         pooled_output = self.dropout(pooled_output)  # (bs, dim)
+         logits = self.classifier(pooled_output)  # (bs, num_labels)
+ 
+@@ -1031,6 +1040,7 @@ class DistilBertForMultipleChoice(DistilBertPreTrainedModel):
+ 
+         # Initialize weights and apply final processing
+         self.post_init()
++        self.relu = nn.ReLU()
+ 
+     def get_position_embeddings(self) -> nn.Embedding:
+         """
+@@ -1120,7 +1130,7 @@ class DistilBertForMultipleChoice(DistilBertPreTrainedModel):
+         hidden_state = outputs[0]  # (bs * num_choices, seq_len, dim)
+         pooled_output = hidden_state[:, 0]  # (bs * num_choices, dim)
+         pooled_output = self.pre_classifier(pooled_output)  # (bs * num_choices, dim)
+-        pooled_output = nn.ReLU()(pooled_output)  # (bs * num_choices, dim)
++        pooled_output = self.relu(pooled_output)  # (bs * num_choices, dim)
+         pooled_output = self.dropout(pooled_output)  # (bs * num_choices, dim)
+         logits = self.classifier(pooled_output)  # (bs * num_choices, 1)
+ 
+diff --git a/src/transformers/models/xlnet/modeling_xlnet.py b/src/transformers/models/xlnet/modeling_xlnet.py
+index 4a299a5a6..91f0b9184 100755
+--- a/src/transformers/models/xlnet/modeling_xlnet.py
++++ b/src/transformers/models/xlnet/modeling_xlnet.py
+@@ -200,6 +200,12 @@ def load_tf_weights_in_xlnet(model, config, tf_path):
+     logger.info(f"Weights not copied to PyTorch model: {', '.join(tf_weights.keys())}")
+     return model
+ 
++class ArangeForFx(nn.Module):
++    def __init__(self):
++        super(ArangeForFx, self).__init__()
++        self._is_leaf_module = True
++    def forward(self, x, device, dtype):
++        return torch.arange(x, device=device, dtype=dtype)
+ 
+ class XLNetRelativeAttention(nn.Module):
+     def __init__(self, config):
+@@ -229,12 +235,13 @@ class XLNetRelativeAttention(nn.Module):
+ 
+         self.layer_norm = nn.LayerNorm(config.d_model, eps=config.layer_norm_eps)
+         self.dropout = nn.Dropout(config.dropout)
++        self.arangeforfx = ArangeForFx()
+ 
+     def prune_heads(self, heads):
+         raise NotImplementedError
+ 
+     @staticmethod
+-    def rel_shift(x, klen=-1):
++    def rel_shift(self, x, klen=-1):
+         """perform relative shift to form the relative attention score."""
+         x_size = x.shape
+ 
+@@ -242,12 +249,12 @@ class XLNetRelativeAttention(nn.Module):
+         x = x[1:, ...]
+         x = x.reshape(x_size[0], x_size[1] - 1, x_size[2], x_size[3])
+         # x = x[:, 0:klen, :, :]
+-        x = torch.index_select(x, 1, torch.arange(klen, device=x.device, dtype=torch.long))
++        x = torch.index_select(x, 1, self.arangeforfx(klen, device=x.device, dtype=torch.long))
+ 
+         return x
+ 
+     @staticmethod
+-    def rel_shift_bnij(x, klen=-1):
++    def rel_shift_bnij(self, x, klen=-1):
+         x_size = x.shape
+ 
+         x = x.reshape(x_size[0], x_size[1], x_size[3], x_size[2])
+@@ -256,7 +263,7 @@ class XLNetRelativeAttention(nn.Module):
+         # Note: the tensor-slice form was faster in my testing than torch.index_select
+         #       However, tracing doesn't like the nature of the slice, and if klen changes
+         #       during the run then it'll fail, whereas index_select will be fine.
+-        x = torch.index_select(x, 3, torch.arange(klen, device=x.device, dtype=torch.long))
++        x = torch.index_select(x, 3, self.arangeforfx(klen, device=x.device, dtype=torch.long))
+         # x = x[:, :, :, :klen]
+ 
+         return x
+@@ -279,7 +286,7 @@ class XLNetRelativeAttention(nn.Module):
+ 
+         # position based attention score
+         bd = torch.einsum("ibnd,jbnd->bnij", q_head + self.r_r_bias, k_head_r)
+-        bd = self.rel_shift_bnij(bd, klen=ac.shape[3])
++        bd = self.rel_shift_bnij(self, bd, klen=ac.shape[3])
+ 
+         # segment based attention score
+         if seg_mat is None:
+@@ -1080,7 +1087,6 @@ class XLNetModel(XLNetPreTrainedModel):
+         output_attentions: Optional[bool] = None,
+         output_hidden_states: Optional[bool] = None,
+         return_dict: Optional[bool] = None,
+-        **kwargs,  # delete after depreciation warning is removed
+     ) -> Union[Tuple, XLNetModelOutput]:
+ 
+         output_attentions = output_attentions if output_attentions is not None else self.config.output_attentions
+@@ -1089,14 +1095,6 @@ class XLNetModel(XLNetPreTrainedModel):
+         )
+         return_dict = return_dict if return_dict is not None else self.config.use_return_dict
+ 
+-        if "use_cache" in kwargs:
+-            warnings.warn(
+-                "The `use_cache` argument is deprecated and will be removed in a future version, use `use_mems`"
+-                " instead.",
+-                FutureWarning,
+-            )
+-            use_mems = kwargs["use_cache"]
+-
+         if self.training:
+             use_mems = use_mems if use_mems is not None else self.config.use_mems_train
+         else:
+@@ -1372,8 +1370,7 @@ class XLNetLMHeadModel(XLNetPreTrainedModel):
+         use_mems: Optional[bool] = None,
+         output_attentions: Optional[bool] = None,
+         output_hidden_states: Optional[bool] = None,
+-        return_dict: Optional[bool] = None,
+-        **kwargs,  # delete when `use_cache` is removed in XLNetModel
++        return_dict: Optional[bool] = None
+     ) -> Union[Tuple, XLNetLMHeadModelOutput]:
+         r"""
+         labels (`torch.LongTensor` of shape `(batch_size, num_predict)`, *optional*):
+@@ -1458,8 +1455,7 @@ class XLNetLMHeadModel(XLNetPreTrainedModel):
+             use_mems=use_mems,
+             output_attentions=output_attentions,
+             output_hidden_states=output_hidden_states,
+-            return_dict=return_dict,
+-            **kwargs,
++            return_dict=return_dict
+         )
+ 
+         logits = self.lm_loss(transformer_outputs[0])
+@@ -1534,8 +1530,7 @@ class XLNetForSequenceClassification(XLNetPreTrainedModel):
+         use_mems: Optional[bool] = None,
+         output_attentions: Optional[bool] = None,
+         output_hidden_states: Optional[bool] = None,
+-        return_dict: Optional[bool] = None,
+-        **kwargs,  # delete when `use_cache` is removed in XLNetModel
++        return_dict: Optional[bool] = None
+     ) -> Union[Tuple, XLNetForSequenceClassificationOutput]:
+         r"""
+         labels (`torch.LongTensor` of shape `(batch_size,)`, *optional*):
+@@ -1558,8 +1553,7 @@ class XLNetForSequenceClassification(XLNetPreTrainedModel):
+             use_mems=use_mems,
+             output_attentions=output_attentions,
+             output_hidden_states=output_hidden_states,
+-            return_dict=return_dict,
+-            **kwargs,
++            return_dict=return_dict
+         )
+         output = transformer_outputs[0]
+ 
+@@ -1642,8 +1636,7 @@ class XLNetForTokenClassification(XLNetPreTrainedModel):
+         use_mems: Optional[bool] = None,
+         output_attentions: Optional[bool] = None,
+         output_hidden_states: Optional[bool] = None,
+-        return_dict: Optional[bool] = None,
+-        **kwargs,  # delete when `use_cache` is removed in XLNetModel
++        return_dict: Optional[bool] = None
+     ) -> Union[Tuple, XLNetForTokenClassificationOutput]:
+         r"""
+         labels (`torch.LongTensor` of shape `(batch_size,)`, *optional*):
+@@ -1730,8 +1723,7 @@ class XLNetForMultipleChoice(XLNetPreTrainedModel):
+         use_mems: Optional[bool] = None,
+         output_attentions: Optional[bool] = None,
+         output_hidden_states: Optional[bool] = None,
+-        return_dict: Optional[bool] = None,
+-        **kwargs,  # delete when `use_cache` is removed in XLNetModel
++        return_dict: Optional[bool] = None
+     ) -> Union[Tuple, XLNetForMultipleChoiceOutput]:
+         r"""
+         labels (`torch.LongTensor` of shape `(batch_size,)`, *optional*):
+@@ -1766,8 +1758,7 @@ class XLNetForMultipleChoice(XLNetPreTrainedModel):
+             use_mems=use_mems,
+             output_attentions=output_attentions,
+             output_hidden_states=output_hidden_states,
+-            return_dict=return_dict,
+-            **kwargs,
++            return_dict=return_dict
+         )
+ 
+         output = transformer_outputs[0]
+@@ -1835,8 +1826,7 @@ class XLNetForQuestionAnsweringSimple(XLNetPreTrainedModel):
+         use_mems: Optional[bool] = None,
+         output_attentions: Optional[bool] = None,
+         output_hidden_states: Optional[bool] = None,
+-        return_dict: Optional[bool] = None,
+-        **kwargs,  # delete when `use_cache` is removed in XLNetModel
++        return_dict: Optional[bool] = None
+     ) -> Union[Tuple, XLNetForQuestionAnsweringSimpleOutput]:
+         r"""
+         start_positions (`torch.LongTensor` of shape `(batch_size,)`, *optional*):
+@@ -1863,8 +1853,7 @@ class XLNetForQuestionAnsweringSimple(XLNetPreTrainedModel):
+             use_mems=use_mems,
+             output_attentions=output_attentions,
+             output_hidden_states=output_hidden_states,
+-            return_dict=return_dict,
+-            **kwargs,
++            return_dict=return_dict
+         )
+ 
+         sequence_output = outputs[0]
+@@ -1875,21 +1864,21 @@ class XLNetForQuestionAnsweringSimple(XLNetPreTrainedModel):
+         end_logits = end_logits.squeeze(-1).contiguous()
+ 
+         total_loss = None
+-        if start_positions is not None and end_positions is not None:
+-            # If we are on multi-GPU, split add a dimension
+-            if len(start_positions.size()) > 1:
+-                start_positions = start_positions.squeeze(-1)
+-            if len(end_positions.size()) > 1:
+-                end_positions = end_positions.squeeze(-1)
+-            # sometimes the start/end positions are outside our model inputs, we ignore these terms
+-            ignored_index = start_logits.size(1)
+-            start_positions = start_positions.clamp(0, ignored_index)
+-            end_positions = end_positions.clamp(0, ignored_index)
+-
+-            loss_fct = CrossEntropyLoss(ignore_index=ignored_index)
+-            start_loss = loss_fct(start_logits, start_positions)
+-            end_loss = loss_fct(end_logits, end_positions)
+-            total_loss = (start_loss + end_loss) / 2
++        # if start_positions is not None and end_positions is not None:
++        #     # If we are on multi-GPU, split add a dimension
++        #     if len(start_positions.size()) > 1:
++        #         start_positions = start_positions.squeeze(-1)
++        #     if len(end_positions.size()) > 1:
++        #         end_positions = end_positions.squeeze(-1)
++        #     # sometimes the start/end positions are outside our model inputs, we ignore these terms
++        #     ignored_index = start_logits.size(1)
++        #     start_positions = start_positions.clamp(0, ignored_index)
++        #     end_positions = end_positions.clamp(0, ignored_index)
++
++        #     loss_fct = CrossEntropyLoss(ignore_index=ignored_index)
++        #     start_loss = loss_fct(start_logits, start_positions)
++        #     end_loss = loss_fct(end_logits, end_positions)
++        #     total_loss = (start_loss + end_loss) / 2
+ 
+         if not return_dict:
+             output = (start_logits, end_logits) + outputs[1:]
+@@ -1947,8 +1936,7 @@ class XLNetForQuestionAnswering(XLNetPreTrainedModel):
+         use_mems: Optional[bool] = None,
+         output_attentions: Optional[bool] = None,
+         output_hidden_states: Optional[bool] = None,
+-        return_dict: Optional[bool] = None,
+-        **kwargs,  # delete when `use_cache` is removed in XLNetModel
++        return_dict: Optional[bool] = None
+     ) -> Union[Tuple, XLNetForQuestionAnsweringOutput]:
+         r"""
+         start_positions (`torch.LongTensor` of shape `(batch_size,)`, *optional*):
+@@ -2003,8 +1991,7 @@ class XLNetForQuestionAnswering(XLNetPreTrainedModel):
+             use_mems=use_mems,
+             output_attentions=output_attentions,
+             output_hidden_states=output_hidden_states,
+-            return_dict=return_dict,
+-            **kwargs,
++            return_dict=return_dict
+         )
+         hidden_states = transformer_outputs[0]
+         start_logits = self.start_logits(hidden_states, p_mask=p_mask)

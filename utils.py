@@ -1,6 +1,5 @@
 import torch
 import torch.fx
-import torchvision.models as models
 import builtins
 import operator
 import geffnet
@@ -8,6 +7,10 @@ import copy
 import glob
 import re
 import transformers
+from customed_tracer import CustomedTracer
+from models import get_sample_inputs
+import torchvision.models as models
+from torch.fx.experimental.meta_tracer import MetaTracer
 
 def format_arg(arg, max_list_len=float('inf')) -> str:
     if hasattr(arg, '_custom_fx_repr_fn'):
@@ -42,16 +45,13 @@ def fetch_attr(target, module):
     return attr_itr
 
 def parse_graph(m):
-    if isinstance(m, transformers.models.bert.modeling_bert.BertForQuestionAnswering) \
-    or isinstance(m, transformers.models.albert.modeling_albert.AlbertForQuestionAnswering) \
-    or isinstance(m, transformers.models.roberta.modeling_roberta.RobertaForQuestionAnswering) \
-    or isinstance(m, transformers.models.electra.modeling_electra.ElectraForQuestionAnswering):
-        x = torch.ones((1, 384), dtype=torch.long)
-        input_dict = {'input_ids':x, 'attention_mask':x, 'token_type_ids':x, 'position_ids':None, 'head_mask':None, 'start_positions':None, \
-                      'inputs_embeds':None, 'end_positions': None, 'output_attentions': None, 'output_hidden_states': None, 'return_dict': None}
-        g = torch.fx.Tracer().trace(m.eval(), input_dict)
-    else:
-        g = torch.fx.Tracer().trace(m.eval())
+    print(type(m))
+    try:
+        g = CustomedTracer().trace(m.eval())
+    except ValueError as e:
+        input_dict = get_sample_inputs(m)
+        g = CustomedTracer().trace(m.eval(), input_dict)
+
     fx_module = torch.fx.GraphModule(m, g)
     inputs=[]
     module_dict={}
@@ -121,15 +121,8 @@ def generate_model_contents(module_dict, attr_dict, forward_list):
             name = forward_list[i].split("attr:")[-1]
             val_real = attr_dict[name]
             attr_name = name.split("(")[0].split(".")[-1].lower()
-            idx = 0
-            while True:
-                if attr_name+str(idx) in new_attr_dict:
-                    idx+=1
-                else:
-                    new_attr_dict[attr_name+str(idx)] = attr_dict[name]
-                    for j in range(len(forward_list)):
-                        new_forward_list[j] = new_forward_list[j].replace("=attr:"+name, "=self."+attr_name+str(idx))
-                    break
+            new_attr_dict[attr_name] = attr_dict[name]
+            new_forward_list[i] = new_forward_list[i].replace("=attr:"+name, "=self."+attr_name)
 
         # rename input and output 
         out = new_forward_list[i].split('=')[0]
@@ -141,6 +134,19 @@ def generate_model_contents(module_dict, attr_dict, forward_list):
                 new_forward_list[j] = new_forward_list[j].replace("%"+out+p, new_out+p)
             new_forward_list[j] = new_forward_list[j].replace(",){", ",").replace("){", ",").replace("}", ")").replace(",,", ",").replace("(,", "(")
             new_forward_list[j] = new_forward_list[j].replace("=method", "=")
+        if "forfx" in new_forward_list[i]:
+            if "self.viewforfx" in new_forward_list[i]:
+                op1 = new_forward_list[i].split(",")[0].split("(")[-1].strip()
+                num = new_forward_list[i].split("self.viewforfx")[-1].split("(")[0].strip()
+                new_forward_list[i] = new_forward_list[i].replace("self.viewforfx"+num, op1+".view").replace(op1+", ", "").replace("((", "(").replace("),)", ",)")
+            elif "self.arangeforfx" in new_forward_list[i]:
+                num = new_forward_list[i].split("self.arangeforfx")[-1].split("(")[0].strip()
+                new_forward_list[i] = new_forward_list[i].replace("self.arangeforfx"+num, "torch.arange")
+
+    for k in new_module_dict.copy().keys():
+        if "forfx" in k:
+            new_module_dict.pop(k, None)
+
     print(new_module_dict)
     print(new_attr_dict)
     print(new_forward_list)
@@ -349,5 +355,5 @@ def simplify_forward_list(forward_list):
             new_forward_list.append(op)
     for k in replace_dict:
         for j in range(len(new_forward_list)):
-            new_forward_list[j] = new_forward_list[j].replace(k+",", replace_dict[k]+",").replace(k+")", replace_dict[k]+")")
+            new_forward_list[j] = new_forward_list[j].replace(k+",", replace_dict[k]+",").replace(k+")", replace_dict[k]+")").replace(k+".", replace_dict[k]+".")
     return new_forward_list

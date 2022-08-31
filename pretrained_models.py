@@ -1,7 +1,8 @@
 import torchvision.models as models
 import geffnet
 import sys, os
-from transformers import AutoModelForQuestionAnswering
+from transformers import AutoModelForQuestionAnswering, AutoModelForTokenClassification, AutoModelForSequenceClassification, \
+AutoModelForMultipleChoice, AutoModelForMaskedLM, AutoModelForCausalLM, T5ForConditionalGeneration
 
 pretrained_models = {
     'alexnet': models.alexnet(pretrained = True),
@@ -120,6 +121,52 @@ pretrained_models = {
     'qa+xlm-roberta-base': AutoModelForQuestionAnswering.from_pretrained('xlm-roberta-base'),
     'qa+google_electra-base-generator': AutoModelForQuestionAnswering.from_pretrained('google/electra-base-generator'),
     'qa+google_electra-base-discriminator': AutoModelForQuestionAnswering.from_pretrained('google/electra-base-discriminator'),
+    'qa+distilbert-base-cased': AutoModelForQuestionAnswering.from_pretrained('distilbert-base-cased'),
+    'qa+xlnet-base-cased': AutoModelForQuestionAnswering.from_pretrained('xlnet-base-cased'),
+    'tokc+bert-base-cased': AutoModelForTokenClassification.from_pretrained('bert-base-cased'),
+    'tokc+distilbert-base-cased': AutoModelForTokenClassification.from_pretrained('distilbert-base-cased'),
+    'tokc+albert-base-v1': AutoModelForTokenClassification.from_pretrained('albert-base-v1'),
+    'tokc+roberta-base': AutoModelForTokenClassification.from_pretrained('roberta-base'),
+    'tokc+xlnet-base-cased': AutoModelForTokenClassification.from_pretrained('xlnet-base-cased'),
+    'tokc+xlm-roberta-base': AutoModelForTokenClassification.from_pretrained('xlm-roberta-base'),
+    'tokc+google_electra-base-generator': AutoModelForTokenClassification.from_pretrained('google/electra-base-generator'),
+    'tokc+google_electra-base-discriminator': AutoModelForTokenClassification.from_pretrained('google/electra-base-discriminator'),
+    'txtc+bert-base-cased': AutoModelForSequenceClassification.from_pretrained('bert-base-cased'),
+    'txtc+distilbert-base-cased': AutoModelForTokenClassification.from_pretrained('distilbert-base-cased'),
+    'txtc+albert-base-v1': AutoModelForTokenClassification.from_pretrained('albert-base-v1'),
+    'txtc+roberta-base': AutoModelForTokenClassification.from_pretrained('roberta-base'),
+    'txtc+xlnet-base-cased': AutoModelForTokenClassification.from_pretrained('xlnet-base-cased'),
+    'txtc+xlm-roberta-base': AutoModelForTokenClassification.from_pretrained('xlm-roberta-base'),
+    'txtc+google_electra-base-generator': AutoModelForTokenClassification.from_pretrained('google/electra-base-generator'),
+    'txtc+google_electra-base-discriminator': AutoModelForTokenClassification.from_pretrained('google/electra-base-discriminator'),
+    # 'txtc+allenai_longformer-base-4096': AutoModelForTokenClassification.from_pretrained('allenai/longformer-base-4096'),
+    'txtc+google_mobilebert-uncased': AutoModelForTokenClassification.from_pretrained('google/mobilebert-uncased'),
+    'txtc+bert-base-chinese': AutoModelForTokenClassification.from_pretrained('bert-base-chinese'),
+    'txtc+distilbert-base-uncased-finetuned-sst-2-english': AutoModelForTokenClassification.from_pretrained('distilbert-base-uncased-finetuned-sst-2-english'),
+    'txtc+mrm8488_bert-tiny-finetuned-sms-spam-detection': AutoModelForTokenClassification.from_pretrained('mrm8488/bert-tiny-finetuned-sms-spam-detection'),
+    'txtc+microsoft_MiniLM-L12-H384-uncased': AutoModelForTokenClassification.from_pretrained('microsoft/MiniLM-L12-H384-uncased'),
+    'mc+bert-base-cased': AutoModelForMultipleChoice.from_pretrained('bert-base-cased'),
+    'mc+distilbert-base-cased': AutoModelForMultipleChoice.from_pretrained('distilbert-base-cased'),
+    'mc+albert-base-v1': AutoModelForMultipleChoice.from_pretrained('albert-base-v1'),
+    'mc+roberta-base': AutoModelForMultipleChoice.from_pretrained('roberta-base'),
+    'mc+xlnet-base-cased': AutoModelForMultipleChoice.from_pretrained('xlnet-base-cased'),
+    'mc+xlm-roberta-base': AutoModelForMultipleChoice.from_pretrained('xlm-roberta-base'),
+    'mc+google_electra-base-generator': AutoModelForMultipleChoice.from_pretrained('google/electra-base-generator'),
+    'mc+google_electra-base-discriminator': AutoModelForMultipleChoice.from_pretrained('google/electra-base-discriminator'),
+    'mlm+bert-base-cased': AutoModelForMaskedLM.from_pretrained('bert-base-cased'),
+    'mlm+distilbert-base-cased': AutoModelForMaskedLM.from_pretrained('distilbert-base-cased'),
+    'mlm+albert-base-v1': AutoModelForMaskedLM.from_pretrained('albert-base-v1'),
+    'mlm+roberta-base': AutoModelForMaskedLM.from_pretrained('roberta-base'),
+    'mlm+xlm-roberta-base': AutoModelForMaskedLM.from_pretrained('xlm-roberta-base'),
+    'mlm+google_electra-base-generator': AutoModelForMaskedLM.from_pretrained('google/electra-base-generator'),
+    'mlm+google_electra-base-discriminator': AutoModelForMaskedLM.from_pretrained('google/electra-base-discriminator'),
+    # 'clm+gpt2': AutoModelForCausalLM.from_pretrained('gpt2'),
+    'clm+bert-base-cased': AutoModelForCausalLM.from_pretrained('bert-base-cased'),
+    'clm+roberta-base': AutoModelForCausalLM.from_pretrained('roberta-base'),
+    'clm+xlnet-base-cased': AutoModelForCausalLM.from_pretrained('xlnet-base-cased'),
+    'clm+xlm-roberta-base': AutoModelForCausalLM.from_pretrained('xlm-roberta-base'),
+    # 'sum+t5-small': T5ForConditionalGeneration.from_pretrained('t5-small'),
+    # 'sum+t5-base': T5ForConditionalGeneration.from_pretrained('t5-base'),
 }
 
 
