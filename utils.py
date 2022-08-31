@@ -255,7 +255,7 @@ def get_inputs_outputs(forward_list):
     return inputs, outputs
 
 # generate file
-def generate_file(nnc_bm_flag,batch_size, filename, inputs, outputs, shapes_dict, module_dict, attr_dict, forward_list):
+def generate_file(huggingface_model,nnc_bm_flag,seq_len,batch_size, filename, inputs, outputs, shapes_dict, module_dict, attr_dict, forward_list):
     with open(filename, "w") as f:
         f.write("import torch\n")
         f.write("from torch import tensor\n")
@@ -299,6 +299,10 @@ def generate_file(nnc_bm_flag,batch_size, filename, inputs, outputs, shapes_dict
         for input in inputs:
             in_shape = shapes_dict[input].strip()
             in_shape = in_shape.replace('1',batch_size,1) #
+            if huggingface_model:
+                in_shape_list=list(in_shape)
+                in_shape_list.insert(in_shape.find(str(batch_size)),str(seq_len)+', ')
+                in_shape=''.join(in_shape_list)
             instr = ""
             if "torch.Size" in in_shape:
                 if in_shape.startswith("("):
@@ -316,17 +320,18 @@ def generate_file(nnc_bm_flag,batch_size, filename, inputs, outputs, shapes_dict
                 instr += in_shape
             f.write(input+" = "+instr+"\n")
         if nnc_bm_flag==True:
-            f.write("def print_throughput(flag):\n")
+            f.write("def print_perf(flag):\n")
             f.write("    start_time=time.time()\n")
             f.write("    for i in range(10):\n")
             f.write("        output = m("+inputstr+")\n")
             f.write("    total_iter_time = time.time() - start_time\n")
             f.write("    Throughput = "+batch_size+"* 10 / total_iter_time\n")
+            f.write("    Latency = total_iter_time / "+batch_size+"* 10\n")
             f.write("    file_current = os.path.basename(__file__)\n")
-            f.write("    print(file_current,',',"+batch_size+",',',flag,',',Throughput)\n")
+            f.write("    print(file_current,',',"+batch_size+",',',flag,',',Throughput,',',Latency)\n")
             f.write("for flag in {False,True}:\n")
             f.write("    torch._C._jit_set_texpr_fuser_enabled(flag)\n")
-            f.write("    print_throughput(flag)\n")
+            f.write("    print_perf(flag)\n")
         else:
             f.write("start = time.time()\n")
             f.write("output = m("+inputstr+")\n")
